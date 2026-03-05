@@ -88,9 +88,11 @@ def execute(persona, maze, personas, plan):
       # Retrieve the target addresses. Again, plan is an action address in its
       # string form. <maze.address_tiles> takes this and returns candidate 
       # coordinates. 
-      if plan not in maze.address_tiles: 
-        maze.address_tiles["Johnson Park:park:park garden"] #ERRORRRRRRR
-      else: 
+      if plan not in maze.address_tiles:
+        print(f"[WARNING execute.py] Address not found in maze: '{plan}'")
+        print(f"[WARNING execute.py] {persona.name} will stay at current tile: {persona.scratch.curr_tile}")
+        target_tiles = [persona.scratch.curr_tile]
+      else:
         target_tiles = maze.address_tiles[plan]
 
     # There are sometimes more than one tile returned from this (e.g., a tabe

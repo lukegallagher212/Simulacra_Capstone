@@ -218,13 +218,30 @@ def run_gpt_prompt_generate_hourly_schedule(persona,
 
   def __func_clean_up(gpt_response, prompt=""):
     cr = gpt_response.strip()
-    if cr[-1] == ".":
+    # Strip schedule-format prefix the model sometimes echoes back.
+    # e.g. "[(ID:0bTNAP) Date -- HH:MM] Activity: Isabella is <activity>"
+    # The model should output only the activity text, but Llama 3.3 sometimes
+    # regenerates the prompt line before giving the actual completion.
+    if "Activity:" in cr:
+      cr = cr.split("Activity:")[-1].strip()
+      # Also strip "Name is" prefix (e.g. "Isabella is having breakfast" → "having breakfast")
+      words = cr.split()
+      if len(words) >= 3 and words[1].lower() == "is":
+        cr = " ".join(words[2:])
+    if cr and cr[-1] == ".":
       cr = cr[:-1]
     return cr
 
-  def __func_validate(gpt_response, prompt=""): 
-    try: __func_clean_up(gpt_response, prompt="")
-    except: return False
+  def __func_validate(gpt_response, prompt=""):
+    try:
+      cr = __func_clean_up(gpt_response, prompt=prompt)
+      if not cr:
+        return False
+      # Reject if the response still starts with a bracket (prompt-format marker)
+      if cr[0] == "[":
+        return False
+    except:
+      return False
     return True
 
   def get_fail_safe(): 
@@ -365,10 +382,13 @@ def run_gpt_prompt_task_decomp(persona,
     temp = [i.strip() for i in gpt_response.split("\n")]
     _cr = []
     cr = []
-    for count, i in enumerate(temp): 
-      if count != 0: 
-        _cr += [" ".join([j.strip () for j in i.split(" ")][3:])]
-      else: 
+    for count, i in enumerate(temp):
+      parts = [j.strip() for j in i.split(" ")]
+      # Strip "N) Name is" prefix for ALL lines — Llama echoes the prompt
+      # prefix on line 1 (e.g. "1) Isabella is waking up..."), not just lines 2+
+      if parts and parts[0].rstrip(")").isdigit():
+        _cr += [" ".join(parts[3:])]
+      else:
         _cr += [i]
     for count, i in enumerate(_cr): 
       k = [j.strip() for j in i.split("(duration in minutes:")]
@@ -413,17 +433,15 @@ def run_gpt_prompt_task_decomp(persona,
 
     return cr
 
-  def __func_validate(gpt_response, prompt=""): 
-    # TODO -- this sometimes generates error 
-    try: 
-      __func_clean_up(gpt_response)
-    except: 
-      pass
-      # return False
+  def __func_validate(gpt_response, prompt=""):
+    try:
+      __func_clean_up(gpt_response, prompt=prompt)
+    except:
+      return False
     return gpt_response
 
-  def get_fail_safe(): 
-    fs = ["asleep"]
+  def get_fail_safe():
+    fs = [["asleep", 60]]
     return fs
 
   gpt_param = {"engine": "text-davinci-003", "max_tokens": 1000, 
@@ -554,6 +572,7 @@ def run_gpt_prompt_action_sector(action_description,
 
   def __func_clean_up(gpt_response, prompt=""):
     cleaned_response = gpt_response.split("}")[0]
+    cleaned_response = cleaned_response.replace("{", "").strip()
     return cleaned_response
 
   def __func_validate(gpt_response, prompt=""): 
@@ -566,7 +585,7 @@ def run_gpt_prompt_action_sector(action_description,
     return True
   
   def get_fail_safe(): 
-    fs = ("kitchen")
+    fs = ("main room")
     return fs
 
 

@@ -398,11 +398,38 @@ class ReverieServer:
           #  "persona": {"Klaus Mueller": {"movement": [38, 12]}}, 
           #  "meta": {curr_time: <datetime>}}
           curr_move_file = f"{sim_folder}/movement/{self.step}.json"
-          with open(curr_move_file, "w") as outfile: 
+          os.makedirs(os.path.dirname(curr_move_file), exist_ok=True)
+          with open(curr_move_file, "w") as outfile:
             outfile.write(json.dumps(movements, indent=2))
 
-          # After this cycle, the world takes one step forward, and the 
-          # current time moves by <sec_per_step> amount. 
+          # Auto-generate the next environment file from the just-computed
+          # movements. Normally the browser Phaser game POSTs this via
+          # /process_environment/ after animating the step. Writing it here
+          # lets the backend run standalone or recover when the browser is not
+          # actively running the simulation loop.
+          # Safe when browser IS running — it just overwrites with same data.
+          next_env = {}
+          for pname, pdata in movements["persona"].items():
+            move = pdata["movement"]
+            next_env[pname] = {"x": move[0], "y": move[1]}
+          next_env_file = f"{sim_folder}/environment/{self.step + 1}.json"
+          os.makedirs(os.path.dirname(next_env_file), exist_ok=True)
+          with open(next_env_file, "w") as outfile:
+            outfile.write(json.dumps(next_env, indent=2))
+
+          # Per-step health summary — easy to spot silent failures at a glance.
+          # Red flags: everyone "sleeping" all day, all tiles identical, "asleep" subtasks.
+          print(f"\n{'='*60}")
+          print(f"STEP {self.step} | {self.curr_time.strftime('%b %d %Y %H:%M')}")
+          print(f"{'='*60}")
+          for pname, pdata in movements["persona"].items():
+            desc = pdata.get("description", "?")
+            tile = pdata.get("movement", "?")
+            print(f"  {pname:20s} @ {tile}  →  {desc[:70]}")
+          print(f"{'='*60}\n")
+
+          # After this cycle, the world takes one step forward, and the
+          # current time moves by <sec_per_step> amount.
           self.step += 1
           self.curr_time += datetime.timedelta(seconds=self.sec_per_step)
 
