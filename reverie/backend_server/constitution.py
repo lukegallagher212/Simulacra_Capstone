@@ -4,7 +4,7 @@ Defines the democratic and authoritarian constitutions and the
 logic for assigning them to personas as internalized beliefs.
 """
 from typing import Optional
-from persona.prompt_template.gpt_structure import get_embedding
+from persona.prompt_template.gpt_structure import get_embedding, ChatGPT_single_request
 import datetime
 
 CONSTITUTIONS = {
@@ -137,8 +137,8 @@ def assign_constitution(persona, society_type: str, leader_name: str = None) -> 
 
     # Fallback: always stamp it on scratch too
     if hasattr(persona, 'scratch'):
-        persona.scratch.constitution = memory_string
-        persona.scratch.society_type = society_type
+        persona.scratch.society_type = society_type   # "democratic" or "authoritarian" society
+        persona.scratch.leader = leader_name          # who is leader
         if leader_name:
             persona.scratch.leader = leader_name
 
@@ -180,3 +180,13 @@ def assign_leader(personas: list, society_type: str) -> Optional[str]:
 
     print(f"[Constitution] Authoritarian leader assigned: {leader_name}")
     return leader_name
+
+def detect_political_affinity(personas: list):
+    for persona in personas:
+        learned = getattr(persona.scratch, 'learned', '')
+        prompt = (f"Based on the following background about a person, do they have "
+                  f"a strong interest or affinity for politics? Answer only yes or no.\n\n"
+                  f"Background: {learned}")
+        response = ChatGPT_single_request(prompt).strip().lower()
+        persona.political_affinity = "yes" in response
+        print(f"  [Politics] {persona.scratch.name}: political_affinity = {persona.political_affinity}")

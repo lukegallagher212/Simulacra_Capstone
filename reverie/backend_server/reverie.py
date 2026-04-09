@@ -35,7 +35,8 @@ from utils import *
 from maze import *
 from persona.persona import *
 
-from constitution import choose_society, apply_constitution_to_all, assign_leader
+from constitution import choose_society, apply_constitution_to_all, assign_leader, detect_political_affinity
+from election import should_trigger_election, run_election
 
 ##############################################################################
 #                                  REVERIE                                   #
@@ -181,6 +182,7 @@ class ReverieServer:
     reverie_meta["step"] = self.step
     reverie_meta["society_type"] = self.society_type
     reverie_meta["leader"] = self.leader  # will be None or a name string
+    reverie_meta["last_election_day"] = getattr(self, 'last_election_day', 0)
     reverie_meta_f = f"{sim_folder}/reverie/meta.json"
     with open(reverie_meta_f, "w") as outfile: 
       outfile.write(json.dumps(reverie_meta, indent=2))
@@ -437,6 +439,13 @@ class ReverieServer:
           self.step += 1
           self.curr_time += datetime.timedelta(seconds=self.sec_per_step)
 
+          # Check for election trigger (democratic only)
+          if getattr(self, 'society_type', None) == "democratic":
+            if should_trigger_election(self.curr_time,
+                                       getattr(self, 'last_election_day', 0),
+                                       self.start_time):
+              run_election(self)
+
           int_counter -= 1
           
       # Sleep so we don't burn our machines. 
@@ -639,14 +648,18 @@ if __name__ == '__main__':
   origin = input("Enter the name of the forked simulation: ").strip()
   target = input("Enter the name of the new simulation: ").strip()
 
-  from constitution import choose_society, apply_constitution_to_all, assign_leader
-
   rs = ReverieServer(origin, target)
   society_type = choose_society()
   leader = assign_leader(list(rs.personas.values()), society_type)
   apply_constitution_to_all(list(rs.personas.values()), society_type, leader_name=leader)
+
+  # Detect political affinity from learned field
+  if society_type == "democratic":
+      detect_political_affinity(list(rs.personas.values()))
+
   rs.society_type = society_type
   rs.leader = leader
+  rs.disagreement_log = {}
 
   rs.open_server()
 
