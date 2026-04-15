@@ -37,6 +37,7 @@ from persona.persona import *
 
 from constitution import choose_society, apply_constitution_to_all, assign_leader, detect_political_affinity
 from election import should_trigger_election, run_election
+from town_hall import should_trigger_town_hall, run_town_hall
 
 ##############################################################################
 #                                  REVERIE                                   #
@@ -183,6 +184,7 @@ class ReverieServer:
     reverie_meta["society_type"] = self.society_type
     reverie_meta["leader"] = self.leader  # will be None or a name string
     reverie_meta["last_election_day"] = getattr(self, 'last_election_day', 0)
+    reverie_meta["town_hall_topic_index"] = getattr(self, 'town_hall_topic_index', 0)
     reverie_meta_f = f"{sim_folder}/reverie/meta.json"
     with open(reverie_meta_f, "w") as outfile: 
       outfile.write(json.dumps(reverie_meta, indent=2))
@@ -439,12 +441,16 @@ class ReverieServer:
           self.step += 1
           self.curr_time += datetime.timedelta(seconds=self.sec_per_step)
 
-          # Check for election trigger (democratic only)
+         # Check for democratic events (election + town hall)
           if getattr(self, 'society_type', None) == "democratic":
-            if should_trigger_election(self.curr_time,
-                                       getattr(self, 'last_election_day', 0),
-                                       self.start_time):
-              run_election(self)
+              if should_trigger_election(self.curr_time,
+                                         getattr(self, 'last_election_day', 0),
+                                         self.start_time):
+                  run_election(self)
+
+              if should_trigger_town_hall(self.curr_time,
+                                          getattr(self, 'last_town_hall_date', None)):
+                  run_town_hall(self)
 
           int_counter -= 1
           
@@ -660,6 +666,8 @@ if __name__ == '__main__':
   rs.society_type = society_type
   rs.leader = leader
   rs.disagreement_log = {}
+  rs.last_town_hall_date = None
+  rs.town_hall_topic_index = 0
 
   rs.open_server()
 
