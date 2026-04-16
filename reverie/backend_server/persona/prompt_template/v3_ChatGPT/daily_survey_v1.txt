@@ -1,0 +1,38 @@
+daily_survey_v1.txt
+
+Variables:
+!<INPUT 0>! -- Commonset (ISS: name, age, traits, occupation, lifestyle)
+!<INPUT 1>! -- Persona first name
+!<INPUT 2>! -- Today's date string (e.g. "Monday July 24")
+!<INPUT 3>! -- Today's daily requirements / broad goals (list of strings)
+!<INPUT 4>! -- Today's full hourly schedule (list of [activity, duration] pairs)
+
+<commentblockmarker>###</commentblockmarker>
+!<INPUT 0>!
+
+Today was !<INPUT 2>!. !<INPUT 1>!'s goals for the day were: !<INPUT 3>!
+
+!<INPUT 1>!'s schedule today: !<INPUT 4>!
+
+It is now the end of the day and !<INPUT 1>! is reflecting on how things went.
+Answer each question below honestly from !<INPUT 1>!'s first-person perspective,
+based only on what actually happened today. Respond with a single JSON object
+and nothing else.
+
+{
+  "rq1_job_satisfaction": <integer 1-10, how satisfied are you with your current job or daily work?>,
+  "rq1_career_progress": <integer 1-10, how much career or personal advancement did you make today?>,
+  "rq1_treatment_fairness": <integer 1-10, how fairly do you feel you are treated in your occupation relative to others?>,
+  "rq2_social_connectedness": <integer 1-10, how connected did you feel to the people around you today?>,
+  "rq2_social_inclusion": <integer 1-10, how included or welcomed did you feel in social situations today?>,
+  "rq2_social_interactions_count": <integer, approximately how many meaningful social interactions did you have today?>,
+  "rq3_relationship_satisfaction": <integer 1-10, how satisfied are you with your personal or romantic relationships?>,
+  "rq3_partnership_status": <integer, 0 if you are not in a romantic partnership, 1 if you are>,
+  "rq3_new_romantic_interest": <integer, 0 if no, 1 if you met or thought about someone romantically today>,
+  "rq4_political_influence": <integer 1-10, how much political influence or voice do you feel you have?>,
+  "rq4_civic_engagement": <integer 1-10, how actively did you engage in civic or political life today?>,
+  "rq4_freedom_of_expression": <integer 1-10, how free do you feel to express your opinions publicly?>,
+  "rq5_social_status": <integer 1-10, how would you rate your current social standing in the community?>,
+  "rq5_mobility_today": <integer, -1 if your situation worsened today, 0 if it stayed the same, 1 if it improved>,
+  "rq5_opportunity": <integer 1-10, how much opportunity do you feel you have to improve your life?>
+}

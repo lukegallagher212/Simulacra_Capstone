@@ -5,8 +5,10 @@ File: plan.py
 Description: This defines the "Plan" module for generative agents. 
 """
 import datetime
+import json
 import math
-import random 
+import os
+import random
 import sys
 import time
 sys.path.append('../../')
@@ -15,6 +17,7 @@ from global_methods import *
 from persona.prompt_template.run_gpt_prompt import *
 from persona.cognitive_modules.retrieve import *
 from persona.cognitive_modules.converse import *
+from utils import fs_storage, fs_temp_storage
 
 ##############################################################################
 # CHAPTER 2: Generate
@@ -401,6 +404,49 @@ def generate_new_decomp_schedule(persona, inserted_act, inserted_act_dur,  start
                                             inserted_act_dur)[0]
 
 
+def generate_daily_survey(persona):
+  """
+  Runs the end-of-day survey for <persona> and appends the result to:
+    {fs_storage}/{sim_code}/surveys/{persona.scratch.name}/responses.json
+
+  Called once per persona at the start of a new day (covering the day
+  that just ended). Each entry records the date, day number, and the 15
+  numeric survey fields covering RQ1-RQ5.
+  """
+  # Read the active sim_code from the temp file written by reverie.py.
+  sim_code_file = os.path.join(fs_temp_storage, "curr_sim_code.json")
+  with open(sim_code_file, "r") as f:
+    sim_code = json.load(f)["sim_code"]
+
+  survey_response, _ = run_gpt_prompt_daily_survey(persona)
+
+  # Build the record, tagging it with the date that just finished.
+  yesterday = persona.scratch.curr_time - datetime.timedelta(days=1)
+  record = {
+    "persona": persona.scratch.name,
+    "date": yesterday.strftime("%A %B %d"),
+    "sim_time": yesterday.strftime("%Y-%m-%d"),
+    "responses": survey_response,
+  }
+
+  # Save into {sim_folder}/surveys/{persona_name}/responses.json
+  survey_dir = os.path.join(fs_storage, sim_code, "surveys", persona.scratch.name)
+  os.makedirs(survey_dir, exist_ok=True)
+  survey_file = os.path.join(survey_dir, "responses.json")
+
+  existing = []
+  if os.path.isfile(survey_file):
+    with open(survey_file, "r") as f:
+      try:
+        existing = json.load(f)
+      except json.JSONDecodeError:
+        existing = []
+
+  existing.append(record)
+  with open(survey_file, "w") as f:
+    json.dump(existing, f, indent=2)
+
+
 ##############################################################################
 # CHAPTER 3: Plan
 ##############################################################################
@@ -482,6 +528,8 @@ def _long_term_planning(persona, new_day):
     persona.scratch.daily_req = generate_first_daily_plan(persona, 
                                                           wake_up_hour)
   elif new_day == "New day":
+    # Run the end-of-day survey before revising identity / planning the new day.
+    generate_daily_survey(persona)
     revise_identity(persona)
 
     # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - TODO

@@ -2816,6 +2816,76 @@ def run_gpt_generate_safety_score(persona, comment, test_input=None, verbose=Fal
 
 
 
+def run_gpt_prompt_daily_survey(persona, test_input=None, verbose=False):
+  """
+  Runs the end-of-day survey for a persona. Returns a dict with 15 numeric
+  fields covering the five research questions (RQ1-RQ5).
+
+  INPUT:
+    persona: The Persona class instance
+  OUTPUT:
+    A dict with keys rq1_*, rq2_*, rq3_*, rq4_*, rq5_* mapping to integers.
+  """
+  SURVEY_KEYS = [
+    "rq1_job_satisfaction", "rq1_career_progress", "rq1_treatment_fairness",
+    "rq2_social_connectedness", "rq2_social_inclusion", "rq2_social_interactions_count",
+    "rq3_relationship_satisfaction", "rq3_partnership_status", "rq3_new_romantic_interest",
+    "rq4_political_influence", "rq4_civic_engagement", "rq4_freedom_of_expression",
+    "rq5_social_status", "rq5_mobility_today", "rq5_opportunity",
+  ]
+
+  def create_prompt_input(persona, test_input=None):
+    if test_input:
+      return test_input
+    daily_req_str = ", ".join(persona.scratch.daily_req) if persona.scratch.daily_req else "none recorded"
+    schedule_str = "; ".join(
+      f"{act} ({dur} min)" for act, dur in persona.scratch.f_daily_schedule_hourly_org
+    ) if persona.scratch.f_daily_schedule_hourly_org else "none recorded"
+    prompt_input = [
+      persona.scratch.get_str_iss(),
+      persona.scratch.get_str_firstname(),
+      persona.scratch.get_str_curr_date_str(),
+      daily_req_str,
+      schedule_str,
+    ]
+    return prompt_input
+
+  def __func_clean_up(gpt_response, prompt=""):
+    # Strip markdown code fences if present
+    cleaned = gpt_response.strip()
+    cleaned = cleaned.replace("```json", "").replace("```", "").strip()
+    # Find the outermost JSON object
+    start = cleaned.find('{')
+    end = cleaned.rfind('}') + 1
+    parsed = json.loads(cleaned[start:end])
+    # Coerce all values to int
+    return {k: int(parsed[k]) for k in SURVEY_KEYS}
+
+  def __func_validate(gpt_response, prompt=""):
+    try:
+      result = __func_clean_up(gpt_response, prompt)
+      return all(k in result for k in SURVEY_KEYS)
+    except:
+      return False
+
+  def get_fail_safe():
+    return {k: -1 for k in SURVEY_KEYS}
+
+  prompt_template = "persona/prompt_template/v3_ChatGPT/daily_survey_v1.txt"
+  prompt_input = create_prompt_input(persona, test_input)
+  prompt = generate_prompt(prompt_input, prompt_template)
+  fail_safe = get_fail_safe()
+
+  output = ChatGPT_safe_generate_response_OLD(prompt, 3, fail_safe,
+                                              __func_validate, __func_clean_up,
+                                              verbose)
+
+  if debug or verbose:
+    print_run_prompts(prompt_template, persona, {}, prompt_input, prompt, output)
+
+  return output, [output, prompt, {}, prompt_input, fail_safe]
+
+
 def extract_first_json_dict(data_str):
     # Find the first occurrence of a JSON object within the string
     start_idx = data_str.find('{')
