@@ -447,6 +447,211 @@ def generate_daily_survey(persona):
     json.dump(existing, f, indent=2)
 
 
+def should_generate_weekly_work_survey(persona):
+  """
+  Returns True once per completed simulated week.
+  The survey is generated on Mondays and reflects on the week that ended the
+  day before.
+  """
+  if not persona.scratch.curr_time:
+    return False
+
+  if persona.scratch.curr_time.weekday() != 0:
+    return False
+
+  week_end = persona.scratch.curr_time - datetime.timedelta(days=1)
+  week_end_key = week_end.strftime("%Y-%m-%d")
+  sim_code_file = os.path.join(fs_temp_storage, "curr_sim_code.json")
+  if not os.path.isfile(sim_code_file):
+    return False
+
+  with open(sim_code_file, "r") as f:
+    sim_code = json.load(f)["sim_code"]
+
+  survey_file = os.path.join(
+    fs_storage, sim_code, "weekly_surveys", persona.scratch.name,
+    "responses.json")
+
+  if os.path.isfile(survey_file):
+    with open(survey_file, "r") as f:
+      try:
+        existing = json.load(f)
+      except json.JSONDecodeError:
+        existing = []
+    for record in reversed(existing):
+      if record.get("week_end") == week_end_key:
+        return False
+
+  return True
+
+
+def generate_weekly_work_survey(persona):
+  """
+  Runs the work survey for <persona> and appends the result to:
+    {fs_storage}/{sim_code}/weekly_surveys/{persona.scratch.name}/responses.json
+  """
+  if not should_generate_weekly_work_survey(persona):
+    return
+
+  sim_code_file = os.path.join(fs_temp_storage, "curr_sim_code.json")
+  with open(sim_code_file, "r") as f:
+    sim_code = json.load(f)["sim_code"]
+
+  week_end = persona.scratch.curr_time - datetime.timedelta(days=1)
+  week_start = week_end - datetime.timedelta(days=6)
+  survey_week_key = week_end.strftime("%G-W%V")
+  survey_response, _ = run_gpt_prompt_weekly_work_survey(persona)
+
+  record = {
+    "persona": persona.scratch.name,
+    "survey_date": week_end.strftime("%Y-%m-%d"),
+    "survey_week": survey_week_key,
+    "week_start": week_start.strftime("%Y-%m-%d"),
+    "week_end": week_end.strftime("%Y-%m-%d"),
+    "recorded_at": persona.scratch.curr_time.strftime("%Y-%m-%d %H:%M:%S"),
+    "responses": survey_response,
+  }
+
+  survey_dir = os.path.join(fs_storage, sim_code, "weekly_surveys",
+                            persona.scratch.name)
+  os.makedirs(survey_dir, exist_ok=True)
+  survey_file = os.path.join(survey_dir, "responses.json")
+
+  existing = []
+  if os.path.isfile(survey_file):
+    with open(survey_file, "r") as f:
+      try:
+        existing = json.load(f)
+      except json.JSONDecodeError:
+        existing = []
+
+  existing.append(record)
+  with open(survey_file, "w") as f:
+    json.dump(existing, f, indent=2)
+
+
+def _employment_values_match(persona, left, right):
+  left = persona.scratch._normalize_employment_value(left)
+  right = persona.scratch._normalize_employment_value(right)
+
+  if left is None or right is None:
+    return left == right
+  return left.casefold() == right.casefold()
+
+
+def _profile_has_active_job(profile):
+  return (profile.get("employment_status") in ["employed", "informal_work"]
+          or any(profile.get(key) for key in ["job_title", "employer",
+                                              "workplace"]))
+
+
+def _summarize_employment_profile(persona, profile):
+  first_name = persona.scratch.get_str_firstname() or persona.scratch.name
+  status = profile.get("employment_status")
+  job_title = profile.get("job_title")
+  employer = profile.get("employer")
+  workplace = profile.get("workplace")
+
+  if status == "student":
+    description = f"{first_name} is currently a student"
+  elif status == "caregiver":
+    description = f"{first_name}'s primary role is caregiving"
+  elif status == "retired":
+    description = f"{first_name} is currently retired"
+  elif status == "informal_work":
+    description = f"{first_name} is currently doing informal work"
+  elif status:
+    description = f"{first_name} is currently {status}"
+  elif job_title or employer or workplace:
+    description = f"{first_name} is currently employed"
+  else:
+    description = f"{first_name}'s employment situation is unspecified"
+
+  if job_title:
+    description += f" as {job_title}"
+  if employer:
+    description += f" at {employer}"
+  if workplace and workplace != employer:
+    description += f" in {workplace}"
+
+  return description
+
+
+def _classify_employment_reconciliation_event(persona,
+                                              current_profile,
+                                              inferred_profile):
+  current_has_active_job = _profile_has_active_job(current_profile)
+  inferred_has_active_job = _profile_has_active_job(inferred_profile)
+
+  if inferred_has_active_job and not current_has_active_job:
+    return "job_acquisition"
+  if not inferred_has_active_job and current_has_active_job:
+    return "termination"
+  return "transition"
+
+
+def reconcile_currently_with_employment_state(persona):
+  """
+  Reconcile the updated narrative status against structured employment state.
+  If the current narrative implies a meaningful job-state change, log a
+  structured employment event so downstream prompts see synchronized state.
+  """
+  inferred_profile, _ = run_gpt_prompt_employment_reconciliation(persona)
+  if not isinstance(inferred_profile, dict):
+    return
+
+  inferred_profile = persona.scratch._normalize_employment_profile(
+    inferred_profile)
+  if not any(inferred_profile.values()):
+    return
+
+  current_profile = persona.scratch.get_current_employment_profile()
+  meaningful_change = False
+  for key in ["employment_status", "job_title", "employer", "workplace"]:
+    inferred_value = inferred_profile.get(key)
+    if inferred_value is None:
+      continue
+    if not _employment_values_match(persona, current_profile.get(key),
+                                    inferred_value):
+      meaningful_change = True
+      break
+
+  if not meaningful_change:
+    return
+
+  event_type = _classify_employment_reconciliation_event(
+    persona, current_profile, inferred_profile)
+  previous_summary = _summarize_employment_profile(persona, current_profile)
+  current_summary = _summarize_employment_profile(persona, inferred_profile)
+
+  if event_type == "job_acquisition":
+    description = (f"Based on {persona.scratch.name}'s updated status, "
+                   f"the current employment picture is: {current_summary}.")
+  elif event_type == "termination":
+    description = (f"Based on {persona.scratch.name}'s updated status, "
+                   f"the prior employment picture '{previous_summary}' is no "
+                   f"longer accurate; the current employment picture is: "
+                   f"{current_summary}.")
+  else:
+    description = (f"Based on {persona.scratch.name}'s updated status, "
+                   f"the employment picture changed from "
+                   f"'{previous_summary}' to '{current_summary}'.")
+
+  persona.scratch.log_employment_event(
+    event_type,
+    description,
+    employer=inferred_profile.get("employer"),
+    job_title=inferred_profile.get("job_title"),
+    workplace=inferred_profile.get("workplace"),
+    employment_status=inferred_profile.get("employment_status"),
+    metadata={
+      "source": "daily_currently_reconciliation",
+      "currently": persona.scratch.currently,
+      "previous_profile": current_profile,
+      "inferred_profile": inferred_profile,
+    })
+
+
 ##############################################################################
 # CHAPTER 3: Plan
 ##############################################################################
@@ -492,6 +697,7 @@ def revise_identity(persona):
   # print (new_currently[10:])
 
   persona.scratch.currently = new_currently
+  reconcile_currently_with_employment_state(persona)
 
   daily_req_prompt = persona.scratch.get_str_iss() + "\n"
   daily_req_prompt += f"Today is {persona.scratch.curr_time.strftime('%A %B %d')}. Here is {persona.scratch.name}'s plan today in broad-strokes (with the time of the day. e.g., have a lunch at 12:00 pm, watch TV from 7 to 8 pm).\n\n"
@@ -530,6 +736,7 @@ def _long_term_planning(persona, new_day):
   elif new_day == "New day":
     # Run the end-of-day survey before revising identity / planning the new day.
     generate_daily_survey(persona)
+    generate_weekly_work_survey(persona)
     revise_identity(persona)
 
     # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - TODO

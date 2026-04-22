@@ -6,6 +6,7 @@ Description: Defines the short-term memory module for generative agents.
 """
 import datetime
 import json
+import os
 import sys
 sys.path.append('../../')
 
@@ -45,6 +46,15 @@ class Scratch:
     self.lifestyle = None
     self.living_area = None
 
+    # Employment data is persisted outside scratch.json.
+    # We keep only caches here and derive the current profile from:
+    # 1) a persisted baseline inferred from the original persona text
+    # 2) a persisted employment event log
+    scratch_path = os.path.abspath(f_saved) if f_saved else None
+    self._persona_dir = (os.path.dirname(os.path.dirname(scratch_path))
+                         if scratch_path else None)
+    self._employment_baseline_cache = None
+    self._employment_events_cache = None
     # REFLECTION VARIABLES
     self.concept_forget = 100
     self.daily_reflection_time = 60 * 3
@@ -261,7 +271,6 @@ class Scratch:
     scratch["currently"] = self.currently
     scratch["lifestyle"] = self.lifestyle
     scratch["living_area"] = self.living_area
-
     scratch["concept_forget"] = self.concept_forget
     scratch["daily_reflection_time"] = self.daily_reflection_time
     scratch["daily_reflection_size"] = self.daily_reflection_size
@@ -409,6 +418,7 @@ class Scratch:
     commonset += f"Learned traits: {self.learned}\n"
     commonset += f"Currently: {self.currently}\n"
     commonset += f"Lifestyle: {self.lifestyle}\n"
+    commonset += f"Employment: {self.get_str_employment_status()}\n"
     commonset += f"Daily plan requirement: {self.daily_plan_req}\n"
     commonset += f"Current Date: {self.curr_time.strftime('%A %B %d')}\n"
     return commonset
@@ -445,6 +455,360 @@ class Scratch:
   def get_str_lifestyle(self): 
     return self.lifestyle
 
+  def _normalize_employment_value(self, value):
+    """Treat placeholder model output as missing employment data."""
+    if value is None:
+      return None
+
+    value = str(value).strip()
+    if not value:
+      return None
+
+    if value.lower() in ["unknown", "unspecified", "none", "null", "n/a", "na"]:
+      return None
+
+    return value
+
+  def _normalize_employment_profile(self, profile=None):
+    """Normalize an employment profile dictionary into canonical values."""
+    profile = profile or {}
+    normalized = {
+      "employment_status": self._normalize_employment_value(
+          profile.get("employment_status")),
+      "job_title": self._normalize_employment_value(profile.get("job_title")),
+      "employer": self._normalize_employment_value(profile.get("employer")),
+      "workplace": self._normalize_employment_value(profile.get("workplace")),
+    }
+
+    if (not normalized["employment_status"]
+        and any(normalized[key] for key in ["job_title", "employer", "workplace"])):
+      normalized["employment_status"] = "employed"
+
+    return normalized
+
+  def _get_employment_baseline_path(self):
+    if not self._persona_dir:
+      return None
+    return os.path.join(self._persona_dir, "employment", "baseline_profile.json")
+
+  def _get_employment_events_path(self):
+    if not self._persona_dir:
+      return None
+    return os.path.join(self._persona_dir, "employment", "events.json")
+
+  def _read_json_resource(self, path, default):
+    if not path or not check_if_file_exists(path):
+      return default
+
+    try:
+      with open(path, "r") as infile:
+        return json.load(infile)
+    except Exception:
+      return default
+
+  def _write_json_resource(self, path, payload):
+    if not path:
+      return False
+
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    with open(path, "w") as outfile:
+      json.dump(payload, outfile, indent=2)
+    return True
+
+  def get_employment_inference_source(self):
+    """
+    Return the baseline-employment prompt inputs derived from persona text.
+    This is intentionally based on the original scratch fields, not any
+    runtime-emergent employment state.
+    """
+    current_date = (self.curr_time.strftime('%A %B %d')
+                    if self.curr_time else "Unknown")
+    commonset = ""
+    commonset += f"Name: {self.name}\n"
+    commonset += f"Age: {self.age}\n"
+    commonset += f"Innate traits: {self.innate}\n"
+    commonset += f"Learned traits: {self.learned}\n"
+    commonset += f"Currently: {self.currently}\n"
+    commonset += f"Lifestyle: {self.lifestyle}\n"
+    commonset += f"Daily plan requirement: {self.daily_plan_req}\n"
+    commonset += f"Current Date: {current_date}\n"
+
+    return [
+      commonset,
+      self.daily_plan_req or "unknown",
+      self.learned or "unknown",
+      self.currently or "unknown",
+      self.lifestyle or "unknown",
+    ]
+
+  def get_employment_reconciliation_source(self):
+    """
+    Return prompt inputs for reconciling current employment state from the
+    persona's updated narrative and recent planning context.
+    """
+    current_date = (self.curr_time.strftime('%A %B %d')
+                    if self.curr_time else "Unknown")
+    daily_context = (", ".join(self.daily_req)
+                     if self.daily_req else self.daily_plan_req)
+    schedule_context = ("; ".join(
+      [f"{act} ({dur} min)" for act, dur in self.f_daily_schedule_hourly_org])
+      if self.f_daily_schedule_hourly_org else "unknown")
+
+    commonset = ""
+    commonset += f"Name: {self.name}\n"
+    commonset += f"Age: {self.age}\n"
+    commonset += f"Innate traits: {self.innate}\n"
+    commonset += f"Learned traits: {self.learned}\n"
+    commonset += f"Currently: {self.currently}\n"
+    commonset += f"Lifestyle: {self.lifestyle}\n"
+    commonset += f"Daily plan requirement: {self.daily_plan_req}\n"
+    commonset += f"Recent daily context: {daily_context or 'unknown'}\n"
+    commonset += f"Recent schedule: {schedule_context}\n"
+    commonset += f"Current Date: {current_date}\n"
+
+    return [
+      commonset,
+      daily_context or "unknown",
+      self.learned or "unknown",
+      self.currently or "unknown",
+      self.lifestyle or "unknown",
+    ]
+
+  def get_baseline_employment_profile(self):
+    """Load the persisted baseline employment profile, if one exists."""
+    if self._employment_baseline_cache is None:
+      baseline = self._read_json_resource(self._get_employment_baseline_path(), {})
+      self._employment_baseline_cache = self._normalize_employment_profile(
+        baseline if isinstance(baseline, dict) else {})
+
+    return dict(self._employment_baseline_cache)
+
+  def has_persisted_employment_baseline(self):
+    """Return True when a baseline employment profile has been persisted."""
+    profile = self.get_baseline_employment_profile()
+    return any(profile.values())
+
+  def persist_employment_baseline(self, profile):
+    """Persist a normalized baseline employment profile outside scratch.json."""
+    normalized = self._normalize_employment_profile(profile)
+    if not any(normalized.values()):
+      return False
+
+    self._employment_baseline_cache = normalized
+    return self._write_json_resource(self._get_employment_baseline_path(),
+                                     normalized)
+
+  def get_employment_events(self):
+    """Load the persisted employment event log."""
+    if self._employment_events_cache is None:
+      events = self._read_json_resource(self._get_employment_events_path(), [])
+      self._employment_events_cache = events if isinstance(events, list) else []
+
+    return list(self._employment_events_cache)
+
+  def _apply_employment_event_to_profile(self, profile, event):
+    """Apply one logged employment event onto an employment profile."""
+    updated = dict(profile)
+    normalized_type = str(event.get("event_type", "")).strip().lower()
+
+    status = self._normalize_employment_value(
+      event.get("status_after") or event.get("employment_status"))
+    employer = self._normalize_employment_value(event.get("employer"))
+    job_title = self._normalize_employment_value(event.get("job_title"))
+    workplace = self._normalize_employment_value(event.get("workplace"))
+
+    if normalized_type == "termination":
+      updated["employment_status"] = status or "unemployed"
+      updated["employer"] = None
+      updated["job_title"] = None
+      updated["workplace"] = None
+      return updated
+
+    if normalized_type in ["job_acquisition", "promotion", "transition"]:
+      if normalized_type == "job_acquisition":
+        updated["employment_status"] = status or "employed"
+      elif normalized_type == "promotion":
+        updated["employment_status"] = (status
+                                         or updated.get("employment_status")
+                                         or "employed")
+      elif normalized_type == "transition":
+        updated["employment_status"] = status or "employed"
+
+      if employer is not None:
+        updated["employer"] = employer
+      if job_title is not None:
+        updated["job_title"] = job_title
+      if workplace is not None:
+        updated["workplace"] = workplace
+      return updated
+
+    if status is not None:
+      updated["employment_status"] = status
+    if employer is not None:
+      updated["employer"] = employer
+    if job_title is not None:
+      updated["job_title"] = job_title
+    if workplace is not None:
+      updated["workplace"] = workplace
+    return updated
+
+  def get_current_employment_profile(self):
+    """
+    Derive the agent's current employment profile from the persisted baseline
+    plus all persisted employment events.
+    """
+    profile = self._normalize_employment_profile(
+      self.get_baseline_employment_profile())
+
+    for event in self.get_employment_events():
+      if isinstance(event, dict):
+        profile = self._apply_employment_event_to_profile(profile, event)
+
+    return self._normalize_employment_profile(profile)
+
+  def get_str_employment_status(self):
+    """Return a descriptive employment summary for prompts and logs."""
+    profile = self.get_current_employment_profile()
+    status = profile["employment_status"]
+    job_title = profile["job_title"]
+    employer = profile["employer"]
+    workplace = profile["workplace"]
+    events = self.get_employment_events()
+
+    if not any([status, job_title, employer, workplace, bool(events)]):
+      return f"{self.first_name}'s employment situation is currently unspecified."
+
+    if status == "student":
+      description = f"{self.first_name} is currently a student"
+    elif status == "caregiver":
+      description = f"{self.first_name}'s primary role is caregiving"
+    elif status == "informal_work":
+      description = f"{self.first_name} is currently doing informal work"
+    elif status:
+      description = f"{self.first_name} is currently {status}"
+    elif job_title or employer or workplace:
+      description = f"{self.first_name} is currently employed"
+    else:
+      description = f"{self.first_name} has recent employment activity"
+
+    if job_title:
+      description += f" as {job_title}"
+    if employer:
+      description += f" at {employer}"
+    if workplace and workplace != employer:
+      description += f" in {workplace}"
+    description += "."
+
+    recent_events = self.get_recent_employment_events_str(limit=3, include_timestamp=False)
+    if recent_events:
+      description += f" Recent employment events: {recent_events}"
+    return description
+
+  def get_recent_employment_events_str(self, limit=5, include_timestamp=True):
+    """Return a readable string of recent employment events."""
+    events = self.get_employment_events()
+    if not events:
+      return ""
+
+    recent_entries = events[-1 * max(1, limit):]
+    parts = []
+    for entry in recent_entries:
+      if isinstance(entry, dict):
+        timestamp = entry.get("timestamp")
+        description = entry.get("description") or entry.get("event_type") or "employment update"
+        if include_timestamp and timestamp:
+          parts.append(f"[{timestamp}] {description}")
+        else:
+          parts.append(description)
+      else:
+        parts.append(str(entry))
+    return "; ".join(parts)
+
+  def log_employment_event(self, event_type, description, employer=None,
+                           job_title=None, workplace=None,
+                           employment_status=None,
+                           metadata=None):
+    """Persist a timestamped employment event outside scratch.json."""
+    event_aliases = {
+      "acquisition": "job_acquisition",
+      "hire": "job_acquisition",
+      "hired": "job_acquisition",
+      "job_acquisition": "job_acquisition",
+      "promotion": "promotion",
+      "promoted": "promotion",
+      "termination": "termination",
+      "terminated": "termination",
+      "fired": "termination",
+      "laid_off": "termination",
+      "transition": "transition",
+      "job_transition": "transition",
+      "transfer": "transition",
+    }
+    normalized_type = event_aliases.get(str(event_type).strip().lower(),
+                                        str(event_type).strip().lower())
+
+    current_profile = self.get_current_employment_profile()
+    status_before = current_profile["employment_status"]
+    employer_before = current_profile["employer"]
+    job_title_before = current_profile["job_title"]
+    workplace_before = current_profile["workplace"]
+    timestamp = (self.curr_time.strftime("%B %d, %Y, %H:%M:%S")
+                 if self.curr_time else "Unknown time")
+
+    normalized_employment_status = self._normalize_employment_value(
+      employment_status)
+    normalized_employer = self._normalize_employment_value(employer)
+    normalized_job_title = self._normalize_employment_value(job_title)
+    normalized_workplace = self._normalize_employment_value(workplace)
+
+    status_after = (normalized_employment_status
+                    if normalized_employment_status is not None
+                    else current_profile["employment_status"])
+
+    if normalized_type == "job_acquisition":
+      status_after = normalized_employment_status or "employed"
+    elif normalized_type == "promotion":
+      status_after = (normalized_employment_status
+                      or current_profile["employment_status"]
+                      or "employed")
+    elif normalized_type == "termination":
+      status_after = normalized_employment_status or "unemployed"
+    elif normalized_type == "transition":
+      status_after = normalized_employment_status or "employed"
+
+    event_employer = (normalized_employer
+                      if normalized_employer is not None
+                      else current_profile["employer"])
+    event_job_title = (normalized_job_title
+                       if normalized_job_title is not None
+                       else current_profile["job_title"])
+    event_workplace = (normalized_workplace
+                       if normalized_workplace is not None
+                       else current_profile["workplace"])
+
+    entry = {
+      "timestamp": timestamp,
+      "event_type": normalized_type,
+      "description": description,
+      "status_before": status_before,
+      "status_after": status_after,
+      "employer_before": employer_before,
+      "employer": event_employer,
+      "job_title_before": job_title_before,
+      "job_title": event_job_title,
+      "workplace_before": workplace_before,
+      "workplace": event_workplace,
+      "metadata": metadata or {},
+    }
+
+    events = self.get_employment_events()
+    events.append(entry)
+    if len(events) > 50:
+      events = events[-50:]
+    self._employment_events_cache = events
+    self._write_json_resource(self._get_employment_events_path(), events)
+
+    return entry
 
   def get_str_daily_plan_req(self): 
     return self.daily_plan_req

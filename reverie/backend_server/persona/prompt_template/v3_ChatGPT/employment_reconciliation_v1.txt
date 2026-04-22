@@ -1,0 +1,40 @@
+employment_reconciliation_v1.txt
+
+Variables:
+!<INPUT 0>! -- Current commonset without structured employment fields
+!<INPUT 1>! -- Recent daily context
+!<INPUT 2>! -- Learned description
+!<INPUT 3>! -- Current situation
+!<INPUT 4>! -- Lifestyle
+
+<commentblockmarker>###</commentblockmarker>
+Agent profile:
+!<INPUT 0>!
+
+Recent daily context:
+!<INPUT 1>!
+
+Learned description:
+!<INPUT 2>!
+
+Current situation:
+!<INPUT 3>!
+
+Lifestyle:
+!<INPUT 4>!
+
+Based only on the information above, infer this agent's current employment
+information. Use the most likely present role implied by their current
+responsibilities, routine, and narrative state. If something changed from the
+past, reflect the current situation rather than the original baseline. Do not
+invent detailed facts unless they are strongly implied. If something is
+unclear, use "unknown".
+
+Return a single JSON object and nothing else:
+
+{
+  "employment_status": "<employed | unemployed | student | retired | caregiver | informal_work | unknown>",
+  "job_title": "<short role label or unknown>",
+  "employer": "<organization or business name or unknown>",
+  "workplace": "<primary workplace or unknown>"
+}

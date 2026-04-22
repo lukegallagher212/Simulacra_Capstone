@@ -9,6 +9,7 @@ import re
 import datetime
 import sys
 import ast
+import json
 
 sys.path.append('../../')
 
@@ -108,6 +109,7 @@ def run_gpt_prompt_daily_plan(persona,
     prompt_input += [persona.scratch.get_str_curr_date_str()]
     prompt_input += [persona.scratch.get_str_firstname()]
     prompt_input += [f"{str(wake_up_hour)}:00 am"]
+    prompt_input += [persona.scratch.get_str_employment_status()]
     return prompt_input
 
   def __func_clean_up(gpt_response, prompt=""):
@@ -156,7 +158,6 @@ def run_gpt_prompt_daily_plan(persona,
                       prompt_input, prompt, output)
     
   return output, [output, prompt, gpt_param, prompt_input, fail_safe]
-
 
 def run_gpt_prompt_generate_hourly_schedule(persona, 
                                             curr_hour_str,
@@ -371,6 +372,7 @@ def run_gpt_prompt_task_decomp(persona,
     prompt_input += [curr_time_range]
     prompt_input += [duration]
     prompt_input += [persona.scratch.get_str_firstname()]
+    prompt_input += [persona.scratch.get_str_employment_status()]
     return prompt_input
 
   def __func_clean_up(gpt_response, prompt=""):
@@ -1318,6 +1320,8 @@ def run_gpt_prompt_decide_to_talk(persona, target_persona, retrieved,test_input=
 
     prompt_input += [init_p_desc]
     prompt_input += [target_p_desc]
+    prompt_input += [init_persona.scratch.get_str_employment_status()]
+    prompt_input += [target_persona.scratch.get_str_employment_status()]
     prompt_input += [init_persona.name]
     prompt_input += [target_persona.name]
     return prompt_input
@@ -1412,7 +1416,8 @@ def run_gpt_prompt_decide_to_react(persona, target_persona, retrieved,test_input
     prompt_input += [curr_time]
     prompt_input += [init_p_desc]
     prompt_input += [target_p_desc]
-
+    prompt_input += [init_persona.scratch.get_str_employment_status()]
+    prompt_input += [target_persona.scratch.get_str_employment_status()]
     prompt_input += [init_persona.name]
     prompt_input += [init_act_desc]
     prompt_input += [target_persona.name]
@@ -1545,6 +1550,8 @@ def run_gpt_prompt_create_conversation(persona, target_persona, curr_loc,
 
     prompt_input += [curr_loc]
     prompt_input += [init_persona.name]
+    prompt_input += [init_persona.scratch.get_str_employment_status()]
+    prompt_input += [target_persona.scratch.get_str_employment_status()]
     return prompt_input
   
   def __func_clean_up(gpt_response, prompt=""):
@@ -2886,6 +2893,232 @@ def run_gpt_prompt_daily_survey(persona, test_input=None, verbose=False):
   return output, [output, prompt, {}, prompt_input, fail_safe]
 
 
+def _normalize_employment_prompt_value(value):
+  if value is None:
+    return "unknown"
+  value = str(value).strip()
+  if not value:
+    return "unknown"
+  return value
+
+
+def _clean_employment_profile_response(gpt_response, profile_keys, prompt=""):
+  cleaned = gpt_response.strip()
+  cleaned = cleaned.replace("```json", "").replace("```", "").strip()
+  start = cleaned.find('{')
+  end = cleaned.rfind('}') + 1
+  parsed = json.loads(cleaned[start:end])
+  return {k: _normalize_employment_prompt_value(parsed.get(k))
+          for k in profile_keys}
+
+
+def _validate_employment_profile_response(gpt_response, profile_keys, prompt=""):
+  try:
+    result = _clean_employment_profile_response(gpt_response, profile_keys,
+                                                prompt)
+  except:
+    return False
+
+  if not all(k in result for k in profile_keys):
+    return False
+
+  return any(result[k].lower() != "unknown" for k in profile_keys)
+
+
+def _unknown_employment_profile(profile_keys):
+  return {k: "unknown" for k in profile_keys}
+
+
+def run_gpt_prompt_employment_inference(persona, test_input=None, verbose=False):
+  """
+  Infers a baseline employment profile from legacy scratch text fields.
+
+  INPUT:
+    persona: The Persona class instance
+  OUTPUT:
+    A dict with inferred basic employment information.
+  """
+  PROFILE_KEYS = [
+    "employment_status",
+    "job_title",
+    "employer",
+    "workplace",
+  ]
+
+  def create_prompt_input(persona, test_input=None):
+    if test_input:
+      return test_input
+    return persona.scratch.get_employment_inference_source()
+
+  def __func_clean_up(gpt_response, prompt=""):
+    return _clean_employment_profile_response(gpt_response, PROFILE_KEYS,
+                                              prompt)
+
+  def __func_validate(gpt_response, prompt=""):
+    return _validate_employment_profile_response(gpt_response, PROFILE_KEYS,
+                                                 prompt)
+
+  def get_fail_safe():
+    return _unknown_employment_profile(PROFILE_KEYS)
+
+  prompt_template = "persona/prompt_template/v3_ChatGPT/employment_inference_v1.txt"
+  prompt_input = create_prompt_input(persona, test_input)
+  prompt = generate_prompt(prompt_input, prompt_template)
+  fail_safe = get_fail_safe()
+
+  output = ChatGPT_safe_generate_response_OLD(prompt, 3, fail_safe,
+                                              __func_validate, __func_clean_up,
+                                              verbose)
+
+  if debug or verbose:
+    print_run_prompts(prompt_template, persona, {}, prompt_input, prompt, output)
+
+  return output, [output, prompt, {}, prompt_input, fail_safe]
+
+
+def run_gpt_prompt_employment_reconciliation(persona,
+                                             test_input=None,
+                                             verbose=False):
+  """
+  Infers the persona's current employment profile from updated runtime
+  narrative context so it can be reconciled against structured state.
+  """
+  PROFILE_KEYS = [
+    "employment_status",
+    "job_title",
+    "employer",
+    "workplace",
+  ]
+
+  def create_prompt_input(persona, test_input=None):
+    if test_input:
+      return test_input
+    return persona.scratch.get_employment_reconciliation_source()
+
+  def __func_clean_up(gpt_response, prompt=""):
+    return _clean_employment_profile_response(gpt_response, PROFILE_KEYS,
+                                              prompt)
+
+  def __func_validate(gpt_response, prompt=""):
+    return _validate_employment_profile_response(gpt_response, PROFILE_KEYS,
+                                                 prompt)
+
+  def get_fail_safe():
+    return _unknown_employment_profile(PROFILE_KEYS)
+
+  prompt_template = ("persona/prompt_template/v3_ChatGPT/"
+                     "employment_reconciliation_v1.txt")
+  prompt_input = create_prompt_input(persona, test_input)
+  prompt = generate_prompt(prompt_input, prompt_template)
+  fail_safe = get_fail_safe()
+
+  output = ChatGPT_safe_generate_response_OLD(prompt, 3, fail_safe,
+                                              __func_validate, __func_clean_up,
+                                              verbose)
+
+  if debug or verbose:
+    print_run_prompts(prompt_template, persona, {}, prompt_input, prompt, output)
+
+  return output, [output, prompt, {}, prompt_input, fail_safe]
+
+
+def run_gpt_prompt_weekly_work_survey(persona, test_input=None, verbose=False):
+  """
+  Runs the weekly work-and-class survey for a persona.
+
+  INPUT:
+    persona: The Persona class instance
+  OUTPUT:
+    A dict containing the weekly work survey response values.
+  """
+  SURVEY_KEYS = [
+    "subjective_socioeconomic_status",
+    "satisfaction_1",
+    "satisfaction_2",
+    "fairness",
+    "discrimination",
+  ]
+
+  def create_prompt_input(persona, test_input=None):
+    if test_input:
+      return test_input
+
+    week_end = persona.scratch.curr_time - datetime.timedelta(days=1)
+    week_start = week_end - datetime.timedelta(days=6)
+    week_label = (f"{week_start.strftime('%A %B %d')} to "
+                  f"{week_end.strftime('%A %B %d')}")
+    employment_summary = persona.scratch.get_str_employment_status()
+    recent_employment_events = (persona.scratch
+                                .get_recent_employment_events_str(limit=10)
+                                or "No recent employment events were logged.")
+    recent_nodes = sorted(
+      persona.a_mem.seq_event + persona.a_mem.seq_thought,
+      key=lambda x: x.created,
+      reverse=True)
+    recent_memory_summary = "\n".join(
+      [f"[{node.created.strftime('%B %d, %Y %H:%M')}] {node.description}"
+       for node in recent_nodes[:10]]
+    ) or "No recent work-relevant memories were available."
+
+    prompt_input = [
+      persona.scratch.get_str_iss(),
+      persona.scratch.get_str_firstname(),
+      week_label,
+      employment_summary,
+      recent_employment_events,
+      recent_memory_summary,
+    ]
+    return prompt_input
+
+  def __func_clean_up(gpt_response, prompt=""):
+    cleaned = gpt_response.strip()
+    cleaned = cleaned.replace("```json", "").replace("```", "").strip()
+    start = cleaned.find('{')
+    end = cleaned.rfind('}') + 1
+    parsed = json.loads(cleaned[start:end])
+    return {
+      "subjective_socioeconomic_status": int(parsed["subjective_socioeconomic_status"]),
+      "satisfaction_1": int(parsed["satisfaction_1"]),
+      "satisfaction_2": int(parsed["satisfaction_2"]),
+      "fairness": int(parsed["fairness"]),
+      "discrimination": int(parsed["discrimination"]),
+    }
+
+  def __func_validate(gpt_response, prompt=""):
+    try:
+      result = __func_clean_up(gpt_response, prompt)
+    except:
+      return False
+
+    if not all(k in result for k in SURVEY_KEYS):
+      return False
+
+    return (
+      1 <= result["subjective_socioeconomic_status"] <= 10
+      and 1 <= result["satisfaction_1"] <= 10
+      and 1 <= result["satisfaction_2"] <= 10
+      and 1 <= result["fairness"] <= 10
+      and 1 <= result["discrimination"] <= 5
+    )
+
+  def get_fail_safe():
+    return {k: -1 for k in SURVEY_KEYS}
+
+  prompt_template = "persona/prompt_template/v3_ChatGPT/weekly_work_survey_v1.txt"
+  prompt_input = create_prompt_input(persona, test_input)
+  prompt = generate_prompt(prompt_input, prompt_template)
+  fail_safe = get_fail_safe()
+
+  output = ChatGPT_safe_generate_response_OLD(prompt, 3, fail_safe,
+                                              __func_validate, __func_clean_up,
+                                              verbose)
+
+  if debug or verbose:
+    print_run_prompts(prompt_template, persona, {}, prompt_input, prompt, output)
+
+  return output, [output, prompt, {}, prompt_input, fail_safe]
+
+
 def extract_first_json_dict(data_str):
     # Find the first occurrence of a JSON object within the string
     start_idx = data_str.find('{')
@@ -2998,21 +3231,6 @@ def run_gpt_generate_iterative_chat_utt(maze, init_persona, target_persona, retr
                "temperature": 0, "top_p": 1, "stream": False,
                "frequency_penalty": 0, "presence_penalty": 0, "stop": None}
   return output, [output, prompt, gpt_param, prompt_input, fail_safe]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
