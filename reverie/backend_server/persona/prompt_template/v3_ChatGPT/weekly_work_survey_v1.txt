@@ -1,0 +1,44 @@
+weekly_work_survey_v1.txt
+
+Variables:
+!<INPUT 0>! -- Commonset (ISS: identity, lifestyle, and employment context)
+!<INPUT 1>! -- Persona first name
+!<INPUT 2>! -- Survey week label
+!<INPUT 3>! -- Current employment summary
+!<INPUT 4>! -- Recent employment events
+!<INPUT 5>! -- Recent memory context
+
+<commentblockmarker>###</commentblockmarker>
+!<INPUT 0>!
+
+This weekly work survey covers !<INPUT 2>!.
+
+Current employment summary:
+!<INPUT 3>!
+
+Recent employment events:
+!<INPUT 4>!
+
+Recent memory context:
+!<INPUT 5>!
+
+It is the end of the week and !<INPUT 1>! is reflecting on their place in society
+and their experience with work. Answer honestly from !<INPUT 1>!'s first-person
+perspective, using only the context above.
+
+For subjective socioeconomic status, use a 10-rung ladder:
+- Rung 10 = people with the most money, education, and best jobs
+- Rung 1 = people with the least money, least education, worst jobs, or no job
+
+If !<INPUT 1>! does not have a formal paid job, interpret "work" as their main
+daily labor, role, or responsibility.
+
+Respond with a single JSON object and nothing else.
+
+{
+  "subjective_socioeconomic_status": <integer 1-10, which rung best matches where you think you stand right now?>,
+  "satisfaction_1": <integer 1-10, satisfaction with current work>,
+  "satisfaction_2": <integer 1-10, sense that current work matters>,
+  "fairness": <integer 1-10, fairness of treatment relative to coworkers or peers in the same work setting>,
+  "discrimination": <integer 1-5, frequency of feeling treated differently at work, where 1=never and 5=very often>
+}

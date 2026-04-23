@@ -93,8 +93,19 @@ def generate_memo_on_convo(persona, all_utt):
   if debug: print ("GNS FUNCTION: <generate_memo_on_convo>")
   return run_gpt_prompt_memo_on_convo(persona, all_utt)[0]
 
+def ensure_employment_baseline(persona):
+  """
+  Infer and persist a baseline employment profile from the persona's original
+  text fields if no baseline has been saved yet.
+  """
+  if persona.scratch.has_persisted_employment_baseline():
+    return
 
+  result = run_gpt_prompt_employment_inference(persona)[0]
+  if not isinstance(result, dict):
+    return
 
+  persona.scratch.persist_employment_baseline(result)
 
 def run_reflect(persona):
   """
