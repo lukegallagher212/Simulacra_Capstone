@@ -199,4 +199,9 @@ def run_election(rs) -> str:
     rs.last_election_day = (curr_time - rs.start_time).days + 1
     print(f"[Election] Complete. {winner} is the new leader.\n")
 
+    # Step 6 — set up new leader duties
+    from leader import setup_leader
+    winner_persona = personas[winner]
+    setup_leader(winner_persona, rs.society_type, curr_time)
+
     return winner

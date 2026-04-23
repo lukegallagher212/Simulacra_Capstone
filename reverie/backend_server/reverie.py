@@ -38,6 +38,7 @@ from persona.persona import *
 from constitution import choose_society, apply_constitution_to_all, assign_leader, detect_political_affinity
 from election import should_trigger_election, run_election
 from town_hall import should_trigger_town_hall, run_town_hall
+from leader import setup_leader
 
 ##############################################################################
 #                                  REVERIE                                   #
@@ -658,6 +659,11 @@ if __name__ == '__main__':
   society_type = choose_society()
   leader = assign_leader(list(rs.personas.values()), society_type)
   apply_constitution_to_all(list(rs.personas.values()), society_type, leader_name=leader)
+
+  # Set up leader duties
+  if leader:
+      leader_persona = rs.personas[leader]
+      setup_leader(leader_persona, society_type, rs.curr_time)
 
   # Detect political affinity from learned field
   if society_type == "democratic":
