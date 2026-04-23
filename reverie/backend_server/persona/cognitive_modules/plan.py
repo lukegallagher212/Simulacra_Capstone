@@ -404,47 +404,102 @@ def generate_new_decomp_schedule(persona, inserted_act, inserted_act_dur,  start
                                             inserted_act_dur)[0]
 
 
-def generate_daily_survey(persona):
+##############################################################################
+# SURVEY REGISTRY
+# To add a new survey:
+#   1. Create a prompt template in v3_ChatGPT/
+#   2. Add run_gpt_prompt_<name>() in run_gpt_prompt.py
+#   3. Append a dict below with: name, func, frequency
+#      frequency options: "daily" | "weekly" | "biweekly" | "monthly"
+##############################################################################
+
+SURVEY_REGISTRY = [
+  {
+    "name":      "daily_survey",
+    "func":      run_gpt_prompt_daily_survey,
+    "frequency": "daily",
+  },
+  # {
+  #   "name":      "weekly_survey",
+  #   "func":      run_gpt_prompt_weekly_survey,
+  #   "frequency": "weekly",
+  # },
+  # {
+  #   "name":      "biweekly_survey",
+  #   "func":      run_gpt_prompt_biweekly_survey,
+  #   "frequency": "biweekly",
+  # },
+  # {
+  #   "name":      "monthly_survey",
+  #   "func":      run_gpt_prompt_monthly_survey,
+  #   "frequency": "monthly",
+  # },
+]
+
+
+def _survey_is_due(frequency, yesterday, survey_file):
   """
-  Runs the end-of-day survey for <persona> and appends the result to:
-    {fs_storage}/{sim_code}/surveys/{persona.scratch.name}/responses.json
+  Returns True if a survey of the given frequency should run today.
 
-  Called once per persona at the start of a new day (covering the day
-  that just ended). Each entry records the date, day number, and the 15
-  numeric survey fields covering RQ1-RQ5.
+  For "daily" surveys this is always True (the call site already gates on
+  new_day == "New day").  For longer frequencies we check how many days
+  have elapsed since the last recorded entry in the survey file.
   """
-  # Read the active sim_code from the temp file written by reverie.py.
-  sim_code_file = os.path.join(fs_temp_storage, "curr_sim_code.json")
-  with open(sim_code_file, "r") as f:
-    sim_code = json.load(f)["sim_code"]
+  if frequency == "daily":
+    return True
 
-  survey_response, _ = run_gpt_prompt_daily_survey(persona)
+  days_required = {"weekly": 7, "biweekly": 14, "monthly": 30}[frequency]
 
-  # Build the record, tagging it with the date that just finished.
+  if not os.path.isfile(survey_file):
+    return True
+
+  try:
+    with open(survey_file) as f:
+      entries = json.load(f)
+    if not entries:
+      return True
+    last_date = datetime.datetime.strptime(entries[-1]["sim_time"], "%Y-%m-%d")
+    return (yesterday - last_date).days >= days_required
+  except (json.JSONDecodeError, KeyError, ValueError):
+    return True
+
+
+def _run_surveys(persona, sim_code):
+  """
+  Iterates SURVEY_REGISTRY and runs every survey that is due for <persona>.
+  Results are appended to:
+    {fs_storage}/{sim_code}/surveys/{persona_name}/{survey_name}.json
+  """
   yesterday = persona.scratch.curr_time - datetime.timedelta(days=1)
-  record = {
-    "persona": persona.scratch.name,
-    "date": yesterday.strftime("%A %B %d"),
-    "sim_time": yesterday.strftime("%Y-%m-%d"),
-    "responses": survey_response,
-  }
-
-  # Save into {sim_folder}/surveys/{persona_name}/responses.json
   survey_dir = os.path.join(fs_storage, sim_code, "surveys", persona.scratch.name)
   os.makedirs(survey_dir, exist_ok=True)
-  survey_file = os.path.join(survey_dir, "responses.json")
 
-  existing = []
-  if os.path.isfile(survey_file):
-    with open(survey_file, "r") as f:
-      try:
-        existing = json.load(f)
-      except json.JSONDecodeError:
-        existing = []
+  for survey in SURVEY_REGISTRY:
+    survey_file = os.path.join(survey_dir, f"{survey['name']}.json")
 
-  existing.append(record)
-  with open(survey_file, "w") as f:
-    json.dump(existing, f, indent=2)
+    if not _survey_is_due(survey["frequency"], yesterday, survey_file):
+      continue
+
+    survey_response, _ = survey["func"](persona)
+
+    record = {
+      "persona":  persona.scratch.name,
+      "date":     yesterday.strftime("%A %B %d"),
+      "sim_time": yesterday.strftime("%Y-%m-%d"),
+      "responses": survey_response,
+    }
+
+    existing = []
+    if os.path.isfile(survey_file):
+      with open(survey_file) as f:
+        try:
+          existing = json.load(f)
+        except json.JSONDecodeError:
+          existing = []
+
+    existing.append(record)
+    with open(survey_file, "w") as f:
+      json.dump(existing, f, indent=2)
 
 
 ##############################################################################
@@ -528,8 +583,11 @@ def _long_term_planning(persona, new_day):
     persona.scratch.daily_req = generate_first_daily_plan(persona, 
                                                           wake_up_hour)
   elif new_day == "New day":
-    # Run the end-of-day survey before revising identity / planning the new day.
-    generate_daily_survey(persona)
+    # Run all due surveys before revising identity / planning the new day.
+    sim_code_file = os.path.join(fs_temp_storage, "curr_sim_code.json")
+    with open(sim_code_file) as f:
+      sim_code = json.load(f)["sim_code"]
+    _run_surveys(persona, sim_code)
     revise_identity(persona)
 
     # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - TODO

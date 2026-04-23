@@ -4,7 +4,9 @@ Author: Joon Sung Park (joonspk@stanford.edu)
 File: converse.py
 Description: An extra cognitive module for generating conversations. 
 """
+import json
 import math
+import os
 import sys
 import datetime
 import random
@@ -17,6 +19,45 @@ from persona.memory_structures.associative_memory import *
 from persona.memory_structures.scratch import *
 from persona.cognitive_modules.retrieve import *
 from persona.prompt_template.run_gpt_prompt import *
+from utils import fs_storage, fs_temp_storage
+
+
+def _log_relationship(persona, about_persona, summary, sim_time):
+  """
+  Appends a relationship summary snapshot to:
+    {fs_storage}/{sim_code}/relationships/{persona_name}.json
+
+  Each entry captures one persona's view of another at a point in time.
+  """
+  try:
+    with open(os.path.join(fs_temp_storage, "curr_sim_code.json")) as f:
+      sim_code = json.load(f)["sim_code"]
+
+    record = {
+      "sim_time": sim_time.strftime("%Y-%m-%d %H:%M:%S"),
+      "date":     sim_time.strftime("%A %B %d"),
+      "persona":  persona.scratch.name,
+      "about":    about_persona.scratch.name,
+      "summary":  summary,
+    }
+
+    log_dir = os.path.join(fs_storage, sim_code, "relationships")
+    os.makedirs(log_dir, exist_ok=True)
+    log_file = os.path.join(log_dir, f"{persona.scratch.name}.json")
+
+    existing = []
+    if os.path.isfile(log_file):
+      with open(log_file) as f:
+        try:
+          existing = json.load(f)
+        except json.JSONDecodeError:
+          existing = []
+
+    existing.append(record)
+    with open(log_file, "w") as f:
+      json.dump(existing, f, indent=2)
+  except Exception:
+    pass
 
 def generate_agent_chat_summarize_ideas(init_persona, 
                                         target_persona, 
@@ -123,24 +164,24 @@ def generate_one_utterance(maze, init_persona, target_persona, retrieved, curr_c
 
   return x["utterance"], x["end"]
 
-def agent_chat_v2(maze, init_persona, target_persona): 
+def agent_chat_v2(maze, init_persona, target_persona):
   curr_chat = []
-  print ("July 23")
+  last_rel_init = None
+  last_rel_target = None
 
-  for i in range(8): 
+  for i in range(8):
     focal_points = [f"{target_persona.scratch.name}"]
     retrieved = new_retrieve(init_persona, focal_points, 50)
-    relationship = generate_summarize_agent_relationship(init_persona, target_persona, retrieved)
-    print ("-------- relationshopadsjfhkalsdjf", relationship)
+    last_rel_init = generate_summarize_agent_relationship(init_persona, target_persona, retrieved)
     last_chat = ""
     for i in curr_chat[-4:]:
       last_chat += ": ".join(i) + "\n"
-    if last_chat: 
-      focal_points = [f"{relationship}", 
-                      f"{target_persona.scratch.name} is {target_persona.scratch.act_description}", 
+    if last_chat:
+      focal_points = [f"{last_rel_init}",
+                      f"{target_persona.scratch.name} is {target_persona.scratch.act_description}",
                       last_chat]
-    else: 
-      focal_points = [f"{relationship}", 
+    else:
+      focal_points = [f"{last_rel_init}",
                       f"{target_persona.scratch.name} is {target_persona.scratch.act_description}"]
     retrieved = new_retrieve(init_persona, focal_points, 15)
     utt, end = generate_one_utterance(maze, init_persona, target_persona, retrieved, curr_chat)
@@ -149,20 +190,18 @@ def agent_chat_v2(maze, init_persona, target_persona):
     if end:
       break
 
-
     focal_points = [f"{init_persona.scratch.name}"]
     retrieved = new_retrieve(target_persona, focal_points, 50)
-    relationship = generate_summarize_agent_relationship(target_persona, init_persona, retrieved)
-    print ("-------- relationshopadsjfhkalsdjf", relationship)
+    last_rel_target = generate_summarize_agent_relationship(target_persona, init_persona, retrieved)
     last_chat = ""
     for i in curr_chat[-4:]:
       last_chat += ": ".join(i) + "\n"
-    if last_chat: 
-      focal_points = [f"{relationship}", 
-                      f"{init_persona.scratch.name} is {init_persona.scratch.act_description}", 
+    if last_chat:
+      focal_points = [f"{last_rel_target}",
+                      f"{init_persona.scratch.name} is {init_persona.scratch.act_description}",
                       last_chat]
-    else: 
-      focal_points = [f"{relationship}", 
+    else:
+      focal_points = [f"{last_rel_target}",
                       f"{init_persona.scratch.name} is {init_persona.scratch.act_description}"]
     retrieved = new_retrieve(target_persona, focal_points, 15)
     utt, end = generate_one_utterance(maze, target_persona, init_persona, retrieved, curr_chat)
@@ -171,10 +210,12 @@ def agent_chat_v2(maze, init_persona, target_persona):
     if end:
       break
 
-  print ("July 23 PU")
-  for row in curr_chat: 
-    print (row)
-  print ("July 23 FIN")
+  # Log the final relationship summary from each participant's perspective.
+  now = init_persona.scratch.curr_time
+  if last_rel_init:
+    _log_relationship(init_persona, target_persona, last_rel_init, now)
+  if last_rel_target:
+    _log_relationship(target_persona, init_persona, last_rel_target, now)
 
   return curr_chat
 

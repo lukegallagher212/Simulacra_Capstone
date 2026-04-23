@@ -4,6 +4,8 @@ Author: Joon Sung Park (joonspk@stanford.edu)
 File: perceive.py
 Description: This defines the "Perceive" module for generative agents. 
 """
+import json
+import os
 import sys
 sys.path.append('../../')
 
@@ -11,6 +13,47 @@ from operator import itemgetter
 from global_methods import *
 from persona.prompt_template.gpt_structure import *
 from persona.prompt_template.run_gpt_prompt import *
+from utils import fs_storage, fs_temp_storage
+
+
+def _log_conversation(persona):
+  """
+  Appends the just-completed conversation to:
+    {fs_storage}/{sim_code}/conversations/{persona_name}.json
+
+  Called immediately after add_chat so scratch.chat is still populated.
+  Each entry records who spoke, when, and the full transcript.
+  """
+  try:
+    with open(os.path.join(fs_temp_storage, "curr_sim_code.json")) as f:
+      sim_code = json.load(f)["sim_code"]
+
+    record = {
+      "sim_time":   persona.scratch.curr_time.strftime("%Y-%m-%d %H:%M:%S"),
+      "date":       persona.scratch.curr_time.strftime("%A %B %d"),
+      "persona":    persona.scratch.name,
+      "with":       persona.scratch.chatting_with,
+      "description": persona.scratch.act_description,
+      "transcript": persona.scratch.chat or [],
+    }
+
+    log_dir = os.path.join(fs_storage, sim_code, "conversations")
+    os.makedirs(log_dir, exist_ok=True)
+    log_file = os.path.join(log_dir, f"{persona.scratch.name}.json")
+
+    existing = []
+    if os.path.isfile(log_file):
+      with open(log_file) as f:
+        try:
+          existing = json.load(f)
+        except json.JSONDecodeError:
+          existing = []
+
+    existing.append(record)
+    with open(log_file, "w") as f:
+      json.dump(existing, f, indent=2)
+  except Exception:
+    pass
 
 def generate_poig_score(persona, event_type, description): 
   if "is idle" in description: 
@@ -165,11 +208,12 @@ def perceive(persona, maze):
         chat_poignancy = generate_poig_score(persona, "chat", 
                                              persona.scratch.act_description)
         chat_node = persona.a_mem.add_chat(persona.scratch.curr_time, None,
-                      curr_event[0], curr_event[1], curr_event[2], 
-                      persona.scratch.act_description, keywords, 
-                      chat_poignancy, chat_embedding_pair, 
+                      curr_event[0], curr_event[1], curr_event[2],
+                      persona.scratch.act_description, keywords,
+                      chat_poignancy, chat_embedding_pair,
                       persona.scratch.chat)
         chat_node_ids = [chat_node.node_id]
+        _log_conversation(persona)
 
       # Finally, we add the current event to the agent's memory. 
       ret_events += [persona.a_mem.add_event(persona.scratch.curr_time, None,

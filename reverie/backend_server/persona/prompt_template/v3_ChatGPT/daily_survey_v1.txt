@@ -23,7 +23,6 @@ and nothing else.
   "rq1_job_satisfaction": <integer 1-10, how satisfied are you with your current job or daily work?>,
   "rq1_career_progress": <integer 1-10, how much career or personal advancement did you make today?>,
   "rq1_treatment_fairness": <integer 1-10, how fairly do you feel you are treated in your occupation relative to others?>,
-  "rq2_social_connectedness": <integer 1-10, how connected did you feel to the people around you today?>,
   "rq2_social_inclusion": <integer 1-10, how included or welcomed did you feel in social situations today?>,
   "rq2_social_interactions_count": <integer, approximately how many meaningful social interactions did you have today?>,
   "rq3_relationship_satisfaction": <integer 1-10, how satisfied are you with your personal or romantic relationships?>,
