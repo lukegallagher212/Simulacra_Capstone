@@ -7,6 +7,7 @@ interface with the safe_generate_response function.
 """
 import re
 import datetime
+import os
 import sys
 import ast
 import json
@@ -16,6 +17,36 @@ sys.path.append('../../')
 from global_methods import *
 from persona.prompt_template.gpt_structure import *
 from persona.prompt_template.print_prompt import *
+from utils import fs_storage, fs_temp_storage
+
+
+def _get_governance(sim_code):
+  """Read the society_type from the simulation's meta.json."""
+  try:
+    meta_file = os.path.join(fs_storage, sim_code, "reverie", "meta.json")
+    with open(meta_file) as f:
+      return json.load(f).get("society_type", "unknown")
+  except Exception:
+    return "unknown"
+
+
+def _get_memory_summary(persona, days):
+  """
+  Return a plain-text summary of the persona's events and thoughts from
+  the past <days> simulation days, newest first, capped at ~120 entries.
+  """
+  cutoff = persona.scratch.curr_time - datetime.timedelta(days=days)
+  nodes = [n for n in (persona.a_mem.seq_event + persona.a_mem.seq_thought)
+           if n.created >= cutoff]
+  nodes.sort(key=lambda n: n.created, reverse=True)
+  lines = [f"[{n.created.strftime('%b %d')}] {n.embedding_key}" for n in nodes[:120]]
+  return "\n".join(lines) if lines else "No memories recorded for this period."
+
+
+def _get_sim_code():
+  """Read the active sim_code from the temp file written by reverie.py."""
+  with open(os.path.join(fs_temp_storage, "curr_sim_code.json")) as f:
+    return json.load(f)["sim_code"]
 
 def get_random_alphanumeric(i=6, j=6): 
   """
@@ -2823,73 +2854,203 @@ def run_gpt_generate_safety_score(persona, comment, test_input=None, verbose=Fal
 
 
 
-def run_gpt_prompt_daily_survey(persona, test_input=None, verbose=False):
-  """
-  Runs the end-of-day survey for a persona. Returns a dict with 15 numeric
-  fields covering the five research questions (RQ1-RQ5).
+def _parse_survey_json(gpt_response, top_level_keys):
+  """Shared clean-up used by all survey functions."""
+  cleaned = gpt_response.strip().replace("```json", "").replace("```", "").strip()
+  start = cleaned.find('{')
+  end = cleaned.rfind('}') + 1
+  parsed = json.loads(cleaned[start:end])
+  if not all(k in parsed for k in top_level_keys):
+    raise ValueError("Missing top-level survey keys")
+  return parsed
 
-  INPUT:
-    persona: The Persona class instance
-  OUTPUT:
-    A dict with keys rq1_*, rq2_*, rq3_*, rq4_*, rq5_* mapping to integers.
-  """
-  SURVEY_KEYS = [
-    "rq1_job_satisfaction", "rq1_career_progress", "rq1_treatment_fairness",
-    "rq2_social_connectedness", "rq2_social_inclusion", "rq2_social_interactions_count",
-    "rq3_relationship_satisfaction", "rq3_partnership_status", "rq3_new_romantic_interest",
-    "rq4_political_influence", "rq4_civic_engagement", "rq4_freedom_of_expression",
-    "rq5_social_status", "rq5_mobility_today", "rq5_opportunity",
-  ]
+
+def run_gpt_prompt_daily_survey(persona, test_input=None, verbose=False):
+  TOP_KEYS = ["rq1_employment", "rq2_social", "rq3_partnership",
+              "rq4_political", "rq5_mobility"]
 
   def create_prompt_input(persona, test_input=None):
     if test_input:
       return test_input
-    daily_req_str = ", ".join(persona.scratch.daily_req) if persona.scratch.daily_req else "none recorded"
-    schedule_str = "; ".join(
-      f"{act} ({dur} min)" for act, dur in persona.scratch.f_daily_schedule_hourly_org
-    ) if persona.scratch.f_daily_schedule_hourly_org else "none recorded"
-    prompt_input = [
+    daily_req_str = (", ".join(persona.scratch.daily_req)
+                     if persona.scratch.daily_req else "none recorded")
+    schedule_str = ("; ".join(f"{act} ({dur} min)"
+                              for act, dur in persona.scratch.f_daily_schedule_hourly_org)
+                    if persona.scratch.f_daily_schedule_hourly_org else "none recorded")
+    governance = _get_governance(_get_sim_code())
+    return [
       persona.scratch.get_str_iss(),
       persona.scratch.get_str_firstname(),
       persona.scratch.get_str_curr_date_str(),
       daily_req_str,
       schedule_str,
+      governance,
     ]
-    return prompt_input
 
   def __func_clean_up(gpt_response, prompt=""):
-    # Strip markdown code fences if present
-    cleaned = gpt_response.strip()
-    cleaned = cleaned.replace("```json", "").replace("```", "").strip()
-    # Find the outermost JSON object
-    start = cleaned.find('{')
-    end = cleaned.rfind('}') + 1
-    parsed = json.loads(cleaned[start:end])
-    # Coerce all values to int
-    return {k: int(parsed[k]) for k in SURVEY_KEYS}
+    return _parse_survey_json(gpt_response, TOP_KEYS)
 
   def __func_validate(gpt_response, prompt=""):
     try:
-      result = __func_clean_up(gpt_response, prompt)
-      return all(k in result for k in SURVEY_KEYS)
+      __func_clean_up(gpt_response, prompt)
+      return True
     except:
       return False
 
   def get_fail_safe():
-    return {k: -1 for k in SURVEY_KEYS}
+    return {k: None for k in TOP_KEYS}
 
   prompt_template = "persona/prompt_template/v3_ChatGPT/daily_survey_v1.txt"
   prompt_input = create_prompt_input(persona, test_input)
   prompt = generate_prompt(prompt_input, prompt_template)
   fail_safe = get_fail_safe()
-
   output = ChatGPT_safe_generate_response_OLD(prompt, 3, fail_safe,
                                               __func_validate, __func_clean_up,
                                               verbose)
-
   if debug or verbose:
     print_run_prompts(prompt_template, persona, {}, prompt_input, prompt, output)
+  return output, [output, prompt, {}, prompt_input, fail_safe]
 
+
+def run_gpt_prompt_weekly_survey(persona, test_input=None, verbose=False):
+  TOP_KEYS = ["rq1_employment_weekly", "rq2_social_weekly",
+              "rq3_relationship_weekly", "rq4_political_weekly",
+              "rq5_mobility_weekly"]
+
+  def create_prompt_input(persona, test_input=None):
+    if test_input:
+      return test_input
+    governance = _get_governance(_get_sim_code())
+    memory_summary = _get_memory_summary(persona, days=7)
+    return [
+      persona.scratch.get_str_iss(),
+      persona.scratch.get_str_firstname(),
+      persona.scratch.get_str_curr_date_str(),
+      memory_summary,
+      governance,
+    ]
+
+  def __func_clean_up(gpt_response, prompt=""):
+    return _parse_survey_json(gpt_response, TOP_KEYS)
+
+  def __func_validate(gpt_response, prompt=""):
+    try:
+      __func_clean_up(gpt_response, prompt)
+      return True
+    except:
+      return False
+
+  def get_fail_safe():
+    return {k: None for k in TOP_KEYS}
+
+  prompt_template = "persona/prompt_template/v3_ChatGPT/weekly_survey_v1.txt"
+  prompt_input = create_prompt_input(persona, test_input)
+  prompt = generate_prompt(prompt_input, prompt_template)
+  fail_safe = get_fail_safe()
+  output = ChatGPT_safe_generate_response_OLD(prompt, 3, fail_safe,
+                                              __func_validate, __func_clean_up,
+                                              verbose)
+  if debug or verbose:
+    print_run_prompts(prompt_template, persona, {}, prompt_input, prompt, output)
+  return output, [output, prompt, {}, prompt_input, fail_safe]
+
+
+def run_gpt_prompt_monthly_survey(persona, test_input=None, verbose=False):
+  TOP_KEYS = ["rq1_employment_monthly", "rq2_discrimination_monthly",
+              "rq3_partnership_monthly", "rq4_political_monthly",
+              "rq5_mobility_monthly"]
+
+  def create_prompt_input(persona, test_input=None):
+    if test_input:
+      return test_input
+    governance = _get_governance(_get_sim_code())
+    memory_summary = _get_memory_summary(persona, days=30)
+    return [
+      persona.scratch.get_str_iss(),
+      persona.scratch.get_str_firstname(),
+      persona.scratch.get_str_curr_date_str(),
+      memory_summary,
+      governance,
+    ]
+
+  def __func_clean_up(gpt_response, prompt=""):
+    return _parse_survey_json(gpt_response, TOP_KEYS)
+
+  def __func_validate(gpt_response, prompt=""):
+    try:
+      __func_clean_up(gpt_response, prompt)
+      return True
+    except:
+      return False
+
+  def get_fail_safe():
+    return {k: None for k in TOP_KEYS}
+
+  prompt_template = "persona/prompt_template/v3_ChatGPT/monthly_survey_v1.txt"
+  prompt_input = create_prompt_input(persona, test_input)
+  prompt = generate_prompt(prompt_input, prompt_template)
+  fail_safe = get_fail_safe()
+  output = ChatGPT_safe_generate_response_OLD(prompt, 3, fail_safe,
+                                              __func_validate, __func_clean_up,
+                                              verbose)
+  if debug or verbose:
+    print_run_prompts(prompt_template, persona, {}, prompt_input, prompt, output)
+  return output, [output, prompt, {}, prompt_input, fail_safe]
+
+
+def run_gpt_prompt_weekly_work_survey(persona, test_input=None, verbose=False):
+  TOP_KEYS = ["subjective_socioeconomic_status", "satisfaction_1",
+              "satisfaction_2", "fairness", "discrimination"]
+
+  def create_prompt_input(persona, test_input=None):
+    if test_input:
+      return test_input
+    week_start = persona.scratch.curr_time - datetime.timedelta(days=7)
+    week_label = (f"Week of {week_start.strftime('%A %B %d')} "
+                  f"to {persona.scratch.curr_time.strftime('%A %B %d')}")
+    employment_summary = persona.scratch.currently or "No employment summary available."
+    work_keywords = {"work", "job", "employ", "hire", "fired", "office",
+                     "boss", "salary", "wage", "career", "promotion"}
+    cutoff = persona.scratch.curr_time - datetime.timedelta(days=7)
+    work_events = [
+      f"[{n.created.strftime('%b %d')}] {n.embedding_key}"
+      for n in persona.a_mem.seq_event
+      if n.created >= cutoff
+      and any(kw in n.embedding_key.lower() for kw in work_keywords)
+    ]
+    work_events_str = "\n".join(work_events[:30]) if work_events else "No notable work events this week."
+    memory_summary = _get_memory_summary(persona, days=7)
+    return [
+      persona.scratch.get_str_iss(),
+      persona.scratch.get_str_firstname(),
+      week_label,
+      employment_summary,
+      work_events_str,
+      memory_summary,
+    ]
+
+  def __func_clean_up(gpt_response, prompt=""):
+    return _parse_survey_json(gpt_response, TOP_KEYS)
+
+  def __func_validate(gpt_response, prompt=""):
+    try:
+      __func_clean_up(gpt_response, prompt)
+      return True
+    except:
+      return False
+
+  def get_fail_safe():
+    return {k: None for k in TOP_KEYS}
+
+  prompt_template = "persona/prompt_template/v3_ChatGPT/weekly_work_survey_v1.txt"
+  prompt_input = create_prompt_input(persona, test_input)
+  prompt = generate_prompt(prompt_input, prompt_template)
+  fail_safe = get_fail_safe()
+  output = ChatGPT_safe_generate_response_OLD(prompt, 3, fail_safe,
+                                              __func_validate, __func_clean_up,
+                                              verbose)
+  if debug or verbose:
+    print_run_prompts(prompt_template, persona, {}, prompt_input, prompt, output)
   return output, [output, prompt, {}, prompt_input, fail_safe]
 
 

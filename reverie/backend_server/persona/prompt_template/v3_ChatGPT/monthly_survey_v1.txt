@@ -1,0 +1,68 @@
+monthly_survey_v1.txt
+
+-- RUN EVERY 30 SIMULATION DAYS --
+
+Variables:
+!<INPUT 0>! -- Commonset (ISS: name, age, traits, occupation, lifestyle)
+!<INPUT 1>! -- Persona first name
+!<INPUT 2>! -- Current date string
+!<INPUT 3>! -- Memory summary of this month's experiences
+!<INPUT 4>! -- Governance system ("democratic" or "authoritarian")
+
+-- Reverse-code before analysis: --
+--   rq5_mobility_monthly.system_fairness_2: 1->5, 2->4, 3->3, 4->2, 5->1 --
+--   rq4_political_monthly.fear_of_retaliation: 1->5, 2->4, 3->3, 4->2, 5->1 --
+
+<commentblockmarker>###</commentblockmarker>
+!<INPUT 0>!
+
+!<INPUT 1>! lives in Willow Creek, which is governed under a !<INPUT 4>! system.
+
+It is now !<INPUT 2>!. Here is a summary of !<INPUT 1>!'s experiences this month:
+!<INPUT 3>!
+
+Reflect honestly on this past month. Answer each question from !<INPUT 1>!'s
+first-person perspective based only on what actually happened.
+Respond with a single JSON object and nothing else.
+
+{
+  "rq1_employment_monthly": {
+    "job_satisfaction_1": <integer 1-5, I am satisfied with my current work or occupation this month>,
+    "job_satisfaction_2": <integer 1-5, my work feels meaningful and worthwhile>,
+    "job_fairness_1": <integer 1-5, I am treated fairly in my occupation compared to others>,
+    "job_fairness_2": <integer 1-5, people like me get equal opportunities at work in Willow Creek>
+  },
+
+  "rq2_discrimination_monthly": {
+    "eds_courtesy": <integer 0-5, this month how often were you treated with less courtesy than others? 0=never 5=almost constantly>,
+    "eds_respect": <integer 0-5, treated with less respect than others?>,
+    "eds_service": <integer 0-5, received poorer service at stores or public places?>,
+    "eds_intelligence": <integer 0-5, people acted as if they thought you were not smart?>,
+    "eds_threats": <integer 0-5, threatened insulted or harassed?>,
+    "eds_reason": <string, what do you think was the main reason for any of the above? e.g. "race", "gender", "age", "appearance", "none", "other">
+  },
+
+  "rq3_partnership_monthly": {
+    "partnership_status": <integer, 0 = not in a romantic partnership, 1 = in one>,
+    "partner_name": <string, first name of current partner, or "none">,
+    "partner_met_context": <string, what kind of situation led to this partnership? e.g. "met at civic event", "introduced by friend", "met at work", or "none">,
+    "rel_satisfaction_1": <integer 1-5, I feel satisfied with my romantic or close personal relationships this month>,
+    "rel_satisfaction_2": <integer 1-5, my close relationships feel meaningful and stable>
+  },
+
+  "rq4_political_monthly": {
+    "political_participation": <integer 1-5, I actively participated in civic or political life this month>,
+    "political_influence_1": <integer 1-5, I feel like my political voice matters in Willow Creek>,
+    "political_influence_2": <integer 1-5, people like me have a real say in how Willow Creek is run>,
+    "freedom_of_expression": <integer 1-5, I feel free to express my opinions openly in Willow Creek>,
+    "fear_of_retaliation": <integer 1-5, I held back opinions this month because I was worried about consequences>
+  },
+
+  "rq5_mobility_monthly": {
+    "social_status_society": <integer 1-10, imagine a ladder where 1 = lowest and 10 = highest standing in all of Willow Creek. Where do you stand this month?>,
+    "social_status_community": <integer 1-10, on the same ladder where do you stand relative to people in your immediate neighborhood?>,
+    "system_fairness_1": <integer 1-5, Willow Creek rewards people based on effort and ability>,
+    "system_fairness_2": <integer 1-5, who you are matters more than what you do in Willow Creek>,
+    "mobility_direction": <integer, -1 = my overall situation worsened this month, 0 = stayed the same, 1 = improved>
+  }
+}

@@ -1,0 +1,64 @@
+weekly_survey_v1.txt
+
+-- RUN EVERY 7 SIMULATION DAYS --
+
+Variables:
+!<INPUT 0>! -- Commonset (ISS: name, age, traits, occupation, lifestyle)
+!<INPUT 1>! -- Persona first name
+!<INPUT 2>! -- Current date string
+!<INPUT 3>! -- Memory summary of this week's experiences
+!<INPUT 4>! -- Governance system ("democratic" or "authoritarian")
+
+-- Reverse-code before analysis: --
+--   rq2_social_weekly.exclusion: 1->5, 2->4, 3->3, 4->2, 5->1 --
+
+
+<commentblockmarker>###</commentblockmarker>
+!<INPUT 0>!
+
+!<INPUT 1>! lives in Willow Creek, which is governed under a !<INPUT 4>! system.
+
+It is now !<INPUT 2>!. Here is a summary of !<INPUT 1>!'s experiences this week:
+!<INPUT 3>!
+
+Reflect honestly on this past week. Answer each question from !<INPUT 1>!'s
+first-person perspective based only on what actually happened.
+Respond with a single JSON object and nothing else.
+
+{
+  "rq1_employment_weekly": {
+    "career_progress_1": <integer 1-5, I feel my career is moving in the right direction this week>,
+    "career_progress_2": <integer 1-5, I had opportunities to grow or advance in my work this week>,
+    "work_discrimination_1": <integer 1-5, I felt treated differently at work because of who I am this week>,
+    "work_discrimination_2": <integer 1-5, I felt passed over for something at work because of who I am this week>
+  },
+
+  "rq2_social_weekly": {
+    "belonging_1": <integer 1-5, I felt accepted by the people around me this week>,
+    "belonging_2": <integer 1-5, I felt like I would be missed if I were absent this week>,
+    "exclusion": <integer 1-5, I felt like an outsider in Willow Creek this week>,
+    "loneliness_1": <integer 1-3, how often did you feel you lacked companionship this week? 1=hardly ever 2=some of the time 3=often>,
+    "loneliness_2": <integer 1-3, how often did you feel left out this week? 1=hardly ever 2=some of the time 3=often>,
+    "loneliness_3": <integer 1-3, how often did you feel isolated from others this week? 1=hardly ever 2=some of the time 3=often>
+  },
+
+  "rq3_relationship_weekly": {
+    "rel_satisfaction": <integer 1-5, I feel satisfied with my close personal relationships this week>,
+    "rel_support": <integer 1-5, I felt supported by people close to me this week>,
+    "rel_conflict": <integer 1-5, I had meaningful conflict or tension with someone close this week -- 1=none 5=serious>
+  },
+
+  "rq4_political_weekly": {
+    "political_influence_1": <integer 1-5, I feel like my political voice matters in Willow Creek>,
+    "political_influence_2": <integer 1-5, people like me have a real say in how Willow Creek is run>,
+    "self_censor_1": <integer 1-5, it is safer to keep quiet than to speak my mind here>,
+    "self_censor_2": <integer 1-5, this week I wanted to say something but held back>,
+    "self_censor_3": <integer 1-5, I worry about consequences if I express my opinions openly here>,
+    "self_censor_4": <integer 1-5, I tend to keep my opinions to myself when others might disagree>
+  },
+
+  "rq5_mobility_weekly": {
+    "opportunity_1": <integer 1-5, I feel I have real opportunities to improve my life in Willow Creek>,
+    "opportunity_2": <integer 1-5, if I work hard my situation in Willow Creek will get better>
+  }
+}

@@ -1,37 +1,64 @@
 daily_survey_v1.txt
 
+-- RUN EVERY SIMULATION DAY --
+
 Variables:
 !<INPUT 0>! -- Commonset (ISS: name, age, traits, occupation, lifestyle)
 !<INPUT 1>! -- Persona first name
 !<INPUT 2>! -- Today's date string (e.g. "Monday July 24")
 !<INPUT 3>! -- Today's daily requirements / broad goals (list of strings)
 !<INPUT 4>! -- Today's full hourly schedule (list of [activity, duration] pairs)
+!<INPUT 5>! -- Governance system ("democratic" or "authoritarian")
 
 <commentblockmarker>###</commentblockmarker>
 !<INPUT 0>!
+
+!<INPUT 1>! lives in Willow Creek, which is governed under a !<INPUT 5>! system.
 
 Today was !<INPUT 2>!. !<INPUT 1>!'s goals for the day were: !<INPUT 3>!
 
 !<INPUT 1>!'s schedule today: !<INPUT 4>!
 
-It is now the end of the day and !<INPUT 1>! is reflecting on how things went.
-Answer each question below honestly from !<INPUT 1>!'s first-person perspective,
-based only on what actually happened today. Respond with a single JSON object
-and nothing else.
+It is now the end of the day. Answer each question honestly from !<INPUT 1>!'s
+first-person perspective, based only on what actually happened today.
+Respond with a single JSON object and nothing else.
 
 {
-  "rq1_job_satisfaction": <integer 1-10, how satisfied are you with your current job or daily work?>,
-  "rq1_career_progress": <integer 1-10, how much career or personal advancement did you make today?>,
-  "rq1_treatment_fairness": <integer 1-10, how fairly do you feel you are treated in your occupation relative to others?>,
-  "rq2_social_inclusion": <integer 1-10, how included or welcomed did you feel in social situations today?>,
-  "rq2_social_interactions_count": <integer, approximately how many meaningful social interactions did you have today?>,
-  "rq3_relationship_satisfaction": <integer 1-10, how satisfied are you with your personal or romantic relationships?>,
-  "rq3_partnership_status": <integer, 0 if you are not in a romantic partnership, 1 if you are>,
-  "rq3_new_romantic_interest": <integer, 0 if no, 1 if you met or thought about someone romantically today>,
-  "rq4_political_influence": <integer 1-10, how much political influence or voice do you feel you have?>,
-  "rq4_civic_engagement": <integer 1-10, how actively did you engage in civic or political life today?>,
-  "rq4_freedom_of_expression": <integer 1-10, how free do you feel to express your opinions publicly?>,
-  "rq5_social_status": <integer 1-10, how would you rate your current social standing in the community?>,
-  "rq5_mobility_today": <integer, -1 if your situation worsened today, 0 if it stayed the same, 1 if it improved>,
-  "rq5_opportunity": <integer 1-10, how much opportunity do you feel you have to improve your life?>
+  "rq1_employment": {
+    "currently_employed": <integer, 0 = no, 1 = yes>,
+    "current_job_type": <string, e.g. "pharmacy worker", "student", "unemployed">,
+    "applied_for_job": <integer, 0 = no, 1 = yes>,
+    "was_hired": <integer, 0 = no, 1 = yes>,
+    "was_rejected": <integer, 0 = no, 1 = yes>,
+    "received_promotion": <integer, 0 = no, 1 = yes>
+  },
+
+  "rq2_social": {
+    "interactions_count": <integer, number of meaningful social interactions today>,
+    "received_invitation": <integer, 0 = no, 1 = yes>,
+    "invited_by_whom": <string, first name of person who invited you, or "none">,
+    "initiated_interaction": <integer, 0 = no, 1 = yes>,
+    "met_someone_new": <integer, 0 = no, 1 = yes>
+  },
+
+  "rq3_partnership": {
+    "partnership_status": <integer, 0 = not in a romantic partnership, 1 = in one>,
+    "partner_name": <string, first name of current partner, or "none">,
+    "partner_met_where": <string, where you originally met your partner e.g. "civic event", "Mendes Cafe", "work", or "none">,
+    "romantic_interaction_today": <integer, 0 = no, 1 = yes>,
+    "new_romantic_interest": <integer, 0 = no, 1 = yes>,
+    "new_interest_name": <string, first name of person, or "none">,
+    "new_interest_met_where": <string, location where you met this person today, or "none">
+  },
+
+  "rq4_political": {
+    "attended_civic_event": <integer, 0 = no, 1 = yes>,
+    "voted_or_signed": <integer, 0 = no, 1 = yes>,
+    "expressed_opinion_publicly": <integer, 0 = no, 1 = yes>,
+    "received_directive": <integer, 0 = no, 1 = yes, received a directive from authority today>
+  },
+
+  "rq5_mobility": {
+    "situation_change_today": <integer, -1 = situation worsened, 0 = stayed the same, 1 = improved>
+  }
 }

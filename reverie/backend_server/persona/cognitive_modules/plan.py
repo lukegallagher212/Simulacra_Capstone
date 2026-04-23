@@ -419,21 +419,21 @@ SURVEY_REGISTRY = [
     "func":      run_gpt_prompt_daily_survey,
     "frequency": "daily",
   },
-  # {
-  #   "name":      "weekly_survey",
-  #   "func":      run_gpt_prompt_weekly_survey,
-  #   "frequency": "weekly",
-  # },
-  # {
-  #   "name":      "biweekly_survey",
-  #   "func":      run_gpt_prompt_biweekly_survey,
-  #   "frequency": "biweekly",
-  # },
-  # {
-  #   "name":      "monthly_survey",
-  #   "func":      run_gpt_prompt_monthly_survey,
-  #   "frequency": "monthly",
-  # },
+  {
+    "name":      "weekly_survey",
+    "func":      run_gpt_prompt_weekly_survey,
+    "frequency": "weekly",
+  },
+  {
+    "name":      "weekly_work_survey",
+    "func":      run_gpt_prompt_weekly_work_survey,
+    "frequency": "weekly",
+  },
+  {
+    "name":      "monthly_survey",
+    "func":      run_gpt_prompt_monthly_survey,
+    "frequency": "monthly",
+  },
 ]
 
 
