@@ -1,0 +1,497 @@
+{
+  "Ethan Walker": {
+    "maze": "the_new_ville",
+    "x": 41,
+    "y": 92
+  },
+  "Jordan Walker": {
+    "maze": "the_new_ville",
+    "x": 48,
+    "y": 92
+  },
+  "Lily Walker": {
+    "maze": "the_new_ville",
+    "x": 55,
+    "y": 92
+  },
+  "Rodrigo Torres": {
+    "maze": "the_new_ville",
+    "x": 76,
+    "y": 91
+  },
+  "Sofia Torres": {
+    "maze": "the_new_ville",
+    "x": 76,
+    "y": 91
+  },
+  "Harpreet Kaur": {
+    "maze": "the_new_ville",
+    "x": 111,
+    "y": 91
+  },
+  "Raj Singh": {
+    "maze": "the_new_ville",
+    "x": 111,
+    "y": 91
+  },
+  "Nadia Kaur": {
+    "maze": "the_new_ville",
+    "x": 119,
+    "y": 91
+  },
+  "Dr Linh Nguyen": {
+    "maze": "the_new_ville",
+    "x": 154,
+    "y": 89
+  },
+  "Phoebe Nguyen": {
+    "maze": "the_new_ville",
+    "x": 154,
+    "y": 89
+  },
+  "Julia Nguyen": {
+    "maze": "the_new_ville",
+    "x": 162,
+    "y": 89
+  },
+  "Curtis Bell": {
+    "maze": "the_new_ville",
+    "x": 54,
+    "y": 113
+  },
+  "Patricia Kim": {
+    "maze": "the_new_ville",
+    "x": 54,
+    "y": 113
+  },
+  "Trina Bell": {
+    "maze": "the_new_ville",
+    "x": 62,
+    "y": 113
+  },
+  "Rosie Bell": {
+    "maze": "the_new_ville",
+    "x": 68,
+    "y": 112
+  },
+  "Mason Bell": {
+    "maze": "the_new_ville",
+    "x": 75,
+    "y": 114
+  },
+  "Rashad Lewis": {
+    "maze": "the_new_ville",
+    "x": 117,
+    "y": 115
+  },
+  "Parker Lewis": {
+    "maze": "the_new_ville",
+    "x": 124,
+    "y": 115
+  },
+  "Kendra Hall": {
+    "maze": "the_new_ville",
+    "x": 131,
+    "y": 115
+  },
+  "Dr Miguel Santos": {
+    "maze": "the_new_ville",
+    "x": 117,
+    "y": 130
+  },
+  "Vivian Santos": {
+    "maze": "the_new_ville",
+    "x": 117,
+    "y": 130
+  },
+  "Mateo Santos": {
+    "maze": "the_new_ville",
+    "x": 125,
+    "y": 130
+  },
+  "Gabriel Flores": {
+    "maze": "the_new_ville",
+    "x": 154,
+    "y": 129
+  },
+  "Emilia Flores": {
+    "maze": "the_new_ville",
+    "x": 154,
+    "y": 129
+  },
+  "Noemi Flores": {
+    "maze": "the_new_ville",
+    "x": 162,
+    "y": 129
+  },
+  "Pastor Daniel Brooks": {
+    "maze": "the_new_ville",
+    "x": 114,
+    "y": 154
+  },
+  "Dylan Brooks": {
+    "maze": "the_new_ville",
+    "x": 121,
+    "y": 154
+  },
+  "Caleb Brooks": {
+    "maze": "the_new_ville",
+    "x": 128,
+    "y": 154
+  },
+  "Professor Emily Carter": {
+    "maze": "the_new_ville",
+    "x": 154,
+    "y": 161
+  },
+  "Ben Carter": {
+    "maze": "the_new_ville",
+    "x": 161,
+    "y": 161
+  },
+  "Owen Carter": {
+    "maze": "the_new_ville",
+    "x": 168,
+    "y": 161
+  },
+  "Imam Yusuf Ali": {
+    "maze": "the_new_ville",
+    "x": 34,
+    "y": 175
+  },
+  "Farah Ali": {
+    "maze": "the_new_ville",
+    "x": 41,
+    "y": 175
+  },
+  "Anika Hassan": {
+    "maze": "the_new_ville",
+    "x": 48,
+    "y": 175
+  },
+  "Ruben Morales": {
+    "maze": "the_new_ville",
+    "x": 65,
+    "y": 175
+  },
+  "Tina Morales": {
+    "maze": "the_new_ville",
+    "x": 72,
+    "y": 175
+  },
+  "Teresa Alvarez": {
+    "maze": "the_new_ville",
+    "x": 79,
+    "y": 175
+  },
+  "Reina Alvarez": {
+    "maze": "the_new_ville",
+    "x": 86,
+    "y": 175
+  },
+  "Alma Vega": {
+    "maze": "the_new_ville",
+    "x": 154,
+    "y": 180
+  },
+  "Lorenzo Vega": {
+    "maze": "the_new_ville",
+    "x": 161,
+    "y": 180
+  },
+  "Greta Shaw": {
+    "maze": "the_new_ville",
+    "x": 168,
+    "y": 180
+  },
+  "Margaret Hill": {
+    "maze": "the_new_ville",
+    "x": 26,
+    "y": 118
+  },
+  "Boris Kowalski": {
+    "maze": "the_new_ville",
+    "x": 162,
+    "y": 118
+  },
+  "Alec Morrison": {
+    "maze": "the_new_ville",
+    "x": 94,
+    "y": 135
+  },
+  "Connor Hill": {
+    "maze": "the_new_ville",
+    "x": 27,
+    "y": 180
+  },
+  "Helena Ortiz": {
+    "maze": "the_new_ville",
+    "x": 122,
+    "y": 180
+  },
+  "Malik Johnson": {
+    "maze": "the_new_ville",
+    "x": 48,
+    "y": 137
+  },
+  "Aisha Khan": {
+    "maze": "the_new_ville",
+    "x": 55,
+    "y": 137
+  },
+  "Helena Becker": {
+    "maze": "the_new_ville",
+    "x": 62,
+    "y": 137
+  },
+  "Stella Whitaker": {
+    "maze": "the_new_ville",
+    "x": 69,
+    "y": 136
+  },
+  "Marek Novak": {
+    "maze": "the_new_ville",
+    "x": 69,
+    "y": 137
+  },
+  "Mariah Baptiste": {
+    "maze": "the_new_ville",
+    "x": 18,
+    "y": 137
+  },
+  "Julian Harper": {
+    "maze": "the_new_ville",
+    "x": 25,
+    "y": 137
+  },
+  "Becca Doyle": {
+    "maze": "the_new_ville",
+    "x": 32,
+    "y": 136
+  },
+  "Darius Cole": {
+    "maze": "the_new_ville",
+    "x": 32,
+    "y": 137
+  },
+  "Monica Reyes": {
+    "maze": "the_new_ville",
+    "x": 18,
+    "y": 147
+  },
+  "Sharon Pierce": {
+    "maze": "the_new_ville",
+    "x": 25,
+    "y": 147
+  },
+  "Sabrina Cho": {
+    "maze": "the_new_ville",
+    "x": 32,
+    "y": 146
+  },
+  "Nikhil Rao": {
+    "maze": "the_new_ville",
+    "x": 32,
+    "y": 147
+  },
+  "Lucia Moreno": {
+    "maze": "the_new_ville",
+    "x": 58,
+    "y": 146
+  },
+  "Elias Moreno": {
+    "maze": "the_new_ville",
+    "x": 65,
+    "y": 146
+  },
+  "Mira Patel": {
+    "maze": "the_new_ville",
+    "x": 72,
+    "y": 146
+  },
+  "Jonah Reed": {
+    "maze": "the_new_ville",
+    "x": 72,
+    "y": 147
+  },
+  "Ash Miller": {
+    "maze": "the_new_ville",
+    "x": 25,
+    "y": 18
+  },
+  "Himari Tanaka": {
+    "maze": "the_new_ville",
+    "x": 26,
+    "y": 18
+  },
+  "Maya Lopez": {
+    "maze": "the_new_ville",
+    "x": 16,
+    "y": 18
+  },
+  "Leo Thompson": {
+    "maze": "the_new_ville",
+    "x": 36,
+    "y": 18
+  },
+  "Grace Kim": {
+    "maze": "the_new_ville",
+    "x": 16,
+    "y": 32
+  },
+  "Luis Ramirez": {
+    "maze": "the_new_ville",
+    "x": 53,
+    "y": 14
+  },
+  "Carla Mendes": {
+    "maze": "the_new_ville",
+    "x": 54,
+    "y": 14
+  },
+  "Nina Patel": {
+    "maze": "the_new_ville",
+    "x": 66,
+    "y": 19
+  },
+  "Devon Price": {
+    "maze": "the_new_ville",
+    "x": 72,
+    "y": 14
+  },
+  "Selene Ortiz": {
+    "maze": "the_new_ville",
+    "x": 73,
+    "y": 14
+  },
+  "Eric Mendes": {
+    "maze": "the_new_ville",
+    "x": 87,
+    "y": 18
+  },
+  "Camila Ortiz": {
+    "maze": "the_new_ville",
+    "x": 94,
+    "y": 18
+  },
+  "Daniel Park": {
+    "maze": "the_new_ville",
+    "x": 117,
+    "y": 61
+  },
+  "Jiya Raman": {
+    "maze": "the_new_ville",
+    "x": 118,
+    "y": 61
+  },
+  "Chen Wei": {
+    "maze": "the_new_ville",
+    "x": 127,
+    "y": 46
+  },
+  "Priya Desai": {
+    "maze": "the_new_ville",
+    "x": 128,
+    "y": 46
+  },
+  "Isaac Chen": {
+    "maze": "the_new_ville",
+    "x": 107,
+    "y": 61
+  },
+  "Trevor McNeil": {
+    "maze": "the_new_ville",
+    "x": 20,
+    "y": 65
+  },
+  "Tasha Green": {
+    "maze": "the_new_ville",
+    "x": 28,
+    "y": 65
+  },
+  "Elena Garcia": {
+    "maze": "the_new_ville",
+    "x": 53,
+    "y": 74
+  },
+  "Victor Alvarez": {
+    "maze": "the_new_ville",
+    "x": 55,
+    "y": 74
+  },
+  "Jamal Pierce": {
+    "maze": "the_new_ville",
+    "x": 73,
+    "y": 74
+  },
+  "Noah Park": {
+    "maze": "the_new_ville",
+    "x": 75,
+    "y": 74
+  },
+  "Walter Greene": {
+    "maze": "the_new_ville",
+    "x": 91,
+    "y": 74
+  },
+  "Cole Bennett": {
+    "maze": "the_new_ville",
+    "x": 93,
+    "y": 74
+  },
+  "Rowan Hale": {
+    "maze": "the_new_ville",
+    "x": 230,
+    "y": 18
+  },
+  "Quinn Mercer": {
+    "maze": "the_new_ville",
+    "x": 223,
+    "y": 39
+  },
+  "Sloane Barrett": {
+    "maze": "the_new_ville",
+    "x": 224,
+    "y": 39
+  },
+  "Elias Voss": {
+    "maze": "the_new_ville",
+    "x": 227,
+    "y": 39
+  },
+  "Mira Sol": {
+    "maze": "the_new_ville",
+    "x": 227,
+    "y": 39
+  },
+  "Tarian Brooks": {
+    "maze": "the_new_ville",
+    "x": 231,
+    "y": 39
+  },
+  "Jules Navarro": {
+    "maze": "the_new_ville",
+    "x": 231,
+    "y": 39
+  },
+  "Corin Dale": {
+    "maze": "the_new_ville",
+    "x": 257,
+    "y": 45
+  },
+  "Nia Serrano": {
+    "maze": "the_new_ville",
+    "x": 257,
+    "y": 44
+  },
+  "Avery Stone": {
+    "maze": "the_new_ville",
+    "x": 243,
+    "y": 30
+  },
+  "Mina Sato": {
+    "maze": "the_new_ville",
+    "x": 90,
+    "y": 92
+  }
+}
