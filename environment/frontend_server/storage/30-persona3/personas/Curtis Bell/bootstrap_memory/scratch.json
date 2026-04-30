@@ -1,0 +1,439 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2023, 16:20:50",
+  "curr_tile": [
+    66,
+    119
+  ],
+  "daily_plan_req": "1. wake up and complete morning routine at 7:00 am. 2. have breakfast at home. 3. head to the school at 8:00 am. 4. lunch break at 12:00 pm. 5. return to work until 5:00 pm. 6. head home and have dinner at 6:30 pm. 7. relax at home from 7:30 pm",
+  "name": "Curtis Bell",
+  "first_name": "Curtis",
+  "last_name": "Bell",
+  "age": 45,
+  "innate": "vigilant, firm, fair",
+  "learned": "Curtis Bell coordinates security and safety protocols at the school.",
+  "currently": "Curtis Bell is sleeping at house_5.",
+  "lifestyle": "Curtis Bell goes to bed around 10pm, wakes up around 7am, eats dinner around 6:30pm.",
+  "living_area": "the Ville:house_5:bedroom_1",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 75,
+  "importance_ele_n": 79,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete morning routine at 7:00 am",
+    "have breakfast at home",
+    "head to the school at 8:00 am",
+    "lunch break at 12:00 pm",
+    "return to work until 5:00 pm",
+    "head home and have dinner at 6:30 pm",
+    "relax at home from 7:30 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      420
+    ],
+    [
+      "waking up and starting morning routine",
+      60
+    ],
+    [
+      "having breakfast at home",
+      30
+    ],
+    [
+      "commuting to the school and starting work (on the way to commuting to the school and starting wor)",
+      0
+    ],
+    [
+      "commuting to the school and starting work (conversing about Curtis Bell and Patricia Kim conversing about their plans for the day, including Curtis' work at the school and Patricia's volunteer work at the government building, where she will be assisting with administrative tasks and a new project)",
+      6
+    ],
+    [
+      "commuting to the school and starting work",
+      24
+    ],
+    [
+      "working at the school (reviewing the school's security footage from the previous day)",
+      15
+    ],
+    [
+      "working at the school (checking the school's emergency exit routes)",
+      15
+    ],
+    [
+      "working at the school (on the way to inspecting the school's security cameras)",
+      0
+    ],
+    [
+      "working at the school (conversing about Curtis Bell and Rosie Bell conversing about Rosie's art project, a painting of their neighborhood, and the possibility of displaying it at the school or in a local art show with the help of Curtis and potentially Ben Carter)",
+      16
+    ],
+    [
+      "working at the school (on the way to meeting with the school's administration to discuss safety protocols)",
+      0
+    ],
+    [
+      "working at the school (conversing about Mason Bell and Curtis Bell conversing about Rosie's art project, potentially displaying it at school, and seeking feedback and assistance from Ben Carter and Trina to make the display a success)",
+      14
+    ],
+    [
+      "working at the school (reviewing the school's safety manual)",
+      15
+    ],
+    [
+      "working at the school (on the way to conducting a sweep of the school's premises to identify potential security risks)",
+      0
+    ],
+    [
+      "working at the school (conversing about Curtis Bell and Trina Bell conversing about collaborating to make Rosie's art project a success, including planning to display her painting in the school hallway and coordinating with the school administration and Ben Carter to get the necessary approvals and feedback)",
+      12
+    ],
+    [
+      "working at the school (checking the school's fire alarms and sprinkler system)",
+      15
+    ],
+    [
+      "working at the school (on the way to testing the school's emergency response system)",
+      0
+    ],
+    [
+      "working at the school (conversing about Patricia Kim and Curtis Bell conversing about showcasing Rosie's art project at the school, local art show, or government building, and potentially incorporating it into the school festival and charity drive, with plans to discuss the details further with Ben Carter and Trina)",
+      12
+    ],
+    [
+      "working at the school (documenting his findings and recommendations for improving school security)",
+      30
+    ],
+    [
+      "working at the school (taking a short break to grab a cup of coffee)",
+      15
+    ],
+    [
+      "working at the school (attending a meeting with the school's staff to discuss safety procedures)",
+      30
+    ],
+    [
+      "working at the school (on the way to finalizing his security report for the day)",
+      0
+    ],
+    [
+      "working at the school (conversing about Rosie Bell and Curtis Bell conversing about Rosie's art project, its potential showcase in the school hallway, and the upcoming meeting with Patricia Kim, Trina, and Ben Carter to discuss the project's incorporation into the school festival and charity drive)",
+      21
+    ],
+    [
+      "taking a lunch break (on the way to walking to the cafeteria)",
+      0
+    ],
+    [
+      "taking a lunch break (conversing about Curtis Bell and Mason Bell conversing about Rosie's art project, discussing ideas for the display, and planning to present it to Patricia Kim, Trina, and Ben Carter at an upcoming meeting, with the goal of making the project a success, especially with the school festival and charity drive coming up)",
+      20
+    ],
+    [
+      "taking a lunch break (on the way to waiting in line to buy lunch)",
+      0
+    ],
+    [
+      "taking a lunch break (conversing about a discussion between Curtis Bell and Trina Bell about Rosie's art project, including plans to display her painting in the school hallway, incorporate it into the school festival and charity drive, and finalize details with Patricia Kim, Ben Carter, and Rosie at an upcoming meeting on Thursday)",
+      10
+    ],
+    [
+      "taking a lunch break (purchasing lunch)",
+      5
+    ],
+    [
+      "taking a lunch break (finding a seat to eat)",
+      3
+    ],
+    [
+      "taking a lunch break (chatting with colleagues)",
+      10
+    ],
+    [
+      "taking a lunch break (cleaning up after lunch)",
+      5
+    ],
+    [
+      "continuing work at the school (reviewing security footage)",
+      15
+    ],
+    [
+      "continuing work at the school (checking the school's emergency exit plans)",
+      20
+    ],
+    [
+      "continuing work at the school (conducting a walk-through of the school's premises)",
+      30
+    ],
+    [
+      "continuing work at the school (meeting with the school administration to discuss safety protocols)",
+      40
+    ],
+    [
+      "continuing work at the school (on the way to updating the school's security manual)",
+      0
+    ],
+    [
+      "continuing work at the school (conversing about Curtis Bell and Mason Bell conversing about Rosie's art project, including display ideas, charity drive, and school festival plans)",
+      20
+    ],
+    [
+      "continuing work at the school (on the way to inspecting the school's CCTV cameras)",
+      0
+    ],
+    [
+      "continuing work at the school (conversing about Curtis Bell and Rosie Bell conversing about Rosie's art project, including plans to showcase it at the school festival and charity drive, and potentially at the government building, with input and feedback from Mason, Trina, Patricia Kim, and Ben Carter)",
+      16
+    ],
+    [
+      "continuing work at the school (testing the school's alarm system)",
+      15
+    ],
+    [
+      "continuing work at the school (reviewing the school's visitor log)",
+      20
+    ],
+    [
+      "continuing work at the school (checking the school's first aid kits)",
+      10
+    ],
+    [
+      "continuing work at the school (discussing safety concerns with the school staff)",
+      20
+    ],
+    [
+      "continuing work at the school (documenting his findings and recommendations)",
+      20
+    ],
+    [
+      "continuing work at the school (finalizing his report)",
+      5
+    ],
+    [
+      "heading home",
+      30
+    ],
+    [
+      "relaxing at home",
+      60
+    ],
+    [
+      "having dinner",
+      60
+    ],
+    [
+      "relaxing at home",
+      120
+    ],
+    [
+      "getting ready for bed",
+      30
+    ],
+    [
+      "sleeping",
+      60
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      16
+    ],
+    [
+      "sleeping",
+      18
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      3
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      5
+    ],
+    [
+      "sleeping",
+      4
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      420
+    ],
+    [
+      "waking up and starting morning routine",
+      60
+    ],
+    [
+      "having breakfast at home",
+      30
+    ],
+    [
+      "commuting to the school and starting work",
+      30
+    ],
+    [
+      "working at the school",
+      240
+    ],
+    [
+      "taking a lunch break",
+      60
+    ],
+    [
+      "continuing work at the school",
+      240
+    ],
+    [
+      "heading home",
+      30
+    ],
+    [
+      "relaxing at home",
+      60
+    ],
+    [
+      "having dinner",
+      60
+    ],
+    [
+      "relaxing at home",
+      120
+    ],
+    [
+      "getting ready for bed",
+      30
+    ],
+    [
+      "sleeping",
+      60
+    ]
+  ],
+  "act_address": "the Ville:school:hallway:<random>",
+  "act_start_time": "February 13, 2023, 16:11:00",
+  "act_duration": 20,
+  "act_description": "continuing work at the school (reviewing the school's visitor log)",
+  "act_pronunciatio": "\ud83d\udcdd\ud83d\udc40",
+  "act_event": [
+    "Curtis Bell",
+    "review",
+    "visitor log"
+  ],
+  "act_obj_description": "being reviewed",
+  "act_obj_pronunciatio": "\ud83d\udcdd",
+  "act_obj_event": [
+    "<random>",
+    "be",
+    "review"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {
+    "Patricia Kim": -1186,
+    "Rosie Bell": 554,
+    "Mason Bell": 374,
+    "Trina Bell": -424
+  },
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": []
+}

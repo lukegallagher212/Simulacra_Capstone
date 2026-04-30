@@ -1,0 +1,128 @@
+[
+  {
+    "sim_time": "2023-02-13 08:01:00",
+    "date": "Monday February 13",
+    "persona": "Lily Walker",
+    "with": "Jordan Walker",
+    "description": "conversing about Jordan Walker and Lily Walker conversing about their morning routine, an upcoming science experiment at school, and their preparations for the day ahead.",
+    "transcript": [
+      [
+        "Jordan Walker",
+        "Good morning, Lily! Did you sleep well?"
+      ],
+      [
+        "Lily Walker",
+        "Good morning, Jordan! Yeah, I slept well. What about you?"
+      ],
+      [
+        "Jordan Walker",
+        "I slept well too, thanks! I'm excited for school today, we're going to do a science experiment."
+      ],
+      [
+        "Lily Walker",
+        "That sounds like fun, I love science experiments! What kind of experiment are you going to do?"
+      ],
+      [
+        "Jordan Walker",
+        "We're going to make a volcano erupt using baking soda and vinegar. I've heard it's really cool!"
+      ],
+      [
+        "Lily Walker",
+        "That sounds amazing, I've seen videos of that experiment before! I'm a bit nervous about making a mess though, do you think we'll get to wear aprons?"
+      ],
+      [
+        "Jordan Walker",
+        "Don't worry, Lily, we'll definitely wear aprons to protect our clothes. And I'm sure our teacher, Mrs. Johnson, will make sure we clean up any mess we make. She's really good at making sure we follow the rules and stay safe in class."
+      ],
+      [
+        "Lily Walker",
+        "That's good to know, I feel better now. I'm sure Mrs. Johnson will make sure everything goes smoothly. What time do we need to leave for school today?"
+      ],
+      [
+        "Jordan Walker",
+        "We need to leave for school at 8:30 am, so we should finish getting ready and have breakfast by 8:00 am. That way, we'll have plenty of time to get to school before the bell rings."
+      ],
+      [
+        "Lily Walker",
+        "Okay, that sounds like a good plan. I'll go get dressed and meet you in the kitchen for breakfast."
+      ],
+      [
+        "Jordan Walker",
+        "Sounds good, I'll meet you in the kitchen in 15 minutes, I just need to brush my teeth and grab my backpack."
+      ],
+      [
+        "Lily Walker",
+        "I'll see you in the kitchen then, I'm going to go get dressed and brush my teeth too."
+      ],
+      [
+        "Jordan Walker",
+        "I'll see you in the kitchen, have a good time getting dressed and I'll meet you there to have some breakfast before we head out to school"
+      ],
+      [
+        "Lily Walker",
+        "Okay, sounds good! I'll hurry up and get dressed, see you in the kitchen!"
+      ],
+      [
+        "Jordan Walker",
+        "I'm going to go brush my teeth and grab my backpack, I'll meet you in the kitchen in 15 minutes, let's have some breakfast together before we head out to school"
+      ],
+      [
+        "Lily Walker",
+        "Alright, I'll be right there, I just need to grab my backpack and we can head to the kitchen together!"
+      ]
+    ]
+  },
+  {
+    "sim_time": "2023-02-13 13:41:30",
+    "date": "Monday February 13",
+    "persona": "Lily Walker",
+    "with": "Jordan Walker",
+    "description": "conversing about Lily Walker and Jordan Walker conversing about their day, an upcoming science experiment, a library orientation for new students, and their plans for the rest of the day",
+    "transcript": [
+      [
+        "Lily Walker",
+        "Hey Jordan, how's your day going so far? I'm really excited about the science experiment we're doing later, have you heard anything about it?"
+      ],
+      [
+        "Jordan Walker",
+        "It's going great, thanks! I heard we're making a volcano erupt using baking soda and vinegar, I'm really looking forward to it. I also get to help Ethan with the library orientation later, so that's exciting too."
+      ],
+      [
+        "Lily Walker",
+        "That sounds like so much fun, I've always wanted to try making a volcano erupt! What's the library orientation about, is Ethan new to our school?"
+      ],
+      [
+        "Jordan Walker",
+        "No, Ethan isn't new to our school, he's actually helping me with the library orientation for the new students, we're going to give them a tour and show them around the library, it'll be a lot of fun!"
+      ],
+      [
+        "Lily Walker",
+        "That's really cool, I'm sure the new students will appreciate the tour. I've been to the library a few times, it's one of my favorite places in school. What time is the library orientation, maybe I can come and help out too?"
+      ],
+      [
+        "Jordan Walker",
+        "The library orientation is actually tomorrow at 10am, I'd love it if you could come and help out! We're going to meet the new students and show them around the library, it'll be a lot of fun. I'm sure Ethan would appreciate the extra help too."
+      ],
+      [
+        "Lily Walker",
+        "That sounds great, I'll make sure to be there tomorrow at 10am to help out with the library orientation. What's the plan for the rest of the day, do we have any other exciting classes or activities?"
+      ],
+      [
+        "Jordan Walker",
+        "Well, after lunch, we have a few more classes, and then we'll be doing the science experiment with the volcano, I'm really looking forward to it! After school, I have to go home and do my homework, and then I'll be meeting up with Ethan to finalize the preparations for the library orientation tomorrow. How about you, do you have any fun plans for the rest of the day?"
+      ],
+      [
+        "Lily Walker",
+        "I'm also looking forward to the science experiment, and I'm sure the new students will love the library tour tomorrow. As for me, I have to finish my homework and then I might start reading a new book I found in the library, it looks really interesting. Do you think we'll have time to talk more about the science experiment after school, or should we discuss it more tomorrow?"
+      ],
+      [
+        "Jordan Walker",
+        "Yeah, that sounds like a great plan, we can definitely talk more about the science experiment tomorrow, maybe during lunch or after the library orientation. I'm also looking forward to hearing about the new book you found, what's it about?"
+      ],
+      [
+        "Lily Walker",
+        "That sounds like a great plan, I'm looking forward to talking more about the science experiment and the new book tomorrow. I should probably get going now, I don't want to be late for my next class."
+      ]
+    ]
+  }
+]

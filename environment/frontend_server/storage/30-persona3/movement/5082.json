@@ -1,0 +1,537 @@
+{
+  "persona": {
+    "Ethan Walker": {
+      "movement": [
+        54,
+        97
+      ],
+      "pronunciatio": "\ud83d\udeae\ud83d\udcaa",
+      "description": "taking a lunch break (throwing away his trash and cleaning up) @ the Ville:school:hallway:<random>",
+      "chat": null
+    },
+    "Jordan Walker": {
+      "movement": [
+        48,
+        97
+      ],
+      "pronunciatio": "\ud83c\udf74",
+      "description": "attending afternoon classes (eating lunch) @ the Ville:school:hallway:<random>",
+      "chat": null
+    },
+    "Lily Walker": {
+      "movement": [
+        52,
+        97
+      ],
+      "pronunciatio": "\ud83d\udcdd",
+      "description": "attending afternoon classes (working on a mathematics worksheet) @ the Ville:house_1:common room:common room table",
+      "chat": null
+    },
+    "Rodrigo Torres": {
+      "movement": [
+        100,
+        97
+      ],
+      "pronunciatio": "\ud83c\udf54",
+      "description": "taking a lunch break @ the Ville:house_2:kitchen:refrigerator",
+      "chat": null
+    },
+    "Sofia Torres": {
+      "movement": [
+        121,
+        97
+      ],
+      "pronunciatio": "\ud83d\udc8a",
+      "description": "continuing work at the residential house (assisting with medication administration) @ the Ville:house_3:common room:common room table",
+      "chat": null
+    },
+    "Harpreet Kaur": {
+      "movement": [
+        132,
+        97
+      ],
+      "pronunciatio": "\ud83d\udce7",
+      "description": "continuing work at the government building (responding to emails from community members) @ the Ville:government_building:computer_room:computer",
+      "chat": null
+    },
+    "Raj Singh": {
+      "movement": [
+        128,
+        97
+      ],
+      "pronunciatio": "\ud83d\udcc5",
+      "description": "continuing work at the government building (attending a meeting with colleagues) @ the Ville:government_building:meeting room:Town Hall Seats",
+      "chat": null
+    },
+    "Nadia Kaur": {
+      "movement": [
+        111,
+        34
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Nadia Kaur and Julia Nguyen conversing about Julia's school day, her lead role in the upcoming school play, and Nadia's interest in attending a rehearsal and learning more about the production @ <persona> Julia Nguyen",
+      "chat": [
+        [
+          "Nadia Kaur",
+          "Hi Julia, how's your day going so far? I saw you eating lunch and thought I'd come say hello."
+        ],
+        [
+          "Julia Nguyen",
+          "It's going great, thanks for asking! I just got out of math class and now I'm grabbing some lunch. I'm really excited for the school play rehearsal later, I've been practicing my lines a lot."
+        ],
+        [
+          "Nadia Kaur",
+          "That sounds like a lot of fun! I've been meaning to check out the school play, what role are you playing?"
+        ],
+        [
+          "Julia Nguyen",
+          "I'm playing the lead role, and I'm really nervous but excited about it. My friend Phoebe has been helping me practice my lines, and I'm feeling more confident every day."
+        ],
+        [
+          "Nadia Kaur",
+          "That's great to hear that you're feeling more confident! I'm sure you'll do fantastic in the play. What's the play about, if you don't mind me asking?"
+        ],
+        [
+          "Julia Nguyen",
+          "The play is about a group of friends who go on a adventure and learn valuable lessons about teamwork and friendship. It's a really fun story and I think the audience is going to love it."
+        ],
+        [
+          "Nadia Kaur",
+          "That sounds like a wonderful story, I'm sure the audience will enjoy it. Have you and Phoebe been friends for a while, or did you meet through the school play?"
+        ],
+        [
+          "Julia Nguyen",
+          "Phoebe and I have been friends since the beginning of the school year, we met in our morning math class and we instantly clicked. We've been inseparable ever since, and I'm really grateful to have her as a friend and a study buddy."
+        ],
+        [
+          "Nadia Kaur",
+          "That's really sweet, it's great that you have a close friend like Phoebe to support you. I've been meaning to get more involved in the school's extracurricular activities, maybe I'll have to check out the school play rehearsal sometime."
+        ],
+        [
+          "Julia Nguyen",
+          "That would be great, Nadia! I'm sure you'd enjoy the rehearsal. We're actually having a practice session after school today, and Phoebe is helping me run through my lines. Maybe you could join us and see what it's all about?"
+        ],
+        [
+          "Nadia Kaur",
+          "That sounds like a great opportunity, I'd love to join you and Phoebe for the practice session after school today. What time is the rehearsal and where is it being held?"
+        ],
+        [
+          "Julia Nguyen",
+          "The practice session is at 5:30 pm, and we're meeting at the usual spot near the school auditorium. You're welcome to join us, and I'm sure Phoebe would be happy to meet you too!"
+        ],
+        [
+          "Nadia Kaur",
+          "That sounds great, I'll make sure to meet you and Phoebe at 5:30 pm near the school auditorium. I'm looking forward to seeing the rehearsal and learning more about the school play."
+        ],
+        [
+          "Julia Nguyen",
+          "I'm really glad you can make it, Nadia! I'll make sure to introduce you to Phoebe and we can all run through the lines together. It'll be great to have you there for support."
+        ],
+        [
+          "Nadia Kaur",
+          "I'm really looking forward to meeting Phoebe and seeing the rehearsal, thanks for inviting me! I'll make sure to be there at 5:30 pm sharp. Do you think I could also get a chance to talk to the director or anyone else involved in the play to learn more about the production?"
+        ],
+        [
+          "Julia Nguyen",
+          "I can definitely introduce you to the director, Ms. Thompson, she's really nice and I'm sure she'd be happy to talk to you about the production. We can go talk to her after the rehearsal, she's usually around to give us feedback and answer any questions we have."
+        ]
+      ]
+    },
+    "Dr Linh Nguyen": {
+      "movement": [
+        81,
+        49
+      ],
+      "pronunciatio": "\ud83c\udf7f",
+      "description": "continuing work at the pharmacy (taking a short break to grab a snack) @ the Ville:pharmacy:store:grocery store shelf",
+      "chat": null
+    },
+    "Phoebe Nguyen": {
+      "movement": [
+        82,
+        26
+      ],
+      "pronunciatio": "\ud83c\udf74",
+      "description": "continuing work at the school (eating lunch in the staff room) @ the Ville:house_4:kitchen:refrigerator",
+      "chat": null
+    },
+    "Julia Nguyen": {
+      "movement": [
+        116,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Nadia Kaur and Julia Nguyen conversing about Julia's school day, her lead role in the upcoming school play, and Nadia's interest in attending a rehearsal and learning more about the production @ <persona> Nadia Kaur",
+      "chat": [
+        [
+          "Nadia Kaur",
+          "Hi Julia, how's your day going so far? I saw you eating lunch and thought I'd come say hello."
+        ],
+        [
+          "Julia Nguyen",
+          "It's going great, thanks for asking! I just got out of math class and now I'm grabbing some lunch. I'm really excited for the school play rehearsal later, I've been practicing my lines a lot."
+        ],
+        [
+          "Nadia Kaur",
+          "That sounds like a lot of fun! I've been meaning to check out the school play, what role are you playing?"
+        ],
+        [
+          "Julia Nguyen",
+          "I'm playing the lead role, and I'm really nervous but excited about it. My friend Phoebe has been helping me practice my lines, and I'm feeling more confident every day."
+        ],
+        [
+          "Nadia Kaur",
+          "That's great to hear that you're feeling more confident! I'm sure you'll do fantastic in the play. What's the play about, if you don't mind me asking?"
+        ],
+        [
+          "Julia Nguyen",
+          "The play is about a group of friends who go on a adventure and learn valuable lessons about teamwork and friendship. It's a really fun story and I think the audience is going to love it."
+        ],
+        [
+          "Nadia Kaur",
+          "That sounds like a wonderful story, I'm sure the audience will enjoy it. Have you and Phoebe been friends for a while, or did you meet through the school play?"
+        ],
+        [
+          "Julia Nguyen",
+          "Phoebe and I have been friends since the beginning of the school year, we met in our morning math class and we instantly clicked. We've been inseparable ever since, and I'm really grateful to have her as a friend and a study buddy."
+        ],
+        [
+          "Nadia Kaur",
+          "That's really sweet, it's great that you have a close friend like Phoebe to support you. I've been meaning to get more involved in the school's extracurricular activities, maybe I'll have to check out the school play rehearsal sometime."
+        ],
+        [
+          "Julia Nguyen",
+          "That would be great, Nadia! I'm sure you'd enjoy the rehearsal. We're actually having a practice session after school today, and Phoebe is helping me run through my lines. Maybe you could join us and see what it's all about?"
+        ],
+        [
+          "Nadia Kaur",
+          "That sounds like a great opportunity, I'd love to join you and Phoebe for the practice session after school today. What time is the rehearsal and where is it being held?"
+        ],
+        [
+          "Julia Nguyen",
+          "The practice session is at 5:30 pm, and we're meeting at the usual spot near the school auditorium. You're welcome to join us, and I'm sure Phoebe would be happy to meet you too!"
+        ],
+        [
+          "Nadia Kaur",
+          "That sounds great, I'll make sure to meet you and Phoebe at 5:30 pm near the school auditorium. I'm looking forward to seeing the rehearsal and learning more about the school play."
+        ],
+        [
+          "Julia Nguyen",
+          "I'm really glad you can make it, Nadia! I'll make sure to introduce you to Phoebe and we can all run through the lines together. It'll be great to have you there for support."
+        ],
+        [
+          "Nadia Kaur",
+          "I'm really looking forward to meeting Phoebe and seeing the rehearsal, thanks for inviting me! I'll make sure to be there at 5:30 pm sharp. Do you think I could also get a chance to talk to the director or anyone else involved in the play to learn more about the production?"
+        ],
+        [
+          "Julia Nguyen",
+          "I can definitely introduce you to the director, Ms. Thompson, she's really nice and I'm sure she'd be happy to talk to you about the production. We can go talk to her after the rehearsal, she's usually around to give us feedback and answer any questions we have."
+        ]
+      ]
+    },
+    "Curtis Bell": {
+      "movement": [
+        67,
+        119
+      ],
+      "pronunciatio": "\ud83c\udfeb\ud83d\udeb6",
+      "description": "continuing work at the school (conducting a walk-through of the school's premises) @ the Ville:school:hallway:<random>",
+      "chat": null
+    },
+    "Patricia Kim": {
+      "movement": [
+        64,
+        119
+      ],
+      "pronunciatio": "\ud83d\uddc2\ufe0f",
+      "description": "continuing work at the government building (organizing documents) @ the Ville:government_building:main room:desk",
+      "chat": null
+    },
+    "Trina Bell": {
+      "movement": [
+        67,
+        119
+      ],
+      "pronunciatio": "\ud83c\udf74\ud83d\udc6b",
+      "description": "attending afternoon classes (eating lunch and chatting with friends) @ the Ville:school:hallway:<random>",
+      "chat": null
+    },
+    "Rosie Bell": {
+      "movement": [
+        65,
+        119
+      ],
+      "pronunciatio": "\ud83c\udf74",
+      "description": "attending afternoon classes (eating lunch) @ the Ville:school:hallway:<random>",
+      "chat": null
+    },
+    "Mason Bell": {
+      "movement": [
+        68,
+        119
+      ],
+      "pronunciatio": "\ud83d\udecb\ufe0f",
+      "description": "attending afternoon classes (finding a seat in the cafeteria) @ the Ville:house_5:common room:common room table",
+      "chat": null
+    },
+    "Rashad Lewis": {
+      "movement": [
+        129,
+        120
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Rashad Lewis and Kendra Hall conversing about collaborating on drills for students, discussing agility drills, teamwork exercises, and ways to incorporate them into movement classes and an upcoming game, as well as assessing their effectiveness and making adjustments as needed. @ <persona> Kendra Hall",
+      "chat": [
+        [
+          "Rashad Lewis",
+          "Hi Kendra, how's it going? I saw you preparing for your next class and I wanted to touch base with you before our meeting at 5:30 pm to discuss our collaboration on drills for the students."
+        ],
+        [
+          "Kendra Hall",
+          "Hi Rashad, I'm doing well, thanks for asking. I was just going over some notes for our meeting later, I'm excited to discuss the details of the agility drills and teamwork exercises we can incorporate into my movement classes."
+        ],
+        [
+          "Rashad Lewis",
+          "That sounds great, I'm looking forward to hearing your ideas and sharing some of my own. I think it would be really beneficial for the students to have a cohesive approach to teamwork and agility training across both our programs."
+        ],
+        [
+          "Kendra Hall",
+          "I completely agree, a unified approach will definitely help the students develop their skills more effectively. I was thinking we could also discuss ways to incorporate some of the new drills into the upcoming game, what are your thoughts on that?"
+        ],
+        [
+          "Rashad Lewis",
+          "I think that's a great idea, incorporating the new drills into the upcoming game will give the students a chance to apply what they've learned in a real-world scenario. What specific drills were you thinking of incorporating and how do you see them fitting into the game plan?"
+        ],
+        [
+          "Kendra Hall",
+          "I was thinking we could incorporate some of the teamwork drills we've been working on, such as the passing exercises and the agility ladder drills, into the game plan. We could also discuss ways to modify the drills to fit the specific needs of the game, such as incorporating game-like scenarios and situations. What are your thoughts on that?"
+        ],
+        [
+          "Rashad Lewis",
+          "I like the idea of incorporating the passing exercises and agility ladder drills into the game plan. Modifying the drills to fit the specific needs of the game is also a great idea. I think we could also consider adding some scenario-based training to help the students develop their decision-making skills during the game. What do you think about adding some small-sided games to the practice schedule to work on these skills?"
+        ],
+        [
+          "Kendra Hall",
+          "I think that's a great idea, adding small-sided games to the practice schedule will definitely help the students develop their decision-making skills during the game. I'd like to suggest we also consider incorporating some communication exercises to help the students work on their teamwork and coordination skills, what are your thoughts on that?"
+        ],
+        [
+          "Rashad Lewis",
+          "I think that's a great idea, incorporating communication exercises will definitely help the students develop their teamwork and coordination skills. We could consider adding some exercises that focus on verbal and non-verbal communication, such as calling out plays and using hand signals. I'd also like to discuss how we can provide feedback to the students on their communication skills during the games and practices."
+        ],
+        [
+          "Kendra Hall",
+          "I completely agree, providing feedback on communication skills is crucial for the students' development. I think we could also consider having the students work in pairs or small groups to practice their communication skills, and then provide feedback to them as a team. This way, we can help them develop their skills in a more interactive and engaging way."
+        ],
+        [
+          "Rashad Lewis",
+          "That sounds like a great approach, I think it would be beneficial to also have the students reflect on their own communication skills after each game and practice, to help them identify areas for improvement. Shall we finalize the details of our collaboration and create a plan for implementing these new drills and exercises at our meeting at 5:30 pm today?"
+        ],
+        [
+          "Kendra Hall",
+          "That sounds like a great idea, I think having the students reflect on their own communication skills will help them take ownership of their development and identify areas for improvement. I'm looking forward to finalizing the details of our collaboration and creating a plan for implementing these new drills and exercises at our meeting at 5:30 pm today. Shall we also discuss how we can assess the effectiveness of these new drills and exercises, and make any necessary adjustments?"
+        ],
+        [
+          "Rashad Lewis",
+          "I think assessing the effectiveness of the new drills and exercises is a great idea, we could consider using a combination of metrics such as student feedback, performance data, and observation to evaluate their impact. We could also establish some benchmarks and goals for the students to work towards, and adjust the drills and exercises as needed to ensure we're meeting those goals."
+        ],
+        [
+          "Kendra Hall",
+          "That sounds like a great approach, I think using a combination of metrics will give us a comprehensive understanding of the effectiveness of the new drills and exercises. I'd like to suggest we also consider having a follow-up meeting to review the progress and make any necessary adjustments, what are your thoughts on that?"
+        ],
+        [
+          "Rashad Lewis",
+          "I think that's a great idea, having a follow-up meeting to review the progress and make any necessary adjustments will help us ensure that we're on track to meet our goals. Let's plan to schedule that meeting for a week or two after we've implemented the new drills and exercises, and we can use that opportunity to review the data and make any adjustments as needed."
+        ],
+        [
+          "Kendra Hall",
+          "I think that's a great plan, I'll make sure to bring all the necessary materials to our meeting at 5:30 pm today and we can finalize the details of our collaboration. I'm looking forward to working with you to implement these new drills and exercises and seeing the positive impact they have on the students' athletic performance."
+        ]
+      ]
+    },
+    "Parker Lewis": {
+      "movement": [
+        131,
+        120
+      ],
+      "pronunciatio": "\ud83d\udcdd",
+      "description": "attending afternoon classes (working on a math worksheet) @ the Ville:school:classroom:School Desk",
+      "chat": null
+    },
+    "Kendra Hall": {
+      "movement": [
+        130,
+        120
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Rashad Lewis and Kendra Hall conversing about collaborating on drills for students, discussing agility drills, teamwork exercises, and ways to incorporate them into movement classes and an upcoming game, as well as assessing their effectiveness and making adjustments as needed. @ <persona> Rashad Lewis",
+      "chat": [
+        [
+          "Rashad Lewis",
+          "Hi Kendra, how's it going? I saw you preparing for your next class and I wanted to touch base with you before our meeting at 5:30 pm to discuss our collaboration on drills for the students."
+        ],
+        [
+          "Kendra Hall",
+          "Hi Rashad, I'm doing well, thanks for asking. I was just going over some notes for our meeting later, I'm excited to discuss the details of the agility drills and teamwork exercises we can incorporate into my movement classes."
+        ],
+        [
+          "Rashad Lewis",
+          "That sounds great, I'm looking forward to hearing your ideas and sharing some of my own. I think it would be really beneficial for the students to have a cohesive approach to teamwork and agility training across both our programs."
+        ],
+        [
+          "Kendra Hall",
+          "I completely agree, a unified approach will definitely help the students develop their skills more effectively. I was thinking we could also discuss ways to incorporate some of the new drills into the upcoming game, what are your thoughts on that?"
+        ],
+        [
+          "Rashad Lewis",
+          "I think that's a great idea, incorporating the new drills into the upcoming game will give the students a chance to apply what they've learned in a real-world scenario. What specific drills were you thinking of incorporating and how do you see them fitting into the game plan?"
+        ],
+        [
+          "Kendra Hall",
+          "I was thinking we could incorporate some of the teamwork drills we've been working on, such as the passing exercises and the agility ladder drills, into the game plan. We could also discuss ways to modify the drills to fit the specific needs of the game, such as incorporating game-like scenarios and situations. What are your thoughts on that?"
+        ],
+        [
+          "Rashad Lewis",
+          "I like the idea of incorporating the passing exercises and agility ladder drills into the game plan. Modifying the drills to fit the specific needs of the game is also a great idea. I think we could also consider adding some scenario-based training to help the students develop their decision-making skills during the game. What do you think about adding some small-sided games to the practice schedule to work on these skills?"
+        ],
+        [
+          "Kendra Hall",
+          "I think that's a great idea, adding small-sided games to the practice schedule will definitely help the students develop their decision-making skills during the game. I'd like to suggest we also consider incorporating some communication exercises to help the students work on their teamwork and coordination skills, what are your thoughts on that?"
+        ],
+        [
+          "Rashad Lewis",
+          "I think that's a great idea, incorporating communication exercises will definitely help the students develop their teamwork and coordination skills. We could consider adding some exercises that focus on verbal and non-verbal communication, such as calling out plays and using hand signals. I'd also like to discuss how we can provide feedback to the students on their communication skills during the games and practices."
+        ],
+        [
+          "Kendra Hall",
+          "I completely agree, providing feedback on communication skills is crucial for the students' development. I think we could also consider having the students work in pairs or small groups to practice their communication skills, and then provide feedback to them as a team. This way, we can help them develop their skills in a more interactive and engaging way."
+        ],
+        [
+          "Rashad Lewis",
+          "That sounds like a great approach, I think it would be beneficial to also have the students reflect on their own communication skills after each game and practice, to help them identify areas for improvement. Shall we finalize the details of our collaboration and create a plan for implementing these new drills and exercises at our meeting at 5:30 pm today?"
+        ],
+        [
+          "Kendra Hall",
+          "That sounds like a great idea, I think having the students reflect on their own communication skills will help them take ownership of their development and identify areas for improvement. I'm looking forward to finalizing the details of our collaboration and creating a plan for implementing these new drills and exercises at our meeting at 5:30 pm today. Shall we also discuss how we can assess the effectiveness of these new drills and exercises, and make any necessary adjustments?"
+        ],
+        [
+          "Rashad Lewis",
+          "I think assessing the effectiveness of the new drills and exercises is a great idea, we could consider using a combination of metrics such as student feedback, performance data, and observation to evaluate their impact. We could also establish some benchmarks and goals for the students to work towards, and adjust the drills and exercises as needed to ensure we're meeting those goals."
+        ],
+        [
+          "Kendra Hall",
+          "That sounds like a great approach, I think using a combination of metrics will give us a comprehensive understanding of the effectiveness of the new drills and exercises. I'd like to suggest we also consider having a follow-up meeting to review the progress and make any necessary adjustments, what are your thoughts on that?"
+        ],
+        [
+          "Rashad Lewis",
+          "I think that's a great idea, having a follow-up meeting to review the progress and make any necessary adjustments will help us ensure that we're on track to meet our goals. Let's plan to schedule that meeting for a week or two after we've implemented the new drills and exercises, and we can use that opportunity to review the data and make any adjustments as needed."
+        ],
+        [
+          "Kendra Hall",
+          "I think that's a great plan, I'll make sure to bring all the necessary materials to our meeting at 5:30 pm today and we can finalize the details of our collaboration. I'm looking forward to working with you to implement these new drills and exercises and seeing the positive impact they have on the students' athletic performance."
+        ]
+      ]
+    },
+    "Dr Miguel Santos": {
+      "movement": [
+        141,
+        136
+      ],
+      "pronunciatio": "\ud83c\udf54",
+      "description": "taking a lunch break @ the Ville:house_7:kitchen:refrigerator",
+      "chat": null
+    },
+    "Vivian Santos": {
+      "movement": [
+        130,
+        136
+      ],
+      "pronunciatio": "\ud83d\udcca",
+      "description": "continuing work at the office (reviewing the office's social media accounts) @ the Ville:school:library:bookshelf",
+      "chat": null
+    },
+    "Mateo Santos": {
+      "movement": [
+        131,
+        136
+      ],
+      "pronunciatio": "\ud83d\udcda",
+      "description": "attending afternoon classes (attending his biology class) @ the Ville:house_7:common room:common room table",
+      "chat": null
+    },
+    "Gabriel Flores": {
+      "movement": [
+        168,
+        135
+      ],
+      "pronunciatio": "\u26fd\ufe0f\ud83d\ude8c",
+      "description": "continuing work at the school (fueling up the bus) @ the Ville:Johnson Park:park:park garden",
+      "chat": null
+    },
+    "Emilia Flores": {
+      "movement": [
+        178,
+        135
+      ],
+      "pronunciatio": "\ud83c\udfe0\ud83c\udf73",
+      "description": "taking a lunch break (heading back to the kitchen to prepare for the afternoon) @ the Ville:house_8:kitchen:refrigerator",
+      "chat": null
+    },
+    "Noemi Flores": {
+      "movement": [
+        170,
+        135
+      ],
+      "pronunciatio": "\ud83c\udf74",
+      "description": "attending afternoon classes (eating lunch) @ the Ville:school:hallway:<random>",
+      "chat": null
+    },
+    "Pastor Daniel Brooks": {
+      "movement": [
+        139,
+        159
+      ],
+      "pronunciatio": "\ud83c\udf54",
+      "description": "taking a lunch break @ the Ville:house_9:kitchen:refrigerator",
+      "chat": null
+    },
+    "Dylan Brooks": {
+      "movement": [
+        125,
+        159
+      ],
+      "pronunciatio": "\ud83c\udf74",
+      "description": "attending afternoon classes (eating lunch) @ the Ville:school:hallway:<random>",
+      "chat": null
+    },
+    "Caleb Brooks": {
+      "movement": [
+        138,
+        159
+      ],
+      "pronunciatio": "\ud83d\udcdd",
+      "description": "continuing work at the school (making notes for future lessons) @ the Ville:school:library:library table",
+      "chat": null
+    },
+    "Professor Emily Carter": {
+      "movement": [
+        167,
+        166
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "continuing work at the school (conversing about a discussion between Ben Carter and Professor Emily Carter regarding the community development projects, specifically the comprehensive report, implementation plans for the literacy program and community center renovation, and a meeting to review the report's findings and discuss the plans in detail) @ the Ville:school:classroom:classroom podium",
+      "chat": null
+    },
+    "Ben Carter": {
+      "movement": [
+        165,
+        166
+      ],
+      "pronunciatio": "\ud83c\udf74\ud83d\udc65",
+      "description": "attending afternoon classes (eating his lunch and chatting with his friends) @ the Ville:house_10:common room:common room table",
+      "chat": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 14:07:00"
+  }
+}

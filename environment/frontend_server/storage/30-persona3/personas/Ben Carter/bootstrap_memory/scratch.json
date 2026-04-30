@@ -1,0 +1,472 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2023, 16:20:50",
+  "curr_tile": [
+    155,
+    155
+  ],
+  "daily_plan_req": "Ben Carter is the appointed leader of the community. Today they will issue directives, review reports on community activity, make decisions to maintain order and stability, and ensure their policies are being followed.",
+  "name": "Ben Carter",
+  "first_name": "Ben",
+  "last_name": "Carter",
+  "age": 21,
+  "innate": "studious, analytical, curious",
+  "learned": "Ben Carter is a college student spending long hours in the school library on research.",
+  "currently": "Ben Carter is sleeping at house_10 before the library.",
+  "lifestyle": "Ben Carter goes to bed around 9:30pm, wakes up around 7:30am.",
+  "living_area": "the Ville:house_10:bedroom_2",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 221,
+  "importance_ele_n": 27,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up at 7:30 am",
+    "have breakfast",
+    "head to the school at 8:30 am",
+    "attend classes until 3:00 pm",
+    "return home and do homework",
+    "have dinner at 6:30 pm",
+    "relax and sleep at 9:30 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      450
+    ],
+    [
+      "waking up and getting ready (on the way to waking up and getting read)",
+      60
+    ],
+    [
+      "waking up and getting ready (conversing about Ben Carter and Professor Emily Carter conversing about Ben's leadership responsibilities, reviewing internal reports, and discussing ways to optimize resource allocation and community engagement with Professor Carter providing recommendations and a report to support Ben's decision-making)",
+      12
+    ],
+    [
+      "having breakfast",
+      30
+    ],
+    [
+      "commuting to the school",
+      30
+    ],
+    [
+      "attending morning classes (attending a lecture on economics)",
+      30
+    ],
+    [
+      "attending morning classes (taking notes on the lecture)",
+      20
+    ],
+    [
+      "attending morning classes (participating in a class discussion)",
+      25
+    ],
+    [
+      "attending morning classes (on the way to working on a group project)",
+      0
+    ],
+    [
+      "attending morning classes (conversing about a discussion between Professor Emily Carter and Ben Carter regarding leadership responsibilities, internal reports, and community development projects, including resource allocation, community engagement, and implementation plans for a literacy program and community center renovation.)",
+      16
+    ],
+    [
+      "attending morning classes (listening to a presentation by a guest speaker)",
+      20
+    ],
+    [
+      "attending morning classes (asking questions to the guest speaker)",
+      15
+    ],
+    [
+      "attending morning classes (reviewing the class material)",
+      20
+    ],
+    [
+      "attending morning classes (packing up his belongings)",
+      10
+    ],
+    [
+      "attending morning classes (leaving the classroom)",
+      10
+    ],
+    [
+      "having lunch (walking to the cafeteria)",
+      5
+    ],
+    [
+      "having lunch (waiting in line to purchase food)",
+      10
+    ],
+    [
+      "having lunch (buying a sandwich and a drink)",
+      5
+    ],
+    [
+      "having lunch (finding a table to sit and eat)",
+      5
+    ],
+    [
+      "having lunch (eating his lunch)",
+      20
+    ],
+    [
+      "having lunch (checking his phone for any important messages)",
+      5
+    ],
+    [
+      "having lunch (throwing away his trash)",
+      5
+    ],
+    [
+      "having lunch (heading back to his next class)",
+      5
+    ],
+    [
+      "attending afternoon classes (walking to the cafeteria to meet his friends for lunch)",
+      10
+    ],
+    [
+      "attending afternoon classes (waiting in line to purchase his lunch)",
+      10
+    ],
+    [
+      "attending afternoon classes (buying his lunch)",
+      5
+    ],
+    [
+      "attending afternoon classes (finding a table to sit with his friends)",
+      5
+    ],
+    [
+      "attending afternoon classes (eating his lunch and chatting with his friends)",
+      40
+    ],
+    [
+      "attending afternoon classes (on the way to throwing away his trash and cleaning up)",
+      0
+    ],
+    [
+      "attending afternoon classes (conversing about a discussion between Ben Carter and Professor Emily Carter regarding the community development projects, specifically the comprehensive report, implementation plans for the literacy program and community center renovation, and a meeting to review the report's findings and discuss the plans in detail)",
+      8
+    ],
+    [
+      "attending afternoon classes (discussing plans with his friends for the rest of the day)",
+      20
+    ],
+    [
+      "attending afternoon classes (saying goodbye to his friends and heading to his next class)",
+      10
+    ],
+    [
+      "attending afternoon classes (walking to his next class and getting settled)",
+      10
+    ],
+    [
+      "heading home",
+      30
+    ],
+    [
+      "having a snack and relaxing (walking home from school)",
+      10
+    ],
+    [
+      "having a snack and relaxing (unlocking the front door of his house)",
+      5
+    ],
+    [
+      "having a snack and relaxing (taking off his shoes and putting down his bag)",
+      5
+    ],
+    [
+      "having a snack and relaxing (washing his hands)",
+      5
+    ],
+    [
+      "having a snack and relaxing (going to the kitchen to prepare a snack)",
+      10
+    ],
+    [
+      "having a snack and relaxing (making himself a sandwich)",
+      15
+    ],
+    [
+      "having a snack and relaxing (getting a drink from the fridge)",
+      5
+    ],
+    [
+      "having a snack and relaxing (sitting down at the table to eat)",
+      5
+    ],
+    [
+      "doing homework (reviewing his class notes)",
+      15
+    ],
+    [
+      "doing homework (reading a chapter in his textbook)",
+      20
+    ],
+    [
+      "doing homework (taking notes on the chapter)",
+      20
+    ],
+    [
+      "doing homework (working on a math problem set)",
+      25
+    ],
+    [
+      "doing homework (researching a topic for a paper)",
+      20
+    ],
+    [
+      "doing homework (organizing his research notes)",
+      10
+    ],
+    [
+      "doing homework (outlining his paper)",
+      5
+    ],
+    [
+      "doing homework (reviewing his outline)",
+      5
+    ],
+    [
+      "having dinner",
+      60
+    ],
+    [
+      "relaxing",
+      90
+    ],
+    [
+      "getting ready for bed",
+      60
+    ],
+    [
+      "sleeping",
+      90
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      -12
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      14
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      2
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      450
+    ],
+    [
+      "waking up and getting ready",
+      60
+    ],
+    [
+      "having breakfast",
+      30
+    ],
+    [
+      "commuting to the school",
+      30
+    ],
+    [
+      "attending morning classes",
+      180
+    ],
+    [
+      "having lunch",
+      60
+    ],
+    [
+      "attending afternoon classes",
+      120
+    ],
+    [
+      "heading home",
+      30
+    ],
+    [
+      "having a snack and relaxing",
+      60
+    ],
+    [
+      "doing homework",
+      120
+    ],
+    [
+      "having dinner",
+      60
+    ],
+    [
+      "relaxing",
+      90
+    ],
+    [
+      "getting ready for bed",
+      60
+    ],
+    [
+      "sleeping",
+      90
+    ]
+  ],
+  "act_address": "the Ville:house_10:bathroom_1:bathroom sink",
+  "act_start_time": "February 13, 2023, 16:16:00",
+  "act_duration": 5,
+  "act_description": "having a snack and relaxing (washing his hands)",
+  "act_pronunciatio": "\ud83d\udebf",
+  "act_event": [
+    "Ben Carter",
+    "wash",
+    "hands"
+  ],
+  "act_obj_description": "being used",
+  "act_obj_pronunciatio": "\ud83d\udd04",
+  "act_obj_event": [
+    "bathroom sink",
+    "be",
+    "used"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {
+    "Professor Emily Carter": -10
+  },
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": []
+}

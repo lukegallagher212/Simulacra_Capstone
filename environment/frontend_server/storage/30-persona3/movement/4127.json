@@ -1,0 +1,330 @@
+{
+  "persona": {
+    "Ethan Walker": {
+      "movement": [
+        52,
+        97
+      ],
+      "pronunciatio": "\ud83d\udcda\ud83d\udc68\u200d",
+      "description": "working at the school (helping a teacher with a research project) @ the Ville:school:library:bookshelf",
+      "chat": null
+    },
+    "Jordan Walker": {
+      "movement": [
+        54,
+        97
+      ],
+      "pronunciatio": "\ud83d\udd2c",
+      "description": "attending morning classes (watching a science experiment demonstration) @ the Ville:house_1:common room:common room table",
+      "chat": null
+    },
+    "Lily Walker": {
+      "movement": [
+        41,
+        92
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "attending morning classes (asleep) @ the Ville:house_1:bedroom_1:bed",
+      "chat": null
+    },
+    "Rodrigo Torres": {
+      "movement": [
+        76,
+        92
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "working at the supply store (asleep) @ the Ville:house_2:bedroom_1:bed",
+      "chat": null
+    },
+    "Sofia Torres": {
+      "movement": [
+        122,
+        97
+      ],
+      "pronunciatio": "\ud83d\udc6e",
+      "description": "working at the residential house (monitoring the residents' safety) @ the Ville:house_3:common room:common room table",
+      "chat": null
+    },
+    "Harpreet Kaur": {
+      "movement": [
+        135,
+        97
+      ],
+      "pronunciatio": "\ud83d\udcc5\ud83d\udcbc",
+      "description": "working at the government building (attending a meeting with her supervisor) @ the Ville:government_building:meeting room:Town Hall Seats",
+      "chat": null
+    },
+    "Raj Singh": {
+      "movement": [
+        135,
+        97
+      ],
+      "pronunciatio": "\ud83e\udd1d",
+      "description": "working at the government building (collaborating with a team member on a project) @ the Ville:government_building:meeting room:Town Hall Seats",
+      "chat": null
+    },
+    "Nadia Kaur": {
+      "movement": [
+        121,
+        97
+      ],
+      "pronunciatio": "\ud83d\udc65\ud83d\udcbb",
+      "description": "attending morning classes (working on a group project) @ the Ville:school:library:library table",
+      "chat": null
+    },
+    "Dr Linh Nguyen": {
+      "movement": [
+        154,
+        89
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "working at the pharmacy (asleep) @ the Ville:house_4:bedroom_1:bed",
+      "chat": null
+    },
+    "Phoebe Nguyen": {
+      "movement": [
+        108,
+        20
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "working at the school (providing feedback to the student) @ the Ville:school:classroom:blackboard",
+      "chat": null
+    },
+    "Julia Nguyen": {
+      "movement": [
+        164,
+        95
+      ],
+      "pronunciatio": "\ud83d\udcda\ud83d\udc69",
+      "description": "attending morning classes (attending her third class, which is Science) @ the Ville:house_4:common room:shelf",
+      "chat": null
+    },
+    "Curtis Bell": {
+      "movement": [
+        65,
+        119
+      ],
+      "pronunciatio": "\ud83d\udcdd",
+      "description": "working at the school (documenting his findings and recommendations for improving school security) @ the Ville:school:library:library table",
+      "chat": null
+    },
+    "Patricia Kim": {
+      "movement": [
+        64,
+        119
+      ],
+      "pronunciatio": "\ud83d\udcda\ud83d\udca1",
+      "description": "working at the government building (applying what she learned from the training) @ the Ville:government_building:computer_room:computer",
+      "chat": null
+    },
+    "Trina Bell": {
+      "movement": [
+        67,
+        119
+      ],
+      "pronunciatio": "\ud83d\udcda\ud83d\udc67",
+      "description": "attending morning classes (attending her mathematics lecture) @ the Ville:house_5:common room:common room table",
+      "chat": null
+    },
+    "Rosie Bell": {
+      "movement": [
+        68,
+        119
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Rosie Bell and Trina Bell conversing about displaying Rosie's art project in the school hallway, getting feedback from Mr. Carter, and discussing potential titles for the project @ <persona> Trina Bell",
+      "chat": [
+        [
+          "Rosie Bell",
+          "Hey Trina, I was thinking about my art project and I wanted to ask you, do you think Mr. Carter would be willing to help me display it in the school hallway?"
+        ],
+        [
+          "Trina Bell",
+          "I think Mr. Carter would be more than happy to help you display your art project in the school hallway, especially since we've been discussing ways to incorporate it into the school festival and charity drive. I can talk to him about it during our student council meeting and see what we can arrange."
+        ],
+        [
+          "Rosie Bell",
+          "That would be amazing, thank you so much Trina! I really appreciate your help with this. Do you think we could also get some feedback from Mr. Carter on my project before we display it?"
+        ],
+        [
+          "Trina Bell",
+          "Absolutely, I can ask Mr. Carter to provide feedback on your project before we display it. In fact, I'm sure he'd be happy to give you some constructive criticism to help you improve it. I'll make sure to bring it up during our student council meeting and get back to you with his thoughts."
+        ],
+        [
+          "Rosie Bell",
+          "That sounds great, thank you Trina! I'd really appreciate any feedback Mr. Carter can give me. Do you think we could also discuss potential titles for my project with him, or would that be something I should decide on my own?"
+        ],
+        [
+          "Trina Bell",
+          "I think discussing potential titles for your project with Mr. Carter could be really helpful, he might have some great suggestions. But it's also important for you to have a say in what you want to call your project, so we can definitely brainstorm some ideas together and then get his feedback on them."
+        ],
+        [
+          "Rosie Bell",
+          "That's a great idea, I'd love to brainstorm some title ideas and then get Mr. Carter's feedback on them. Do you think we could meet up sometime soon to discuss the details and make a plan for the student council meeting?"
+        ],
+        [
+          "Trina Bell",
+          "How about we meet up during lunch today to discuss the details and make a plan for the student council meeting? I can also give you an update on what Mr. Carter says about displaying your project in the school hallway."
+        ],
+        [
+          "Rosie Bell",
+          "That sounds perfect, I'll meet you at lunch today and we can go over everything. Should I bring my project with me so we can discuss it in more detail?"
+        ],
+        [
+          "Trina Bell",
+          "Yes, that's a great idea, bring your project with you to lunch today so we can discuss it in more detail and I can give you an update on what Mr. Carter says about displaying it in the school hallway."
+        ],
+        [
+          "Rosie Bell",
+          "Great, I'll bring my project to lunch today and we can discuss everything. Thanks again for all your help, Trina!"
+        ],
+        [
+          "Trina Bell",
+          "I'm looking forward to seeing your project at lunch today and discussing the details with you. I'll make sure to talk to Mr. Carter about displaying it in the school hallway and get his feedback on your project as well."
+        ],
+        [
+          "Rosie Bell",
+          "I'm really excited to hear what Mr. Carter has to say about my project, thanks again for your help and I'll see you at lunch today!"
+        ]
+      ]
+    },
+    "Mason Bell": {
+      "movement": [
+        67,
+        119
+      ],
+      "pronunciatio": "\ud83d\udc42\ud83d\udcda",
+      "description": "attending morning classes (listening to the science teacher's lecture) @ the Ville:house_5:common room:shelf",
+      "chat": null
+    },
+    "Rashad Lewis": {
+      "movement": [
+        142,
+        120
+      ],
+      "pronunciatio": "\ud83c\udfcb\ufe0f",
+      "description": "working at the school (setting up the practice equipment) @ the Ville:school:classroom:classroom podium",
+      "chat": null
+    },
+    "Parker Lewis": {
+      "movement": [
+        128,
+        120
+      ],
+      "pronunciatio": "\ud83d\udcf9\ud83d\udc68\u200d",
+      "description": "attending morning classes (watching a video presentation during the science class) @ the Ville:house_6:common room:common room table",
+      "chat": null
+    },
+    "Kendra Hall": {
+      "movement": [
+        127,
+        120
+      ],
+      "pronunciatio": "\ud83d\udee0\ufe0f",
+      "description": "working at the school (setting up the equipment for the class) @ the Ville:house_6:common room:common room table",
+      "chat": null
+    },
+    "Dr Miguel Santos": {
+      "movement": [
+        117,
+        131
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "working at the pharmacy (asleep) @ the Ville:house_7:bedroom_1:bed",
+      "chat": null
+    },
+    "Vivian Santos": {
+      "movement": [
+        127,
+        136
+      ],
+      "pronunciatio": "\ud83d\udcdd\u270f\ufe0f",
+      "description": "working at the office (reviewing and editing content) @ the Ville:house_7:common room:common room table",
+      "chat": null
+    },
+    "Mateo Santos": {
+      "movement": [
+        130,
+        136
+      ],
+      "pronunciatio": "\ud83d\udcf9",
+      "description": "attending morning classes (watching a video presentation during the science class) @ the Ville:house_7:common room:common room table",
+      "chat": null
+    },
+    "Gabriel Flores": {
+      "movement": [
+        155,
+        124
+      ],
+      "pronunciatio": "\ud83e\udd1d",
+      "description": "working at the school (helping students with their needs) @ the Ville:school:classroom:blackboard",
+      "chat": null
+    },
+    "Emilia Flores": {
+      "movement": [
+        178,
+        135
+      ],
+      "pronunciatio": "\ud83c\udf73",
+      "description": "working at the school (finalizing meal preparations) @ the Ville:house_8:kitchen:stove",
+      "chat": null
+    },
+    "Noemi Flores": {
+      "movement": [
+        168,
+        135
+      ],
+      "pronunciatio": "\ud83d\udcda\ud83d\udc69",
+      "description": "attending morning classes (attending her third class, Science) @ the Ville:house_8:common room:common room table",
+      "chat": null
+    },
+    "Pastor Daniel Brooks": {
+      "movement": [
+        127,
+        159
+      ],
+      "pronunciatio": "\ud83d\udde3\ufe0f",
+      "description": "working at the government building (addressing questions and concerns from the community leaders) @ the Ville:government_building:meeting room:Town Hall Presenter",
+      "chat": null
+    },
+    "Dylan Brooks": {
+      "movement": [
+        127,
+        159
+      ],
+      "pronunciatio": "\ud83d\udcda",
+      "description": "attending morning classes (attending his next class, Science) @ the Ville:school:classroom:School Desk",
+      "chat": null
+    },
+    "Caleb Brooks": {
+      "movement": [
+        138,
+        159
+      ],
+      "pronunciatio": "\ud83d\udcc5",
+      "description": "working at the school (attending a staff meeting) @ the Ville:school:hallway:<random>",
+      "chat": null
+    },
+    "Professor Emily Carter": {
+      "movement": [
+        164,
+        166
+      ],
+      "pronunciatio": "\ud83d\udcda\ud83d\udcac",
+      "description": "working at the school (discussing curriculum development) @ the Ville:house_10:common room:common room table",
+      "chat": null
+    },
+    "Ben Carter": {
+      "movement": [
+        168,
+        166
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "attending morning classes (conversing about a discussion between Professor Emily Carter and Ben Carter regarding leadership responsibilities, internal reports, and community development projects, including resource allocation, community engagement, and implementation plans for a literacy program and community center renovation.) @ the Ville:house_10:common room:common room table",
+      "chat": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 11:27:50"
+  }
+}

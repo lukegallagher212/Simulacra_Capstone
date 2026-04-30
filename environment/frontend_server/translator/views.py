@@ -87,11 +87,12 @@ def demo(request, sim_code, step, play_speed="2"):
   context = {"sim_code": sim_code,
              "step": step,
              "persona_names": persona_names,
-             "persona_init_pos": json.dumps(persona_init_pos), 
-             "all_movement": json.dumps(all_movement), 
+             "persona_init_pos": json.dumps(persona_init_pos),
+             "all_movement": json.dumps(all_movement),
              "start_datetime": start_datetime,
              "sec_per_step": sec_per_step,
              "play_speed": play_speed,
+             "maze_name": meta.get("maze_name", "the_ville"),
              "mode": "demo"}
   template = "demo/demo.html"
 

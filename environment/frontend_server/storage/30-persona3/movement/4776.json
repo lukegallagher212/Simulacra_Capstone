@@ -1,0 +1,383 @@
+{
+  "persona": {
+    "Ethan Walker": {
+      "movement": [
+        54,
+        97
+      ],
+      "pronunciatio": "\ud83d\udcda\ud83d\udcbb",
+      "description": "working at the school (on the way to maintaining the library's equipment and technology) @ the Ville:school:library:bookshelf",
+      "chat": null
+    },
+    "Jordan Walker": {
+      "movement": [
+        53,
+        97
+      ],
+      "pronunciatio": "\ud83d\udeb6\u200d\u2642",
+      "description": "attending afternoon classes (walking to the cafeteria to have lunch) @ the Ville:school:hallway:<random>",
+      "chat": null
+    },
+    "Lily Walker": {
+      "movement": [
+        41,
+        92
+      ],
+      "pronunciatio": "\ud83c\udf74",
+      "description": "having lunch @ the Ville:school:classroom:School Desk",
+      "chat": null
+    },
+    "Rodrigo Torres": {
+      "movement": [
+        93,
+        97
+      ],
+      "pronunciatio": "\ud83c\udf54",
+      "description": "taking a lunch break @ the Ville:house_2:kitchen:refrigerator",
+      "chat": null
+    },
+    "Sofia Torres": {
+      "movement": [
+        87,
+        97
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "taking a lunch break (conversing about Rodrigo Torres and Sofia Torres conversing about their day, work, and discussing community initiatives, including arranging a meeting with Nadia Kaur and a volunteer opportunity with Ben Carter) @ the Ville:house_2:common room:common room table",
+      "chat": null
+    },
+    "Harpreet Kaur": {
+      "movement": [
+        132,
+        97
+      ],
+      "pronunciatio": "\ud83d\udcc1",
+      "description": "continuing work at the government building (reviewing case files) @ the Ville:government_building:computer_room:computer",
+      "chat": null
+    },
+    "Raj Singh": {
+      "movement": [
+        128,
+        97
+      ],
+      "pronunciatio": "\ud83c\udf74",
+      "description": "taking a lunch break (eating lunch) @ the Ville:Johnson Park:park:garden chair",
+      "chat": null
+    },
+    "Nadia Kaur": {
+      "movement": [
+        146,
+        91
+      ],
+      "pronunciatio": "\ud83c\udf54\ud83d\udc65",
+      "description": "having lunch (waiting in line to buy lunch) @ the Ville:school:hallway:<random>",
+      "chat": null
+    },
+    "Dr Linh Nguyen": {
+      "movement": [
+        154,
+        89
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "working at the pharmacy (asleep) @ the Ville:house_4:bedroom_1:bed",
+      "chat": null
+    },
+    "Phoebe Nguyen": {
+      "movement": [
+        104,
+        42
+      ],
+      "pronunciatio": "\ud83d\udecb\ufe0f",
+      "description": "taking a lunch break (finding a seat in the cafeteria) @ the Ville:house_4:common room:common room table",
+      "chat": null
+    },
+    "Julia Nguyen": {
+      "movement": [
+        173,
+        95
+      ],
+      "pronunciatio": "\ud83d\udeae\ud83d\udcaa",
+      "description": "having lunch (throwing away trash and cleaning up) @ the Ville:house_4:kitchen:kitchen sink",
+      "chat": null
+    },
+    "Curtis Bell": {
+      "movement": [
+        67,
+        119
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "taking a lunch break (chatting with colleagues) @ the Ville:school:hallway:<random>",
+      "chat": null
+    },
+    "Patricia Kim": {
+      "movement": [
+        64,
+        119
+      ],
+      "pronunciatio": "\ud83c\udf54",
+      "description": "taking a lunch break @ the Ville:government_building:main room:desk",
+      "chat": null
+    },
+    "Trina Bell": {
+      "movement": [
+        67,
+        119
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83d\udcac",
+      "description": "having lunch (conversing about a discussion between Curtis Bell and Trina Bell about Rosie's art project, including plans to display her painting in the school hallway, incorporate it into the school festival and charity drive, and finalize details with Patricia Kim, Ben Carter, and Rosie at an upcoming meeting on Thursday) @ the Ville:house_5:common room:common room table",
+      "chat": null
+    },
+    "Rosie Bell": {
+      "movement": [
+        65,
+        119
+      ],
+      "pronunciatio": "\ud83d\udeb6\u200d\u2642",
+      "description": "attending afternoon classes (walking to the cafeteria to have lunch) @ the Ville:school:hallway:<random>",
+      "chat": null
+    },
+    "Mason Bell": {
+      "movement": [
+        68,
+        119
+      ],
+      "pronunciatio": "\ud83c\udf74",
+      "description": "having lunch (eating lunch) @ the Ville:house_5:common room:common room table",
+      "chat": null
+    },
+    "Rashad Lewis": {
+      "movement": [
+        132,
+        120
+      ],
+      "pronunciatio": "\ud83c\udfc3\u200d\u2642",
+      "description": "taking a lunch break (conversing about Rashad Lewis and Parker Lewis conversing about sprinting techniques, game plans, and practice schedules to improve Parker's performance) @ the Ville:Johnson Park:park:garden chair",
+      "chat": null
+    },
+    "Parker Lewis": {
+      "movement": [
+        131,
+        120
+      ],
+      "pronunciatio": "\ud83c\udfc3\u200d\u2642",
+      "description": "having lunch (conversing about Rashad Lewis and Parker Lewis conversing about sprinting techniques, game plans, and practice schedules to improve Parker's performance) @ the Ville:Johnson Park:park:garden chair",
+      "chat": null
+    },
+    "Kendra Hall": {
+      "movement": [
+        127,
+        120
+      ],
+      "pronunciatio": "\ud83c\udf54",
+      "description": "taking a lunch break @ the Ville:school:hallway:<random>",
+      "chat": null
+    },
+    "Dr Miguel Santos": {
+      "movement": [
+        141,
+        136
+      ],
+      "pronunciatio": "\ud83c\udf54",
+      "description": "taking a lunch break @ the Ville:house_7:kitchen:refrigerator",
+      "chat": null
+    },
+    "Vivian Santos": {
+      "movement": [
+        130,
+        136
+      ],
+      "pronunciatio": "\ud83c\udf74",
+      "description": "taking a lunch break (eating her lunch) @ the Ville:house_7:common room:common room table",
+      "chat": null
+    },
+    "Mateo Santos": {
+      "movement": [
+        130,
+        136
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "having lunch (conversing about Vivian Santos and her son Mateo Santos conversing about her project to improve the public image of Town House 1 by partnering with local businesses to offer exclusive discounts to residents) @ the Ville:house_7:common room:common room table",
+      "chat": null
+    },
+    "Gabriel Flores": {
+      "movement": [
+        168,
+        135
+      ],
+      "pronunciatio": "\ud83c\udf74",
+      "description": "taking a lunch break (eating lunch) @ the Ville:school:hallway:<random>",
+      "chat": null
+    },
+    "Emilia Flores": {
+      "movement": [
+        171,
+        135
+      ],
+      "pronunciatio": "\ud83c\udf74\ud83d\udecb\ufe0f",
+      "description": "taking a lunch break (finding a seat in the cafeteria to eat) @ the Ville:school:hallway:<random>",
+      "chat": null
+    },
+    "Noemi Flores": {
+      "movement": [
+        165,
+        135
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "having lunch (chatting with friends) @ the Ville:Johnson Park:park:garden chair",
+      "chat": null
+    },
+    "Pastor Daniel Brooks": {
+      "movement": [
+        139,
+        159
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Pastor Daniel Brooks and Caleb Brooks conversing about organizing a community fair to encourage students to get involved in local initiatives and finalize the details for the event @ <persona> Caleb Brooks",
+      "chat": [
+        [
+          "Pastor Daniel Brooks",
+          "Hello Caleb, how's your day going so far? I saw you heading back to class and thought I'd catch up with you for a bit."
+        ],
+        [
+          "Caleb Brooks",
+          "It's going well, thanks for asking. I was just thinking about our previous conversation regarding community service projects and I wanted to follow up with you on that. I've been considering ways to encourage my students to get involved in local initiatives and I'd love to hear your thoughts on the matter."
+        ],
+        [
+          "Pastor Daniel Brooks",
+          "That's wonderful to hear, Caleb! I've been thinking about it too, and I believe we could organize a community event that brings the students together with local organizations, allowing them to learn about the initiatives and get involved. What do you think about that?"
+        ],
+        [
+          "Caleb Brooks",
+          "That sounds like a great idea, Pastor Daniel! I think the students would really benefit from interacting with local organizations and learning about the initiatives firsthand. What kind of event were you thinking of organizing, and how can I help make it happen?"
+        ],
+        [
+          "Pastor Daniel Brooks",
+          "I was thinking of organizing a community fair, where local organizations can set up booths and showcase their initiatives. We could also have workshops and seminars for the students to learn more about the causes and how they can get involved. What do you think about inviting Ben Carter to be a guest speaker and help us promote the event?"
+        ],
+        [
+          "Caleb Brooks",
+          "I think inviting Ben Carter as a guest speaker is a fantastic idea, Pastor Daniel. He's very passionate about community service and I'm sure he'd be more than happy to help promote the event. I can reach out to him and extend the invitation. What's the tentative date for the community fair and what's the expected turnout?"
+        ],
+        [
+          "Pastor Daniel Brooks",
+          "I was thinking of scheduling the community fair for next Saturday, and I'm expecting around 500 attendees. I'll make sure to clear my schedule for tomorrow to finalize the details, and I'll also meet with Dylan at 3 pm at the community center to discuss the proposal. Would you be available to meet with us then to go over the plans?"
+        ],
+        [
+          "Caleb Brooks",
+          "That sounds like a great plan, Pastor Daniel. I'll make sure to reach out to Ben Carter today and extend the invitation. I'm available to meet with you and Dylan tomorrow at 3 pm at the community center to go over the plans. What's the best way for me to prepare for the meeting and what specific aspects of the proposal would you like me to focus on?"
+        ],
+        [
+          "Pastor Daniel Brooks",
+          "I'd like you to focus on the logistics of the event, such as the layout of the booths and the schedule of the workshops and seminars. Also, please confirm with Ben Carter about his availability to be a guest speaker and see if he has any specific requirements or recommendations for the event."
+        ],
+        [
+          "Caleb Brooks",
+          "I'll make sure to focus on the logistics and confirm with Ben Carter about his availability and requirements. I'll also review the proposal before tomorrow's meeting to ensure I'm prepared to discuss the details. Shall I bring any specific materials or information to the meeting?"
+        ],
+        [
+          "Pastor Daniel Brooks",
+          "That sounds great, Caleb. I'll make sure to bring the proposal and any other relevant materials to the meeting tomorrow. If you could confirm with Ben Carter and review the logistics, that would be a huge help. I'm looking forward to discussing the details with you and Dylan tomorrow at 3 pm."
+        ],
+        [
+          "Caleb Brooks",
+          "I'll make sure to confirm with Ben Carter and review the logistics before tomorrow's meeting. I'm looking forward to discussing the details with you and Dylan then. Is there anything else you'd like me to prepare or consider before the meeting?"
+        ],
+        [
+          "Pastor Daniel Brooks",
+          "No, that's all for now, Caleb. I think we have a good plan in place. I'll see you tomorrow at 3 pm at the community center with Dylan to finalize the details. Have a great rest of your day!"
+        ]
+      ]
+    },
+    "Dylan Brooks": {
+      "movement": [
+        124,
+        159
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "having lunch (chatting with friends) @ the Ville:Johnson Park:park:garden chair",
+      "chat": null
+    },
+    "Caleb Brooks": {
+      "movement": [
+        138,
+        159
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Pastor Daniel Brooks and Caleb Brooks conversing about organizing a community fair to encourage students to get involved in local initiatives and finalize the details for the event @ <persona> Pastor Daniel Brooks",
+      "chat": [
+        [
+          "Pastor Daniel Brooks",
+          "Hello Caleb, how's your day going so far? I saw you heading back to class and thought I'd catch up with you for a bit."
+        ],
+        [
+          "Caleb Brooks",
+          "It's going well, thanks for asking. I was just thinking about our previous conversation regarding community service projects and I wanted to follow up with you on that. I've been considering ways to encourage my students to get involved in local initiatives and I'd love to hear your thoughts on the matter."
+        ],
+        [
+          "Pastor Daniel Brooks",
+          "That's wonderful to hear, Caleb! I've been thinking about it too, and I believe we could organize a community event that brings the students together with local organizations, allowing them to learn about the initiatives and get involved. What do you think about that?"
+        ],
+        [
+          "Caleb Brooks",
+          "That sounds like a great idea, Pastor Daniel! I think the students would really benefit from interacting with local organizations and learning about the initiatives firsthand. What kind of event were you thinking of organizing, and how can I help make it happen?"
+        ],
+        [
+          "Pastor Daniel Brooks",
+          "I was thinking of organizing a community fair, where local organizations can set up booths and showcase their initiatives. We could also have workshops and seminars for the students to learn more about the causes and how they can get involved. What do you think about inviting Ben Carter to be a guest speaker and help us promote the event?"
+        ],
+        [
+          "Caleb Brooks",
+          "I think inviting Ben Carter as a guest speaker is a fantastic idea, Pastor Daniel. He's very passionate about community service and I'm sure he'd be more than happy to help promote the event. I can reach out to him and extend the invitation. What's the tentative date for the community fair and what's the expected turnout?"
+        ],
+        [
+          "Pastor Daniel Brooks",
+          "I was thinking of scheduling the community fair for next Saturday, and I'm expecting around 500 attendees. I'll make sure to clear my schedule for tomorrow to finalize the details, and I'll also meet with Dylan at 3 pm at the community center to discuss the proposal. Would you be available to meet with us then to go over the plans?"
+        ],
+        [
+          "Caleb Brooks",
+          "That sounds like a great plan, Pastor Daniel. I'll make sure to reach out to Ben Carter today and extend the invitation. I'm available to meet with you and Dylan tomorrow at 3 pm at the community center to go over the plans. What's the best way for me to prepare for the meeting and what specific aspects of the proposal would you like me to focus on?"
+        ],
+        [
+          "Pastor Daniel Brooks",
+          "I'd like you to focus on the logistics of the event, such as the layout of the booths and the schedule of the workshops and seminars. Also, please confirm with Ben Carter about his availability to be a guest speaker and see if he has any specific requirements or recommendations for the event."
+        ],
+        [
+          "Caleb Brooks",
+          "I'll make sure to focus on the logistics and confirm with Ben Carter about his availability and requirements. I'll also review the proposal before tomorrow's meeting to ensure I'm prepared to discuss the details. Shall I bring any specific materials or information to the meeting?"
+        ],
+        [
+          "Pastor Daniel Brooks",
+          "That sounds great, Caleb. I'll make sure to bring the proposal and any other relevant materials to the meeting tomorrow. If you could confirm with Ben Carter and review the logistics, that would be a huge help. I'm looking forward to discussing the details with you and Dylan tomorrow at 3 pm."
+        ],
+        [
+          "Caleb Brooks",
+          "I'll make sure to confirm with Ben Carter and review the logistics before tomorrow's meeting. I'm looking forward to discussing the details with you and Dylan then. Is there anything else you'd like me to prepare or consider before the meeting?"
+        ],
+        [
+          "Pastor Daniel Brooks",
+          "No, that's all for now, Caleb. I think we have a good plan in place. I'll see you tomorrow at 3 pm at the community center with Dylan to finalize the details. Have a great rest of your day!"
+        ]
+      ]
+    },
+    "Professor Emily Carter": {
+      "movement": [
+        161,
+        166
+      ],
+      "pronunciatio": "\ud83d\udecd\ufe0f",
+      "description": "taking a lunch break (waiting in line to purchase lunch) @ the Ville:house_10:kitchen:stove",
+      "chat": null
+    },
+    "Ben Carter": {
+      "movement": [
+        167,
+        166
+      ],
+      "pronunciatio": "\ud83d\udcf1",
+      "description": "having lunch (checking his phone for any important messages) @ the Ville:house_10:common room:common room table",
+      "chat": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 13:16:00"
+  }
+}

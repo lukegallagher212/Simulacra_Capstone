@@ -1,0 +1,619 @@
+{
+  "persona": {
+    "Ethan Walker": {
+      "movement": [
+        54,
+        97
+      ],
+      "pronunciatio": "\ud83d\udcda\ud83d\udc65",
+      "description": "continuing work at the school (attending a meeting with the school administration) @ the Ville:school:hallway:<random>",
+      "chat": null
+    },
+    "Jordan Walker": {
+      "movement": [
+        48,
+        97
+      ],
+      "pronunciatio": "\ud83c\udfe0",
+      "description": "heading home @ the Ville:house_1:common room:common room sofa",
+      "chat": null
+    },
+    "Lily Walker": {
+      "movement": [
+        51,
+        97
+      ],
+      "pronunciatio": "\ud83e\udd14\ud83d\udcda",
+      "description": "attending afternoon classes (asking the teacher a question about the science experiment) @ the Ville:house_1:common room:shelf",
+      "chat": null
+    },
+    "Rodrigo Torres": {
+      "movement": [
+        100,
+        97
+      ],
+      "pronunciatio": "\ud83d\udcca",
+      "description": "continuing work at the supply store (working on a report to submit to management) @ the Ville:supply_store:supply store:supply store counter",
+      "chat": null
+    },
+    "Sofia Torres": {
+      "movement": [
+        101,
+        97
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "continuing work at the residential house (engaging in conversation with the residents) @ the Ville:single_house_1:main room:desk",
+      "chat": null
+    },
+    "Harpreet Kaur": {
+      "movement": [
+        132,
+        97
+      ],
+      "pronunciatio": "\ud83d\udcda\ud83d\udca1",
+      "description": "continuing work at the government building (researching conflict resolution strategies) @ the Ville:school:library:bookshelf",
+      "chat": null
+    },
+    "Raj Singh": {
+      "movement": [
+        128,
+        97
+      ],
+      "pronunciatio": "\ud83e\uddd8",
+      "description": "continuing work at the government building (taking a short break to stretch) @ the Ville:government_building:main room:desk",
+      "chat": null
+    },
+    "Nadia Kaur": {
+      "movement": [
+        112,
+        25
+      ],
+      "pronunciatio": "\ud83d\udde3\ufe0f",
+      "description": "attending afternoon classes (listening to a presentation by a guest speaker) @ the Ville:house_3:common room:common room table",
+      "chat": null
+    },
+    "Dr Linh Nguyen": {
+      "movement": [
+        75,
+        52
+      ],
+      "pronunciatio": "\ud83d\udcbc\ud83d\udc65",
+      "description": "continuing work at the pharmacy (consulting with another healthcare professional) @ the Ville:pharmacy:store:behind the pharmacy counter",
+      "chat": null
+    },
+    "Phoebe Nguyen": {
+      "movement": [
+        92,
+        32
+      ],
+      "pronunciatio": "\ud83d\udeb6",
+      "description": "continuing work at the school (taking a short walk outside) @ the Ville:Johnson Park:park:park garden",
+      "chat": null
+    },
+    "Julia Nguyen": {
+      "movement": [
+        158,
+        95
+      ],
+      "pronunciatio": "\ud83c\udfe0",
+      "description": "heading home @ the Ville:house_4:common room:common room sofa",
+      "chat": null
+    },
+    "Curtis Bell": {
+      "movement": [
+        66,
+        119
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Curtis Bell and Rosie Bell conversing about Rosie's art project, including plans to showcase it at the school festival and charity drive, and potentially at the government building, with input and feedback from Mason, Trina, Patricia Kim, and Ben Carter @ <persona> Rosie Bell",
+      "chat": [
+        [
+          "Curtis Bell",
+          "Hey Rosie, how's your day going? I was just discussing your art project with Mason and I'm excited to see how it's coming along."
+        ],
+        [
+          "Rosie Bell",
+          "It's going great, thanks! I was just talking to Trina about showcasing my art project at the government building, but I'm also really interested in displaying it at the school festival like we discussed earlier. What did Mason think of the ideas?"
+        ],
+        [
+          "Curtis Bell",
+          "Mason was really enthusiastic about the ideas, especially the part about incorporating it into the school festival and charity drive. He had some great suggestions for the display and I think we could make it a really special part of the event. What do you think about also getting some feedback from Patricia Kim and Ben Carter, like we discussed earlier?"
+        ],
+        [
+          "Rosie Bell",
+          "That sounds like a great idea, I'd love to get feedback from Patricia Kim and Ben Carter. I was thinking we could also ask Trina to help us get in touch with the student council to see if they have any suggestions for the display. What do you think?"
+        ],
+        [
+          "Curtis Bell",
+          "I think that's a fantastic idea, Rosie. I'll reach out to Patricia Kim and Ben Carter to set up a meeting to discuss the details, and I'll also talk to Trina about getting in touch with the student council. With their feedback and suggestions, I'm sure we can make your art project a highlight of the school festival and charity drive."
+        ],
+        [
+          "Rosie Bell",
+          "That sounds like a great plan, thank you so much for your help, Curtis! I'm really excited to hear what Patricia Kim and Ben Carter have to say about my project. Do you think we could also get some feedback from Mason and see if he has any other ideas for the display?"
+        ],
+        [
+          "Curtis Bell",
+          "I'll definitely reach out to Mason and get his thoughts on the display, and I'll also make sure to keep you updated on the meeting with Patricia Kim and Ben Carter. I'm sure with everyone's input, we'll be able to create a fantastic showcase for your art project."
+        ],
+        [
+          "Rosie Bell",
+          "I'm really looking forward to hearing Mason's thoughts and the feedback from Patricia Kim and Ben Carter. Do you think we could also consider displaying my art project at the government building like Trina suggested, or do you think it would be better to focus on the school festival and charity drive?"
+        ],
+        [
+          "Curtis Bell",
+          "I think we should definitely consider both options, displaying your art project at the government building and at the school festival and charity drive. We can discuss the details with Patricia Kim, Ben Carter, and Trina, and see what they think would be the best way to showcase your project. I'll make sure to bring it up in our meeting and get their feedback on both ideas."
+        ],
+        [
+          "Rosie Bell",
+          "That sounds great, I'm glad we're considering both options. I'll make sure to finish my art project as soon as possible so we can move forward with the plans. Can you let me know when the meeting with Patricia Kim and Ben Carter is scheduled, and if there's anything I need to prepare beforehand?"
+        ],
+        [
+          "Curtis Bell",
+          "I'll check my schedule and see when Patricia Kim and Ben Carter are available to meet, and I'll let you know as soon as I have a date and time confirmed. In the meantime, you can focus on finishing your art project, and I'll make sure to coordinate with Mason, Trina, and the others to get everything ready for the meeting."
+        ],
+        [
+          "Rosie Bell",
+          "Okay, that sounds like a plan. I'll finish my art project as soon as possible and wait to hear back from you about the meeting with Patricia Kim and Ben Carter. Thanks again for all your help, Curtis!"
+        ],
+        [
+          "Curtis Bell",
+          "You're welcome, Rosie. I'll be in touch soon with an update on the meeting. Keep up the great work on your art project, and I'll talk to you soon."
+        ]
+      ]
+    },
+    "Patricia Kim": {
+      "movement": [
+        64,
+        119
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Patricia Kim and Trina Bell conversing about the school festival and charity drive, including event ideas, promotion strategies, and finalizing a proposal to present to Ben Carter @ <persona> Trina Bell",
+      "chat": [
+        [
+          "Patricia Kim",
+          "Hi Trina, how was your day? I saw you heading home and thought I'd catch up with you for a bit."
+        ],
+        [
+          "Trina Bell",
+          "It was good, thanks for asking! I had a busy day at school with classes and planning for the school festival and charity drive. I saw you were still working, how's everything going here?"
+        ],
+        [
+          "Patricia Kim",
+          "It's going well, just finishing up some reports. I've been thinking about the festival and charity drive, and I wanted to follow up on our previous discussion about the proposal and how I can help with the planning."
+        ],
+        [
+          "Trina Bell",
+          "That sounds great, I've been thinking about it too and I was wondering if we could discuss some of the event ideas and promotion strategies we talked about earlier, and maybe even finalize the proposal to present to Ben Carter?"
+        ],
+        [
+          "Patricia Kim",
+          "I'd be happy to discuss the event ideas and promotion strategies with you, and we can definitely work on finalizing the proposal to present to Ben Carter. What are your thoughts on the charity drive aspect, and do you have any new ideas for events that we could include?"
+        ],
+        [
+          "Trina Bell",
+          "I think we should focus on events that not only raise money for the charity but also promote community engagement, such as a talent show or a volunteer fair. We could also consider partnering with local businesses to donate a portion of their sales to the charity during the festival. What do you think?"
+        ],
+        [
+          "Patricia Kim",
+          "I think those are great ideas, Trina. A talent show and volunteer fair could be a lot of fun and really bring the community together. Partnering with local businesses is also a good idea, I can reach out to some of my contacts at the government building to see if they can help facilitate that. What do you think about having a meeting with Ben Carter to discuss the proposal and get his approval?"
+        ],
+        [
+          "Trina Bell",
+          "I think that's a great idea, let's schedule a meeting with Ben Carter as soon as possible to discuss the proposal and get his approval. I can send him an email to set up a meeting time that works for everyone. In the meantime, I can start working on finalizing the proposal and you can reach out to your contacts at the government building to see if they can help with partnering with local businesses."
+        ],
+        [
+          "Patricia Kim",
+          "That sounds like a plan, Trina. I'll reach out to my contacts at the government building and see what we can do to partner with local businesses. I'll also review the proposal and provide any feedback I have before our meeting with Ben Carter. Let me know as soon as you hear back from Ben Carter about a meeting time."
+        ],
+        [
+          "Trina Bell",
+          "Sounds good, I'll send Ben Carter an email right away to schedule a meeting. I'll also make sure to include all the event ideas and promotion strategies we've discussed so far in the proposal. Should we also invite Rosie to the meeting to discuss her art project and how it can be incorporated into the festival and charity drive?"
+        ],
+        [
+          "Patricia Kim",
+          "That's a great idea, Trina. Inviting Rosie to the meeting could be beneficial in discussing how her art project can be incorporated into the festival and charity drive. I can also reach out to Rosie and let her know about the meeting, so she can prepare and come up with some ideas on how to showcase her art project."
+        ],
+        [
+          "Trina Bell",
+          "That sounds like a great plan, I'll send Ben Carter an email right away to schedule a meeting and I'll also reach out to Rosie to invite her to the meeting. Should we also discuss the details of the talent show and volunteer fair, such as the logistics and scheduling, before our meeting with Ben Carter?"
+        ],
+        [
+          "Patricia Kim",
+          "Yes, let's discuss the details of the talent show and volunteer fair, such as the logistics and scheduling, before our meeting with Ben Carter. I can also start making some calls to local businesses to see if they'd be interested in partnering with us. And I'll reach out to Rosie to invite her to the meeting and discuss how her art project can be incorporated into the festival and charity drive."
+        ],
+        [
+          "Trina Bell",
+          "That sounds like a great plan, I'll start working on the logistics and scheduling for the talent show and volunteer fair. I'll also make sure to include Rosie's art project in the proposal and invite her to the meeting. Should we also consider having a meeting with the student council to get their input and feedback on the proposal before we present it to Ben Carter?"
+        ],
+        [
+          "Patricia Kim",
+          "I think that's a great idea, Trina. Having a meeting with the student council to get their input and feedback on the proposal before we present it to Ben Carter could be very beneficial. I can help you set up a meeting with them and make sure everyone is on the same page. In the meantime, I'll start making those calls to local businesses and reach out to Rosie to discuss her art project. Let's touch base soon to finalize the details and make sure we're all prepared for the meeting with Ben Carter."
+        ],
+        [
+          "Trina Bell",
+          "That sounds like a great plan, I'll start working on the logistics and scheduling for the talent show and volunteer fair. I'll also make sure to include Rosie's art project in the proposal and invite her to the meeting. Should we also consider having a meeting with the student council to get their input and feedback on the proposal before we present it to Ben Carter?"
+        ]
+      ]
+    },
+    "Trina Bell": {
+      "movement": [
+        64,
+        119
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Patricia Kim and Trina Bell conversing about the school festival and charity drive, including event ideas, promotion strategies, and finalizing a proposal to present to Ben Carter @ <persona> Patricia Kim",
+      "chat": [
+        [
+          "Patricia Kim",
+          "Hi Trina, how was your day? I saw you heading home and thought I'd catch up with you for a bit."
+        ],
+        [
+          "Trina Bell",
+          "It was good, thanks for asking! I had a busy day at school with classes and planning for the school festival and charity drive. I saw you were still working, how's everything going here?"
+        ],
+        [
+          "Patricia Kim",
+          "It's going well, just finishing up some reports. I've been thinking about the festival and charity drive, and I wanted to follow up on our previous discussion about the proposal and how I can help with the planning."
+        ],
+        [
+          "Trina Bell",
+          "That sounds great, I've been thinking about it too and I was wondering if we could discuss some of the event ideas and promotion strategies we talked about earlier, and maybe even finalize the proposal to present to Ben Carter?"
+        ],
+        [
+          "Patricia Kim",
+          "I'd be happy to discuss the event ideas and promotion strategies with you, and we can definitely work on finalizing the proposal to present to Ben Carter. What are your thoughts on the charity drive aspect, and do you have any new ideas for events that we could include?"
+        ],
+        [
+          "Trina Bell",
+          "I think we should focus on events that not only raise money for the charity but also promote community engagement, such as a talent show or a volunteer fair. We could also consider partnering with local businesses to donate a portion of their sales to the charity during the festival. What do you think?"
+        ],
+        [
+          "Patricia Kim",
+          "I think those are great ideas, Trina. A talent show and volunteer fair could be a lot of fun and really bring the community together. Partnering with local businesses is also a good idea, I can reach out to some of my contacts at the government building to see if they can help facilitate that. What do you think about having a meeting with Ben Carter to discuss the proposal and get his approval?"
+        ],
+        [
+          "Trina Bell",
+          "I think that's a great idea, let's schedule a meeting with Ben Carter as soon as possible to discuss the proposal and get his approval. I can send him an email to set up a meeting time that works for everyone. In the meantime, I can start working on finalizing the proposal and you can reach out to your contacts at the government building to see if they can help with partnering with local businesses."
+        ],
+        [
+          "Patricia Kim",
+          "That sounds like a plan, Trina. I'll reach out to my contacts at the government building and see what we can do to partner with local businesses. I'll also review the proposal and provide any feedback I have before our meeting with Ben Carter. Let me know as soon as you hear back from Ben Carter about a meeting time."
+        ],
+        [
+          "Trina Bell",
+          "Sounds good, I'll send Ben Carter an email right away to schedule a meeting. I'll also make sure to include all the event ideas and promotion strategies we've discussed so far in the proposal. Should we also invite Rosie to the meeting to discuss her art project and how it can be incorporated into the festival and charity drive?"
+        ],
+        [
+          "Patricia Kim",
+          "That's a great idea, Trina. Inviting Rosie to the meeting could be beneficial in discussing how her art project can be incorporated into the festival and charity drive. I can also reach out to Rosie and let her know about the meeting, so she can prepare and come up with some ideas on how to showcase her art project."
+        ],
+        [
+          "Trina Bell",
+          "That sounds like a great plan, I'll send Ben Carter an email right away to schedule a meeting and I'll also reach out to Rosie to invite her to the meeting. Should we also discuss the details of the talent show and volunteer fair, such as the logistics and scheduling, before our meeting with Ben Carter?"
+        ],
+        [
+          "Patricia Kim",
+          "Yes, let's discuss the details of the talent show and volunteer fair, such as the logistics and scheduling, before our meeting with Ben Carter. I can also start making some calls to local businesses to see if they'd be interested in partnering with us. And I'll reach out to Rosie to invite her to the meeting and discuss how her art project can be incorporated into the festival and charity drive."
+        ],
+        [
+          "Trina Bell",
+          "That sounds like a great plan, I'll start working on the logistics and scheduling for the talent show and volunteer fair. I'll also make sure to include Rosie's art project in the proposal and invite her to the meeting. Should we also consider having a meeting with the student council to get their input and feedback on the proposal before we present it to Ben Carter?"
+        ],
+        [
+          "Patricia Kim",
+          "I think that's a great idea, Trina. Having a meeting with the student council to get their input and feedback on the proposal before we present it to Ben Carter could be very beneficial. I can help you set up a meeting with them and make sure everyone is on the same page. In the meantime, I'll start making those calls to local businesses and reach out to Rosie to discuss her art project. Let's touch base soon to finalize the details and make sure we're all prepared for the meeting with Ben Carter."
+        ],
+        [
+          "Trina Bell",
+          "That sounds like a great plan, I'll start working on the logistics and scheduling for the talent show and volunteer fair. I'll also make sure to include Rosie's art project in the proposal and invite her to the meeting. Should we also consider having a meeting with the student council to get their input and feedback on the proposal before we present it to Ben Carter?"
+        ]
+      ]
+    },
+    "Rosie Bell": {
+      "movement": [
+        66,
+        119
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Curtis Bell and Rosie Bell conversing about Rosie's art project, including plans to showcase it at the school festival and charity drive, and potentially at the government building, with input and feedback from Mason, Trina, Patricia Kim, and Ben Carter @ <persona> Curtis Bell",
+      "chat": [
+        [
+          "Curtis Bell",
+          "Hey Rosie, how's your day going? I was just discussing your art project with Mason and I'm excited to see how it's coming along."
+        ],
+        [
+          "Rosie Bell",
+          "It's going great, thanks! I was just talking to Trina about showcasing my art project at the government building, but I'm also really interested in displaying it at the school festival like we discussed earlier. What did Mason think of the ideas?"
+        ],
+        [
+          "Curtis Bell",
+          "Mason was really enthusiastic about the ideas, especially the part about incorporating it into the school festival and charity drive. He had some great suggestions for the display and I think we could make it a really special part of the event. What do you think about also getting some feedback from Patricia Kim and Ben Carter, like we discussed earlier?"
+        ],
+        [
+          "Rosie Bell",
+          "That sounds like a great idea, I'd love to get feedback from Patricia Kim and Ben Carter. I was thinking we could also ask Trina to help us get in touch with the student council to see if they have any suggestions for the display. What do you think?"
+        ],
+        [
+          "Curtis Bell",
+          "I think that's a fantastic idea, Rosie. I'll reach out to Patricia Kim and Ben Carter to set up a meeting to discuss the details, and I'll also talk to Trina about getting in touch with the student council. With their feedback and suggestions, I'm sure we can make your art project a highlight of the school festival and charity drive."
+        ],
+        [
+          "Rosie Bell",
+          "That sounds like a great plan, thank you so much for your help, Curtis! I'm really excited to hear what Patricia Kim and Ben Carter have to say about my project. Do you think we could also get some feedback from Mason and see if he has any other ideas for the display?"
+        ],
+        [
+          "Curtis Bell",
+          "I'll definitely reach out to Mason and get his thoughts on the display, and I'll also make sure to keep you updated on the meeting with Patricia Kim and Ben Carter. I'm sure with everyone's input, we'll be able to create a fantastic showcase for your art project."
+        ],
+        [
+          "Rosie Bell",
+          "I'm really looking forward to hearing Mason's thoughts and the feedback from Patricia Kim and Ben Carter. Do you think we could also consider displaying my art project at the government building like Trina suggested, or do you think it would be better to focus on the school festival and charity drive?"
+        ],
+        [
+          "Curtis Bell",
+          "I think we should definitely consider both options, displaying your art project at the government building and at the school festival and charity drive. We can discuss the details with Patricia Kim, Ben Carter, and Trina, and see what they think would be the best way to showcase your project. I'll make sure to bring it up in our meeting and get their feedback on both ideas."
+        ],
+        [
+          "Rosie Bell",
+          "That sounds great, I'm glad we're considering both options. I'll make sure to finish my art project as soon as possible so we can move forward with the plans. Can you let me know when the meeting with Patricia Kim and Ben Carter is scheduled, and if there's anything I need to prepare beforehand?"
+        ],
+        [
+          "Curtis Bell",
+          "I'll check my schedule and see when Patricia Kim and Ben Carter are available to meet, and I'll let you know as soon as I have a date and time confirmed. In the meantime, you can focus on finishing your art project, and I'll make sure to coordinate with Mason, Trina, and the others to get everything ready for the meeting."
+        ],
+        [
+          "Rosie Bell",
+          "Okay, that sounds like a plan. I'll finish my art project as soon as possible and wait to hear back from you about the meeting with Patricia Kim and Ben Carter. Thanks again for all your help, Curtis!"
+        ],
+        [
+          "Curtis Bell",
+          "You're welcome, Rosie. I'll be in touch soon with an update on the meeting. Keep up the great work on your art project, and I'll talk to you soon."
+        ]
+      ]
+    },
+    "Mason Bell": {
+      "movement": [
+        68,
+        119
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "attending afternoon classes (conversing about Curtis Bell and Mason Bell conversing about Rosie's art project, including display ideas, charity drive, and school festival plans) @ the Ville:house_5:common room:common room table",
+      "chat": null
+    },
+    "Rashad Lewis": {
+      "movement": [
+        128,
+        120
+      ],
+      "pronunciatio": "\ud83c\udfeb\ud83d\udc65",
+      "description": "continuing work at the school (meeting with the school's athletic director) @ the Ville:school:hallway:<random>",
+      "chat": null
+    },
+    "Parker Lewis": {
+      "movement": [
+        131,
+        120
+      ],
+      "pronunciatio": "\ud83e\uddec\ud83d\udca1",
+      "description": "attending afternoon classes (participating in a science discussion) @ the Ville:house_6:common room:common room table",
+      "chat": null
+    },
+    "Kendra Hall": {
+      "movement": [
+        130,
+        120
+      ],
+      "pronunciatio": "\ud83c\udfcb\ufe0f\u200d",
+      "description": "continuing work at the school (leading the students in a warm-up exercise) @ the Ville:school:classroom:classroom podium",
+      "chat": null
+    },
+    "Dr Miguel Santos": {
+      "movement": [
+        136,
+        136
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Dr Miguel Santos and Vivian Santos conversing about improving the public image of Town House 1 through potential partnerships with local businesses, including discussions of exclusive discounts and meetings with business owners @ <persona> Vivian Santos",
+      "chat": [
+        [
+          "Dr Miguel Santos",
+          "Hi Vivian, how's the project to improve the public image of Town House 1 going? I've been thinking about potential partnerships with local businesses and I'd love to discuss some ideas with you."
+        ],
+        [
+          "Vivian Santos",
+          "That sounds great, Dr. Santos! I've been thinking about reaching out to local businesses that students frequent to explore potential partnerships and discounts. I'd love to hear your ideas and discuss how we can work together to improve the public image of Town House 1."
+        ],
+        [
+          "Dr Miguel Santos",
+          "I think that's a great approach, Vivian. I have some connections with local business owners that I could introduce you to, potentially leading to exclusive discounts for Town House 1 residents. What kind of businesses were you thinking of reaching out to?"
+        ],
+        [
+          "Vivian Santos",
+          "I was thinking of reaching out to local restaurants, coffee shops, and retail stores that are popular among students, as well as potentially partnering with gyms or fitness studios to offer exclusive discounts to residents. What kind of introductions were you thinking of making?"
+        ],
+        [
+          "Dr Miguel Santos",
+          "I can introduce you to the owner of the local coffee shop, who might be interested in offering a discount to Town House 1 residents. I also know the manager of a nearby gym that could provide exclusive membership rates. Would you like me to set up a meeting with them?"
+        ],
+        [
+          "Vivian Santos",
+          "That would be great, thank you for offering to make those introductions! I'd love to set up a meeting with the owner of the local coffee shop and the manager of the nearby gym to discuss potential partnerships and exclusive discounts for Town House 1 residents."
+        ],
+        [
+          "Dr Miguel Santos",
+          "I'll reach out to them today and set up a meeting for this week. Would you like to meet at the coffee shop or the gym, or perhaps at the office to discuss the details before meeting with the business owners?"
+        ],
+        [
+          "Vivian Santos",
+          "I think it would be best to meet at the office to discuss the details before meeting with the business owners, that way we can make sure we're on the same page and have a clear plan in place. Would that work for you, Dr. Santos?"
+        ],
+        [
+          "Dr Miguel Santos",
+          "That sounds like a great plan, Vivian. I'll reach out to the coffee shop owner and the gym manager today to set up a meeting for this week. Shall we schedule a meeting at the office for tomorrow to discuss the details and make sure we're on the same page before meeting with the business owners?"
+        ],
+        [
+          "Vivian Santos",
+          "That sounds like a great plan, Dr. Santos. Tomorrow at the office works for me. What time were you thinking?"
+        ],
+        [
+          "Dr Miguel Santos",
+          "How about we meet at 2 pm tomorrow at the office? That should give us enough time to discuss the details and prepare for the meetings with the business owners."
+        ],
+        [
+          "Vivian Santos",
+          "2 pm tomorrow at the office sounds perfect, Dr. Santos. I'll make sure to have all the necessary information and materials ready for our meeting. Thank you again for your help and introductions, I'm looking forward to discussing the details tomorrow."
+        ],
+        [
+          "Dr Miguel Santos",
+          "I'm looking forward to our meeting tomorrow as well, Vivian. Have a great rest of your day and I'll talk to you then."
+        ]
+      ]
+    },
+    "Vivian Santos": {
+      "movement": [
+        137,
+        136
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Dr Miguel Santos and Vivian Santos conversing about improving the public image of Town House 1 through potential partnerships with local businesses, including discussions of exclusive discounts and meetings with business owners @ <persona> Dr Miguel Santos",
+      "chat": [
+        [
+          "Dr Miguel Santos",
+          "Hi Vivian, how's the project to improve the public image of Town House 1 going? I've been thinking about potential partnerships with local businesses and I'd love to discuss some ideas with you."
+        ],
+        [
+          "Vivian Santos",
+          "That sounds great, Dr. Santos! I've been thinking about reaching out to local businesses that students frequent to explore potential partnerships and discounts. I'd love to hear your ideas and discuss how we can work together to improve the public image of Town House 1."
+        ],
+        [
+          "Dr Miguel Santos",
+          "I think that's a great approach, Vivian. I have some connections with local business owners that I could introduce you to, potentially leading to exclusive discounts for Town House 1 residents. What kind of businesses were you thinking of reaching out to?"
+        ],
+        [
+          "Vivian Santos",
+          "I was thinking of reaching out to local restaurants, coffee shops, and retail stores that are popular among students, as well as potentially partnering with gyms or fitness studios to offer exclusive discounts to residents. What kind of introductions were you thinking of making?"
+        ],
+        [
+          "Dr Miguel Santos",
+          "I can introduce you to the owner of the local coffee shop, who might be interested in offering a discount to Town House 1 residents. I also know the manager of a nearby gym that could provide exclusive membership rates. Would you like me to set up a meeting with them?"
+        ],
+        [
+          "Vivian Santos",
+          "That would be great, thank you for offering to make those introductions! I'd love to set up a meeting with the owner of the local coffee shop and the manager of the nearby gym to discuss potential partnerships and exclusive discounts for Town House 1 residents."
+        ],
+        [
+          "Dr Miguel Santos",
+          "I'll reach out to them today and set up a meeting for this week. Would you like to meet at the coffee shop or the gym, or perhaps at the office to discuss the details before meeting with the business owners?"
+        ],
+        [
+          "Vivian Santos",
+          "I think it would be best to meet at the office to discuss the details before meeting with the business owners, that way we can make sure we're on the same page and have a clear plan in place. Would that work for you, Dr. Santos?"
+        ],
+        [
+          "Dr Miguel Santos",
+          "That sounds like a great plan, Vivian. I'll reach out to the coffee shop owner and the gym manager today to set up a meeting for this week. Shall we schedule a meeting at the office for tomorrow to discuss the details and make sure we're on the same page before meeting with the business owners?"
+        ],
+        [
+          "Vivian Santos",
+          "That sounds like a great plan, Dr. Santos. Tomorrow at the office works for me. What time were you thinking?"
+        ],
+        [
+          "Dr Miguel Santos",
+          "How about we meet at 2 pm tomorrow at the office? That should give us enough time to discuss the details and prepare for the meetings with the business owners."
+        ],
+        [
+          "Vivian Santos",
+          "2 pm tomorrow at the office sounds perfect, Dr. Santos. I'll make sure to have all the necessary information and materials ready for our meeting. Thank you again for your help and introductions, I'm looking forward to discussing the details tomorrow."
+        ],
+        [
+          "Dr Miguel Santos",
+          "I'm looking forward to our meeting tomorrow as well, Vivian. Have a great rest of your day and I'll talk to you then."
+        ]
+      ]
+    },
+    "Mateo Santos": {
+      "movement": [
+        127,
+        136
+      ],
+      "pronunciatio": "\ud83d\udcdd",
+      "description": "attending afternoon classes (reviewing his notes from the previous class) @ the Ville:house_7:common room:common room table",
+      "chat": null
+    },
+    "Gabriel Flores": {
+      "movement": [
+        168,
+        135
+      ],
+      "pronunciatio": "\ud83d\ude8c\ud83d\udcbb",
+      "description": "continuing work at the school (testing the bus's communication equipment) @ the Ville:Johnson Park:park:park garden",
+      "chat": null
+    },
+    "Emilia Flores": {
+      "movement": [
+        173,
+        135
+      ],
+      "pronunciatio": "\ud83c\udf73",
+      "description": "continuing work at the school (assisting with food preparation) @ the Ville:house_8:kitchen:stove",
+      "chat": null
+    },
+    "Noemi Flores": {
+      "movement": [
+        165,
+        135
+      ],
+      "pronunciatio": "\ud83d\udcda\ud83d\udcac",
+      "description": "attending afternoon classes (participating in class discussion) @ the Ville:house_8:common room:common room table",
+      "chat": null
+    },
+    "Pastor Daniel Brooks": {
+      "movement": [
+        139,
+        159
+      ],
+      "pronunciatio": "\ud83d\udca1",
+      "description": "continuing work at the government building (brainstorming ideas for the program) @ the Ville:Johnson Park:park:garden chair",
+      "chat": null
+    },
+    "Dylan Brooks": {
+      "movement": [
+        120,
+        159
+      ],
+      "pronunciatio": "\ud83c\udfe0",
+      "description": "heading home @ the Ville:house_9:common room:common room sofa",
+      "chat": null
+    },
+    "Caleb Brooks": {
+      "movement": [
+        138,
+        159
+      ],
+      "pronunciatio": "\ud83d\udcdd",
+      "description": "continuing work at the school (creating a quiz for the next day) @ the Ville:school:library:library table",
+      "chat": null
+    },
+    "Professor Emily Carter": {
+      "movement": [
+        167,
+        166
+      ],
+      "pronunciatio": "\ud83d\udce7",
+      "description": "continuing work at the school (responding to emails from students and colleagues) @ the Ville:school:library:library table",
+      "chat": null
+    },
+    "Ben Carter": {
+      "movement": [
+        161,
+        166
+      ],
+      "pronunciatio": "\ud83c\udfe0",
+      "description": "heading home @ the Ville:house_10:common room:common room sofa",
+      "chat": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 15:27:50"
+  }
+}

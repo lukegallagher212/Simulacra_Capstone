@@ -1,0 +1,267 @@
+[
+  {
+    "sim_time": "2023-02-13 08:01:00",
+    "date": "Monday February 13",
+    "persona": "Julia Nguyen",
+    "with": "Phoebe Nguyen",
+    "description": "conversing about Phoebe Nguyen and Julia Nguyen conversing about their school day, including Julia's school play rehearsal and Phoebe's offer to help Julia practice her lines after school",
+    "transcript": [
+      [
+        "Phoebe Nguyen",
+        "Good morning Julia, how are you doing today?"
+      ],
+      [
+        "Julia Nguyen",
+        "I'm doing great, thanks! I'm excited for school today. How about you?"
+      ],
+      [
+        "Phoebe Nguyen",
+        "That's great to hear, Julia! I have a busy day at school too, I have a few speech therapy sessions lined up. What are you most looking forward to today?"
+      ],
+      [
+        "Julia Nguyen",
+        "I'm really looking forward to our school play rehearsal today, we're going to practice our lines and I get to be a main character!"
+      ],
+      [
+        "Phoebe Nguyen",
+        "That sounds like so much fun, Julia! I'm sure you'll do great as a main character. What's the play about?"
+      ],
+      [
+        "Julia Nguyen",
+        "The play is about a group of friends who go on a magical adventure and learn about teamwork and friendship. I'm really excited to perform it in front of the whole school!"
+      ],
+      [
+        "Phoebe Nguyen",
+        "That sounds like a wonderful story, I'm sure the students and teachers will love it. Have you been practicing your lines a lot to prepare for the rehearsal today?"
+      ],
+      [
+        "Julia Nguyen",
+        "Yes, I've been practicing my lines every day, and I feel pretty confident about my role. I'm a bit nervous about remembering all the lines, but I'm sure it will be okay with some more practice."
+      ],
+      [
+        "Phoebe Nguyen",
+        "That's great to hear that you've been practicing, Julia! I'm sure you'll do fantastic at the rehearsal today. If you need any help with your lines or want to practice with me, I'd be happy to help."
+      ],
+      [
+        "Julia Nguyen",
+        "Thank you so much, Phoebe! I might take you up on that offer, it would be really helpful to practice with you. Do you have any time after school today to run through my lines with me?"
+      ],
+      [
+        "Phoebe Nguyen",
+        "I'd be happy to help you practice your lines after school today, Julia. My last speech therapy session ends at 5:00 pm, so how about we meet up at 5:30 pm and run through your lines together?"
+      ],
+      [
+        "Julia Nguyen",
+        "That sounds perfect, Phoebe! I'll meet you at 5:30 pm after school and we can practice my lines together. Thanks again for offering to help me, I really appreciate it!"
+      ],
+      [
+        "Phoebe Nguyen",
+        "I'm looking forward to helping you practice your lines later, Julia. Now, I should probably get going to school, I have a busy day ahead of me. Have a great day at school and I'll see you at 5:30 pm!"
+      ]
+    ]
+  },
+  {
+    "sim_time": "2023-02-13 09:11:10",
+    "date": "Monday February 13",
+    "persona": "Julia Nguyen",
+    "with": "Dr Linh Nguyen",
+    "description": "conversing about a conversation between Dr. Linh Nguyen and Julia Nguyen about Julia's school play rehearsal, her excitement and preparation for it, and the help she is receiving from her friend Phoebe",
+    "transcript": [
+      [
+        "Dr Linh Nguyen",
+        "Hi Julia, how's your day going so far? I heard you have a school play rehearsal today."
+      ],
+      [
+        "Julia Nguyen",
+        "Yes, I do have a school play rehearsal today and I'm really excited about it. Phoebe offered to help me practice my lines after school, so I'm feeling a bit more confident now."
+      ],
+      [
+        "Dr Linh Nguyen",
+        "That's great to hear! I'm sure Phoebe will be a big help. What's the school play about this year?"
+      ],
+      [
+        "Julia Nguyen",
+        "It's about a group of friends who go on a adventure and learn about teamwork and friendship. I'm really excited to be a part of it!"
+      ],
+      [
+        "Dr Linh Nguyen",
+        "That sounds like a wonderful story! I'm sure you'll do great in the play. Have you been practicing your lines a lot?"
+      ],
+      [
+        "Julia Nguyen",
+        "Yes, I've been practicing my lines every day, and I'm feeling more comfortable with them now. Phoebe's help will definitely make a big difference, though!"
+      ],
+      [
+        "Dr Linh Nguyen",
+        "I'm glad to hear that Phoebe is helping you with your lines. I'm sure you two will have a great time practicing together. What time are you meeting up with Phoebe after school?"
+      ],
+      [
+        "Julia Nguyen",
+        "We're meeting up at 5:30 pm after school today, so I'm looking forward to running through my lines with her then."
+      ],
+      [
+        "Dr Linh Nguyen",
+        "That sounds like a great plan, I'm sure you two will have a lot of fun practicing together. I'll have to ask Phoebe about it later and see how it goes."
+      ],
+      [
+        "Julia Nguyen",
+        "Thank you, Dr. Linh Nguyen! I'm really looking forward to the rehearsal and I'm glad Phoebe is helping me out. I should probably get going to school now, I don't want to be late for my classes."
+      ]
+    ]
+  },
+  {
+    "sim_time": "2023-02-13 10:45:00",
+    "date": "Monday February 13",
+    "persona": "Julia Nguyen",
+    "with": "Phoebe Nguyen",
+    "description": "conversing about Julia Nguyen and Phoebe Nguyen conversing about Julia's morning class and her preparation for the school play, specifically practicing her lines for an upcoming practice session",
+    "transcript": [
+      [
+        "Phoebe Nguyen",
+        "Hi Julia, how's your morning class going so far? I saw you working on a math problem, do you need any help?"
+      ],
+      [
+        "Julia Nguyen",
+        "It's going well, thanks for asking! I think I've got the math problem under control, but I'm really excited for our practice session later to work on my lines for the school play. Have you had a chance to look over the script?"
+      ],
+      [
+        "Phoebe Nguyen",
+        "Yes, I took a look at the script last night and I'm really impressed with the progress you've made so far. I'm looking forward to helping you practice your lines later, what specific scenes or parts would you like to focus on during our session?"
+      ],
+      [
+        "Julia Nguyen",
+        "I was thinking we could focus on the scene where I have to deliver the monologue, I'm still a bit nervous about getting the timing right. Do you think we could run through that a few times and get your feedback?"
+      ],
+      [
+        "Phoebe Nguyen",
+        "That sounds like a great plan, let's definitely work on the monologue scene. I'll give you some tips on how to pace yourself and deliver the lines with confidence. Don't worry, we'll run through it as many times as you need to feel comfortable."
+      ],
+      [
+        "Julia Nguyen",
+        "That sounds great, thank you so much for your help Phoebe! I'm really looking forward to our practice session later. Do you want to meet up at the usual spot after school, or is there somewhere else you'd like to practice?"
+      ],
+      [
+        "Phoebe Nguyen",
+        "Let's meet up at the usual spot after school, that way we can have some privacy and you can focus on your lines without any distractions. I'll meet you there at 5:30 pm, sound good to you?"
+      ],
+      [
+        "Julia Nguyen",
+        "Sounds good to me, I'll meet you at 5:30 pm at the usual spot. Thanks again for your help, I really appreciate it!"
+      ]
+    ]
+  },
+  {
+    "sim_time": "2023-02-13 13:19:10",
+    "date": "Monday February 13",
+    "persona": "Julia Nguyen",
+    "with": "Dr Linh Nguyen",
+    "description": "conversing about Dr Linh Nguyen and Julia Nguyen conversing about Julia's school day, her morning math class, the upcoming school play rehearsal, and her plans with her friend Phoebe",
+    "transcript": [
+      [
+        "Dr Linh Nguyen",
+        "Hi Julia, how's your day going so far? How was your morning class?"
+      ],
+      [
+        "Julia Nguyen",
+        "It's going great, thanks! My morning class was really fun, we're learning about fractions in math and I got to practice my lines for the school play with Phoebe during recess. I'm really excited for the rehearsal tomorrow."
+      ],
+      [
+        "Dr Linh Nguyen",
+        "That sounds like a lot of fun! I'm glad you're enjoying your math class and that you got to practice your lines with Phoebe. How do you feel about the rehearsal tomorrow? Are you feeling prepared?"
+      ],
+      [
+        "Julia Nguyen",
+        "I'm feeling a bit nervous, but Phoebe has been helping me practice and I'm getting more confident with my lines. I'm also excited to see how everything comes together tomorrow."
+      ],
+      [
+        "Dr Linh Nguyen",
+        "That's great to hear that Phoebe has been helping you practice! I'm sure you'll do fantastic tomorrow. Have you and Phoebe planned out how you're going to get to the rehearsal, or do you need any help with transportation?"
+      ],
+      [
+        "Julia Nguyen",
+        "No, we don't need any help with transportation, thank you for offering! Phoebe and I are meeting up after school today at 5:30 pm to practice some more, and then we'll head to the rehearsal together tomorrow. But thank you for checking in and being so supportive, it means a lot to me!"
+      ],
+      [
+        "Dr Linh Nguyen",
+        "I'm glad to hear that you and Phoebe have everything planned out. I'll make sure to ask Phoebe how your practice session goes later, and I'll be looking forward to hearing all about the rehearsal tomorrow. Keep up the good work and don't hesitate to reach out if you need anything."
+      ],
+      [
+        "Julia Nguyen",
+        "Thank you so much, Dr. Linh Nguyen! I really appreciate your support and encouragement. I should probably get going now, I don't want to be late for my next class."
+      ]
+    ]
+  },
+  {
+    "sim_time": "2023-02-13 13:57:50",
+    "date": "Monday February 13",
+    "persona": "Julia Nguyen",
+    "with": "Nadia Kaur",
+    "description": "conversing about Nadia Kaur and Julia Nguyen conversing about Julia's school day, her lead role in the upcoming school play, and Nadia's interest in attending a rehearsal and learning more about the production",
+    "transcript": [
+      [
+        "Nadia Kaur",
+        "Hi Julia, how's your day going so far? I saw you eating lunch and thought I'd come say hello."
+      ],
+      [
+        "Julia Nguyen",
+        "It's going great, thanks for asking! I just got out of math class and now I'm grabbing some lunch. I'm really excited for the school play rehearsal later, I've been practicing my lines a lot."
+      ],
+      [
+        "Nadia Kaur",
+        "That sounds like a lot of fun! I've been meaning to check out the school play, what role are you playing?"
+      ],
+      [
+        "Julia Nguyen",
+        "I'm playing the lead role, and I'm really nervous but excited about it. My friend Phoebe has been helping me practice my lines, and I'm feeling more confident every day."
+      ],
+      [
+        "Nadia Kaur",
+        "That's great to hear that you're feeling more confident! I'm sure you'll do fantastic in the play. What's the play about, if you don't mind me asking?"
+      ],
+      [
+        "Julia Nguyen",
+        "The play is about a group of friends who go on a adventure and learn valuable lessons about teamwork and friendship. It's a really fun story and I think the audience is going to love it."
+      ],
+      [
+        "Nadia Kaur",
+        "That sounds like a wonderful story, I'm sure the audience will enjoy it. Have you and Phoebe been friends for a while, or did you meet through the school play?"
+      ],
+      [
+        "Julia Nguyen",
+        "Phoebe and I have been friends since the beginning of the school year, we met in our morning math class and we instantly clicked. We've been inseparable ever since, and I'm really grateful to have her as a friend and a study buddy."
+      ],
+      [
+        "Nadia Kaur",
+        "That's really sweet, it's great that you have a close friend like Phoebe to support you. I've been meaning to get more involved in the school's extracurricular activities, maybe I'll have to check out the school play rehearsal sometime."
+      ],
+      [
+        "Julia Nguyen",
+        "That would be great, Nadia! I'm sure you'd enjoy the rehearsal. We're actually having a practice session after school today, and Phoebe is helping me run through my lines. Maybe you could join us and see what it's all about?"
+      ],
+      [
+        "Nadia Kaur",
+        "That sounds like a great opportunity, I'd love to join you and Phoebe for the practice session after school today. What time is the rehearsal and where is it being held?"
+      ],
+      [
+        "Julia Nguyen",
+        "The practice session is at 5:30 pm, and we're meeting at the usual spot near the school auditorium. You're welcome to join us, and I'm sure Phoebe would be happy to meet you too!"
+      ],
+      [
+        "Nadia Kaur",
+        "That sounds great, I'll make sure to meet you and Phoebe at 5:30 pm near the school auditorium. I'm looking forward to seeing the rehearsal and learning more about the school play."
+      ],
+      [
+        "Julia Nguyen",
+        "I'm really glad you can make it, Nadia! I'll make sure to introduce you to Phoebe and we can all run through the lines together. It'll be great to have you there for support."
+      ],
+      [
+        "Nadia Kaur",
+        "I'm really looking forward to meeting Phoebe and seeing the rehearsal, thanks for inviting me! I'll make sure to be there at 5:30 pm sharp. Do you think I could also get a chance to talk to the director or anyone else involved in the play to learn more about the production?"
+      ],
+      [
+        "Julia Nguyen",
+        "I can definitely introduce you to the director, Ms. Thompson, she's really nice and I'm sure she'd be happy to talk to you about the production. We can go talk to her after the rehearsal, she's usually around to give us feedback and answer any questions we have."
+      ]
+    ]
+  }
+]

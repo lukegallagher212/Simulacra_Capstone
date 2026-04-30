@@ -1,0 +1,407 @@
+{
+  "persona": {
+    "Ethan Walker": {
+      "movement": [
+        54,
+        97
+      ],
+      "pronunciatio": "\ud83c\udf7f",
+      "description": "continuing work at the school (taking a short break to grab a snack) @ the Ville:school:hallway:<random>",
+      "chat": null
+    },
+    "Jordan Walker": {
+      "movement": [
+        45,
+        97
+      ],
+      "pronunciatio": "\ud83c\udf92\u2193",
+      "description": "having a snack and relaxing (dropping off his backpack) @ the Ville:house_1:common room:shelf",
+      "chat": null
+    },
+    "Lily Walker": {
+      "movement": [
+        46,
+        97
+      ],
+      "pronunciatio": "\ud83c\udfe0",
+      "description": "heading home @ the Ville:house_1:common room:common room sofa",
+      "chat": null
+    },
+    "Rodrigo Torres": {
+      "movement": [
+        90,
+        97
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "continuing work at the supply store (conversing about Sofia Torres and Rodrigo Torres conversing about arranging a meeting with Nadia Kaur to discuss community initiatives, finalizing a report for Ben Carter, and addressing the needs and concerns of the residents at Town House 1) @ the Ville:house_2:common room:common room table",
+      "chat": null
+    },
+    "Sofia Torres": {
+      "movement": [
+        90,
+        97
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83d\udcac",
+      "description": "continuing work at the residential house (conversing about Sofia Torres and Rodrigo Torres conversing about arranging a meeting with Nadia Kaur to discuss community initiatives, finalizing a report for Ben Carter, and addressing the needs and concerns of the residents at Town House 1) @ the Ville:house_2:common room:common room table",
+      "chat": null
+    },
+    "Harpreet Kaur": {
+      "movement": [
+        132,
+        97
+      ],
+      "pronunciatio": "\ud83d\udcc5",
+      "description": "continuing work at the government building (updating her calendar with upcoming mediations) @ the Ville:government_building:computer_room:computer",
+      "chat": null
+    },
+    "Raj Singh": {
+      "movement": [
+        128,
+        97
+      ],
+      "pronunciatio": "\ud83e\udd1d",
+      "description": "continuing work at the government building (collaborating with a team member on a task) @ the Ville:government_building:meeting room:Town Hall Seats",
+      "chat": null
+    },
+    "Nadia Kaur": {
+      "movement": [
+        112,
+        21
+      ],
+      "pronunciatio": "\ud83c\udfe0",
+      "description": "heading home @ the Ville:house_3:common room:common room sofa",
+      "chat": null
+    },
+    "Dr Linh Nguyen": {
+      "movement": [
+        75,
+        51
+      ],
+      "pronunciatio": "\ud83d\udcdd",
+      "description": "continuing work at the pharmacy (organizing paperwork) @ the Ville:pharmacy:store:behind the pharmacy counter",
+      "chat": null
+    },
+    "Phoebe Nguyen": {
+      "movement": [
+        119,
+        24
+      ],
+      "pronunciatio": "\ud83d\udcc1\ud83d\udc40",
+      "description": "continuing work at the school (reviewing student files) @ the Ville:school:library:library table",
+      "chat": null
+    },
+    "Julia Nguyen": {
+      "movement": [
+        154,
+        92
+      ],
+      "pronunciatio": "\ud83d\udecd\ufe0f",
+      "description": "having a snack and relaxing (putting away her school bag) @ the Ville:house_4:bedroom_1:closet",
+      "chat": null
+    },
+    "Curtis Bell": {
+      "movement": [
+        66,
+        119
+      ],
+      "pronunciatio": "\ud83d\udce3",
+      "description": "continuing work at the school (testing the school's alarm system) @ the Ville:school:hallway:<random>",
+      "chat": null
+    },
+    "Patricia Kim": {
+      "movement": [
+        64,
+        119
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "continuing work at the government building (conversing about Patricia Kim and Trina Bell conversing about the school festival and charity drive, including event ideas, promotion strategies, and finalizing a proposal to present to Ben Carter) @ the Ville:government_building:meeting room:Town Hall Presenter",
+      "chat": null
+    },
+    "Trina Bell": {
+      "movement": [
+        61,
+        119
+      ],
+      "pronunciatio": "\ud83c\udfe0",
+      "description": "heading home @ the Ville:house_5:common room:common room sofa",
+      "chat": null
+    },
+    "Rosie Bell": {
+      "movement": [
+        66,
+        119
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Mason Bell and Rosie Bell conversing about displaying Rosie's art project in the school hallway, and planning to meet with Ben Carter, their art teacher, and potentially Patricia Kim and other school staff and students to make it a bigger event @ <persona> Mason Bell",
+      "chat": [
+        [
+          "Mason Bell",
+          "Hey Rosie, I saw you talking about your art project earlier. How's it going? Have you thought more about displaying it in the school hallway like we discussed?"
+        ],
+        [
+          "Rosie Bell",
+          "Yeah, I've been thinking about it a lot! I really like the idea of displaying it in the school hallway. I was just talking to Trina about it and she thinks it could be a great opportunity to showcase my work. Have you talked to Ben Carter or our art teacher about it yet?"
+        ],
+        [
+          "Mason Bell",
+          "Not yet, but I was thinking we could talk to them together during lunch tomorrow. I've also been thinking that we could involve the school administration, like Patricia Kim, to make it a bigger event. What do you think?"
+        ],
+        [
+          "Rosie Bell",
+          "That sounds like a great idea! I'd love to talk to Ben Carter and our art teacher about it tomorrow. And involving Patricia Kim could definitely make it a bigger event. I'm also thinking we could get some feedback from the student council and other art teachers to make it even better."
+        ],
+        [
+          "Mason Bell",
+          "That's a great idea to get feedback from the student council and other art teachers. We could also think about inviting Curtis to join our meeting tomorrow, since he's been involved in some of the school's art events before. What time were you thinking of meeting with Ben Carter and our art teacher?"
+        ],
+        [
+          "Rosie Bell",
+          "How about we meet with Ben Carter and our art teacher at 12:30 pm tomorrow during lunch? That way, we can make sure to catch them before their next class. And yeah, inviting Curtis is a great idea, I'm sure he'd be happy to help us out."
+        ],
+        [
+          "Mason Bell",
+          "That sounds like a plan, 12:30 pm tomorrow works for me. I'll make sure to invite Curtis and we can all meet together to discuss the details. Should we also prepare some questions to ask Ben Carter and our art teacher, so we can get the most out of our meeting?"
+        ],
+        [
+          "Rosie Bell",
+          "Yeah, that's a great idea to prepare some questions. I was thinking we could ask them about the best way to display my art project, and what kind of feedback they think we should be looking for from the student council and other art teachers. We could also ask about the possibility of incorporating it into the school festival and charity drive, like Trina mentioned earlier."
+        ],
+        [
+          "Mason Bell",
+          "That sounds like a great plan, I'll make sure to write down some questions for Ben Carter and our art teacher, such as what kind of display materials we'll need and how we can get feedback from the student council. I'll also invite Curtis to join us tomorrow at 12:30 pm. Should we also think about how we're going to present your art project to Patricia Kim and the school administration, to make sure we can get their support for the event?"
+        ],
+        [
+          "Rosie Bell",
+          "That's a great idea, we should definitely think about how to present my art project to Patricia Kim and the school administration. Maybe we could prepare a short presentation or a proposal that outlines the details of the event and how it will benefit the school. I'll start working on that tonight and we can finalize it tomorrow before our meeting with Ben Carter and our art teacher."
+        ],
+        [
+          "Mason Bell",
+          "That sounds like a great idea, preparing a presentation or proposal will definitely help us get Patricia Kim and the school administration on board. I can help you work on it tonight and we can finalize it tomorrow before our meeting. Should we also think about how we're going to involve the student council and other art teachers in the event, maybe we can ask them to help us with the setup or provide some feedback on the display?"
+        ],
+        [
+          "Rosie Bell",
+          "Yeah, that's a great idea to involve the student council and other art teachers in the event. We could ask them to help us with the setup or provide some feedback on the display. I'll also make sure to include that in the presentation or proposal we're going to prepare for Patricia Kim and the school administration. Let's work on it tonight and finalize it tomorrow before our meeting."
+        ],
+        [
+          "Mason Bell",
+          "That sounds like a great plan, I'll help you work on the presentation tonight and we can finalize it tomorrow before our meeting. Should we also think about inviting other students to attend the event and make it a bigger gathering, maybe we can even get some local artists to come and provide feedback on your work?"
+        ],
+        [
+          "Rosie Bell",
+          "That's a great idea to invite other students and local artists to attend the event, it could definitely make it a bigger and more successful gathering. I'll make sure to include that in the presentation or proposal we're going to prepare for Patricia Kim and the school administration. Let's also think about how we can promote the event to get more people to attend, maybe we can put up posters around the school or send out invitations to the student body."
+        ],
+        [
+          "Mason Bell",
+          "That's a great idea to promote the event, we could also use social media to spread the word and get more people to attend. I'll help you design some posters and we can ask the student council to help us distribute them around the school. Should we also think about having a theme for the event or some kind of activities to make it more engaging for the attendees?"
+        ],
+        [
+          "Rosie Bell",
+          "That's a great idea to have a theme for the event, maybe we could have a theme that ties in with the school festival and charity drive. And for activities, we could have a Q&A session or a workshop where attendees can learn about the inspiration behind my art project. What do you think?"
+        ]
+      ]
+    },
+    "Mason Bell": {
+      "movement": [
+        67,
+        119
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Mason Bell and Rosie Bell conversing about displaying Rosie's art project in the school hallway, and planning to meet with Ben Carter, their art teacher, and potentially Patricia Kim and other school staff and students to make it a bigger event @ <persona> Rosie Bell",
+      "chat": [
+        [
+          "Mason Bell",
+          "Hey Rosie, I saw you talking about your art project earlier. How's it going? Have you thought more about displaying it in the school hallway like we discussed?"
+        ],
+        [
+          "Rosie Bell",
+          "Yeah, I've been thinking about it a lot! I really like the idea of displaying it in the school hallway. I was just talking to Trina about it and she thinks it could be a great opportunity to showcase my work. Have you talked to Ben Carter or our art teacher about it yet?"
+        ],
+        [
+          "Mason Bell",
+          "Not yet, but I was thinking we could talk to them together during lunch tomorrow. I've also been thinking that we could involve the school administration, like Patricia Kim, to make it a bigger event. What do you think?"
+        ],
+        [
+          "Rosie Bell",
+          "That sounds like a great idea! I'd love to talk to Ben Carter and our art teacher about it tomorrow. And involving Patricia Kim could definitely make it a bigger event. I'm also thinking we could get some feedback from the student council and other art teachers to make it even better."
+        ],
+        [
+          "Mason Bell",
+          "That's a great idea to get feedback from the student council and other art teachers. We could also think about inviting Curtis to join our meeting tomorrow, since he's been involved in some of the school's art events before. What time were you thinking of meeting with Ben Carter and our art teacher?"
+        ],
+        [
+          "Rosie Bell",
+          "How about we meet with Ben Carter and our art teacher at 12:30 pm tomorrow during lunch? That way, we can make sure to catch them before their next class. And yeah, inviting Curtis is a great idea, I'm sure he'd be happy to help us out."
+        ],
+        [
+          "Mason Bell",
+          "That sounds like a plan, 12:30 pm tomorrow works for me. I'll make sure to invite Curtis and we can all meet together to discuss the details. Should we also prepare some questions to ask Ben Carter and our art teacher, so we can get the most out of our meeting?"
+        ],
+        [
+          "Rosie Bell",
+          "Yeah, that's a great idea to prepare some questions. I was thinking we could ask them about the best way to display my art project, and what kind of feedback they think we should be looking for from the student council and other art teachers. We could also ask about the possibility of incorporating it into the school festival and charity drive, like Trina mentioned earlier."
+        ],
+        [
+          "Mason Bell",
+          "That sounds like a great plan, I'll make sure to write down some questions for Ben Carter and our art teacher, such as what kind of display materials we'll need and how we can get feedback from the student council. I'll also invite Curtis to join us tomorrow at 12:30 pm. Should we also think about how we're going to present your art project to Patricia Kim and the school administration, to make sure we can get their support for the event?"
+        ],
+        [
+          "Rosie Bell",
+          "That's a great idea, we should definitely think about how to present my art project to Patricia Kim and the school administration. Maybe we could prepare a short presentation or a proposal that outlines the details of the event and how it will benefit the school. I'll start working on that tonight and we can finalize it tomorrow before our meeting with Ben Carter and our art teacher."
+        ],
+        [
+          "Mason Bell",
+          "That sounds like a great idea, preparing a presentation or proposal will definitely help us get Patricia Kim and the school administration on board. I can help you work on it tonight and we can finalize it tomorrow before our meeting. Should we also think about how we're going to involve the student council and other art teachers in the event, maybe we can ask them to help us with the setup or provide some feedback on the display?"
+        ],
+        [
+          "Rosie Bell",
+          "Yeah, that's a great idea to involve the student council and other art teachers in the event. We could ask them to help us with the setup or provide some feedback on the display. I'll also make sure to include that in the presentation or proposal we're going to prepare for Patricia Kim and the school administration. Let's work on it tonight and finalize it tomorrow before our meeting."
+        ],
+        [
+          "Mason Bell",
+          "That sounds like a great plan, I'll help you work on the presentation tonight and we can finalize it tomorrow before our meeting. Should we also think about inviting other students to attend the event and make it a bigger gathering, maybe we can even get some local artists to come and provide feedback on your work?"
+        ],
+        [
+          "Rosie Bell",
+          "That's a great idea to invite other students and local artists to attend the event, it could definitely make it a bigger and more successful gathering. I'll make sure to include that in the presentation or proposal we're going to prepare for Patricia Kim and the school administration. Let's also think about how we can promote the event to get more people to attend, maybe we can put up posters around the school or send out invitations to the student body."
+        ],
+        [
+          "Mason Bell",
+          "That's a great idea to promote the event, we could also use social media to spread the word and get more people to attend. I'll help you design some posters and we can ask the student council to help us distribute them around the school. Should we also think about having a theme for the event or some kind of activities to make it more engaging for the attendees?"
+        ],
+        [
+          "Rosie Bell",
+          "That's a great idea to have a theme for the event, maybe we could have a theme that ties in with the school festival and charity drive. And for activities, we could have a Q&A session or a workshop where attendees can learn about the inspiration behind my art project. What do you think?"
+        ]
+      ]
+    },
+    "Rashad Lewis": {
+      "movement": [
+        129,
+        120
+      ],
+      "pronunciatio": "\ud83d\udcf9\ud83d\udc40",
+      "description": "continuing work at the school (watching game footage to analyze player techniques) @ the Ville:school:classroom:School Desk",
+      "chat": null
+    },
+    "Parker Lewis": {
+      "movement": [
+        124,
+        120
+      ],
+      "pronunciatio": "\ud83c\udfe0",
+      "description": "heading home @ the Ville:house_6:common room:common room sofa",
+      "chat": null
+    },
+    "Kendra Hall": {
+      "movement": [
+        130,
+        120
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83d\udca1",
+      "description": "continuing work at the school (providing feedback and guidance to the students) @ the Ville:school:classroom:blackboard",
+      "chat": null
+    },
+    "Dr Miguel Santos": {
+      "movement": [
+        136,
+        136
+      ],
+      "pronunciatio": "\ud83e\uddb7",
+      "description": "continuing work at the pharmacy (performing a dental procedure) @ the Ville:house_7:common room:shelf",
+      "chat": null
+    },
+    "Vivian Santos": {
+      "movement": [
+        131,
+        136
+      ],
+      "pronunciatio": "\ud83d\udcca",
+      "description": "continuing work at the office (reviewing the office's website) @ the Ville:school:library:library table",
+      "chat": null
+    },
+    "Mateo Santos": {
+      "movement": [
+        124,
+        136
+      ],
+      "pronunciatio": "\ud83c\udfe0",
+      "description": "heading home @ the Ville:house_7:common room:common room sofa",
+      "chat": null
+    },
+    "Gabriel Flores": {
+      "movement": [
+        168,
+        135
+      ],
+      "pronunciatio": "\ud83d\udcdd",
+      "description": "continuing work at the school (reviewing the student pickup and dropoff list) @ the Ville:school:hallway:<random>",
+      "chat": null
+    },
+    "Emilia Flores": {
+      "movement": [
+        173,
+        135
+      ],
+      "pronunciatio": "\ud83c\udf74\ud83d\udc65",
+      "description": "continuing work at the school (serving food to students and staff) @ the Ville:school:hallway:<random>",
+      "chat": null
+    },
+    "Noemi Flores": {
+      "movement": [
+        160,
+        135
+      ],
+      "pronunciatio": "\ud83c\udfe0",
+      "description": "heading home @ the Ville:house_8:common room:common room sofa",
+      "chat": null
+    },
+    "Pastor Daniel Brooks": {
+      "movement": [
+        139,
+        159
+      ],
+      "pronunciatio": "\ud83c\udf89\ud83d\udc65",
+      "description": "continuing work at the government building (conversing about Pastor Daniel Brooks and Caleb Brooks conversing about organizing a community fair to encourage students to get involved in local initiatives, discussing details such as inviting local organizations, securing sponsorships, creating promotional materials, and finalizing plans for the event.) @ the Ville:school:classroom:classroom podium",
+      "chat": null
+    },
+    "Dylan Brooks": {
+      "movement": [
+        121,
+        159
+      ],
+      "pronunciatio": "\ud83d\udeb6\u200d\u2640",
+      "description": "having a snack and relaxing (walking home from school) @ the Ville:house_9:common room:common room sofa",
+      "chat": null
+    },
+    "Caleb Brooks": {
+      "movement": [
+        138,
+        159
+      ],
+      "pronunciatio": "\ud83c\udf89\ud83d\udc65",
+      "description": "continuing work at the school (conversing about Pastor Daniel Brooks and Caleb Brooks conversing about organizing a community fair to encourage students to get involved in local initiatives, discussing details such as inviting local organizations, securing sponsorships, creating promotional materials, and finalizing plans for the event.) @ the Ville:school:hallway:<random>",
+      "chat": null
+    },
+    "Professor Emily Carter": {
+      "movement": [
+        167,
+        166
+      ],
+      "pronunciatio": "\ud83c\udf7f\ud83d\udc86",
+      "description": "continuing work at the school (taking a short break to grab a snack and stretch) @ the Ville:Johnson Park:park:garden chair",
+      "chat": null
+    },
+    "Ben Carter": {
+      "movement": [
+        160,
+        166
+      ],
+      "pronunciatio": "\ud83c\udfeb\ud83d\udeb6",
+      "description": "having a snack and relaxing (walking home from school) @ the Ville:house_10:common room:common room sofa",
+      "chat": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 15:57:20"
+  }
+}

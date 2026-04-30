@@ -1,0 +1,399 @@
+{
+  "persona": {
+    "Ethan Walker": {
+      "movement": [
+        54,
+        97
+      ],
+      "pronunciatio": "\ud83d\udce8",
+      "description": "continuing work at the school (responding to emails from teachers and staff) @ the Ville:school:library:library table",
+      "chat": null
+    },
+    "Jordan Walker": {
+      "movement": [
+        48,
+        97
+      ],
+      "pronunciatio": "\ud83d\udeb6\u200d\u2642",
+      "description": "attending afternoon classes (walking back to the classroom) @ the Ville:house_1:common room:shelf",
+      "chat": null
+    },
+    "Lily Walker": {
+      "movement": [
+        52,
+        97
+      ],
+      "pronunciatio": "\ud83d\udcdd",
+      "description": "attending afternoon classes (working on a mathematics worksheet) @ the Ville:house_1:common room:common room table",
+      "chat": null
+    },
+    "Rodrigo Torres": {
+      "movement": [
+        100,
+        97
+      ],
+      "pronunciatio": "\ud83d\udce6",
+      "description": "continuing work at the supply store (checking the inventory of supplies) @ the Ville:supply_store:supply store:supply store product shelf",
+      "chat": null
+    },
+    "Sofia Torres": {
+      "movement": [
+        100,
+        101
+      ],
+      "pronunciatio": "\ud83e\uddf9\ud83d\udcaa",
+      "description": "continuing work at the residential house (helping with household chores) @ the Ville:house_2:kitchen:kitchen sink",
+      "chat": null
+    },
+    "Harpreet Kaur": {
+      "movement": [
+        132,
+        97
+      ],
+      "pronunciatio": "\ud83d\udce7",
+      "description": "continuing work at the government building (responding to emails from community members) @ the Ville:government_building:computer_room:computer",
+      "chat": null
+    },
+    "Raj Singh": {
+      "movement": [
+        128,
+        97
+      ],
+      "pronunciatio": "\ud83d\udcc5",
+      "description": "continuing work at the government building (attending a meeting with colleagues) @ the Ville:government_building:meeting room:Town Hall Seats",
+      "chat": null
+    },
+    "Nadia Kaur": {
+      "movement": [
+        112,
+        25
+      ],
+      "pronunciatio": "\ud83d\udc65\ud83d\udcac",
+      "description": "attending afternoon classes (conversing about Nadia Kaur and Julia Nguyen conversing about Julia's school day, her lead role in the upcoming school play, and Nadia's interest in attending a rehearsal and learning more about the production) @ the Ville:school:classroom:classroom student seating",
+      "chat": null
+    },
+    "Dr Linh Nguyen": {
+      "movement": [
+        75,
+        51
+      ],
+      "pronunciatio": "\ud83c\udfe5\ud83d\udc8a",
+      "description": "continuing work at the pharmacy (meeting with a pharmacist to discuss patient care) @ the Ville:pharmacy:store:behind the pharmacy counter",
+      "chat": null
+    },
+    "Phoebe Nguyen": {
+      "movement": [
+        82,
+        26
+      ],
+      "pronunciatio": "\ud83c\udf74",
+      "description": "continuing work at the school (eating lunch in the staff room) @ the Ville:house_4:kitchen:refrigerator",
+      "chat": null
+    },
+    "Julia Nguyen": {
+      "movement": [
+        115,
+        25
+      ],
+      "pronunciatio": "\ud83d\udc65\ud83d\udcac",
+      "description": "attending afternoon classes (conversing about Nadia Kaur and Julia Nguyen conversing about Julia's school day, her lead role in the upcoming school play, and Nadia's interest in attending a rehearsal and learning more about the production) @ the Ville:school:classroom:classroom student seating",
+      "chat": null
+    },
+    "Curtis Bell": {
+      "movement": [
+        67,
+        119
+      ],
+      "pronunciatio": "\ud83c\udfeb\ud83d\udeb6",
+      "description": "continuing work at the school (conducting a walk-through of the school's premises) @ the Ville:school:hallway:<random>",
+      "chat": null
+    },
+    "Patricia Kim": {
+      "movement": [
+        64,
+        119
+      ],
+      "pronunciatio": "\ud83d\uddc2\ufe0f",
+      "description": "continuing work at the government building (organizing documents) @ the Ville:government_building:main room:desk",
+      "chat": null
+    },
+    "Trina Bell": {
+      "movement": [
+        67,
+        119
+      ],
+      "pronunciatio": "\ud83d\udeb6",
+      "description": "attending afternoon classes (walking to the next class) @ the Ville:school:hallway:<random>",
+      "chat": null
+    },
+    "Rosie Bell": {
+      "movement": [
+        65,
+        119
+      ],
+      "pronunciatio": "\ud83c\udf74\ud83d\udc65",
+      "description": "attending afternoon classes (chatting with friends during lunch) @ the Ville:school:hallway:<random>",
+      "chat": null
+    },
+    "Mason Bell": {
+      "movement": [
+        68,
+        119
+      ],
+      "pronunciatio": "\ud83c\udf74",
+      "description": "attending afternoon classes (eating lunch) @ the Ville:school:hallway:<random>",
+      "chat": null
+    },
+    "Rashad Lewis": {
+      "movement": [
+        128,
+        120
+      ],
+      "pronunciatio": "\ud83c\udfcb\ufe0f\u200d",
+      "description": "taking a lunch break (conversing about Rashad Lewis and Kendra Hall conversing about collaborating on drills for students, discussing agility drills, teamwork exercises, and ways to incorporate them into movement classes and an upcoming game, as well as assessing their effectiveness and making adjustments as needed.) @ the Ville:house_6:common room:common room table",
+      "chat": null
+    },
+    "Parker Lewis": {
+      "movement": [
+        131,
+        120
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Parker Lewis and Kendra Hall conversing about the new drills, including relay races and individual sprinting, that Coach Rashad has planned for their team's practice, and how these drills will help improve teamwork, speed, and communication among the team members @ <persona> Kendra Hall",
+      "chat": [
+        [
+          "Parker Lewis",
+          "Hey Kendra, I saw you talking about the new drills with Coach Rashad earlier. What do you think about the relay race and individual sprinting drills we're going to try out in practice?"
+        ],
+        [
+          "Kendra Hall",
+          "I think the relay race and individual sprinting drills will be great for improving teamwork and speed, and I'm excited to see how the team responds to them. Coach Rashad and I were just discussing how to incorporate them into our practice schedule."
+        ],
+        [
+          "Parker Lewis",
+          "That sounds like a great plan, I'm looking forward to trying out the new drills in practice. Do you think we'll be working on any specific teamwork exercises to help us communicate better during the relay race?"
+        ],
+        [
+          "Kendra Hall",
+          "Yes, we will be working on some specific teamwork exercises to help with communication during the relay race. Coach Rashad and I are planning to incorporate some drills that focus on handoffs, baton passing, and verbal cues to help the team work together more effectively."
+        ],
+        [
+          "Parker Lewis",
+          "That's really helpful, I've been working on my handoffs and baton passing, but I'd love to learn more about the verbal cues you and Coach Rashad have planned. Can you tell me more about how we'll be using them during the relay race?"
+        ],
+        [
+          "Kendra Hall",
+          "We'll be using verbal cues such as 'ready' and 'go' to help the team communicate during the relay race, and we'll also be practicing active listening to make sure everyone is on the same page. Coach Rashad and I will be demonstrating these cues during practice, so be sure to pay attention and ask questions if you're unsure about anything."
+        ],
+        [
+          "Parker Lewis",
+          "That sounds like a great plan, I'll make sure to pay attention during practice and ask questions if I'm unsure about anything. Do you think we'll have time to practice the agility drills during the same practice, or will we be focusing on the relay race and teamwork exercises first?"
+        ],
+        [
+          "Kendra Hall",
+          "We'll definitely be practicing the agility drills, but we'll likely focus on the relay race and teamwork exercises first to make sure everyone is comfortable with the new drills. Coach Rashad and I will make sure to allocate enough time for both, so don't worry, we'll get to the agility drills as well."
+        ],
+        [
+          "Parker Lewis",
+          "That sounds like a solid plan, I'm excited to practice the relay race and teamwork exercises first and then move on to the agility drills. Do you think Coach Rashad will be providing any additional feedback or tips during practice to help us improve our performance?"
+        ],
+        [
+          "Kendra Hall",
+          "Yes, Coach Rashad will be providing feedback and tips during practice to help us improve our performance. He's also planning to review the game footage with us to identify areas where we can improve our teamwork and communication."
+        ],
+        [
+          "Parker Lewis",
+          "That's great to hear, I'm looking forward to getting feedback from Coach Rashad and reviewing the game footage to see how we can improve. Do you think we'll have a chance to practice the relay race and teamwork exercises during the upcoming game, or will we be focusing on perfecting them during practice before the game?"
+        ],
+        [
+          "Kendra Hall",
+          "I think we'll have a chance to practice the relay race and teamwork exercises during the upcoming game, but we'll definitely be focusing on perfecting them during practice before the game. Coach Rashad and I want to make sure everyone is comfortable with the new drills and that we're working together as a cohesive team."
+        ],
+        [
+          "Parker Lewis",
+          "That's great to know, I'm feeling more confident about the upcoming game now. I'll make sure to focus on perfecting the relay race and teamwork exercises during practice and take Coach Rashad's feedback into consideration. Thanks for filling me in on the plans, Kendra!"
+        ],
+        [
+          "Kendra Hall",
+          "I'm glad I could help clarify the plans for you, Parker. Now, let's make sure to get some rest and come to practice tomorrow ready to give it our all. I'm looking forward to seeing how the team responds to the new drills."
+        ],
+        [
+          "Parker Lewis",
+          "Sounds good, I'll make sure to get plenty of rest and come to practice tomorrow ready to learn and improve. I'm looking forward to seeing how the team responds to the new drills too. Have a great rest of your day, Kendra!"
+        ]
+      ]
+    },
+    "Kendra Hall": {
+      "movement": [
+        130,
+        120
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Parker Lewis and Kendra Hall conversing about the new drills, including relay races and individual sprinting, that Coach Rashad has planned for their team's practice, and how these drills will help improve teamwork, speed, and communication among the team members @ <persona> Parker Lewis",
+      "chat": [
+        [
+          "Parker Lewis",
+          "Hey Kendra, I saw you talking about the new drills with Coach Rashad earlier. What do you think about the relay race and individual sprinting drills we're going to try out in practice?"
+        ],
+        [
+          "Kendra Hall",
+          "I think the relay race and individual sprinting drills will be great for improving teamwork and speed, and I'm excited to see how the team responds to them. Coach Rashad and I were just discussing how to incorporate them into our practice schedule."
+        ],
+        [
+          "Parker Lewis",
+          "That sounds like a great plan, I'm looking forward to trying out the new drills in practice. Do you think we'll be working on any specific teamwork exercises to help us communicate better during the relay race?"
+        ],
+        [
+          "Kendra Hall",
+          "Yes, we will be working on some specific teamwork exercises to help with communication during the relay race. Coach Rashad and I are planning to incorporate some drills that focus on handoffs, baton passing, and verbal cues to help the team work together more effectively."
+        ],
+        [
+          "Parker Lewis",
+          "That's really helpful, I've been working on my handoffs and baton passing, but I'd love to learn more about the verbal cues you and Coach Rashad have planned. Can you tell me more about how we'll be using them during the relay race?"
+        ],
+        [
+          "Kendra Hall",
+          "We'll be using verbal cues such as 'ready' and 'go' to help the team communicate during the relay race, and we'll also be practicing active listening to make sure everyone is on the same page. Coach Rashad and I will be demonstrating these cues during practice, so be sure to pay attention and ask questions if you're unsure about anything."
+        ],
+        [
+          "Parker Lewis",
+          "That sounds like a great plan, I'll make sure to pay attention during practice and ask questions if I'm unsure about anything. Do you think we'll have time to practice the agility drills during the same practice, or will we be focusing on the relay race and teamwork exercises first?"
+        ],
+        [
+          "Kendra Hall",
+          "We'll definitely be practicing the agility drills, but we'll likely focus on the relay race and teamwork exercises first to make sure everyone is comfortable with the new drills. Coach Rashad and I will make sure to allocate enough time for both, so don't worry, we'll get to the agility drills as well."
+        ],
+        [
+          "Parker Lewis",
+          "That sounds like a solid plan, I'm excited to practice the relay race and teamwork exercises first and then move on to the agility drills. Do you think Coach Rashad will be providing any additional feedback or tips during practice to help us improve our performance?"
+        ],
+        [
+          "Kendra Hall",
+          "Yes, Coach Rashad will be providing feedback and tips during practice to help us improve our performance. He's also planning to review the game footage with us to identify areas where we can improve our teamwork and communication."
+        ],
+        [
+          "Parker Lewis",
+          "That's great to hear, I'm looking forward to getting feedback from Coach Rashad and reviewing the game footage to see how we can improve. Do you think we'll have a chance to practice the relay race and teamwork exercises during the upcoming game, or will we be focusing on perfecting them during practice before the game?"
+        ],
+        [
+          "Kendra Hall",
+          "I think we'll have a chance to practice the relay race and teamwork exercises during the upcoming game, but we'll definitely be focusing on perfecting them during practice before the game. Coach Rashad and I want to make sure everyone is comfortable with the new drills and that we're working together as a cohesive team."
+        ],
+        [
+          "Parker Lewis",
+          "That's great to know, I'm feeling more confident about the upcoming game now. I'll make sure to focus on perfecting the relay race and teamwork exercises during practice and take Coach Rashad's feedback into consideration. Thanks for filling me in on the plans, Kendra!"
+        ],
+        [
+          "Kendra Hall",
+          "I'm glad I could help clarify the plans for you, Parker. Now, let's make sure to get some rest and come to practice tomorrow ready to give it our all. I'm looking forward to seeing how the team responds to the new drills."
+        ],
+        [
+          "Parker Lewis",
+          "Sounds good, I'll make sure to get plenty of rest and come to practice tomorrow ready to learn and improve. I'm looking forward to seeing how the team responds to the new drills too. Have a great rest of your day, Kendra!"
+        ]
+      ]
+    },
+    "Dr Miguel Santos": {
+      "movement": [
+        141,
+        136
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83d\udca1",
+      "description": "continuing work at the pharmacy (reviewing patient charts) @ the Ville:pharmacy:store:behind the pharmacy counter",
+      "chat": null
+    },
+    "Vivian Santos": {
+      "movement": [
+        130,
+        136
+      ],
+      "pronunciatio": "\ud83d\udcca",
+      "description": "continuing work at the office (reviewing the office's social media accounts) @ the Ville:school:library:bookshelf",
+      "chat": null
+    },
+    "Mateo Santos": {
+      "movement": [
+        128,
+        136
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83d\udca1",
+      "description": "attending afternoon classes (taking notes on cellular respiration) @ the Ville:house_7:common room:common room table",
+      "chat": null
+    },
+    "Gabriel Flores": {
+      "movement": [
+        168,
+        135
+      ],
+      "pronunciatio": "\ud83d\ude8c\ud83d\udd0d",
+      "description": "continuing work at the school (performing a safety check on the bus) @ the Ville:school:hallway:<random>",
+      "chat": null
+    },
+    "Emilia Flores": {
+      "movement": [
+        178,
+        135
+      ],
+      "pronunciatio": "\ud83c\udf74",
+      "description": "continuing work at the school (preparing for the afternoon meal service) @ the Ville:school:hallway:<random>",
+      "chat": null
+    },
+    "Noemi Flores": {
+      "movement": [
+        170,
+        135
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "attending afternoon classes (chatting with friends) @ the Ville:Johnson Park:park:garden chair",
+      "chat": null
+    },
+    "Pastor Daniel Brooks": {
+      "movement": [
+        139,
+        159
+      ],
+      "pronunciatio": "\ud83d\udde3\ufe0f",
+      "description": "continuing work at the government building (discussing a new community program) @ the Ville:government_building:meeting room:Town Hall Presenter",
+      "chat": null
+    },
+    "Dylan Brooks": {
+      "movement": [
+        125,
+        159
+      ],
+      "pronunciatio": "\ud83c\udf74",
+      "description": "attending afternoon classes (eating lunch) @ the Ville:school:hallway:<random>",
+      "chat": null
+    },
+    "Caleb Brooks": {
+      "movement": [
+        138,
+        159
+      ],
+      "pronunciatio": "\ud83d\udce8",
+      "description": "continuing work at the school (responding to parent emails) @ the Ville:school:classroom:School Desk",
+      "chat": null
+    },
+    "Professor Emily Carter": {
+      "movement": [
+        167,
+        166
+      ],
+      "pronunciatio": "\ud83d\udcda\ud83d\udc68\u200d",
+      "description": "continuing work at the school (meeting with a student to discuss their research project) @ the Ville:school:classroom:School Desk",
+      "chat": null
+    },
+    "Ben Carter": {
+      "movement": [
+        165,
+        166
+      ],
+      "pronunciatio": "\ud83c\udf74\ud83d\udc65",
+      "description": "attending afternoon classes (eating his lunch and chatting with his friends) @ the Ville:house_10:common room:common room table",
+      "chat": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 14:21:00"
+  }
+}

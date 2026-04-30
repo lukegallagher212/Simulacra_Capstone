@@ -1,0 +1,277 @@
+{
+  "persona": {
+    "Ethan Walker": {
+      "movement": [
+        52,
+        97
+      ],
+      "pronunciatio": "\ud83d\udcda",
+      "description": "working at the school (creating a list of recommended books for summer reading) @ the Ville:school:library:bookshelf",
+      "chat": null
+    },
+    "Jordan Walker": {
+      "movement": [
+        55,
+        97
+      ],
+      "pronunciatio": "\ud83d\udcda",
+      "description": "attending morning classes (attending the science class) @ the Ville:house_1:common room:shelf",
+      "chat": null
+    },
+    "Lily Walker": {
+      "movement": [
+        41,
+        92
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "attending morning classes (asleep) @ the Ville:house_1:bedroom_1:bed",
+      "chat": null
+    },
+    "Rodrigo Torres": {
+      "movement": [
+        76,
+        92
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "working at the supply store (asleep) @ the Ville:house_2:bedroom_1:bed",
+      "chat": null
+    },
+    "Sofia Torres": {
+      "movement": [
+        112,
+        97
+      ],
+      "pronunciatio": "\ud83d\udc6e",
+      "description": "working at the residential house (monitoring the residents' safety) @ the Ville:house_3:common room:common room table",
+      "chat": null
+    },
+    "Harpreet Kaur": {
+      "movement": [
+        135,
+        97
+      ],
+      "pronunciatio": "\ud83d\udcc5\ud83d\udcbc",
+      "description": "working at the government building (attending a meeting with her supervisor) @ the Ville:government_building:meeting room:Town Hall Seats",
+      "chat": null
+    },
+    "Raj Singh": {
+      "movement": [
+        135,
+        97
+      ],
+      "pronunciatio": "\ud83e\udd1d",
+      "description": "working at the government building (collaborating with a team member on a project) @ the Ville:government_building:meeting room:Town Hall Seats",
+      "chat": null
+    },
+    "Nadia Kaur": {
+      "movement": [
+        121,
+        97
+      ],
+      "pronunciatio": "\ud83d\udc65\ud83d\udcbb",
+      "description": "attending morning classes (working on a group project) @ the Ville:school:library:library table",
+      "chat": null
+    },
+    "Dr Linh Nguyen": {
+      "movement": [
+        154,
+        89
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "working at the pharmacy (asleep) @ the Ville:house_4:bedroom_1:bed",
+      "chat": null
+    },
+    "Phoebe Nguyen": {
+      "movement": [
+        108,
+        23
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udc42",
+      "description": "working at the school (conducting a speech therapy session) @ the Ville:school:classroom:classroom podium",
+      "chat": null
+    },
+    "Julia Nguyen": {
+      "movement": [
+        164,
+        95
+      ],
+      "pronunciatio": "\ud83d\udcda\ud83d\udc69",
+      "description": "attending morning classes (attending her third class, which is Science) @ the Ville:house_4:common room:shelf",
+      "chat": null
+    },
+    "Curtis Bell": {
+      "movement": [
+        65,
+        119
+      ],
+      "pronunciatio": "\ud83d\udcdd",
+      "description": "working at the school (documenting his findings and recommendations for improving school security) @ the Ville:school:library:library table",
+      "chat": null
+    },
+    "Patricia Kim": {
+      "movement": [
+        64,
+        119
+      ],
+      "pronunciatio": "\ud83c\udfcb\ufe0f\u200d",
+      "description": "working at the government building (participating in a training session) @ the Ville:government_building:meeting room:Town Hall Presenter",
+      "chat": null
+    },
+    "Trina Bell": {
+      "movement": [
+        67,
+        119
+      ],
+      "pronunciatio": "\ud83d\udcda\ud83d\udcac",
+      "description": "attending morning classes (participating in a class discussion) @ the Ville:house_5:common room:common room table",
+      "chat": null
+    },
+    "Rosie Bell": {
+      "movement": [
+        68,
+        119
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83d\udca1",
+      "description": "attending morning classes (working on a Math problem set) @ the Ville:school:classroom:School Desk",
+      "chat": null
+    },
+    "Mason Bell": {
+      "movement": [
+        67,
+        119
+      ],
+      "pronunciatio": "\ud83d\udc42\ud83d\udcda",
+      "description": "attending morning classes (listening to the science teacher's lecture) @ the Ville:house_5:common room:shelf",
+      "chat": null
+    },
+    "Rashad Lewis": {
+      "movement": [
+        142,
+        120
+      ],
+      "pronunciatio": "\ud83c\udfc8",
+      "description": "working at the school (heading to the practice field) @ the Ville:Johnson Park:park:garden chair",
+      "chat": null
+    },
+    "Parker Lewis": {
+      "movement": [
+        128,
+        120
+      ],
+      "pronunciatio": "\ud83d\udcf9\ud83d\udc68\u200d",
+      "description": "attending morning classes (watching a video presentation during the science class) @ the Ville:house_6:common room:common room table",
+      "chat": null
+    },
+    "Kendra Hall": {
+      "movement": [
+        125,
+        119
+      ],
+      "pronunciatio": "\ud83d\udcda",
+      "description": "working at the school (preparing for her first class) @ the Ville:school:classroom:School Desk",
+      "chat": null
+    },
+    "Dr Miguel Santos": {
+      "movement": [
+        117,
+        131
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "working at the pharmacy (asleep) @ the Ville:house_7:bedroom_1:bed",
+      "chat": null
+    },
+    "Vivian Santos": {
+      "movement": [
+        128,
+        136
+      ],
+      "pronunciatio": "\ud83e\udd1d",
+      "description": "working at the office (collaborating with the design team) @ the Ville:house_7:common room:common room table",
+      "chat": null
+    },
+    "Mateo Santos": {
+      "movement": [
+        130,
+        136
+      ],
+      "pronunciatio": "\ud83d\udcf9",
+      "description": "attending morning classes (watching a video presentation during the science class) @ the Ville:house_7:common room:common room table",
+      "chat": null
+    },
+    "Gabriel Flores": {
+      "movement": [
+        155,
+        124
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "working at the school (chatting with colleagues) @ the Ville:school:hallway:<random>",
+      "chat": null
+    },
+    "Emilia Flores": {
+      "movement": [
+        178,
+        135
+      ],
+      "pronunciatio": "\ud83c\udf73",
+      "description": "working at the school (finalizing meal preparations) @ the Ville:house_8:kitchen:stove",
+      "chat": null
+    },
+    "Noemi Flores": {
+      "movement": [
+        168,
+        135
+      ],
+      "pronunciatio": "\ud83d\udcda\ud83d\udc69",
+      "description": "attending morning classes (attending her third class, Science) @ the Ville:house_8:common room:common room table",
+      "chat": null
+    },
+    "Pastor Daniel Brooks": {
+      "movement": [
+        127,
+        159
+      ],
+      "pronunciatio": "\ud83d\udcdd",
+      "description": "working at the government building (taking notes and summarizing the key points) @ the Ville:government_building:meeting room:Town Hall Presenter",
+      "chat": null
+    },
+    "Dylan Brooks": {
+      "movement": [
+        127,
+        159
+      ],
+      "pronunciatio": "\ud83d\udcda",
+      "description": "attending morning classes (attending his next class, Science) @ the Ville:school:classroom:School Desk",
+      "chat": null
+    },
+    "Caleb Brooks": {
+      "movement": [
+        138,
+        159
+      ],
+      "pronunciatio": "\ud83d\udcc5",
+      "description": "working at the school (meeting with colleagues) @ the Ville:school:hallway:<random>",
+      "chat": null
+    },
+    "Professor Emily Carter": {
+      "movement": [
+        165,
+        166
+      ],
+      "pronunciatio": "\ud83d\udcc5",
+      "description": "working at the school (attending a meeting with other faculty members) @ the Ville:house_10:common room:common room table",
+      "chat": null
+    },
+    "Ben Carter": {
+      "movement": [
+        168,
+        166
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "attending morning classes (conversing about a discussion between Professor Emily Carter and Ben Carter regarding leadership responsibilities, internal reports, and community development projects, including resource allocation, community engagement, and implementation plans for a literacy program and community center renovation.) @ the Ville:house_10:common room:common room table",
+      "chat": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 11:19:50"
+  }
+}

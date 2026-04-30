@@ -1,0 +1,489 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2023, 16:20:50",
+  "curr_tile": [
+    139,
+    159
+  ],
+  "daily_plan_req": "1. wake up and complete morning routine at 7:00 am. 2. have breakfast at home. 3. head to the government building at 8:00 am. 4. lunch break at 12:00 pm. 5. return to work until 5:00 pm. 6. head home and have dinner at 6:30 pm. 7. relax at home from 7:30 pm",
+  "name": "Pastor Daniel Brooks",
+  "first_name": "Daniel",
+  "last_name": "Brooks",
+  "age": 55,
+  "innate": "wise, compassionate, spiritual",
+  "learned": "Pastor Daniel Brooks is a community mentor and spiritual guide who facilitates gatherings.",
+  "currently": "Pastor Daniel Brooks is sleeping at house_9 before morning prayers.",
+  "lifestyle": "Pastor Daniel Brooks goes to bed around 10pm, wakes up around 7am, eats dinner around 6:30pm.",
+  "living_area": "the Ville:house_9:bedroom_1",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 78,
+  "importance_ele_n": 96,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete morning routine at 7:00 am",
+    "have breakfast at home",
+    "head to the government building at 8:00 am",
+    "lunch break at 12:00 pm",
+    "return to work until 5:00 pm",
+    "head home and have dinner at 6:30 pm",
+    "relax at home from 7:30 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      420
+    ],
+    [
+      "waking up and starting morning routine",
+      60
+    ],
+    [
+      "having breakfast at home",
+      30
+    ],
+    [
+      "commuting to the government building and starting work (on the way to on the way to commuting to the government building and starting wor)",
+      0
+    ],
+    [
+      "commuting to the government building and starting work (conversing about Pastor Daniel Brooks and Caleb Brooks conversing about their daily plans and schedules, including Pastor Daniel's meeting at the Government Building and Caleb's classes at school, over a pleasant morning breakfast)",
+      4
+    ],
+    [
+      "commuting to the government building and starting work (conversing about a conversation between Pastor Daniel Brooks and Dylan Brooks about Dylan's school day, particularly his literature class and an upcoming discussion about a new poem)",
+      3
+    ],
+    [
+      "working at the government building (checking his emails for any important updates)",
+      5
+    ],
+    [
+      "working at the government building (reviewing his schedule for the day)",
+      5
+    ],
+    [
+      "working at the government building (preparing for a meeting with community leaders)",
+      10
+    ],
+    [
+      "working at the government building (responding to urgent messages)",
+      6
+    ],
+    [
+      "working at the government building (organizing his notes for the meeting)",
+      10
+    ],
+    [
+      "working at the government building (making a to-do list for the day)",
+      10
+    ],
+    [
+      "working at the government building (taking a short break to collect his thoughts)",
+      5
+    ],
+    [
+      "working at the government building (reviewing the meeting agenda)",
+      10
+    ],
+    [
+      "working at the government building (gathering materials for the meeting)",
+      10
+    ],
+    [
+      "working at the government building (double-checking the meeting room)",
+      5
+    ],
+    [
+      "working at the government building (setting up the meeting room)",
+      10
+    ],
+    [
+      "working at the government building (testing the audio-visual equipment)",
+      5
+    ],
+    [
+      "working at the government building (finalizing his presentation)",
+      10
+    ],
+    [
+      "working at the government building (taking a few deep breaths to calm his nerves)",
+      5
+    ],
+    [
+      "working at the government building (welcoming the community leaders to the meeting)",
+      10
+    ],
+    [
+      "working at the government building (on the way to introducing the meeting's purpose and objectives)",
+      0
+    ],
+    [
+      "working at the government building (conversing about Pastor Daniel Brooks and Caleb Brooks conversing about their respective meetings and classes, discussing community engagement, support for local initiatives, and potential community service projects for students, as well as planning to follow up with Ben Carter and keep him updated on their progress.)",
+      16
+    ],
+    [
+      "working at the government building (on the way to leading the discussion and facilitating the meeting)",
+      0
+    ],
+    [
+      "working at the government building (conversing about a conversation between Pastor Daniel Brooks and Dylan Brooks about a new poem in Dylan's literature class, its themes of community and unity, and their plans to organize community events and propose them to Ben Carter for approval and support)",
+      16
+    ],
+    [
+      "working at the government building (taking notes and summarizing the key points)",
+      10
+    ],
+    [
+      "working at the government building (addressing questions and concerns from the community leaders)",
+      15
+    ],
+    [
+      "working at the government building (wrapping up the meeting and assigning tasks)",
+      10
+    ],
+    [
+      "working at the government building (thanking the community leaders for their participation)",
+      5
+    ],
+    [
+      "working at the government building (taking a short break to stretch and move around)",
+      5
+    ],
+    [
+      "working at the government building (responding to follow-up questions and comments)",
+      10
+    ],
+    [
+      "working at the government building (updating his to-do list based on the meeting's outcomes)",
+      10
+    ],
+    [
+      "working at the government building (preparing for the next task or meeting)",
+      10
+    ],
+    [
+      "working at the government building (reviewing his progress and adjusting his schedule as needed)",
+      10
+    ],
+    [
+      "working at the government building (taking a few moments to reflect on the meeting's success)",
+      5
+    ],
+    [
+      "taking a lunch break",
+      54
+    ],
+    [
+      "continuing work at the government building (on the way to responding to emails)",
+      0
+    ],
+    [
+      "continuing work at the government building (conversing about Pastor Daniel Brooks and Caleb Brooks conversing about organizing a community fair to encourage students to get involved in local initiatives and finalize the details for the event)",
+      17
+    ],
+    [
+      "continuing work at the government building (meeting with a community leader)",
+      30
+    ],
+    [
+      "continuing work at the government building (discussing a new community program)",
+      30
+    ],
+    [
+      "continuing work at the government building (taking notes on the program)",
+      20
+    ],
+    [
+      "continuing work at the government building (brainstorming ideas for the program)",
+      25
+    ],
+    [
+      "continuing work at the government building (making phone calls to team members)",
+      20
+    ],
+    [
+      "continuing work at the government building (on the way to reviewing program budgets)",
+      0
+    ],
+    [
+      "continuing work at the government building (conversing about Pastor Daniel Brooks and Caleb Brooks conversing about organizing a community fair to encourage students to get involved in local initiatives, discussing details such as inviting local organizations, securing sponsorships, creating promotional materials, and finalizing plans for the event.)",
+      18
+    ],
+    [
+      "continuing work at the government building (analyzing program data)",
+      25
+    ],
+    [
+      "continuing work at the government building (creating a program report)",
+      20
+    ],
+    [
+      "continuing work at the government building (editing the report)",
+      20
+    ],
+    [
+      "continuing work at the government building (finalizing the report)",
+      5
+    ],
+    [
+      "heading home",
+      30
+    ],
+    [
+      "relaxing at home",
+      58
+    ],
+    [
+      "having dinner",
+      60
+    ],
+    [
+      "relaxing at home",
+      120
+    ],
+    [
+      "getting ready for bed",
+      30
+    ],
+    [
+      "sleeping",
+      60
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      27
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      4
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      12
+    ],
+    [
+      "sleeping",
+      0
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      420
+    ],
+    [
+      "waking up and starting morning routine",
+      60
+    ],
+    [
+      "having breakfast at home",
+      30
+    ],
+    [
+      "commuting to the government building and starting work",
+      30
+    ],
+    [
+      "working at the government building",
+      240
+    ],
+    [
+      "taking a lunch break",
+      60
+    ],
+    [
+      "continuing work at the government building",
+      240
+    ],
+    [
+      "heading home",
+      30
+    ],
+    [
+      "relaxing at home",
+      60
+    ],
+    [
+      "having dinner",
+      60
+    ],
+    [
+      "relaxing at home",
+      120
+    ],
+    [
+      "getting ready for bed",
+      30
+    ],
+    [
+      "sleeping",
+      60
+    ]
+  ],
+  "act_address": "the Ville:government_building:computer_room:computer",
+  "act_start_time": "February 13, 2023, 16:12:00",
+  "act_duration": 25,
+  "act_description": "continuing work at the government building (analyzing program data)",
+  "act_pronunciatio": "\ud83d\udcca",
+  "act_event": [
+    "Pastor Daniel Brooks",
+    "analyze",
+    "program data"
+  ],
+  "act_obj_description": "being used by Pastor Daniel Brooks for analyzing program data",
+  "act_obj_pronunciatio": "\ud83d\udcca",
+  "act_obj_event": [
+    "computer",
+    "be used by",
+    "Pastor Daniel Brooks"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {
+    "Dylan Brooks": -1138,
+    "Caleb Brooks": 638
+  },
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": []
+}

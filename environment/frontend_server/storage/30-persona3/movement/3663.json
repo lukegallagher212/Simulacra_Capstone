@@ -1,0 +1,489 @@
+{
+  "persona": {
+    "Ethan Walker": {
+      "movement": [
+        65,
+        97
+      ],
+      "pronunciatio": "\ud83d\udcda\ud83d\udcbb",
+      "description": "working at the school (maintaining the library's database) @ the Ville:school:library:bookshelf",
+      "chat": null
+    },
+    "Jordan Walker": {
+      "movement": [
+        51,
+        97
+      ],
+      "pronunciatio": "\ud83d\udcdd",
+      "description": "attending morning classes (taking notes during the math class) @ the Ville:house_1:common room:common room table",
+      "chat": null
+    },
+    "Lily Walker": {
+      "movement": [
+        41,
+        92
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "attending morning classes (asleep) @ the Ville:house_1:bedroom_1:bed",
+      "chat": null
+    },
+    "Rodrigo Torres": {
+      "movement": [
+        76,
+        92
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "working at the supply store (asleep) @ the Ville:house_2:bedroom_1:bed",
+      "chat": null
+    },
+    "Sofia Torres": {
+      "movement": [
+        117,
+        97
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Sofia Torres and Nadia Kaur conversing about civic administration, volunteering for community initiatives, and getting involved in local governance and outreach programs to promote stability and order in their society @ <persona> Nadia Kaur",
+      "chat": [
+        [
+          "Sofia Torres",
+          "Hi Nadia, how's your civic administration lecture going? I saw you attending classes earlier."
+        ],
+        [
+          "Nadia Kaur",
+          "It's going well, thanks for asking! I'm really interested in learning about local governance and how it contributes to the stability and order of our society. What about you, how's your work going?"
+        ],
+        [
+          "Sofia Torres",
+          "It's going well, thanks for asking. I was just taking vital signs of the residents at the residential house. I'm glad to see you're interested in civic administration, it's an important aspect of our community's functioning."
+        ],
+        [
+          "Nadia Kaur",
+          "That's great to hear, Sofia. I've been thinking about volunteering for initiatives that promote stability and order in our society, and I was wondering if you know of any opportunities that I could get involved in."
+        ],
+        [
+          "Sofia Torres",
+          "That's a great idea, Nadia! I think Ben Carter has been looking for volunteers to help with community outreach programs. I could put in a word for you if you're interested. We could also discuss it further with Rodrigo Torres, he's been involved in some of the community initiatives."
+        ],
+        [
+          "Nadia Kaur",
+          "That would be great, thank you Sofia! I would really appreciate it if you could put in a word for me with Ben Carter. I'm also interested in discussing it further with Rodrigo Torres, could we arrange a meeting with him to learn more about the community initiatives?"
+        ],
+        [
+          "Sofia Torres",
+          "I can arrange a meeting with Rodrigo Torres for you, and I'll also talk to Ben Carter about the volunteer opportunity. Let me check Rodrigo's schedule and I'll get back to you with a time that works for everyone."
+        ],
+        [
+          "Nadia Kaur",
+          "Thank you so much, Sofia! I really appreciate your help in arranging a meeting with Rodrigo Torres and putting in a word for me with Ben Carter. I'm looking forward to hearing back from you and learning more about the community initiatives."
+        ],
+        [
+          "Sofia Torres",
+          "I'll make sure to check Rodrigo's schedule and get back to you with a time that works for everyone. In the meantime, I can give you some more information about the community outreach programs that Ben Carter has been organizing. Would you like to hear more about it?"
+        ],
+        [
+          "Nadia Kaur",
+          "Yes, I'd love to hear more about the community outreach programs that Ben Carter has been organizing. It sounds like a great way to contribute to the stability and order of our society."
+        ],
+        [
+          "Sofia Torres",
+          "The community outreach programs that Ben Carter has been organizing are really making a positive impact in our community. They focus on providing support to residents, promoting community engagement, and fostering a sense of unity and cooperation. I think you would be a great fit for this initiative, and I'm sure Ben Carter would be happy to have you on board."
+        ],
+        [
+          "Nadia Kaur",
+          "That sounds like a wonderful initiative, Sofia. I'm excited to learn more about how I can contribute to the community outreach programs and support Ben Carter's vision for our society. What kind of tasks or responsibilities would I have as a volunteer, and how can I make a meaningful impact?"
+        ],
+        [
+          "Sofia Torres",
+          "As a volunteer, you would be helping with tasks such as organizing community events, providing support to residents, and assisting with outreach programs. You would be working closely with Ben Carter and other community members to identify areas of need and develop strategies to address them. I think your skills and interests would be a great asset to the team, and I'm sure you would make a meaningful impact."
+        ],
+        [
+          "Nadia Kaur",
+          "I'm really excited to learn more about the community outreach programs and how I can contribute. Can you tell me more about the types of community events that are typically organized, and what kind of support is provided to residents?"
+        ],
+        [
+          "Sofia Torres",
+          "The community events that are typically organized include things like community clean-up initiatives, educational workshops, and social gatherings. As for the support provided to residents, it can range from helping with daily tasks and errands to providing emotional support and companionship. Ben Carter has been doing a great job of identifying areas of need and developing programs to address them, and I think you would be a great addition to the team."
+        ],
+        [
+          "Nadia Kaur",
+          "That sounds like a great way to make a positive impact in our community. I'd love to learn more about the educational workshops and how they're helping to promote community engagement and social harmony. Can you tell me more about the topics that are typically covered in these workshops?"
+        ]
+      ]
+    },
+    "Harpreet Kaur": {
+      "movement": [
+        135,
+        97
+      ],
+      "pronunciatio": "\ud83d\uddc2\ufe0f",
+      "description": "working at the government building (organizing her materials and documents) @ the Ville:government_building:main room:desk",
+      "chat": null
+    },
+    "Raj Singh": {
+      "movement": [
+        135,
+        97
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83d\udcbc",
+      "description": "working at the government building (working on a report) @ the Ville:government_building:computer_room:computer",
+      "chat": null
+    },
+    "Nadia Kaur": {
+      "movement": [
+        116,
+        97
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Sofia Torres and Nadia Kaur conversing about civic administration, volunteering for community initiatives, and getting involved in local governance and outreach programs to promote stability and order in their society @ <persona> Sofia Torres",
+      "chat": [
+        [
+          "Sofia Torres",
+          "Hi Nadia, how's your civic administration lecture going? I saw you attending classes earlier."
+        ],
+        [
+          "Nadia Kaur",
+          "It's going well, thanks for asking! I'm really interested in learning about local governance and how it contributes to the stability and order of our society. What about you, how's your work going?"
+        ],
+        [
+          "Sofia Torres",
+          "It's going well, thanks for asking. I was just taking vital signs of the residents at the residential house. I'm glad to see you're interested in civic administration, it's an important aspect of our community's functioning."
+        ],
+        [
+          "Nadia Kaur",
+          "That's great to hear, Sofia. I've been thinking about volunteering for initiatives that promote stability and order in our society, and I was wondering if you know of any opportunities that I could get involved in."
+        ],
+        [
+          "Sofia Torres",
+          "That's a great idea, Nadia! I think Ben Carter has been looking for volunteers to help with community outreach programs. I could put in a word for you if you're interested. We could also discuss it further with Rodrigo Torres, he's been involved in some of the community initiatives."
+        ],
+        [
+          "Nadia Kaur",
+          "That would be great, thank you Sofia! I would really appreciate it if you could put in a word for me with Ben Carter. I'm also interested in discussing it further with Rodrigo Torres, could we arrange a meeting with him to learn more about the community initiatives?"
+        ],
+        [
+          "Sofia Torres",
+          "I can arrange a meeting with Rodrigo Torres for you, and I'll also talk to Ben Carter about the volunteer opportunity. Let me check Rodrigo's schedule and I'll get back to you with a time that works for everyone."
+        ],
+        [
+          "Nadia Kaur",
+          "Thank you so much, Sofia! I really appreciate your help in arranging a meeting with Rodrigo Torres and putting in a word for me with Ben Carter. I'm looking forward to hearing back from you and learning more about the community initiatives."
+        ],
+        [
+          "Sofia Torres",
+          "I'll make sure to check Rodrigo's schedule and get back to you with a time that works for everyone. In the meantime, I can give you some more information about the community outreach programs that Ben Carter has been organizing. Would you like to hear more about it?"
+        ],
+        [
+          "Nadia Kaur",
+          "Yes, I'd love to hear more about the community outreach programs that Ben Carter has been organizing. It sounds like a great way to contribute to the stability and order of our society."
+        ],
+        [
+          "Sofia Torres",
+          "The community outreach programs that Ben Carter has been organizing are really making a positive impact in our community. They focus on providing support to residents, promoting community engagement, and fostering a sense of unity and cooperation. I think you would be a great fit for this initiative, and I'm sure Ben Carter would be happy to have you on board."
+        ],
+        [
+          "Nadia Kaur",
+          "That sounds like a wonderful initiative, Sofia. I'm excited to learn more about how I can contribute to the community outreach programs and support Ben Carter's vision for our society. What kind of tasks or responsibilities would I have as a volunteer, and how can I make a meaningful impact?"
+        ],
+        [
+          "Sofia Torres",
+          "As a volunteer, you would be helping with tasks such as organizing community events, providing support to residents, and assisting with outreach programs. You would be working closely with Ben Carter and other community members to identify areas of need and develop strategies to address them. I think your skills and interests would be a great asset to the team, and I'm sure you would make a meaningful impact."
+        ],
+        [
+          "Nadia Kaur",
+          "I'm really excited to learn more about the community outreach programs and how I can contribute. Can you tell me more about the types of community events that are typically organized, and what kind of support is provided to residents?"
+        ],
+        [
+          "Sofia Torres",
+          "The community events that are typically organized include things like community clean-up initiatives, educational workshops, and social gatherings. As for the support provided to residents, it can range from helping with daily tasks and errands to providing emotional support and companionship. Ben Carter has been doing a great job of identifying areas of need and developing programs to address them, and I think you would be a great addition to the team."
+        ],
+        [
+          "Nadia Kaur",
+          "That sounds like a great way to make a positive impact in our community. I'd love to learn more about the educational workshops and how they're helping to promote community engagement and social harmony. Can you tell me more about the topics that are typically covered in these workshops?"
+        ]
+      ]
+    },
+    "Dr Linh Nguyen": {
+      "movement": [
+        154,
+        89
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "working at the pharmacy (asleep) @ the Ville:house_4:bedroom_1:bed",
+      "chat": null
+    },
+    "Phoebe Nguyen": {
+      "movement": [
+        126,
+        66
+      ],
+      "pronunciatio": "\ud83d\udeb6\u200d\u2640",
+      "description": "working at the school (heading to her office) @ the Ville:house_4:common room:shelf",
+      "chat": null
+    },
+    "Julia Nguyen": {
+      "movement": [
+        165,
+        95
+      ],
+      "pronunciatio": "\ud83d\udcda\ud83d\udcac",
+      "description": "attending morning classes (participating in a class discussion) @ the Ville:house_4:common room:common room table",
+      "chat": null
+    },
+    "Curtis Bell": {
+      "movement": [
+        65,
+        119
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Curtis Bell and Trina Bell conversing about collaborating to make Rosie's art project a success, including planning to display her painting in the school hallway and coordinating with the school administration and Ben Carter to get the necessary approvals and feedback @ <persona> Trina Bell",
+      "chat": [
+        [
+          "Curtis Bell",
+          "Hey Trina, how's your psychology lecture going? I saw you in class earlier and wanted to catch up with you about Rosie's art project. I was just discussing it with Mason and I think we could use your help to make it a success."
+        ],
+        [
+          "Trina Bell",
+          "That sounds like a great idea, Curtis! I'd love to help with Rosie's art project. What did you have in mind for the display, and how can I assist?"
+        ],
+        [
+          "Curtis Bell",
+          "I was thinking we could display Rosie's painting in the school hallway, and I'd like to get Ben Carter's feedback on it. Since you're involved with student organizer duties, I thought you might be able to help us coordinate with the school administration and get the necessary approvals. What do you think?"
+        ],
+        [
+          "Trina Bell",
+          "I think that's a great idea, Curtis! I'd be happy to help coordinate with the school administration to get the necessary approvals for displaying Rosie's painting in the school hallway. I can also reach out to Ben Carter to get his feedback and make sure everything is in line with the school's guidelines. Let me just check my schedule for the day and see when I can fit in a meeting with the administration to discuss the details."
+        ],
+        [
+          "Curtis Bell",
+          "That sounds great, Trina. While you're checking your schedule, I can also reach out to Ben Carter and get his initial thoughts on the project. Let's touch base later today to finalize the plans and make sure we're on the same page."
+        ],
+        [
+          "Trina Bell",
+          "I've checked my schedule and I have a meeting with the student council later today, but I can stop by the administration office during my lunch break to discuss the details of displaying Rosie's painting. Shall we plan to meet up again after my meeting with the administration to finalize the plans?"
+        ],
+        [
+          "Curtis Bell",
+          "That sounds like a great plan, Trina. I'll reach out to Ben Carter and get his initial thoughts on the project. Let's plan to meet up again after your meeting with the administration to finalize the plans. I'll make sure to touch base with Mason and Rosie to keep them updated on our progress."
+        ],
+        [
+          "Trina Bell",
+          "Sounds good, Curtis. I'll make sure to discuss the details with the administration and get back to you. Let's plan to meet up again after my meeting with the administration to finalize the plans. I'll also make sure to keep Ben Carter updated on our progress."
+        ],
+        [
+          "Curtis Bell",
+          "Great, I'm looking forward to hearing back from you after your meeting with the administration. In the meantime, I'll reach out to Ben Carter and get his thoughts on the project. Let's keep our fingers crossed that everything will fall into place for Rosie's art project."
+        ],
+        [
+          "Trina Bell",
+          "I'll head to the administration office now to discuss the details, and I'll make sure to keep you updated on the progress. It was great catching up with you, Curtis, and I'm looking forward to making Rosie's art project a success."
+        ]
+      ]
+    },
+    "Patricia Kim": {
+      "movement": [
+        64,
+        119
+      ],
+      "pronunciatio": "\ud83d\udcdd\u2705",
+      "description": "working at the government building (reviewing documents for accuracy) @ the Ville:government_building:main room:desk",
+      "chat": null
+    },
+    "Trina Bell": {
+      "movement": [
+        65,
+        119
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Curtis Bell and Trina Bell conversing about collaborating to make Rosie's art project a success, including planning to display her painting in the school hallway and coordinating with the school administration and Ben Carter to get the necessary approvals and feedback @ <persona> Curtis Bell",
+      "chat": [
+        [
+          "Curtis Bell",
+          "Hey Trina, how's your psychology lecture going? I saw you in class earlier and wanted to catch up with you about Rosie's art project. I was just discussing it with Mason and I think we could use your help to make it a success."
+        ],
+        [
+          "Trina Bell",
+          "That sounds like a great idea, Curtis! I'd love to help with Rosie's art project. What did you have in mind for the display, and how can I assist?"
+        ],
+        [
+          "Curtis Bell",
+          "I was thinking we could display Rosie's painting in the school hallway, and I'd like to get Ben Carter's feedback on it. Since you're involved with student organizer duties, I thought you might be able to help us coordinate with the school administration and get the necessary approvals. What do you think?"
+        ],
+        [
+          "Trina Bell",
+          "I think that's a great idea, Curtis! I'd be happy to help coordinate with the school administration to get the necessary approvals for displaying Rosie's painting in the school hallway. I can also reach out to Ben Carter to get his feedback and make sure everything is in line with the school's guidelines. Let me just check my schedule for the day and see when I can fit in a meeting with the administration to discuss the details."
+        ],
+        [
+          "Curtis Bell",
+          "That sounds great, Trina. While you're checking your schedule, I can also reach out to Ben Carter and get his initial thoughts on the project. Let's touch base later today to finalize the plans and make sure we're on the same page."
+        ],
+        [
+          "Trina Bell",
+          "I've checked my schedule and I have a meeting with the student council later today, but I can stop by the administration office during my lunch break to discuss the details of displaying Rosie's painting. Shall we plan to meet up again after my meeting with the administration to finalize the plans?"
+        ],
+        [
+          "Curtis Bell",
+          "That sounds like a great plan, Trina. I'll reach out to Ben Carter and get his initial thoughts on the project. Let's plan to meet up again after your meeting with the administration to finalize the plans. I'll make sure to touch base with Mason and Rosie to keep them updated on our progress."
+        ],
+        [
+          "Trina Bell",
+          "Sounds good, Curtis. I'll make sure to discuss the details with the administration and get back to you. Let's plan to meet up again after my meeting with the administration to finalize the plans. I'll also make sure to keep Ben Carter updated on our progress."
+        ],
+        [
+          "Curtis Bell",
+          "Great, I'm looking forward to hearing back from you after your meeting with the administration. In the meantime, I'll reach out to Ben Carter and get his thoughts on the project. Let's keep our fingers crossed that everything will fall into place for Rosie's art project."
+        ],
+        [
+          "Trina Bell",
+          "I'll head to the administration office now to discuss the details, and I'll make sure to keep you updated on the progress. It was great catching up with you, Curtis, and I'm looking forward to making Rosie's art project a success."
+        ]
+      ]
+    },
+    "Rosie Bell": {
+      "movement": [
+        68,
+        119
+      ],
+      "pronunciatio": "\ud83d\udcdd",
+      "description": "attending morning classes (taking notes during the English class) @ the Ville:house_5:common room:common room table",
+      "chat": null
+    },
+    "Mason Bell": {
+      "movement": [
+        67,
+        119
+      ],
+      "pronunciatio": "\ud83d\udcda",
+      "description": "attending morning classes (attending his first class, which is mathematics) @ the Ville:house_5:common room:shelf",
+      "chat": null
+    },
+    "Rashad Lewis": {
+      "movement": [
+        142,
+        120
+      ],
+      "pronunciatio": "\ud83d\udcc5",
+      "description": "working at the school (reviewing the practice schedule) @ the Ville:school:classroom:School Desk",
+      "chat": null
+    },
+    "Parker Lewis": {
+      "movement": [
+        127,
+        120
+      ],
+      "pronunciatio": "\ud83d\udcda",
+      "description": "attending morning classes (attending his first class, which is mathematics) @ the Ville:house_6:common room:shelf",
+      "chat": null
+    },
+    "Kendra Hall": {
+      "movement": [
+        125,
+        119
+      ],
+      "pronunciatio": "\ud83d\udeb6\u200d\u2642",
+      "description": "working at the school (walking to the school entrance) @ the Ville:school:hallway:<random>",
+      "chat": null
+    },
+    "Dr Miguel Santos": {
+      "movement": [
+        117,
+        131
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "working at the pharmacy (asleep) @ the Ville:house_7:bedroom_1:bed",
+      "chat": null
+    },
+    "Vivian Santos": {
+      "movement": [
+        131,
+        136
+      ],
+      "pronunciatio": "\ud83d\udcca",
+      "description": "working at the office (analyzing public image and communications data) @ the Ville:school:library:library table",
+      "chat": null
+    },
+    "Mateo Santos": {
+      "movement": [
+        127,
+        136
+      ],
+      "pronunciatio": "\ud83d\udcdd",
+      "description": "attending morning classes (taking notes during the mathematics class) @ the Ville:house_7:common room:common room table",
+      "chat": null
+    },
+    "Gabriel Flores": {
+      "movement": [
+        161,
+        135
+      ],
+      "pronunciatio": "\ud83d\ude9a\u2705",
+      "description": "working at the school (completing post-route checks) @ the Ville:school:hallway:<random>",
+      "chat": null
+    },
+    "Emilia Flores": {
+      "movement": [
+        178,
+        135
+      ],
+      "pronunciatio": "\ud83c\udf74\ud83d\udc68\u200d",
+      "description": "working at the school (setting up the serving lines) @ the Ville:school:hallway:<random>",
+      "chat": null
+    },
+    "Noemi Flores": {
+      "movement": [
+        164,
+        135
+      ],
+      "pronunciatio": "\ud83d\udcda\ud83d\udc67",
+      "description": "attending morning classes (attending her first class, English) @ the Ville:house_8:common room:common room table",
+      "chat": null
+    },
+    "Pastor Daniel Brooks": {
+      "movement": [
+        138,
+        159
+      ],
+      "pronunciatio": "\ud83d\udcfa",
+      "description": "working at the government building (testing the audio-visual equipment) @ the Ville:government_building:meeting room:Town Hall Presenter",
+      "chat": null
+    },
+    "Dylan Brooks": {
+      "movement": [
+        124,
+        159
+      ],
+      "pronunciatio": "\ud83d\udcdd",
+      "description": "attending morning classes (taking notes on the lesson) @ the Ville:house_9:common room:common room table",
+      "chat": null
+    },
+    "Caleb Brooks": {
+      "movement": [
+        138,
+        159
+      ],
+      "pronunciatio": "\ud83d\udcda",
+      "description": "working at the school (preparing teaching materials) @ the Ville:school:library:library table",
+      "chat": null
+    },
+    "Professor Emily Carter": {
+      "movement": [
+        167,
+        166
+      ],
+      "pronunciatio": "\ud83c\udfeb",
+      "description": "working at the school (setting up her classroom) @ the Ville:house_10:common room:shelf",
+      "chat": null
+    },
+    "Ben Carter": {
+      "movement": [
+        164,
+        166
+      ],
+      "pronunciatio": "\ud83d\udcda",
+      "description": "attending morning classes (attending a lecture on economics) @ the Ville:house_10:common room:common room table",
+      "chat": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 10:10:30"
+  }
+}

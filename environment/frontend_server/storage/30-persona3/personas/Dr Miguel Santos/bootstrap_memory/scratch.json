@@ -1,0 +1,280 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2023, 16:20:50",
+  "curr_tile": [
+    136,
+    136
+  ],
+  "daily_plan_req": "1. wake up and complete morning routine at 7:00 am. 2. have breakfast at home. 3. head to the pharmacy at 8:00 am. 4. lunch break at 12:00 pm. 5. return to work until 5:00 pm. 6. head home and have dinner at 6:30 pm. 7. relax at home from 7:30 pm",
+  "name": "Dr Miguel Santos",
+  "first_name": "Miguel",
+  "last_name": "Santos",
+  "age": 50,
+  "innate": "precise, calm, professional",
+  "learned": "Dr Miguel Santos provides dental care at the pharmacy building.",
+  "currently": "Dr Miguel Santos is sleeping at house_7.",
+  "lifestyle": "Dr Miguel Santos goes to bed around 10pm, wakes up around 7am, eats dinner around 6:30pm.",
+  "living_area": "the Ville:house_7:bedroom_1",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 43,
+  "importance_ele_n": 149,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete morning routine at 7:00 am",
+    "have breakfast at home",
+    "head to the pharmacy at 8:00 am",
+    "lunch break at 12:00 pm",
+    "return to work until 5:00 pm",
+    "head home and have dinner at 6:30 pm",
+    "relax at home from 7:30 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      420
+    ],
+    [
+      "waking up and starting morning routine",
+      60
+    ],
+    [
+      "having breakfast at home",
+      30
+    ],
+    [
+      "commuting to the pharmacy and starting work (on the way to commuting to the pharmacy and starting wor)",
+      0
+    ],
+    [
+      "commuting to the pharmacy and starting work (conversing about a discussion between Dr. Miguel Santos and Vivian Santos about the new campaign for Town House 1, focusing on improving its public image, highlighting its amenities and services, and exploring potential partnerships with local businesses.)",
+      14
+    ],
+    [
+      "having breakfast at home (to finish the remaining breakfast)",
+      16
+    ],
+    [
+      "working at the pharmacy (asleep)",
+      240
+    ],
+    [
+      "taking a lunch break",
+      60
+    ],
+    [
+      "continuing work at the pharmacy (reviewing patient charts)",
+      15
+    ],
+    [
+      "continuing work at the pharmacy (preparing for the next patient)",
+      10
+    ],
+    [
+      "continuing work at the pharmacy (examining a patient)",
+      30
+    ],
+    [
+      "continuing work at the pharmacy (discussing treatment options with a patient)",
+      20
+    ],
+    [
+      "continuing work at the pharmacy (performing a dental procedure)",
+      40
+    ],
+    [
+      "continuing work at the pharmacy (on the way to taking a short break to stretch)",
+      0
+    ],
+    [
+      "continuing work at the pharmacy (conversing about Dr Miguel Santos and Vivian Santos conversing about improving the public image of Town House 1 through potential partnerships with local businesses, including discussions of exclusive discounts and meetings with business owners)",
+      13
+    ],
+    [
+      "continuing work at the pharmacy (updating patient records)",
+      25
+    ],
+    [
+      "continuing work at the pharmacy (consulting with a colleague)",
+      20
+    ],
+    [
+      "continuing work at the pharmacy (examining another patient)",
+      30
+    ],
+    [
+      "continuing work at the pharmacy (writing prescriptions)",
+      15
+    ],
+    [
+      "continuing work at the pharmacy (preparing for the end of the workday)",
+      20
+    ],
+    [
+      "continuing work at the pharmacy (cleaning and disinfecting his workspace)",
+      2
+    ],
+    [
+      "heading home",
+      30
+    ],
+    [
+      "relaxing at home",
+      60
+    ],
+    [
+      "having dinner",
+      60
+    ],
+    [
+      "relaxing at home",
+      120
+    ],
+    [
+      "getting ready for bed",
+      30
+    ],
+    [
+      "sleeping",
+      60
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      420
+    ],
+    [
+      "waking up and starting morning routine",
+      60
+    ],
+    [
+      "having breakfast at home",
+      30
+    ],
+    [
+      "commuting to the pharmacy and starting work",
+      30
+    ],
+    [
+      "working at the pharmacy",
+      240
+    ],
+    [
+      "taking a lunch break",
+      60
+    ],
+    [
+      "continuing work at the pharmacy",
+      240
+    ],
+    [
+      "heading home",
+      30
+    ],
+    [
+      "relaxing at home",
+      60
+    ],
+    [
+      "having dinner",
+      60
+    ],
+    [
+      "relaxing at home",
+      120
+    ],
+    [
+      "getting ready for bed",
+      30
+    ],
+    [
+      "sleeping",
+      60
+    ]
+  ],
+  "act_address": "the Ville:pharmacy:store:behind the pharmacy counter",
+  "act_start_time": "February 13, 2023, 16:18:00",
+  "act_duration": 25,
+  "act_description": "continuing work at the pharmacy (updating patient records)",
+  "act_pronunciatio": "\ud83d\udcdd\ud83d\udcbb",
+  "act_event": [
+    "Dr Miguel Santos",
+    "update",
+    "patient records"
+  ],
+  "act_obj_description": "cluttered with papers, files, and medication bottles, and has a computer screen displaying patient records",
+  "act_obj_pronunciatio": "\ud83d\udcdd\ud83d\udcbb",
+  "act_obj_event": [
+    "behind the pharmacy counter",
+    "behind the pharmacy counter",
+    "is"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {
+    "Vivian Santos": 542
+  },
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": []
+}

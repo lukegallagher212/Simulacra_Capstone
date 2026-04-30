@@ -1,0 +1,497 @@
+{
+  "persona": {
+    "Ethan Walker": {
+      "movement": [
+        65,
+        97
+      ],
+      "pronunciatio": "\ud83d\udcda\ud83d\udc68\u200d",
+      "description": "working at the school (assisting a teacher with a book request) @ the Ville:school:library:bookshelf",
+      "chat": null
+    },
+    "Jordan Walker": {
+      "movement": [
+        51,
+        97
+      ],
+      "pronunciatio": "\ud83d\ude8c",
+      "description": "commuting to the school @ the Ville:house_1:common room:common room table",
+      "chat": null
+    },
+    "Lily Walker": {
+      "movement": [
+        45,
+        97
+      ],
+      "pronunciatio": "\ud83d\ude8c",
+      "description": "commuting to the school @ the Ville:house_1:common room:common room sofa",
+      "chat": null
+    },
+    "Rodrigo Torres": {
+      "movement": [
+        76,
+        92
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "working at the supply store (asleep) @ the Ville:house_2:bedroom_1:bed",
+      "chat": null
+    },
+    "Sofia Torres": {
+      "movement": [
+        101,
+        97
+      ],
+      "pronunciatio": "\ud83c\udf73",
+      "description": "working at the residential house (serving breakfast to the residents) @ the Ville:house_2:kitchen:stove",
+      "chat": null
+    },
+    "Harpreet Kaur": {
+      "movement": [
+        135,
+        97
+      ],
+      "pronunciatio": "\ud83d\udcc1\ud83d\udcbc",
+      "description": "working at the government building (reviewing case files for an upcoming mediation session) @ the Ville:government_building:meeting room:Town Hall Presenter",
+      "chat": null
+    },
+    "Raj Singh": {
+      "movement": [
+        135,
+        97
+      ],
+      "pronunciatio": "\ud83d\udcc5",
+      "description": "working at the government building (attending a meeting with colleagues) @ the Ville:government_building:meeting room:Town Hall Seats",
+      "chat": null
+    },
+    "Nadia Kaur": {
+      "movement": [
+        110,
+        86
+      ],
+      "pronunciatio": "\ud83d\ude8c",
+      "description": "commuting to the school @ the Ville:school:hallway:<random>",
+      "chat": null
+    },
+    "Dr Linh Nguyen": {
+      "movement": [
+        154,
+        89
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "working at the pharmacy (asleep) @ the Ville:house_4:bedroom_1:bed",
+      "chat": null
+    },
+    "Phoebe Nguyen": {
+      "movement": [
+        146,
+        76
+      ],
+      "pronunciatio": "\ud83d\ude97",
+      "description": "working at the school (driving to the school) @ the Ville:house_4:common room:shelf",
+      "chat": null
+    },
+    "Julia Nguyen": {
+      "movement": [
+        157,
+        95
+      ],
+      "pronunciatio": "\ud83d\ude8c",
+      "description": "commuting to the school @ the Ville:house_4:common room:common room sofa",
+      "chat": null
+    },
+    "Curtis Bell": {
+      "movement": [
+        64,
+        119
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Curtis Bell and Rosie Bell conversing about Rosie's art project, a painting of their neighborhood, and the possibility of displaying it at the school or in a local art show with the help of Curtis and potentially Ben Carter @ <persona> Rosie Bell",
+      "chat": [
+        [
+          "Curtis Bell",
+          "Hi Rosie, how's your day going so far? How's your art project coming along?"
+        ],
+        [
+          "Rosie Bell",
+          "It's going well, thanks for asking! I'm really excited about my art project, I'm painting a picture of our neighborhood and I'm hoping to finish it today in class or as homework tonight."
+        ],
+        [
+          "Curtis Bell",
+          "That sounds like a great project, I'd love to see it when it's finished. What inspired you to paint our neighborhood?"
+        ],
+        [
+          "Rosie Bell",
+          "I was inspired by the unique architecture and the way the sunlight falls on the buildings in our neighborhood, and I've been wanting to capture that on canvas. I've been talking to Trina and Patricia about it too, and they seem really interested in seeing the finished piece."
+        ],
+        [
+          "Curtis Bell",
+          "That's great, I'm sure Trina and Patricia will be impressed with your work. What kind of techniques are you using to capture the sunlight in your painting?"
+        ],
+        [
+          "Rosie Bell",
+          "I'm using a combination of warm colors and soft brushstrokes to try and capture the way the sunlight falls on the buildings, and I'm also experimenting with layering to give it a sense of depth and dimension. I'm not sure if it's going to work out yet, but I'm excited to see how it turns out."
+        ],
+        [
+          "Curtis Bell",
+          "That sounds like a fascinating technique, I'd love to see how it turns out. Are you planning on displaying your finished piece anywhere, like at the school or in a local art show?"
+        ],
+        [
+          "Rosie Bell",
+          "I'm not sure yet, but I think it would be great to display it at the school or in a local art show. I'll have to talk to my art teacher and see what she thinks. Maybe you could even help me get it displayed here at the school, since you work here?"
+        ],
+        [
+          "Curtis Bell",
+          "I'd be happy to help you get your piece displayed at the school, I can talk to the principal and see what we can arrange. What do you think you'll title your piece when it's finished?"
+        ],
+        [
+          "Rosie Bell",
+          "I'm not sure yet, but I've been thinking of titling it 'Sunlit Neighborhood' or 'Community Canvas', what do you think?"
+        ],
+        [
+          "Curtis Bell",
+          "I think both titles are great, but 'Sunlit Neighborhood' really captures the essence of your project. I'll definitely talk to the principal about displaying your piece at the school, and I'm sure Ben Carter would be interested in seeing it too, given his focus on community development."
+        ],
+        [
+          "Rosie Bell",
+          "That would be great, thank you so much for offering to help me get my piece displayed at the school! I think it would be really cool to have Ben Carter see it too, I've heard he's really passionate about community development and I think my painting could really fit in with that. Do you think he'd be available to meet with me to discuss it further?"
+        ],
+        [
+          "Curtis Bell",
+          "I can arrange a meeting with Ben Carter for you, but we should go through the proper channels and get approval from the school administration first. Let me talk to the principal and see what we can arrange. In the meantime, I'd love to see your finished piece and provide any feedback I can."
+        ],
+        [
+          "Rosie Bell",
+          "That sounds great, thank you for offering to help me get in touch with Ben Carter and the school administration. I'll make sure to finish my piece as soon as possible so you can provide your feedback and we can discuss the details of displaying it at the school."
+        ],
+        [
+          "Curtis Bell",
+          "I'll make sure to talk to the principal today and get back to you soon about the possibility of displaying your piece at the school. In the meantime, why don't you focus on finishing your project and I'll be happy to provide any feedback I can once it's complete?"
+        ],
+        [
+          "Rosie Bell",
+          "Thank you so much, Curtis, I really appreciate your help and support. I'll definitely focus on finishing my project and look forward to hearing back from you about the possibility of displaying it at the school."
+        ]
+      ]
+    },
+    "Patricia Kim": {
+      "movement": [
+        64,
+        119
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Patricia Kim and Mason Bell conversing about their daily activities, Patricia's work projects at the government building, and plans to support Rosie Bell's art project, including potentially displaying her painting at the school or in a local art show with the help of Curtis and Ben Carter @ <persona> Mason Bell",
+      "chat": [
+        [
+          "Patricia Kim",
+          "Hello Mason, how's your day going so far? You're on your way to school, I presume?"
+        ],
+        [
+          "Mason Bell",
+          "Yes, I'm on my way to school. It's going well, thanks. I saw you working on some projects, how's that going?"
+        ],
+        [
+          "Patricia Kim",
+          "It's going well, thanks for asking. I'm just documenting my progress on some ongoing projects at the government building. I'm looking forward to finishing them up soon."
+        ],
+        [
+          "Mason Bell",
+          "That sounds like important work, I'm sure it will be a relief to have them finished. Do you have any big plans for after you complete these projects?"
+        ],
+        [
+          "Patricia Kim",
+          "Actually, I do have some plans to follow up with Rosie Bell on her art project after I finish my work here. She's been working on a painting of our neighborhood and I'm excited to see how it turns out."
+        ],
+        [
+          "Mason Bell",
+          "That's great, I've been looking forward to seeing Rosie's art project too, I've heard it's going to be really good. I'm actually planning to see it later today after school."
+        ],
+        [
+          "Patricia Kim",
+          "That's great to hear, Mason. I'm sure Rosie will appreciate your interest in her art project. Did Curtis mention anything to you about potentially displaying Rosie's painting at the school or in a local art show?"
+        ],
+        [
+          "Mason Bell",
+          "No, Curtis didn't mention anything to me about displaying Rosie's painting, but I think that would be a great idea. I've heard Rosie's painting is really good and it would be awesome to see it showcased at the school or in a local art show."
+        ],
+        [
+          "Patricia Kim",
+          "I completely agree, it would be wonderful to see Rosie's painting showcased. I'll have to mention it to Curtis and see what he thinks. Maybe we can even get Ben Carter's approval to display it at the government building."
+        ],
+        [
+          "Mason Bell",
+          "That would be amazing if Ben Carter approved displaying Rosie's painting at the government building. I'm sure Rosie would be thrilled to have her art showcased in such a prominent location."
+        ],
+        [
+          "Patricia Kim",
+          "I'll make sure to talk to Curtis and Ben Carter about it, and we can discuss the details further. It was nice running into you, Mason, but I should probably get back to work now."
+        ]
+      ]
+    },
+    "Trina Bell": {
+      "movement": [
+        53,
+        108
+      ],
+      "pronunciatio": "\ud83d\ude8c",
+      "description": "commuting to the school @ the Ville:house_5:common room:shelf",
+      "chat": null
+    },
+    "Rosie Bell": {
+      "movement": [
+        65,
+        119
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Curtis Bell and Rosie Bell conversing about Rosie's art project, a painting of their neighborhood, and the possibility of displaying it at the school or in a local art show with the help of Curtis and potentially Ben Carter @ <persona> Curtis Bell",
+      "chat": [
+        [
+          "Curtis Bell",
+          "Hi Rosie, how's your day going so far? How's your art project coming along?"
+        ],
+        [
+          "Rosie Bell",
+          "It's going well, thanks for asking! I'm really excited about my art project, I'm painting a picture of our neighborhood and I'm hoping to finish it today in class or as homework tonight."
+        ],
+        [
+          "Curtis Bell",
+          "That sounds like a great project, I'd love to see it when it's finished. What inspired you to paint our neighborhood?"
+        ],
+        [
+          "Rosie Bell",
+          "I was inspired by the unique architecture and the way the sunlight falls on the buildings in our neighborhood, and I've been wanting to capture that on canvas. I've been talking to Trina and Patricia about it too, and they seem really interested in seeing the finished piece."
+        ],
+        [
+          "Curtis Bell",
+          "That's great, I'm sure Trina and Patricia will be impressed with your work. What kind of techniques are you using to capture the sunlight in your painting?"
+        ],
+        [
+          "Rosie Bell",
+          "I'm using a combination of warm colors and soft brushstrokes to try and capture the way the sunlight falls on the buildings, and I'm also experimenting with layering to give it a sense of depth and dimension. I'm not sure if it's going to work out yet, but I'm excited to see how it turns out."
+        ],
+        [
+          "Curtis Bell",
+          "That sounds like a fascinating technique, I'd love to see how it turns out. Are you planning on displaying your finished piece anywhere, like at the school or in a local art show?"
+        ],
+        [
+          "Rosie Bell",
+          "I'm not sure yet, but I think it would be great to display it at the school or in a local art show. I'll have to talk to my art teacher and see what she thinks. Maybe you could even help me get it displayed here at the school, since you work here?"
+        ],
+        [
+          "Curtis Bell",
+          "I'd be happy to help you get your piece displayed at the school, I can talk to the principal and see what we can arrange. What do you think you'll title your piece when it's finished?"
+        ],
+        [
+          "Rosie Bell",
+          "I'm not sure yet, but I've been thinking of titling it 'Sunlit Neighborhood' or 'Community Canvas', what do you think?"
+        ],
+        [
+          "Curtis Bell",
+          "I think both titles are great, but 'Sunlit Neighborhood' really captures the essence of your project. I'll definitely talk to the principal about displaying your piece at the school, and I'm sure Ben Carter would be interested in seeing it too, given his focus on community development."
+        ],
+        [
+          "Rosie Bell",
+          "That would be great, thank you so much for offering to help me get my piece displayed at the school! I think it would be really cool to have Ben Carter see it too, I've heard he's really passionate about community development and I think my painting could really fit in with that. Do you think he'd be available to meet with me to discuss it further?"
+        ],
+        [
+          "Curtis Bell",
+          "I can arrange a meeting with Ben Carter for you, but we should go through the proper channels and get approval from the school administration first. Let me talk to the principal and see what we can arrange. In the meantime, I'd love to see your finished piece and provide any feedback I can."
+        ],
+        [
+          "Rosie Bell",
+          "That sounds great, thank you for offering to help me get in touch with Ben Carter and the school administration. I'll make sure to finish my piece as soon as possible so you can provide your feedback and we can discuss the details of displaying it at the school."
+        ],
+        [
+          "Curtis Bell",
+          "I'll make sure to talk to the principal today and get back to you soon about the possibility of displaying your piece at the school. In the meantime, why don't you focus on finishing your project and I'll be happy to provide any feedback I can once it's complete?"
+        ],
+        [
+          "Rosie Bell",
+          "Thank you so much, Curtis, I really appreciate your help and support. I'll definitely focus on finishing my project and look forward to hearing back from you about the possibility of displaying it at the school."
+        ]
+      ]
+    },
+    "Mason Bell": {
+      "movement": [
+        64,
+        119
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Patricia Kim and Mason Bell conversing about their daily activities, Patricia's work projects at the government building, and plans to support Rosie Bell's art project, including potentially displaying her painting at the school or in a local art show with the help of Curtis and Ben Carter @ <persona> Patricia Kim",
+      "chat": [
+        [
+          "Patricia Kim",
+          "Hello Mason, how's your day going so far? You're on your way to school, I presume?"
+        ],
+        [
+          "Mason Bell",
+          "Yes, I'm on my way to school. It's going well, thanks. I saw you working on some projects, how's that going?"
+        ],
+        [
+          "Patricia Kim",
+          "It's going well, thanks for asking. I'm just documenting my progress on some ongoing projects at the government building. I'm looking forward to finishing them up soon."
+        ],
+        [
+          "Mason Bell",
+          "That sounds like important work, I'm sure it will be a relief to have them finished. Do you have any big plans for after you complete these projects?"
+        ],
+        [
+          "Patricia Kim",
+          "Actually, I do have some plans to follow up with Rosie Bell on her art project after I finish my work here. She's been working on a painting of our neighborhood and I'm excited to see how it turns out."
+        ],
+        [
+          "Mason Bell",
+          "That's great, I've been looking forward to seeing Rosie's art project too, I've heard it's going to be really good. I'm actually planning to see it later today after school."
+        ],
+        [
+          "Patricia Kim",
+          "That's great to hear, Mason. I'm sure Rosie will appreciate your interest in her art project. Did Curtis mention anything to you about potentially displaying Rosie's painting at the school or in a local art show?"
+        ],
+        [
+          "Mason Bell",
+          "No, Curtis didn't mention anything to me about displaying Rosie's painting, but I think that would be a great idea. I've heard Rosie's painting is really good and it would be awesome to see it showcased at the school or in a local art show."
+        ],
+        [
+          "Patricia Kim",
+          "I completely agree, it would be wonderful to see Rosie's painting showcased. I'll have to mention it to Curtis and see what he thinks. Maybe we can even get Ben Carter's approval to display it at the government building."
+        ],
+        [
+          "Mason Bell",
+          "That would be amazing if Ben Carter approved displaying Rosie's painting at the government building. I'm sure Rosie would be thrilled to have her art showcased in such a prominent location."
+        ],
+        [
+          "Patricia Kim",
+          "I'll make sure to talk to Curtis and Ben Carter about it, and we can discuss the details further. It was nice running into you, Mason, but I should probably get back to work now."
+        ]
+      ]
+    },
+    "Rashad Lewis": {
+      "movement": [
+        142,
+        120
+      ],
+      "pronunciatio": "\ud83d\udeb6\u200d\u2642",
+      "description": "working at the school (walking to the school building) @ the Ville:school:hallway:<random>",
+      "chat": null
+    },
+    "Parker Lewis": {
+      "movement": [
+        127,
+        120
+      ],
+      "pronunciatio": "\ud83d\ude8c",
+      "description": "commuting to the school @ the Ville:house_6:common room:common room table",
+      "chat": null
+    },
+    "Kendra Hall": {
+      "movement": [
+        125,
+        119
+      ],
+      "pronunciatio": "\ud83d\ude97",
+      "description": "working at the school (driving to the school) @ the Ville:school:hallway:<random>",
+      "chat": null
+    },
+    "Dr Miguel Santos": {
+      "movement": [
+        117,
+        131
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "working at the pharmacy (asleep) @ the Ville:house_7:bedroom_1:bed",
+      "chat": null
+    },
+    "Vivian Santos": {
+      "movement": [
+        130,
+        136
+      ],
+      "pronunciatio": "\ud83d\uddc2\ufe0f\ud83d\udcbc",
+      "description": "working at the office (organizing her workspace and materials) @ the Ville:house_7:common room:shelf",
+      "chat": null
+    },
+    "Mateo Santos": {
+      "movement": [
+        116,
+        125
+      ],
+      "pronunciatio": "\ud83d\ude8c",
+      "description": "commuting to the school @ the Ville:house_7:common room:shelf",
+      "chat": null
+    },
+    "Gabriel Flores": {
+      "movement": [
+        161,
+        135
+      ],
+      "pronunciatio": "\ud83d\ude8c",
+      "description": "working at the school (continuing the route to school) @ the Ville:house_8:common room:common room sofa",
+      "chat": null
+    },
+    "Emilia Flores": {
+      "movement": [
+        178,
+        135
+      ],
+      "pronunciatio": "\ud83c\udf74",
+      "description": "working at the school (reviewing the day's menu) @ the Ville:house_8:kitchen:refrigerator",
+      "chat": null
+    },
+    "Noemi Flores": {
+      "movement": [
+        162,
+        124
+      ],
+      "pronunciatio": "\ud83d\udcda\ud83d\udc67",
+      "description": "attending morning classes (attending her first class, English) @ the Ville:house_8:common room:common room table",
+      "chat": null
+    },
+    "Pastor Daniel Brooks": {
+      "movement": [
+        138,
+        159
+      ],
+      "pronunciatio": "\ud83d\udcc5",
+      "description": "working at the government building (reviewing the meeting agenda) @ the Ville:government_building:meeting room:Town Hall Presenter",
+      "chat": null
+    },
+    "Dylan Brooks": {
+      "movement": [
+        113,
+        148
+      ],
+      "pronunciatio": "\ud83d\udcda",
+      "description": "attending morning classes (attending his first class, English Literature) @ the Ville:house_9:common room:shelf",
+      "chat": null
+    },
+    "Caleb Brooks": {
+      "movement": [
+        138,
+        159
+      ],
+      "pronunciatio": "\ud83c\udfeb",
+      "description": "working at the school (setting up his classroom) @ the Ville:school:classroom:blackboard",
+      "chat": null
+    },
+    "Professor Emily Carter": {
+      "movement": [
+        167,
+        166
+      ],
+      "pronunciatio": "\ud83d\ude97",
+      "description": "working at the school (driving to the school) @ the Ville:house_10:common room:common room table",
+      "chat": null
+    },
+    "Ben Carter": {
+      "movement": [
+        153,
+        155
+      ],
+      "pronunciatio": "\ud83d\ude8c",
+      "description": "commuting to the school @ the Ville:house_10:common room:shelf",
+      "chat": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 09:34:20"
+  }
+}

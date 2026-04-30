@@ -1,0 +1,465 @@
+{
+  "persona": {
+    "Ethan Walker": {
+      "movement": [
+        53,
+        97
+      ],
+      "pronunciatio": "\ud83c\udfcb\ufe0f\u200d",
+      "description": "working at the school (taking a short break to stretch and move around) @ the Ville:Johnson Park:park:park garden",
+      "chat": null
+    },
+    "Jordan Walker": {
+      "movement": [
+        55,
+        97
+      ],
+      "pronunciatio": "\ud83d\udcdd",
+      "description": "attending morning classes (taking notes during the math class) @ the Ville:house_1:common room:common room table",
+      "chat": null
+    },
+    "Lily Walker": {
+      "movement": [
+        41,
+        92
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "attending morning classes (asleep) @ the Ville:house_1:bedroom_1:bed",
+      "chat": null
+    },
+    "Rodrigo Torres": {
+      "movement": [
+        76,
+        92
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "working at the supply store (asleep) @ the Ville:house_2:bedroom_1:bed",
+      "chat": null
+    },
+    "Sofia Torres": {
+      "movement": [
+        89,
+        97
+      ],
+      "pronunciatio": "\ud83c\udfcb\ufe0f\u200d",
+      "description": "working at the residential house (assisting residents with physical therapy) @ the Ville:house_2:common room:common room table",
+      "chat": null
+    },
+    "Harpreet Kaur": {
+      "movement": [
+        135,
+        97
+      ],
+      "pronunciatio": "\ud83d\udcdd",
+      "description": "working at the government building (drafting a report on a previous mediation session) @ the Ville:government_building:computer_room:computer",
+      "chat": null
+    },
+    "Raj Singh": {
+      "movement": [
+        135,
+        97
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83d\udcbc",
+      "description": "working at the government building (working on a report) @ the Ville:government_building:computer_room:computer",
+      "chat": null
+    },
+    "Nadia Kaur": {
+      "movement": [
+        120,
+        97
+      ],
+      "pronunciatio": "\ud83c\udfeb",
+      "description": "attending morning classes (attending the civic administration lecture) @ the Ville:house_3:common room:common room table",
+      "chat": null
+    },
+    "Dr Linh Nguyen": {
+      "movement": [
+        154,
+        89
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "working at the pharmacy (asleep) @ the Ville:house_4:bedroom_1:bed",
+      "chat": null
+    },
+    "Phoebe Nguyen": {
+      "movement": [
+        104,
+        51
+      ],
+      "pronunciatio": "\ud83d\udd70\ufe0f",
+      "description": "working at the school (waiting for her first student to arrive) @ the Ville:house_4:common room:common room table",
+      "chat": null
+    },
+    "Julia Nguyen": {
+      "movement": [
+        144,
+        69
+      ],
+      "pronunciatio": "\ud83d\udcdd",
+      "description": "attending morning classes (working on a Math problem) @ the Ville:school:classroom:blackboard",
+      "chat": null
+    },
+    "Curtis Bell": {
+      "movement": [
+        65,
+        119
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Patricia Kim and Curtis Bell conversing about showcasing Rosie's art project at the school, local art show, or government building, and potentially incorporating it into the school festival and charity drive, with plans to discuss the details further with Ben Carter and Trina @ <persona> Patricia Kim",
+      "chat": [
+        [
+          "Patricia Kim",
+          "Hi Curtis, how's the work at the school going? I saw you checking the fire alarms and sprinkler system earlier."
+        ],
+        [
+          "Curtis Bell",
+          "It's going well, thanks for asking. I was just making sure everything is in working order. I also couldn't help but think about Rosie's art project and how it could be a great addition to the school. Have you heard about it?"
+        ],
+        [
+          "Patricia Kim",
+          "Yes, I've heard about Rosie's art project, it's a painting of our neighborhood and I think it's a great idea to display it at the school or in a local art show. I was actually thinking of discussing the details with you and Ben Carter about possibly showcasing it at the government building as well."
+        ],
+        [
+          "Curtis Bell",
+          "That sounds like a great idea, Patricia! I think showcasing Rosie's art project at the government building could be a wonderful way to share it with the community. I'd love to discuss the details with you and Ben Carter further. Have you spoken with Trina about it as well, considering her involvement with the school festival and charity drive?"
+        ],
+        [
+          "Patricia Kim",
+          "Actually, I have spoken with Trina about the school festival and charity drive, and I think it would be great to incorporate Rosie's art project into the event. I was planning to help Trina draft a proposal for the festival and charity drive, and I could mention Rosie's project as a potential addition. What do you think?"
+        ],
+        [
+          "Curtis Bell",
+          "I think that's a great idea, incorporating Rosie's art project into the school festival and charity drive could be a fantastic way to showcase her talent and bring the community together. I'd be happy to help Trina and you draft the proposal and discuss the details with Ben Carter. What's the next step in making this happen?"
+        ],
+        [
+          "Patricia Kim",
+          "I think we should schedule a meeting with Ben Carter and Trina to discuss the proposal and the details of incorporating Rosie's art project into the school festival and charity drive. Would you be available to meet later this week?"
+        ],
+        [
+          "Curtis Bell",
+          "That sounds like a great plan, Patricia. I'm available to meet later this week, and I think it would be best to schedule the meeting for Thursday or Friday so we can finalize the details before the weekend. I'll make sure to clear my schedule and coordinate with Trina and Ben Carter to ensure everyone is on the same page."
+        ],
+        [
+          "Patricia Kim",
+          "That sounds great, Curtis. I'll make sure to reach out to Trina and Ben Carter to schedule the meeting for Thursday or Friday. I'll also start drafting the proposal and make sure to include Rosie's art project as a key part of the event. Let's touch base tomorrow to confirm the details."
+        ],
+        [
+          "Curtis Bell",
+          "Sounds like we have a plan, Patricia. I'm looking forward to reviewing the proposal and discussing the details with Trina and Ben Carter on Thursday or Friday. Please keep me updated on the meeting schedule and I'll make sure to be there. Have a great rest of your day!"
+        ]
+      ]
+    },
+    "Patricia Kim": {
+      "movement": [
+        64,
+        119
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Patricia Kim and Curtis Bell conversing about showcasing Rosie's art project at the school, local art show, or government building, and potentially incorporating it into the school festival and charity drive, with plans to discuss the details further with Ben Carter and Trina @ <persona> Curtis Bell",
+      "chat": [
+        [
+          "Patricia Kim",
+          "Hi Curtis, how's the work at the school going? I saw you checking the fire alarms and sprinkler system earlier."
+        ],
+        [
+          "Curtis Bell",
+          "It's going well, thanks for asking. I was just making sure everything is in working order. I also couldn't help but think about Rosie's art project and how it could be a great addition to the school. Have you heard about it?"
+        ],
+        [
+          "Patricia Kim",
+          "Yes, I've heard about Rosie's art project, it's a painting of our neighborhood and I think it's a great idea to display it at the school or in a local art show. I was actually thinking of discussing the details with you and Ben Carter about possibly showcasing it at the government building as well."
+        ],
+        [
+          "Curtis Bell",
+          "That sounds like a great idea, Patricia! I think showcasing Rosie's art project at the government building could be a wonderful way to share it with the community. I'd love to discuss the details with you and Ben Carter further. Have you spoken with Trina about it as well, considering her involvement with the school festival and charity drive?"
+        ],
+        [
+          "Patricia Kim",
+          "Actually, I have spoken with Trina about the school festival and charity drive, and I think it would be great to incorporate Rosie's art project into the event. I was planning to help Trina draft a proposal for the festival and charity drive, and I could mention Rosie's project as a potential addition. What do you think?"
+        ],
+        [
+          "Curtis Bell",
+          "I think that's a great idea, incorporating Rosie's art project into the school festival and charity drive could be a fantastic way to showcase her talent and bring the community together. I'd be happy to help Trina and you draft the proposal and discuss the details with Ben Carter. What's the next step in making this happen?"
+        ],
+        [
+          "Patricia Kim",
+          "I think we should schedule a meeting with Ben Carter and Trina to discuss the proposal and the details of incorporating Rosie's art project into the school festival and charity drive. Would you be available to meet later this week?"
+        ],
+        [
+          "Curtis Bell",
+          "That sounds like a great plan, Patricia. I'm available to meet later this week, and I think it would be best to schedule the meeting for Thursday or Friday so we can finalize the details before the weekend. I'll make sure to clear my schedule and coordinate with Trina and Ben Carter to ensure everyone is on the same page."
+        ],
+        [
+          "Patricia Kim",
+          "That sounds great, Curtis. I'll make sure to reach out to Trina and Ben Carter to schedule the meeting for Thursday or Friday. I'll also start drafting the proposal and make sure to include Rosie's art project as a key part of the event. Let's touch base tomorrow to confirm the details."
+        ],
+        [
+          "Curtis Bell",
+          "Sounds like we have a plan, Patricia. I'm looking forward to reviewing the proposal and discussing the details with Trina and Ben Carter on Thursday or Friday. Please keep me updated on the meeting schedule and I'll make sure to be there. Have a great rest of your day!"
+        ]
+      ]
+    },
+    "Trina Bell": {
+      "movement": [
+        65,
+        119
+      ],
+      "pronunciatio": "\ud83d\udce2\ud83d\udcac",
+      "description": "attending morning classes (conversing about Trina Bell and Patricia Kim conversing about Trina's psychology lecture, her volunteer work, and planning a school festival and charity drive with the student council, including discussing event ideas, promotion strategies, and seeking approval from Ben Carter) @ the Ville:house_5:common room:common room table",
+      "chat": null
+    },
+    "Rosie Bell": {
+      "movement": [
+        68,
+        119
+      ],
+      "pronunciatio": "\ud83c\udfa8\ud83d\udcac",
+      "description": "attending morning classes (conversing about Rosie Bell and Mason Bell conversing about displaying Rosie's art project in the school hallway, getting feedback from Ben Carter, Trina, and their art teacher, and potentially involving the school administration, including Patricia Kim, to make it a big event) @ the Ville:house_5:common room:common room table",
+      "chat": null
+    },
+    "Mason Bell": {
+      "movement": [
+        67,
+        119
+      ],
+      "pronunciatio": "\ud83c\udfa8\ud83d\udce2",
+      "description": "attending morning classes (conversing about Rosie Bell and Mason Bell conversing about displaying Rosie's art project in the school hallway, getting feedback from Ben Carter, Trina, and their art teacher, and potentially involving the school administration, including Patricia Kim, to make it a big event) @ the Ville:house_5:common room:common room table",
+      "chat": null
+    },
+    "Rashad Lewis": {
+      "movement": [
+        142,
+        120
+      ],
+      "pronunciatio": "\ud83c\udfc8\ud83d\udc65",
+      "description": "working at the school (meeting with the assistant coach) @ the Ville:school:hallway:<random>",
+      "chat": null
+    },
+    "Parker Lewis": {
+      "movement": [
+        127,
+        120
+      ],
+      "pronunciatio": "\ud83d\udcda\ud83d\udcac",
+      "description": "attending morning classes (participating in a group discussion during the mathematics class) @ the Ville:house_6:common room:common room table",
+      "chat": null
+    },
+    "Kendra Hall": {
+      "movement": [
+        125,
+        119
+      ],
+      "pronunciatio": "\ud83d\udecd\ufe0f\ud83c\udfe2",
+      "description": "working at the school (dropping off her bag in the staff room) @ the Ville:house_6:common room:shelf",
+      "chat": null
+    },
+    "Dr Miguel Santos": {
+      "movement": [
+        117,
+        131
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "working at the pharmacy (asleep) @ the Ville:house_7:bedroom_1:bed",
+      "chat": null
+    },
+    "Vivian Santos": {
+      "movement": [
+        127,
+        136
+      ],
+      "pronunciatio": "\ud83d\udcbb",
+      "description": "working at the office (developing a social media strategy) @ the Ville:house_7:common room:common room table",
+      "chat": null
+    },
+    "Mateo Santos": {
+      "movement": [
+        129,
+        136
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "attending morning classes (conversing about Vivian Santos and her son Mateo Santos conversing about her project to improve the public image of Town House 1, including her social media strategy and potential partnerships with local businesses to offer exclusive discounts or services to residents.) @ the Ville:school:classroom:classroom podium",
+      "chat": null
+    },
+    "Gabriel Flores": {
+      "movement": [
+        164,
+        135
+      ],
+      "pronunciatio": "\ud83d\udce8",
+      "description": "working at the school (responding to messages from parents) @ the Ville:school:classroom:School Desk",
+      "chat": null
+    },
+    "Emilia Flores": {
+      "movement": [
+        178,
+        135
+      ],
+      "pronunciatio": "\ud83c\udf73",
+      "description": "working at the school (starting food preparation for the first meal) @ the Ville:house_8:kitchen:refrigerator",
+      "chat": null
+    },
+    "Noemi Flores": {
+      "movement": [
+        165,
+        135
+      ],
+      "pronunciatio": "\ud83d\udcdd",
+      "description": "attending morning classes (working on a Math problem) @ the Ville:school:classroom:blackboard",
+      "chat": null
+    },
+    "Pastor Daniel Brooks": {
+      "movement": [
+        133,
+        159
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "working at the government building (conversing about Pastor Daniel Brooks and Caleb Brooks conversing about their respective meetings and classes, discussing community engagement, support for local initiatives, and potential community service projects for students, as well as planning to follow up with Ben Carter and keep him updated on their progress.) @ the Ville:house_9:common room:common room table",
+      "chat": null
+    },
+    "Dylan Brooks": {
+      "movement": [
+        125,
+        159
+      ],
+      "pronunciatio": "\ud83d\udcda",
+      "description": "attending morning classes (switching to his next class, Mathematics) @ the Ville:school:classroom:blackboard",
+      "chat": null
+    },
+    "Caleb Brooks": {
+      "movement": [
+        138,
+        159
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "working at the school (conversing about Pastor Daniel Brooks and Caleb Brooks conversing about their respective meetings and classes, discussing community engagement, support for local initiatives, and potential community service projects for students, as well as planning to follow up with Ben Carter and keep him updated on their progress.) @ the Ville:school:hallway:<random>",
+      "chat": null
+    },
+    "Professor Emily Carter": {
+      "movement": [
+        166,
+        166
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about a discussion between Professor Emily Carter and Ben Carter regarding leadership responsibilities, internal reports, and community development projects, including resource allocation, community engagement, and implementation plans for a literacy program and community center renovation. @ <persona> Ben Carter",
+      "chat": [
+        [
+          "Professor Emily Carter",
+          "Good morning Ben, I hope you're doing well. I wanted to follow up on our previous conversation regarding your leadership responsibilities and the internal reports we discussed. I've been reviewing the data and I think I can provide some valuable insights to support your decision-making."
+        ],
+        [
+          "Ben Carter",
+          "Good morning Professor Carter, I'm doing well, thank you. I appreciate you following up on our previous conversation and I'm eager to hear your insights on the internal reports. What recommendations do you have for optimizing resource allocation and community engagement?"
+        ],
+        [
+          "Professor Emily Carter",
+          "Based on my analysis of the internal reports, I recommend that we allocate more resources to community development projects and establish partnerships with local organizations to enhance community engagement. I've prepared a comprehensive report with data and statistics to support this recommendation, which I can share with you by the end of the day."
+        ],
+        [
+          "Ben Carter",
+          "That sounds like a great plan, Professor Carter. I would appreciate it if you could share the comprehensive report with me by the end of the day so I can review it and make informed decisions. Are there any specific community development projects you would recommend we prioritize?"
+        ],
+        [
+          "Professor Emily Carter",
+          "I've identified a few key projects that I believe would have a significant impact on the community, including a literacy program for underprivileged children and a community center renovation. I can include more details on these projects in the comprehensive report I'll be sharing with you later today."
+        ],
+        [
+          "Ben Carter",
+          "I agree that the literacy program and community center renovation are important projects, and I'd like to see more details on how they can be implemented and funded. Please include a detailed budget and timeline in the comprehensive report, as well as any potential challenges or obstacles we may face."
+        ],
+        [
+          "Professor Emily Carter",
+          "I'll make sure to include all the necessary details, including a detailed budget and timeline, as well as potential challenges and obstacles, in the comprehensive report. I'll also provide some recommendations for funding and implementation. I'll have the report ready for you by the end of the day, as promised."
+        ],
+        [
+          "Ben Carter",
+          "Thank you, Professor Carter, I appreciate your thoroughness and expertise in this matter. I'm looking forward to reviewing the comprehensive report later today and discussing the implementation of these projects further."
+        ],
+        [
+          "Professor Emily Carter",
+          "I'm glad we're on the same page, Ben. I'll make sure to have the comprehensive report ready for you by the end of the day. If you have any further questions or concerns before then, please don't hesitate to reach out to me. I'm looking forward to discussing the implementation of these projects with you further."
+        ],
+        [
+          "Ben Carter",
+          "I'll review the report as soon as I receive it and we can discuss the details further, perhaps we can schedule a meeting for tomorrow to go over the implementation plans?"
+        ],
+        [
+          "Professor Emily Carter",
+          "That sounds like a great plan, Ben. I'll make sure to have the comprehensive report ready for you by the end of the day and we can schedule a meeting for tomorrow to discuss the implementation plans in more detail."
+        ],
+        [
+          "Ben Carter",
+          "I'm looking forward to receiving the report and discussing the implementation plans with you tomorrow. Is there anything else you'd like to add or discuss before we conclude our conversation for now?"
+        ],
+        [
+          "Professor Emily Carter",
+          "No, I don't have anything else to add at this point. I'll make sure to have the comprehensive report ready for you by the end of the day and I'm looking forward to discussing the implementation plans with you tomorrow."
+        ]
+      ]
+    },
+    "Ben Carter": {
+      "movement": [
+        166,
+        166
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about a discussion between Professor Emily Carter and Ben Carter regarding leadership responsibilities, internal reports, and community development projects, including resource allocation, community engagement, and implementation plans for a literacy program and community center renovation. @ <persona> Professor Emily Carter",
+      "chat": [
+        [
+          "Professor Emily Carter",
+          "Good morning Ben, I hope you're doing well. I wanted to follow up on our previous conversation regarding your leadership responsibilities and the internal reports we discussed. I've been reviewing the data and I think I can provide some valuable insights to support your decision-making."
+        ],
+        [
+          "Ben Carter",
+          "Good morning Professor Carter, I'm doing well, thank you. I appreciate you following up on our previous conversation and I'm eager to hear your insights on the internal reports. What recommendations do you have for optimizing resource allocation and community engagement?"
+        ],
+        [
+          "Professor Emily Carter",
+          "Based on my analysis of the internal reports, I recommend that we allocate more resources to community development projects and establish partnerships with local organizations to enhance community engagement. I've prepared a comprehensive report with data and statistics to support this recommendation, which I can share with you by the end of the day."
+        ],
+        [
+          "Ben Carter",
+          "That sounds like a great plan, Professor Carter. I would appreciate it if you could share the comprehensive report with me by the end of the day so I can review it and make informed decisions. Are there any specific community development projects you would recommend we prioritize?"
+        ],
+        [
+          "Professor Emily Carter",
+          "I've identified a few key projects that I believe would have a significant impact on the community, including a literacy program for underprivileged children and a community center renovation. I can include more details on these projects in the comprehensive report I'll be sharing with you later today."
+        ],
+        [
+          "Ben Carter",
+          "I agree that the literacy program and community center renovation are important projects, and I'd like to see more details on how they can be implemented and funded. Please include a detailed budget and timeline in the comprehensive report, as well as any potential challenges or obstacles we may face."
+        ],
+        [
+          "Professor Emily Carter",
+          "I'll make sure to include all the necessary details, including a detailed budget and timeline, as well as potential challenges and obstacles, in the comprehensive report. I'll also provide some recommendations for funding and implementation. I'll have the report ready for you by the end of the day, as promised."
+        ],
+        [
+          "Ben Carter",
+          "Thank you, Professor Carter, I appreciate your thoroughness and expertise in this matter. I'm looking forward to reviewing the comprehensive report later today and discussing the implementation of these projects further."
+        ],
+        [
+          "Professor Emily Carter",
+          "I'm glad we're on the same page, Ben. I'll make sure to have the comprehensive report ready for you by the end of the day. If you have any further questions or concerns before then, please don't hesitate to reach out to me. I'm looking forward to discussing the implementation of these projects with you further."
+        ],
+        [
+          "Ben Carter",
+          "I'll review the report as soon as I receive it and we can discuss the details further, perhaps we can schedule a meeting for tomorrow to go over the implementation plans?"
+        ],
+        [
+          "Professor Emily Carter",
+          "That sounds like a great plan, Ben. I'll make sure to have the comprehensive report ready for you by the end of the day and we can schedule a meeting for tomorrow to discuss the implementation plans in more detail."
+        ],
+        [
+          "Ben Carter",
+          "I'm looking forward to receiving the report and discussing the implementation plans with you tomorrow. Is there anything else you'd like to add or discuss before we conclude our conversation for now?"
+        ],
+        [
+          "Professor Emily Carter",
+          "No, I don't have anything else to add at this point. I'll make sure to have the comprehensive report ready for you by the end of the day and I'm looking forward to discussing the implementation plans with you tomorrow."
+        ]
+      ]
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 10:40:40"
+  }
+}

@@ -1,0 +1,231 @@
+[
+  {
+    "sim_time": "2023-02-13 08:01:10",
+    "date": "Monday February 13",
+    "persona": "Noemi Flores",
+    "with": "Emilia Flores",
+    "description": "conversing about Emilia Flores and Noemi Flores conversing about their morning and daily plans, with Emilia heading to the school cafeteria and Noemi attending school",
+    "transcript": [
+      [
+        "Emilia Flores",
+        "Good morning, Noemi! How are you doing today?"
+      ],
+      [
+        "Noemi Flores",
+        "Good morning, Emilia! I'm doing great, thanks! I had a good sleep and I'm looking forward to school today."
+      ],
+      [
+        "Emilia Flores",
+        "That's great to hear, Noemi! I'm glad you're looking forward to school today. I have to get going to the school cafeteria soon, but I hope you have a wonderful day at school."
+      ],
+      [
+        "Noemi Flores",
+        "You too, Emilia! Have a great day at the cafeteria, I'll see you later!"
+      ]
+    ]
+  },
+  {
+    "sim_time": "2023-02-13 09:36:30",
+    "date": "Monday February 13",
+    "persona": "Noemi Flores",
+    "with": "Gabriel Flores",
+    "description": "conversing about Gabriel Flores and Noemi Flores conversing about their day, classes, and plans to see Emilia during lunch at the school cafeteria",
+    "transcript": [
+      [
+        "Gabriel Flores",
+        "Hi Noemi, how's your first class going? I saw you from the bus and thought I'd say hello"
+      ],
+      [
+        "Noemi Flores",
+        "It's going well, thanks! We're just discussing some grammar rules. I didn't know you were working today, what brings you to the school?"
+      ],
+      [
+        "Gabriel Flores",
+        "I'm working as a transport aide today, just helping to get the students to and from school safely. I actually saw Emilia earlier, she's getting ready for the lunch rush in the cafeteria. How's your day looking besides English class?"
+      ],
+      [
+        "Noemi Flores",
+        "That's great, I'm sure Emilia will do a good job with the lunch rush. My day is looking pretty normal so far, just the usual classes and homework. I'm looking forward to seeing Emilia later, maybe I'll grab lunch from the cafeteria."
+      ],
+      [
+        "Gabriel Flores",
+        "That sounds like a plan, I'm sure Emilia would be happy to see you at lunch. I should probably get going, I have to make sure the students get to their next destinations safely. It was nice chatting with you, Noemi, I'll see you around!"
+      ]
+    ]
+  },
+  {
+    "sim_time": "2023-02-13 11:55:40",
+    "date": "Monday February 13",
+    "persona": "Noemi Flores",
+    "with": "Gabriel Flores",
+    "description": "conversing about Noemi Flores and Gabriel Flores conversing about their day, classes, and plans to meet at lunch in the cafeteria to see Emilia and check on the students' transportation",
+    "transcript": [
+      [
+        "Noemi Flores",
+        "Hi Gabriel, I saw you organizing documents earlier, how's your day going as a transport aide?"
+      ],
+      [
+        "Gabriel Flores",
+        "It's going well, thanks for asking. I'm just making sure everything is in order for the students' transportation. How about your day, how are your classes going?"
+      ],
+      [
+        "Noemi Flores",
+        "My classes are going well, thanks. I'm looking forward to seeing Emilia at lunch, I'll make sure to grab lunch from the cafeteria so I can say hello."
+      ],
+      [
+        "Gabriel Flores",
+        "That sounds like a great plan, I'm sure Emilia will be happy to see you. I'll probably stop by the cafeteria during lunch as well to check in on her and make sure everything is running smoothly with the students' transportation."
+      ],
+      [
+        "Noemi Flores",
+        "That's great, I'll see you at lunch then. I should probably get back to class now, I don't want to be late for my next period."
+      ]
+    ]
+  },
+  {
+    "sim_time": "2023-02-13 13:21:00",
+    "date": "Monday February 13",
+    "persona": "Noemi Flores",
+    "with": "Emilia Flores",
+    "description": "conversing about a discussion between Emilia Flores and Noemi Flores about Noemi's creative writing project, Emilia's work at the cafeteria, and their plan to implement a 'student of the month' special, which they will further discuss with Gabriel over lunch",
+    "transcript": [
+      [
+        "Emilia Flores",
+        "Hey Noemi, how's your day going so far? I heard you're working on a project, I'm looking forward to hearing more about it"
+      ],
+      [
+        "Noemi Flores",
+        "It's going great, thanks for asking! I'm really excited about the project, it's a creative writing piece and I've been brainstorming some ideas. I'll have to tell you all about it later. How's your day going, how's work at the cafeteria?"
+      ],
+      [
+        "Emilia Flores",
+        "That sounds like a great project, I'd love to hear more about it! I've been having a good day so far, the kids seem to be enjoying the new menu items. I was thinking of trying out some new ideas based on their feedback, do you have any suggestions?"
+      ],
+      [
+        "Noemi Flores",
+        "That's great to hear that the kids are enjoying the new menu items! I've heard some of my friends talking about how much they love the new sandwiches. As for suggestions, I think it would be cool if you could have a 'student of the month' or 'student of the week' special where you feature a dish suggested by a student. What do you think?"
+      ],
+      [
+        "Emilia Flores",
+        "That's a fantastic idea, Noemi! I love the 'student of the month' or 'student of the week' special concept. It would be a great way to engage with the students and make them feel more involved in the cafeteria's menu. I'll definitely consider implementing that. What kind of creative writing piece are you working on for your project?"
+      ],
+      [
+        "Noemi Flores",
+        "I'm actually working on a short story for my creative writing project, it's about a young girl who discovers a magical world within her own reflection. I'm still brainstorming and trying to develop the plot, but I'm really excited about the idea. What do you think about the 'student of the month' special, should we start by featuring a dish suggested by Gabriel, since he's been helping out with the transportation?"
+      ],
+      [
+        "Emilia Flores",
+        "That's a great idea to feature a dish suggested by Gabriel, but I think we should open it up to all students and have them submit their ideas. We could have a voting system to choose which dish to feature each month. I'd love to hear more about your short story, what inspired you to write about a magical world within one's own reflection?"
+      ],
+      [
+        "Noemi Flores",
+        "I was inspired by a dream I had a few nights ago, where I saw a world that existed within my own reflection. It was so vivid and real, and it sparked the idea for my story. I think it would be amazing to explore the idea of self-discovery and the magic that can be found within oneself. What do you think about the idea of having a voting system for the 'student of the month' special, do you think the students would be excited about it?"
+      ],
+      [
+        "Emilia Flores",
+        "I think the voting system is a great idea, and I'm sure the students would be excited about it. It would be a wonderful way to encourage their participation and creativity. I'd love to help you brainstorm more ideas for your short story, and maybe we could even discuss it with Gabriel over lunch. What do you think about that?"
+      ],
+      [
+        "Noemi Flores",
+        "That sounds like a great idea, I'd love to brainstorm more ideas for my short story with you and Gabriel. What time were you thinking of meeting up with Gabriel, is he still on his transport aide duties?"
+      ],
+      [
+        "Emilia Flores",
+        "Gabriel is usually finished with his transport aide duties by lunchtime, so we can probably catch up with him then. I was thinking we could meet up with him in the cafeteria during my lunch break, would that work for you?"
+      ],
+      [
+        "Noemi Flores",
+        "That sounds perfect, I'll meet you in the cafeteria during your lunch break and we can catch up with Gabriel. I'm looking forward to hearing his thoughts on the 'student of the month' special and getting his feedback on my short story."
+      ],
+      [
+        "Emilia Flores",
+        "I'm glad we're on the same page, I'll make sure to talk to the cafeteria staff about implementing the 'student of the month' special and we can discuss the details further with Gabriel during lunch. Shall we head to the cafeteria now and meet up with him?"
+      ],
+      [
+        "Noemi Flores",
+        "Sounds like a plan, I'm excited to discuss everything with Gabriel and hear his thoughts on the 'student of the month' special and my short story. Let's head to the cafeteria now!"
+      ],
+      [
+        "Emilia Flores",
+        "Great, let's head to the cafeteria then. I'll introduce you to some of the staff and we can start discussing the details of the 'student of the month' special. I'm sure Gabriel will have some great ideas to share as well."
+      ],
+      [
+        "Noemi Flores",
+        "I'm looking forward to meeting the staff and discussing the details, lead the way to the cafeteria."
+      ]
+    ]
+  },
+  {
+    "sim_time": "2023-02-13 14:49:20",
+    "date": "Monday February 13",
+    "persona": "Noemi Flores",
+    "with": "Gabriel Flores",
+    "description": "conversing about Gabriel Flores and Noemi Flores conversing about their afternoon, Gabriel's bus cleaning, Noemi's creative writing project, and planning for the 'student of the month' special with Emilia over lunch",
+    "transcript": [
+      [
+        "Gabriel Flores",
+        "Hey Noemi, how's your afternoon class going so far?"
+      ],
+      [
+        "Noemi Flores",
+        "It's going well, thanks! I just got to my next class and I'm getting settled in. How about you, how's the bus cleaning going?"
+      ],
+      [
+        "Gabriel Flores",
+        "It's going great, thanks for asking! I'm almost done with the cleaning. I was thinking about our lunch plans earlier and I'm looking forward to catching up with you and Emilia soon."
+      ],
+      [
+        "Noemi Flores",
+        "That sounds great, I'm looking forward to catching up with you and Emilia too! I've been thinking about my creative writing project and I'd love to get your feedback on it during lunch."
+      ],
+      [
+        "Gabriel Flores",
+        "I'd love to hear more about your creative writing project and give you my feedback during lunch. What's it about?"
+      ],
+      [
+        "Noemi Flores",
+        "It's a short story about a young girl who discovers a magical garden, and I've been brainstorming ideas for the plot and characters. I think Emilia might have some great insights too, especially with her experience working in the cafeteria and hearing all the students' stories."
+      ],
+      [
+        "Gabriel Flores",
+        "That sounds like a fascinating story, I'm sure Emilia will have some great insights to share. I'm looking forward to hearing more about it during lunch and discussing it with both you and Emilia."
+      ],
+      [
+        "Noemi Flores",
+        "I'm also excited to discuss the 'student of the month' special with you and Emilia, I think it could be a great way to get the students more involved in the school community"
+      ],
+      [
+        "Gabriel Flores",
+        "That's a great idea, I think the 'student of the month' special could really boost the students' morale and encourage them to participate more in school activities. I'll make sure to bring it up with Emilia during lunch and we can discuss the details together."
+      ],
+      [
+        "Noemi Flores",
+        "I'm glad you like the idea, I was thinking we could also involve the students in the decision-making process by having them vote on the dish they'd like to feature each month. What do you think?"
+      ],
+      [
+        "Gabriel Flores",
+        "That's a wonderful idea, involving the students in the decision-making process will definitely make them feel more invested in the 'student of the month' special. I can see it now, we could have a voting system set up in the cafeteria and Emilia could help us come up with some delicious options for the students to choose from."
+      ],
+      [
+        "Noemi Flores",
+        "I'm glad we're on the same page, I think it's going to be a great way to bring the students together and make the school a more fun and engaging place. Should we finalize the plans with Emilia during lunch and start making preparations for the 'student of the month' special?"
+      ],
+      [
+        "Gabriel Flores",
+        "That sounds like a great plan, let's finalize the details with Emilia during lunch and start making preparations for the 'student of the month' special. I'll make sure to pick up your favorite orange juice and Emilia's coffee on my way to the cafeteria so we can celebrate our planning session."
+      ],
+      [
+        "Noemi Flores",
+        "That sounds great, thank you for picking up my favorite orange juice and Emilia's coffee, I'm looking forward to finalizing the plans with Emilia during lunch and starting preparations for the 'student of the month' special."
+      ],
+      [
+        "Gabriel Flores",
+        "I'm looking forward to seeing you at lunch and discussing the 'student of the month' special with Emilia, I'll head to the cafeteria now to pick up the drinks and meet you both at the table by the window."
+      ],
+      [
+        "Noemi Flores",
+        "Sounds great, I'll meet you at the table by the window with Emilia, thanks again for picking up the drinks!"
+      ]
+    ]
+  }
+]

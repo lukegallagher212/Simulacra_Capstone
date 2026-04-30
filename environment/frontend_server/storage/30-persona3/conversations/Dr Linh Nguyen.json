@@ -1,0 +1,133 @@
+[
+  {
+    "sim_time": "2023-02-13 08:10:50",
+    "date": "Monday February 13",
+    "persona": "Dr Linh Nguyen",
+    "with": "Phoebe Nguyen",
+    "description": "conversing about Dr Linh Nguyen and Phoebe Nguyen conversing about their daily plans, including Phoebe's school day, helping her friend Julia practice lines for the school play, and Dr Linh Nguyen's work at the pharmacy",
+    "transcript": [
+      [
+        "Dr Linh Nguyen",
+        "Good morning Phoebe, how's your day starting out?"
+      ],
+      [
+        "Phoebe Nguyen",
+        "It's going well, thank you for asking. I'm looking forward to a busy day at school, and then I'm meeting Julia to help her practice her lines for the school play."
+      ],
+      [
+        "Dr Linh Nguyen",
+        "That sounds like a great way to spend the day, I'm sure Julia appreciates your help with her lines. What's the school play about this year?"
+      ],
+      [
+        "Phoebe Nguyen",
+        "The school play is a production of a classic tale, and Julia has a significant role in it. I'm excited to see her perform and I'm happy to help her prepare."
+      ],
+      [
+        "Dr Linh Nguyen",
+        "That's wonderful, I'm sure Julia will do great with your help. What time are you meeting her to practice?"
+      ],
+      [
+        "Phoebe Nguyen",
+        "I'm meeting her at 5:30 pm after school, I just need to make sure I wrap up my last speech therapy session by 5:00 pm so I can be there on time."
+      ],
+      [
+        "Dr Linh Nguyen",
+        "It sounds like you have a busy day ahead, I hope your speech therapy session goes well and you're able to help Julia with her lines. I should probably get going soon, I have to be at the pharmacy by 8:00 am."
+      ],
+      [
+        "Phoebe Nguyen",
+        "You too, have a great day at the pharmacy, I'll talk to you later"
+      ]
+    ]
+  },
+  {
+    "sim_time": "2023-02-13 09:11:10",
+    "date": "Monday February 13",
+    "persona": "Dr Linh Nguyen",
+    "with": "Julia Nguyen",
+    "description": "conversing about a conversation between Dr. Linh Nguyen and Julia Nguyen about Julia's school play rehearsal, her excitement and preparation for it, and the help she is receiving from her friend Phoebe",
+    "transcript": [
+      [
+        "Dr Linh Nguyen",
+        "Hi Julia, how's your day going so far? I heard you have a school play rehearsal today."
+      ],
+      [
+        "Julia Nguyen",
+        "Yes, I do have a school play rehearsal today and I'm really excited about it. Phoebe offered to help me practice my lines after school, so I'm feeling a bit more confident now."
+      ],
+      [
+        "Dr Linh Nguyen",
+        "That's great to hear! I'm sure Phoebe will be a big help. What's the school play about this year?"
+      ],
+      [
+        "Julia Nguyen",
+        "It's about a group of friends who go on a adventure and learn about teamwork and friendship. I'm really excited to be a part of it!"
+      ],
+      [
+        "Dr Linh Nguyen",
+        "That sounds like a wonderful story! I'm sure you'll do great in the play. Have you been practicing your lines a lot?"
+      ],
+      [
+        "Julia Nguyen",
+        "Yes, I've been practicing my lines every day, and I'm feeling more comfortable with them now. Phoebe's help will definitely make a big difference, though!"
+      ],
+      [
+        "Dr Linh Nguyen",
+        "I'm glad to hear that Phoebe is helping you with your lines. I'm sure you two will have a great time practicing together. What time are you meeting up with Phoebe after school?"
+      ],
+      [
+        "Julia Nguyen",
+        "We're meeting up at 5:30 pm after school today, so I'm looking forward to running through my lines with her then."
+      ],
+      [
+        "Dr Linh Nguyen",
+        "That sounds like a great plan, I'm sure you two will have a lot of fun practicing together. I'll have to ask Phoebe about it later and see how it goes."
+      ],
+      [
+        "Julia Nguyen",
+        "Thank you, Dr. Linh Nguyen! I'm really looking forward to the rehearsal and I'm glad Phoebe is helping me out. I should probably get going to school now, I don't want to be late for my classes."
+      ]
+    ]
+  },
+  {
+    "sim_time": "2023-02-13 13:19:20",
+    "date": "Monday February 13",
+    "persona": "Dr Linh Nguyen",
+    "with": "Julia Nguyen",
+    "description": "conversing about Dr Linh Nguyen and Julia Nguyen conversing about Julia's school day, her morning math class, the upcoming school play rehearsal, and her plans with her friend Phoebe",
+    "transcript": [
+      [
+        "Dr Linh Nguyen",
+        "Hi Julia, how's your day going so far? How was your morning class?"
+      ],
+      [
+        "Julia Nguyen",
+        "It's going great, thanks! My morning class was really fun, we're learning about fractions in math and I got to practice my lines for the school play with Phoebe during recess. I'm really excited for the rehearsal tomorrow."
+      ],
+      [
+        "Dr Linh Nguyen",
+        "That sounds like a lot of fun! I'm glad you're enjoying your math class and that you got to practice your lines with Phoebe. How do you feel about the rehearsal tomorrow? Are you feeling prepared?"
+      ],
+      [
+        "Julia Nguyen",
+        "I'm feeling a bit nervous, but Phoebe has been helping me practice and I'm getting more confident with my lines. I'm also excited to see how everything comes together tomorrow."
+      ],
+      [
+        "Dr Linh Nguyen",
+        "That's great to hear that Phoebe has been helping you practice! I'm sure you'll do fantastic tomorrow. Have you and Phoebe planned out how you're going to get to the rehearsal, or do you need any help with transportation?"
+      ],
+      [
+        "Julia Nguyen",
+        "No, we don't need any help with transportation, thank you for offering! Phoebe and I are meeting up after school today at 5:30 pm to practice some more, and then we'll head to the rehearsal together tomorrow. But thank you for checking in and being so supportive, it means a lot to me!"
+      ],
+      [
+        "Dr Linh Nguyen",
+        "I'm glad to hear that you and Phoebe have everything planned out. I'll make sure to ask Phoebe how your practice session goes later, and I'll be looking forward to hearing all about the rehearsal tomorrow. Keep up the good work and don't hesitate to reach out if you need anything."
+      ],
+      [
+        "Julia Nguyen",
+        "Thank you so much, Dr. Linh Nguyen! I really appreciate your support and encouragement. I should probably get going now, I don't want to be late for my next class."
+      ]
+    ]
+  }
+]

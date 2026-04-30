@@ -1,0 +1,458 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2023, 16:20:50",
+  "curr_tile": [
+    89,
+    97
+  ],
+  "daily_plan_req": "1. wake up and complete morning routine at 7:00 am. 2. have breakfast at home. 3. head to the residential house at 8:00 am. 4. lunch break at 12:00 pm. 5. return to work until 5:00 pm. 6. head home and have dinner at 6:30 pm. 7. relax at home from 7:30 pm",
+  "name": "Sofia Torres",
+  "first_name": "Sofia",
+  "last_name": "Torres",
+  "age": 35,
+  "innate": "compassionate, patient, warm",
+  "learned": "Sofia Torres is a residential caregiver helping community residents.",
+  "currently": "Sofia Torres is sleeping at house_2.",
+  "lifestyle": "Sofia Torres goes to bed around 10pm, wakes up around 7am, eats dinner around 6:30pm.",
+  "living_area": "the Ville:house_2:bedroom_2",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 98,
+  "importance_ele_n": 74,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete morning routine at 7:00 am",
+    "have breakfast at home",
+    "head to the residential house at 8:00 am",
+    "lunch break at 12:00 pm",
+    "return to work until 5:00 pm",
+    "head home and have dinner at 6:30 pm",
+    "relax at home from 7:30 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      420
+    ],
+    [
+      "waking up and starting morning routine",
+      60
+    ],
+    [
+      "having breakfast at home",
+      30
+    ],
+    [
+      "commuting to the residential house and starting work (on the way to commuting to the residential house and starting wor)",
+      0
+    ],
+    [
+      "commuting to the residential house and starting work (conversing about Rodrigo Torres and Sofia Torres conversing about their daily plans and responsibilities, with Rodrigo heading to the supply store and Sofia to Town House 1, while also discussing their roles in the community and following Ben Carter's guidance)",
+      6
+    ],
+    [
+      "working at the residential house (checking the daily schedule for the residents)",
+      5
+    ],
+    [
+      "working at the residential house (reviewing the residents' medical charts)",
+      5
+    ],
+    [
+      "working at the residential house (preparing the morning medications)",
+      10
+    ],
+    [
+      "working at the residential house (assisting residents with morning routines)",
+      20
+    ],
+    [
+      "working at the residential house (serving breakfast to the residents)",
+      20
+    ],
+    [
+      "working at the residential house (cleaning up after breakfast)",
+      10
+    ],
+    [
+      "working at the residential house (taking vital signs of the residents)",
+      15
+    ],
+    [
+      "working at the residential house (on the way to documenting the residents' daily progress)",
+      0
+    ],
+    [
+      "working at the residential house (conversing about Sofia Torres and Nadia Kaur conversing about civic administration, volunteering for community initiatives, and getting involved in local governance and outreach programs to promote stability and order in their society)",
+      19
+    ],
+    [
+      "working at the residential house (assisting residents with physical therapy)",
+      25
+    ],
+    [
+      "working at the residential house (helping residents with recreational activities)",
+      20
+    ],
+    [
+      "working at the residential house (monitoring the residents' safety)",
+      15
+    ],
+    [
+      "working at the residential house (preparing lunch for the residents)",
+      20
+    ],
+    [
+      "working at the residential house (on the way to assisting residents with lunch)",
+      0
+    ],
+    [
+      "working at the residential house (conversing about Sofia Torres and Raj Singh conversing about the progress of Raj's project at the government building, lunch preparation, and upcoming meeting with Ben Carter to discuss new community initiatives and ways to increase community involvement)",
+      15
+    ],
+    [
+      "working at the residential house (cleaning up after lunch)",
+      10
+    ],
+    [
+      "working at the residential house (taking a short break)",
+      10
+    ],
+    [
+      "working at the residential house (reviewing the afternoon schedule)",
+      5
+    ],
+    [
+      "working at the residential house (preparing for the afternoon activities)",
+      5
+    ],
+    [
+      "working at the residential house (starting the afternoon activities with the residents)",
+      5
+    ],
+    [
+      "taking a lunch break (walking to the kitchen to prepare her lunch)",
+      5
+    ],
+    [
+      "taking a lunch break (heating up her lunch in the microwave)",
+      5
+    ],
+    [
+      "taking a lunch break (setting the table to eat)",
+      5
+    ],
+    [
+      "taking a lunch break (eating her lunch)",
+      20
+    ],
+    [
+      "taking a lunch break (on the way to cleaning up after lunch)",
+      0
+    ],
+    [
+      "taking a lunch break (conversing about Rodrigo Torres and Sofia Torres conversing about their day, work, and discussing community initiatives, including arranging a meeting with Nadia Kaur and a volunteer opportunity with Ben Carter)",
+      12
+    ],
+    [
+      "taking a lunch break (taking a short walk outside to get some fresh air)",
+      10
+    ],
+    [
+      "taking a lunch break (checking her phone for any important messages)",
+      5
+    ],
+    [
+      "continuing work at the residential house (checking on the residents' well-being)",
+      15
+    ],
+    [
+      "continuing work at the residential house (assisting with medication administration)",
+      30
+    ],
+    [
+      "continuing work at the residential house (helping with household chores)",
+      30
+    ],
+    [
+      "continuing work at the residential house (preparing snacks for the residents)",
+      20
+    ],
+    [
+      "continuing work at the residential house (engaging in conversation with the residents)",
+      25
+    ],
+    [
+      "continuing work at the residential house (on the way to documenting resident care and progress)",
+      0
+    ],
+    [
+      "continuing work at the residential house (conversing about Sofia Torres and Rodrigo Torres conversing about arranging a meeting with Nadia Kaur to discuss community initiatives, finalizing a report for Ben Carter, and addressing the needs and concerns of the residents at Town House 1)",
+      18
+    ],
+    [
+      "continuing work at the residential house (taking a short break to rest)",
+      15
+    ],
+    [
+      "continuing work at the residential house (assisting residents with recreational activities)",
+      30
+    ],
+    [
+      "continuing work at the residential house (addressing any resident concerns or issues)",
+      20
+    ],
+    [
+      "continuing work at the residential house (reviewing the care schedule for the rest of the day)",
+      20
+    ],
+    [
+      "continuing work at the residential house (preparing for the end of her work shift)",
+      5
+    ],
+    [
+      "heading home",
+      28
+    ],
+    [
+      "relaxing at home",
+      60
+    ],
+    [
+      "having dinner",
+      60
+    ],
+    [
+      "relaxing at home",
+      120
+    ],
+    [
+      "getting ready for bed",
+      30
+    ],
+    [
+      "sleeping",
+      60
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      24
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      1
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      5
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      12
+    ],
+    [
+      "sleeping",
+      0
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      420
+    ],
+    [
+      "waking up and starting morning routine",
+      60
+    ],
+    [
+      "having breakfast at home",
+      30
+    ],
+    [
+      "commuting to the residential house and starting work",
+      30
+    ],
+    [
+      "working at the residential house",
+      240
+    ],
+    [
+      "taking a lunch break",
+      60
+    ],
+    [
+      "continuing work at the residential house",
+      240
+    ],
+    [
+      "heading home",
+      30
+    ],
+    [
+      "relaxing at home",
+      60
+    ],
+    [
+      "having dinner",
+      60
+    ],
+    [
+      "relaxing at home",
+      120
+    ],
+    [
+      "getting ready for bed",
+      30
+    ],
+    [
+      "sleeping",
+      60
+    ]
+  ],
+  "act_address": "the Ville:house_2:common room:common room table",
+  "act_start_time": "February 13, 2023, 16:05:00",
+  "act_duration": 30,
+  "act_description": "continuing work at the residential house (assisting residents with recreational activities)",
+  "act_pronunciatio": "\ud83c\udfde\ufe0f",
+  "act_event": [
+    "Sofia Torres",
+    "assist",
+    "residents"
+  ],
+  "act_obj_description": "being used by Sofia Torres and the residents for recreational activities",
+  "act_obj_pronunciatio": "\ud83c\udfde\ufe0f",
+  "act_obj_event": [
+    "common room table",
+    "be used by",
+    "Sofia Torres and the residents"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {
+    "Rodrigo Torres": 596,
+    "Nadia Kaur": -1420,
+    "Raj Singh": -850
+  },
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": []
+}

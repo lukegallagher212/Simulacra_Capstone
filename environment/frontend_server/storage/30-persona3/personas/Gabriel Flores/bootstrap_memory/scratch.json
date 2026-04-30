@@ -1,0 +1,697 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2023, 16:20:50",
+  "curr_tile": [
+    167,
+    135
+  ],
+  "daily_plan_req": "1. wake up and complete morning routine at 7:00 am. 2. have breakfast at home. 3. head to the school at 8:00 am. 4. lunch break at 12:00 pm. 5. return to work until 5:00 pm. 6. head home and have dinner at 6:30 pm. 7. relax at home from 7:30 pm",
+  "name": "Gabriel Flores",
+  "first_name": "Gabriel",
+  "last_name": "Flores",
+  "age": 41,
+  "innate": "dependable, patient, helpful",
+  "learned": "Gabriel Flores helps transport students safely to and from school.",
+  "currently": "Gabriel Flores is sleeping at house_8.",
+  "lifestyle": "Gabriel Flores goes to bed around 10pm, wakes up around 7am, eats dinner around 6:30pm.",
+  "living_area": "the Ville:house_8:bedroom_1",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 228,
+  "importance_ele_n": 18,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete morning routine at 7:00 am",
+    "have breakfast at home",
+    "head to the school at 8:00 am",
+    "lunch break at 12:00 pm",
+    "return to work until 5:00 pm",
+    "head home and have dinner at 6:30 pm",
+    "relax at home from 7:30 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      420
+    ],
+    [
+      "waking up and starting morning routine",
+      60
+    ],
+    [
+      "having breakfast at home",
+      30
+    ],
+    [
+      "commuting to the school and starting work (on the way to commuting to the school and starting wor)",
+      0
+    ],
+    [
+      "commuting to the school and starting work (conversing about Gabriel Flores and Emilia Flores conversing about their daily plans and work at the school, with Gabriel helping to transport students and Emilia working at the school cafeteria)",
+      2
+    ],
+    [
+      "working at the school (checking the bus to ensure it is safe for the students)",
+      5
+    ],
+    [
+      "working at the school (reviewing the route to school)",
+      5
+    ],
+    [
+      "working at the school (checking the weather forecast)",
+      5
+    ],
+    [
+      "working at the school (preparing the first aid kit)",
+      5
+    ],
+    [
+      "working at the school (checking the student list)",
+      5
+    ],
+    [
+      "working at the school (starting the bus)",
+      5
+    ],
+    [
+      "working at the school (checking the mirrors and blind spots)",
+      5
+    ],
+    [
+      "working at the school (beginning the route to school)",
+      5
+    ],
+    [
+      "working at the school (stopping at the first bus stop)",
+      5
+    ],
+    [
+      "working at the school (picking up students)",
+      5
+    ],
+    [
+      "working at the school (ensuring students are seated and buckled)",
+      5
+    ],
+    [
+      "working at the school (continuing the route to school)",
+      5
+    ],
+    [
+      "working at the school (stopping at the next bus stop)",
+      5
+    ],
+    [
+      "working at the school (picking up more students)",
+      5
+    ],
+    [
+      "working at the school (on the way to monitoring student behavior)",
+      0
+    ],
+    [
+      "working at the school (conversing about Gabriel Flores and Noemi Flores conversing about their day, classes, and plans to see Emilia during lunch at the school cafeteria)",
+      5
+    ],
+    [
+      "working at the school (approaching the school)",
+      5
+    ],
+    [
+      "working at the school (preparing to drop off students)",
+      5
+    ],
+    [
+      "working at the school (dropping off students)",
+      5
+    ],
+    [
+      "working at the school (parking the bus)",
+      5
+    ],
+    [
+      "working at the school (completing post-route checks)",
+      5
+    ],
+    [
+      "working at the school (attending a meeting with other transport aides)",
+      5
+    ],
+    [
+      "working at the school (discussing safety protocols)",
+      5
+    ],
+    [
+      "working at the school (reviewing student transportation records)",
+      5
+    ],
+    [
+      "working at the school (updating his knowledge of student needs)",
+      5
+    ],
+    [
+      "working at the school (taking a short break)",
+      5
+    ],
+    [
+      "working at the school (responding to messages from parents)",
+      5
+    ],
+    [
+      "working at the school (preparing for the next route)",
+      5
+    ],
+    [
+      "working at the school (checking the bus for any issues)",
+      5
+    ],
+    [
+      "working at the school (fueling the bus)",
+      5
+    ],
+    [
+      "working at the school (washing his hands)",
+      5
+    ],
+    [
+      "working at the school (grabbing a snack)",
+      5
+    ],
+    [
+      "working at the school (using the restroom)",
+      5
+    ],
+    [
+      "working at the school (checking his phone for updates)",
+      5
+    ],
+    [
+      "working at the school (chatting with colleagues)",
+      5
+    ],
+    [
+      "working at the school (attending to his duties as transport aide)",
+      5
+    ],
+    [
+      "working at the school (helping students with their needs)",
+      5
+    ],
+    [
+      "working at the school (ensuring student safety)",
+      5
+    ],
+    [
+      "working at the school (monitoring the school area)",
+      5
+    ],
+    [
+      "working at the school (reporting any incidents)",
+      5
+    ],
+    [
+      "working at the school (filling out paperwork)",
+      5
+    ],
+    [
+      "working at the school (organizing his documents)",
+      5
+    ],
+    [
+      "working at the school (on the way to making copies of records)",
+      0
+    ],
+    [
+      "working at the school (conversing about Noemi Flores and Gabriel Flores conversing about their day, classes, and plans to meet at lunch in the cafeteria to see Emilia and check on the students' transportation)",
+      4
+    ],
+    [
+      "working at the school (scanning documents)",
+      30
+    ],
+    [
+      "taking a lunch break (walking to the school cafeteria)",
+      5
+    ],
+    [
+      "taking a lunch break (waiting in line to purchase lunch)",
+      10
+    ],
+    [
+      "taking a lunch break (on the way to buying lunch from the cafeteria)",
+      0
+    ],
+    [
+      "taking a lunch break (conversing about Gabriel Flores and Emilia Flores conversing about their day, the new cafeteria menu, and catching up with Noemi over lunch)",
+      12
+    ],
+    [
+      "taking a lunch break (finding a seat in the cafeteria to eat)",
+      5
+    ],
+    [
+      "taking a lunch break (eating lunch)",
+      13
+    ],
+    [
+      "taking a lunch break (chatting with coworkers)",
+      10
+    ],
+    [
+      "taking a lunch break (throwing away trash and cleaning up)",
+      5
+    ],
+    [
+      "continuing work at the school (checking the bus for any damage or issues)",
+      15
+    ],
+    [
+      "continuing work at the school (reviewing the afternoon transportation schedule)",
+      15
+    ],
+    [
+      "continuing work at the school (fueling up the bus)",
+      15
+    ],
+    [
+      "continuing work at the school (performing a safety check on the bus)",
+      15
+    ],
+    [
+      "continuing work at the school (checking the first aid kit and emergency supplies)",
+      10
+    ],
+    [
+      "continuing work at the school (cleaning the bus)",
+      20
+    ],
+    [
+      "continuing work at the school (on the way to checking the bus's tire pressure)",
+      0
+    ],
+    [
+      "continuing work at the school (conversing about Gabriel Flores and Noemi Flores conversing about their afternoon, Gabriel's bus cleaning, Noemi's creative writing project, and planning for the 'student of the month' special with Emilia over lunch)",
+      15
+    ],
+    [
+      "continuing work at the school (testing the bus's communication equipment)",
+      15
+    ],
+    [
+      "continuing work at the school (checking the bus's brakes and suspension)",
+      20
+    ],
+    [
+      "continuing work at the school (reviewing the student pickup and dropoff list)",
+      15
+    ],
+    [
+      "continuing work at the school (checking the weather forecast for any potential issues)",
+      10
+    ],
+    [
+      "continuing work at the school (coordinating with other transport aides)",
+      20
+    ],
+    [
+      "continuing work at the school (reviewing the school's transportation policies)",
+      15
+    ],
+    [
+      "continuing work at the school (checking the bus's maintenance records)",
+      15
+    ],
+    [
+      "continuing work at the school (preparing for the afternoon routes)",
+      20
+    ],
+    [
+      "continuing work at the school (doing a final check of the bus before departing)",
+      10
+    ],
+    [
+      "heading home",
+      25
+    ],
+    [
+      "relaxing at home",
+      60
+    ],
+    [
+      "having dinner",
+      60
+    ],
+    [
+      "relaxing at home",
+      120
+    ],
+    [
+      "getting ready for bed",
+      30
+    ],
+    [
+      "sleeping",
+      60
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      28
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      1
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      420
+    ],
+    [
+      "waking up and starting morning routine",
+      60
+    ],
+    [
+      "having breakfast at home",
+      30
+    ],
+    [
+      "commuting to the school and starting work",
+      30
+    ],
+    [
+      "working at the school",
+      240
+    ],
+    [
+      "taking a lunch break",
+      60
+    ],
+    [
+      "continuing work at the school",
+      240
+    ],
+    [
+      "heading home",
+      30
+    ],
+    [
+      "relaxing at home",
+      60
+    ],
+    [
+      "having dinner",
+      60
+    ],
+    [
+      "relaxing at home",
+      120
+    ],
+    [
+      "getting ready for bed",
+      30
+    ],
+    [
+      "sleeping",
+      60
+    ]
+  ],
+  "act_address": "the Ville:house_8:common room:common room table",
+  "act_start_time": "February 13, 2023, 16:19:00",
+  "act_duration": 20,
+  "act_description": "continuing work at the school (coordinating with other transport aides)",
+  "act_pronunciatio": "\ud83d\ude8c\ud83d\udc65",
+  "act_event": [
+    "Gabriel Flores",
+    "coordinate",
+    "other transport aides"
+  ],
+  "act_obj_description": "empty and clean",
+  "act_obj_pronunciatio": "\ud83e\uddf9\ud83d\udca7",
+  "act_obj_event": [
+    "common room table",
+    "be",
+    "empty"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {
+    "Emilia Flores": -448,
+    "Noemi Flores": 338
+  },
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": []
+}

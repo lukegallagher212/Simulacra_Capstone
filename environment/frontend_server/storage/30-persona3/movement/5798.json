@@ -1,0 +1,277 @@
+{
+  "persona": {
+    "Ethan Walker": {
+      "movement": [
+        54,
+        97
+      ],
+      "pronunciatio": "\ud83c\udf7f",
+      "description": "continuing work at the school (taking a short break to grab a snack) @ the Ville:school:hallway:<random>",
+      "chat": null
+    },
+    "Jordan Walker": {
+      "movement": [
+        50,
+        93
+      ],
+      "pronunciatio": "\ud83c\udf7f",
+      "description": "having a snack and relaxing (selecting a snack) @ the Ville:house_1:kitchen:refrigerator",
+      "chat": null
+    },
+    "Lily Walker": {
+      "movement": [
+        45,
+        97
+      ],
+      "pronunciatio": "\ud83d\udeb6\u200d\u2642",
+      "description": "having a snack and relaxing (walking home from school) @ the Ville:house_1:common room:common room sofa",
+      "chat": null
+    },
+    "Rodrigo Torres": {
+      "movement": [
+        90,
+        97
+      ],
+      "pronunciatio": "\ud83e\udd1d",
+      "description": "continuing work at the supply store (helping a colleague with a task) @ the Ville:supply_store:supply store:supply store counter",
+      "chat": null
+    },
+    "Sofia Torres": {
+      "movement": [
+        89,
+        97
+      ],
+      "pronunciatio": "\ud83c\udfde\ufe0f",
+      "description": "continuing work at the residential house (assisting residents with recreational activities) @ the Ville:house_2:common room:common room table",
+      "chat": null
+    },
+    "Harpreet Kaur": {
+      "movement": [
+        132,
+        97
+      ],
+      "pronunciatio": "\ud83d\udcc5",
+      "description": "continuing work at the government building (updating her calendar with upcoming mediations) @ the Ville:government_building:computer_room:computer",
+      "chat": null
+    },
+    "Raj Singh": {
+      "movement": [
+        128,
+        97
+      ],
+      "pronunciatio": "\ud83e\udd1d",
+      "description": "continuing work at the government building (collaborating with a team member on a task) @ the Ville:government_building:meeting room:Town Hall Seats",
+      "chat": null
+    },
+    "Nadia Kaur": {
+      "movement": [
+        112,
+        21
+      ],
+      "pronunciatio": "\ud83c\udfe0",
+      "description": "heading home @ the Ville:house_3:common room:common room sofa",
+      "chat": null
+    },
+    "Dr Linh Nguyen": {
+      "movement": [
+        75,
+        51
+      ],
+      "pronunciatio": "\ud83d\udcdd",
+      "description": "continuing work at the pharmacy (organizing paperwork) @ the Ville:pharmacy:store:behind the pharmacy counter",
+      "chat": null
+    },
+    "Phoebe Nguyen": {
+      "movement": [
+        119,
+        24
+      ],
+      "pronunciatio": "\ud83d\udcc1\ud83d\udc40",
+      "description": "continuing work at the school (reviewing student files) @ the Ville:school:library:library table",
+      "chat": null
+    },
+    "Julia Nguyen": {
+      "movement": [
+        165,
+        95
+      ],
+      "pronunciatio": "\ud83c\udf7f",
+      "description": "having a snack and relaxing (selecting a snack from the kitchen) @ the Ville:house_4:kitchen:refrigerator",
+      "chat": null
+    },
+    "Curtis Bell": {
+      "movement": [
+        66,
+        119
+      ],
+      "pronunciatio": "\ud83d\udce3",
+      "description": "continuing work at the school (testing the school's alarm system) @ the Ville:school:hallway:<random>",
+      "chat": null
+    },
+    "Patricia Kim": {
+      "movement": [
+        64,
+        119
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "continuing work at the government building (conversing about Patricia Kim and Trina Bell conversing about the school festival and charity drive, including event ideas, promotion strategies, and finalizing a proposal to present to Ben Carter) @ the Ville:government_building:meeting room:Town Hall Presenter",
+      "chat": null
+    },
+    "Trina Bell": {
+      "movement": [
+        61,
+        119
+      ],
+      "pronunciatio": "\ud83c\udfe0",
+      "description": "heading home @ the Ville:house_5:common room:common room sofa",
+      "chat": null
+    },
+    "Rosie Bell": {
+      "movement": [
+        65,
+        119
+      ],
+      "pronunciatio": "\ud83c\udfa8\ud83d\udcda",
+      "description": "attending afternoon classes (conversing about Mason Bell and Rosie Bell conversing about displaying Rosie's art project in the school hallway, and planning to meet with Ben Carter, their art teacher, and potentially Patricia Kim and other school staff and students to make it a bigger event) @ the Ville:house_5:common room:common room table",
+      "chat": null
+    },
+    "Mason Bell": {
+      "movement": [
+        68,
+        119
+      ],
+      "pronunciatio": "\ud83c\udfa8\ud83d\udc65",
+      "description": "attending afternoon classes (conversing about Mason Bell and Rosie Bell conversing about displaying Rosie's art project in the school hallway, and planning to meet with Ben Carter, their art teacher, and potentially Patricia Kim and other school staff and students to make it a bigger event) @ the Ville:house_5:common room:common room table",
+      "chat": null
+    },
+    "Rashad Lewis": {
+      "movement": [
+        129,
+        120
+      ],
+      "pronunciatio": "\ud83d\udcf9\ud83d\udc40",
+      "description": "continuing work at the school (watching game footage to analyze player techniques) @ the Ville:school:classroom:School Desk",
+      "chat": null
+    },
+    "Parker Lewis": {
+      "movement": [
+        124,
+        120
+      ],
+      "pronunciatio": "\ud83c\udfe0",
+      "description": "heading home @ the Ville:house_6:common room:common room sofa",
+      "chat": null
+    },
+    "Kendra Hall": {
+      "movement": [
+        130,
+        120
+      ],
+      "pronunciatio": "\ud83d\udd04",
+      "description": "continuing work at the school (transitioning the class to the next activity) @ the Ville:school:classroom:classroom podium",
+      "chat": null
+    },
+    "Dr Miguel Santos": {
+      "movement": [
+        136,
+        136
+      ],
+      "pronunciatio": "\ud83e\uddb7",
+      "description": "continuing work at the pharmacy (performing a dental procedure) @ the Ville:house_7:common room:shelf",
+      "chat": null
+    },
+    "Vivian Santos": {
+      "movement": [
+        131,
+        136
+      ],
+      "pronunciatio": "\ud83d\udcca",
+      "description": "continuing work at the office (reviewing the office's website) @ the Ville:school:library:library table",
+      "chat": null
+    },
+    "Mateo Santos": {
+      "movement": [
+        124,
+        136
+      ],
+      "pronunciatio": "\ud83c\udfe0",
+      "description": "heading home @ the Ville:house_7:common room:common room sofa",
+      "chat": null
+    },
+    "Gabriel Flores": {
+      "movement": [
+        168,
+        135
+      ],
+      "pronunciatio": "\ud83d\udcdd",
+      "description": "continuing work at the school (reviewing the student pickup and dropoff list) @ the Ville:school:hallway:<random>",
+      "chat": null
+    },
+    "Emilia Flores": {
+      "movement": [
+        173,
+        135
+      ],
+      "pronunciatio": "\ud83c\udf74\ud83d\udc65",
+      "description": "continuing work at the school (serving food to students and staff) @ the Ville:school:hallway:<random>",
+      "chat": null
+    },
+    "Noemi Flores": {
+      "movement": [
+        160,
+        135
+      ],
+      "pronunciatio": "\ud83c\udfe0",
+      "description": "heading home @ the Ville:house_8:common room:common room sofa",
+      "chat": null
+    },
+    "Pastor Daniel Brooks": {
+      "movement": [
+        139,
+        159
+      ],
+      "pronunciatio": "\ud83c\udf89\ud83d\udc65",
+      "description": "continuing work at the government building (conversing about Pastor Daniel Brooks and Caleb Brooks conversing about organizing a community fair to encourage students to get involved in local initiatives, discussing details such as inviting local organizations, securing sponsorships, creating promotional materials, and finalizing plans for the event.) @ the Ville:school:classroom:classroom podium",
+      "chat": null
+    },
+    "Dylan Brooks": {
+      "movement": [
+        120,
+        159
+      ],
+      "pronunciatio": "\ud83c\udfb5",
+      "description": "having a snack and relaxing (listening to music on his phone) @ the Ville:house_9:common room:common room sofa",
+      "chat": null
+    },
+    "Caleb Brooks": {
+      "movement": [
+        138,
+        159
+      ],
+      "pronunciatio": "\ud83c\udf89\ud83d\udc65",
+      "description": "continuing work at the school (conversing about Pastor Daniel Brooks and Caleb Brooks conversing about organizing a community fair to encourage students to get involved in local initiatives, discussing details such as inviting local organizations, securing sponsorships, creating promotional materials, and finalizing plans for the event.) @ the Ville:school:hallway:<random>",
+      "chat": null
+    },
+    "Professor Emily Carter": {
+      "movement": [
+        167,
+        166
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83d\udca1",
+      "description": "continuing work at the school (working on a research paper and making edits) @ the Ville:school:library:library table",
+      "chat": null
+    },
+    "Ben Carter": {
+      "movement": [
+        160,
+        166
+      ],
+      "pronunciatio": "\ud83d\udeaa",
+      "description": "having a snack and relaxing (unlocking the front door of his house) @ the Ville:house_10:common room:shelf",
+      "chat": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 16:06:20"
+  }
+}

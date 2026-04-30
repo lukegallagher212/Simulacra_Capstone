@@ -1,0 +1,407 @@
+{
+  "persona": {
+    "Ethan Walker": {
+      "movement": [
+        43,
+        93
+      ],
+      "pronunciatio": "\ud83c\udf73\ud83c\udfe0",
+      "description": "having breakfast at home @ the Ville:house_1:kitchen:refrigerator",
+      "chat": null
+    },
+    "Jordan Walker": {
+      "movement": [
+        49,
+        94
+      ],
+      "pronunciatio": "\ud83d\udecb\ufe0f\ud83d\udca8",
+      "description": "waking up and getting ready @ the Ville:house_1:bedroom_1:closet",
+      "chat": null
+    },
+    "Lily Walker": {
+      "movement": [
+        56,
+        94
+      ],
+      "pronunciatio": "\ud83d\udecb\ufe0f\ud83d\udca8",
+      "description": "waking up and getting ready @ the Ville:house_1:bedroom_1:closet",
+      "chat": null
+    },
+    "Rodrigo Torres": {
+      "movement": [
+        78,
+        93
+      ],
+      "pronunciatio": "\ud83c\udf73\ud83c\udfe0",
+      "description": "having breakfast at home @ the Ville:house_2:kitchen:refrigerator",
+      "chat": null
+    },
+    "Sofia Torres": {
+      "movement": [
+        85,
+        93
+      ],
+      "pronunciatio": "\ud83c\udf73\ud83c\udfe0",
+      "description": "having breakfast at home @ the Ville:house_2:kitchen:refrigerator",
+      "chat": null
+    },
+    "Harpreet Kaur": {
+      "movement": [
+        113,
+        92
+      ],
+      "pronunciatio": "\ud83c\udf73\ud83c\udfe0",
+      "description": "having breakfast at home @ the Ville:house_3:kitchen:refrigerator",
+      "chat": null
+    },
+    "Raj Singh": {
+      "movement": [
+        120,
+        93
+      ],
+      "pronunciatio": "\ud83c\udf73\ud83c\udfe0",
+      "description": "having breakfast at home @ the Ville:house_3:kitchen:refrigerator",
+      "chat": null
+    },
+    "Nadia Kaur": {
+      "movement": [
+        126,
+        94
+      ],
+      "pronunciatio": "\ud83d\udecb\ufe0f\ud83d\udca8",
+      "description": "waking up and getting ready @ the Ville:house_3:bedroom_1:closet",
+      "chat": null
+    },
+    "Dr Linh Nguyen": {
+      "movement": [
+        156,
+        90
+      ],
+      "pronunciatio": "\ud83c\udf73\ud83c\udfe0",
+      "description": "having breakfast at home @ the Ville:house_4:kitchen:refrigerator",
+      "chat": null
+    },
+    "Phoebe Nguyen": {
+      "movement": [
+        163,
+        91
+      ],
+      "pronunciatio": "\ud83c\udf73\ud83c\udfe0",
+      "description": "having breakfast at home @ the Ville:house_4:kitchen:refrigerator",
+      "chat": null
+    },
+    "Julia Nguyen": {
+      "movement": [
+        169,
+        92
+      ],
+      "pronunciatio": "\ud83d\udecb\ufe0f\ud83d\udca8",
+      "description": "waking up and getting ready @ the Ville:house_4:bedroom_1:closet",
+      "chat": null
+    },
+    "Curtis Bell": {
+      "movement": [
+        56,
+        114
+      ],
+      "pronunciatio": "\ud83c\udf73\ud83c\udfe0",
+      "description": "having breakfast at home @ the Ville:house_5:kitchen:refrigerator",
+      "chat": null
+    },
+    "Patricia Kim": {
+      "movement": [
+        63,
+        115
+      ],
+      "pronunciatio": "\ud83c\udf73\ud83c\udfe0",
+      "description": "having breakfast at home @ the Ville:house_5:kitchen:refrigerator",
+      "chat": null
+    },
+    "Trina Bell": {
+      "movement": [
+        69,
+        116
+      ],
+      "pronunciatio": "\ud83d\udecb\ufe0f\ud83d\udca8",
+      "description": "waking up and getting ready @ the Ville:house_5:bedroom_1:closet",
+      "chat": null
+    },
+    "Rosie Bell": {
+      "movement": [
+        75,
+        114
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about a conversation between Rosie Bell and Mason Bell about their daily routines, school classes, and breakfast plans, where they discuss Rosie's new art project and make arrangements to eat together before heading out to school @ <persona> Mason Bell",
+      "chat": [
+        [
+          "Rosie Bell",
+          "Good morning, Mason! Did you sleep well?"
+        ],
+        [
+          "Mason Bell",
+          "Good morning, Rosie! Yeah, I slept well, thanks. How about you?"
+        ],
+        [
+          "Rosie Bell",
+          "I slept well too, thanks! I'm excited for school today, we have art class and I get to work on my new project."
+        ],
+        [
+          "Mason Bell",
+          "That sounds like fun, I'm looking forward to my math class today. What's your new project about?"
+        ],
+        [
+          "Rosie Bell",
+          "I'm making a painting of our neighborhood, I want to capture the way the sunlight reflects off the houses in the morning."
+        ],
+        [
+          "Mason Bell",
+          "That sounds beautiful, I'd love to see it when it's finished. Do you think you'll be able to finish it in class today?"
+        ],
+        [
+          "Rosie Bell",
+          "I hope so, I've been planning it out for a while and I think I can get a lot done in class today, but I might have to finish it up for homework tonight."
+        ],
+        [
+          "Mason Bell",
+          "That's great, I'm sure it'll turn out amazing. I should probably get going, I don't want to be late for school. Do you want to head downstairs and have breakfast together?"
+        ],
+        [
+          "Rosie Bell",
+          "Yeah, that sounds great, I'm starving! Let's go downstairs and have some breakfast before we head out to school."
+        ],
+        [
+          "Mason Bell",
+          "Great, I'll meet you downstairs in the kitchen, I'll start making some toast and scrambled eggs, what do you want to drink?"
+        ],
+        [
+          "Rosie Bell",
+          "That sounds great, I'll have some orange juice, please!"
+        ],
+        [
+          "Mason Bell",
+          "I'll get the orange juice from the fridge, I'll meet you downstairs in a minute, do you want to eat on the go or sit down for a bit before we head out?"
+        ],
+        [
+          "Rosie Bell",
+          "I think I'll sit down for a bit, I don't want to rush and spill anything on my new art project, let's eat at the table"
+        ],
+        [
+          "Mason Bell",
+          "Alright, I'll set the table and get everything ready, I'll meet you downstairs in a minute, I'm looking forward to seeing your art project when it's finished!"
+        ],
+        [
+          "Rosie Bell",
+          "Sounds good, I'll head downstairs and wash my hands before we eat, thanks for making breakfast!"
+        ],
+        [
+          "Mason Bell",
+          "I'll get the toast and eggs ready, I'll meet you at the table in a minute, and don't worry, I'll be careful not to get anything on your art project"
+        ]
+      ]
+    },
+    "Mason Bell": {
+      "movement": [
+        76,
+        115
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about a conversation between Rosie Bell and Mason Bell about their daily routines, school classes, and breakfast plans, where they discuss Rosie's new art project and make arrangements to eat together before heading out to school @ <persona> Rosie Bell",
+      "chat": [
+        [
+          "Rosie Bell",
+          "Good morning, Mason! Did you sleep well?"
+        ],
+        [
+          "Mason Bell",
+          "Good morning, Rosie! Yeah, I slept well, thanks. How about you?"
+        ],
+        [
+          "Rosie Bell",
+          "I slept well too, thanks! I'm excited for school today, we have art class and I get to work on my new project."
+        ],
+        [
+          "Mason Bell",
+          "That sounds like fun, I'm looking forward to my math class today. What's your new project about?"
+        ],
+        [
+          "Rosie Bell",
+          "I'm making a painting of our neighborhood, I want to capture the way the sunlight reflects off the houses in the morning."
+        ],
+        [
+          "Mason Bell",
+          "That sounds beautiful, I'd love to see it when it's finished. Do you think you'll be able to finish it in class today?"
+        ],
+        [
+          "Rosie Bell",
+          "I hope so, I've been planning it out for a while and I think I can get a lot done in class today, but I might have to finish it up for homework tonight."
+        ],
+        [
+          "Mason Bell",
+          "That's great, I'm sure it'll turn out amazing. I should probably get going, I don't want to be late for school. Do you want to head downstairs and have breakfast together?"
+        ],
+        [
+          "Rosie Bell",
+          "Yeah, that sounds great, I'm starving! Let's go downstairs and have some breakfast before we head out to school."
+        ],
+        [
+          "Mason Bell",
+          "Great, I'll meet you downstairs in the kitchen, I'll start making some toast and scrambled eggs, what do you want to drink?"
+        ],
+        [
+          "Rosie Bell",
+          "That sounds great, I'll have some orange juice, please!"
+        ],
+        [
+          "Mason Bell",
+          "I'll get the orange juice from the fridge, I'll meet you downstairs in a minute, do you want to eat on the go or sit down for a bit before we head out?"
+        ],
+        [
+          "Rosie Bell",
+          "I think I'll sit down for a bit, I don't want to rush and spill anything on my new art project, let's eat at the table"
+        ],
+        [
+          "Mason Bell",
+          "Alright, I'll set the table and get everything ready, I'll meet you downstairs in a minute, I'm looking forward to seeing your art project when it's finished!"
+        ],
+        [
+          "Rosie Bell",
+          "Sounds good, I'll head downstairs and wash my hands before we eat, thanks for making breakfast!"
+        ],
+        [
+          "Mason Bell",
+          "I'll get the toast and eggs ready, I'll meet you at the table in a minute, and don't worry, I'll be careful not to get anything on your art project"
+        ]
+      ]
+    },
+    "Rashad Lewis": {
+      "movement": [
+        119,
+        116
+      ],
+      "pronunciatio": "\ud83c\udf73\ud83c\udfe0",
+      "description": "having breakfast at home @ the Ville:house_6:kitchen:refrigerator",
+      "chat": null
+    },
+    "Parker Lewis": {
+      "movement": [
+        125,
+        117
+      ],
+      "pronunciatio": "\ud83d\udecb\ufe0f\ud83d\udca8",
+      "description": "waking up and getting ready @ the Ville:house_6:bedroom_1:closet",
+      "chat": null
+    },
+    "Kendra Hall": {
+      "movement": [
+        133,
+        116
+      ],
+      "pronunciatio": "\ud83c\udf73\ud83c\udfe0",
+      "description": "having breakfast at home @ the Ville:house_6:kitchen:refrigerator",
+      "chat": null
+    },
+    "Dr Miguel Santos": {
+      "movement": [
+        119,
+        131
+      ],
+      "pronunciatio": "\ud83c\udf73\ud83c\udfe0",
+      "description": "having breakfast at home @ the Ville:house_7:kitchen:refrigerator",
+      "chat": null
+    },
+    "Vivian Santos": {
+      "movement": [
+        126,
+        132
+      ],
+      "pronunciatio": "\ud83c\udf73\ud83c\udfe0",
+      "description": "having breakfast at home @ the Ville:house_7:kitchen:refrigerator",
+      "chat": null
+    },
+    "Mateo Santos": {
+      "movement": [
+        132,
+        133
+      ],
+      "pronunciatio": "\ud83d\udecb\ufe0f\ud83d\udca8",
+      "description": "waking up and getting ready @ the Ville:house_7:bedroom_1:closet",
+      "chat": null
+    },
+    "Gabriel Flores": {
+      "movement": [
+        156,
+        130
+      ],
+      "pronunciatio": "\ud83c\udf73\ud83c\udfe0",
+      "description": "having breakfast at home @ the Ville:house_8:kitchen:refrigerator",
+      "chat": null
+    },
+    "Emilia Flores": {
+      "movement": [
+        163,
+        131
+      ],
+      "pronunciatio": "\ud83c\udf73\ud83c\udfe0",
+      "description": "having breakfast at home @ the Ville:house_8:kitchen:refrigerator",
+      "chat": null
+    },
+    "Noemi Flores": {
+      "movement": [
+        169,
+        132
+      ],
+      "pronunciatio": "\ud83d\udecb\ufe0f\ud83d\udca8",
+      "description": "waking up and getting ready @ the Ville:house_8:bedroom_1:closet",
+      "chat": null
+    },
+    "Pastor Daniel Brooks": {
+      "movement": [
+        116,
+        155
+      ],
+      "pronunciatio": "\ud83c\udf73\ud83c\udfe0",
+      "description": "having breakfast at home @ the Ville:house_9:kitchen:refrigerator",
+      "chat": null
+    },
+    "Dylan Brooks": {
+      "movement": [
+        122,
+        156
+      ],
+      "pronunciatio": "\ud83d\udecb\ufe0f\ud83d\udca8",
+      "description": "waking up and getting ready @ the Ville:house_9:bedroom_1:closet",
+      "chat": null
+    },
+    "Caleb Brooks": {
+      "movement": [
+        130,
+        155
+      ],
+      "pronunciatio": "\ud83c\udf73\ud83c\udfe0",
+      "description": "having breakfast at home @ the Ville:house_9:kitchen:refrigerator",
+      "chat": null
+    },
+    "Professor Emily Carter": {
+      "movement": [
+        156,
+        162
+      ],
+      "pronunciatio": "\ud83c\udf73\ud83c\udfe0",
+      "description": "having breakfast at home @ the Ville:house_10:kitchen:refrigerator",
+      "chat": null
+    },
+    "Ben Carter": {
+      "movement": [
+        162,
+        163
+      ],
+      "pronunciatio": "\ud83d\udecb\ufe0f\ud83d\udca8",
+      "description": "waking up and getting ready @ the Ville:house_10:bedroom_1:closet",
+      "chat": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 08:00:20"
+  }
+}

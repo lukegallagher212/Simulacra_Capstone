@@ -1,0 +1,522 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2023, 16:20:50",
+  "curr_tile": [
+    179,
+    95
+  ],
+  "daily_plan_req": "1. wake up at 7:30 am. 2. have breakfast. 3. head to the school at 8:30 am. 4. attend classes until 3:00 pm. 5. return home and do homework. 6. have dinner at 6:30 pm. 7. relax and sleep at 9:30 pm",
+  "name": "Julia Nguyen",
+  "first_name": "Julia",
+  "last_name": "Nguyen",
+  "age": 8,
+  "innate": "bright, talkative, cheerful",
+  "learned": "Julia Nguyen is an elementary student who loves reading and school plays.",
+  "currently": "Julia Nguyen is sleeping at house_4 before school.",
+  "lifestyle": "Julia Nguyen goes to bed around 9:30pm, wakes up around 7:30am.",
+  "living_area": "the Ville:house_4:bedroom_3",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 183,
+  "importance_ele_n": 55,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up at 7:30 am",
+    "have breakfast",
+    "head to the school at 8:30 am",
+    "attend classes until 3:00 pm",
+    "return home and do homework",
+    "have dinner at 6:30 pm",
+    "relax and sleep at 9:30 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      450
+    ],
+    [
+      "waking up and getting ready (on the way to waking up and getting read)",
+      60
+    ],
+    [
+      "waking up and getting ready (conversing about Phoebe Nguyen and Julia Nguyen conversing about their school day, including Julia's school play rehearsal and Phoebe's offer to help Julia practice her lines after school)",
+      9
+    ],
+    [
+      "having breakfast",
+      30
+    ],
+    [
+      "commuting to the school",
+      30
+    ],
+    [
+      "attending morning classes (on the way to attending her first class, which is English)",
+      0
+    ],
+    [
+      "attending morning classes (conversing about a conversation between Dr. Linh Nguyen and Julia Nguyen about Julia's school play rehearsal, her excitement and preparation for it, and the help she is receiving from her friend Phoebe)",
+      7
+    ],
+    [
+      "attending morning classes (taking notes during the English class)",
+      20
+    ],
+    [
+      "attending morning classes (participating in a class discussion)",
+      15
+    ],
+    [
+      "attending morning classes (switching to her second class, which is Math)",
+      10
+    ],
+    [
+      "attending morning classes (working on a Math problem)",
+      25
+    ],
+    [
+      "attending morning classes (on the way to asking her teacher a question about the Math problem)",
+      0
+    ],
+    [
+      "attending morning classes (conversing about Julia Nguyen and Phoebe Nguyen conversing about Julia's morning class and her preparation for the school play, specifically practicing her lines for an upcoming practice session)",
+      7
+    ],
+    [
+      "attending morning classes (attending her third class, which is Science)",
+      30
+    ],
+    [
+      "attending morning classes (watching a Science experiment)",
+      20
+    ],
+    [
+      "attending morning classes (writing down key points from the Science experiment)",
+      15
+    ],
+    [
+      "attending morning classes (packing up her things to leave the classroom)",
+      5
+    ],
+    [
+      "having lunch (walking to the cafeteria)",
+      5
+    ],
+    [
+      "having lunch (waiting in line to buy lunch)",
+      10
+    ],
+    [
+      "having lunch (purchasing lunch)",
+      5
+    ],
+    [
+      "having lunch (finding a seat in the cafeteria)",
+      5
+    ],
+    [
+      "having lunch (eating lunch)",
+      20
+    ],
+    [
+      "having lunch (chatting with friends)",
+      10
+    ],
+    [
+      "having lunch (throwing away trash and cleaning up)",
+      5
+    ],
+    [
+      "attending afternoon classes (walking to the cafeteria to have lunch)",
+      5
+    ],
+    [
+      "attending afternoon classes (waiting in line to buy lunch)",
+      10
+    ],
+    [
+      "attending afternoon classes (on the way to buying lunch)",
+      0
+    ],
+    [
+      "attending afternoon classes (conversing about Dr Linh Nguyen and Julia Nguyen conversing about Julia's school day, her morning math class, the upcoming school play rehearsal, and her plans with her friend Phoebe)",
+      8
+    ],
+    [
+      "attending afternoon classes (finding a seat in the cafeteria)",
+      5
+    ],
+    [
+      "attending afternoon classes (eating lunch)",
+      30
+    ],
+    [
+      "attending afternoon classes (on the way to chatting with friends during lunch)",
+      0
+    ],
+    [
+      "attending afternoon classes (conversing about Nadia Kaur and Julia Nguyen conversing about Julia's school day, her lead role in the upcoming school play, and Nadia's interest in attending a rehearsal and learning more about the production)",
+      14
+    ],
+    [
+      "attending afternoon classes (throwing away trash)",
+      5
+    ],
+    [
+      "attending afternoon classes (walking to the next class)",
+      10
+    ],
+    [
+      "attending afternoon classes (using the restroom before class)",
+      5
+    ],
+    [
+      "attending afternoon classes (getting a drink from the water fountain)",
+      5
+    ],
+    [
+      "attending afternoon classes (reviewing notes before class)",
+      7
+    ],
+    [
+      "attending afternoon classes (walking into the classroom)",
+      5
+    ],
+    [
+      "attending afternoon classes (taking her seat and getting ready for class)",
+      5
+    ],
+    [
+      "heading home",
+      30
+    ],
+    [
+      "having a snack and relaxing (walking home from school)",
+      10
+    ],
+    [
+      "having a snack and relaxing (greeting her family members)",
+      5
+    ],
+    [
+      "having a snack and relaxing (putting away her school bag)",
+      5
+    ],
+    [
+      "having a snack and relaxing (washing her hands)",
+      5
+    ],
+    [
+      "having a snack and relaxing (selecting a snack from the kitchen)",
+      10
+    ],
+    [
+      "having a snack and relaxing (preparing her snack)",
+      10
+    ],
+    [
+      "having a snack and relaxing (eating her snack)",
+      10
+    ],
+    [
+      "having a snack and relaxing (cleaning up after her snack)",
+      5
+    ],
+    [
+      "doing homework (getting out her homework folder)",
+      5
+    ],
+    [
+      "doing homework (reviewing her homework assignments)",
+      10
+    ],
+    [
+      "doing homework (starting her math homework)",
+      20
+    ],
+    [
+      "doing homework (working on her math problems)",
+      20
+    ],
+    [
+      "doing homework (taking a short break to grab a pencil)",
+      5
+    ],
+    [
+      "doing homework (moving on to her reading homework)",
+      15
+    ],
+    [
+      "doing homework (reading a chapter in her book)",
+      20
+    ],
+    [
+      "doing homework (answering reading comprehension questions)",
+      15
+    ],
+    [
+      "doing homework (reviewing her homework to make sure it's complete)",
+      10
+    ],
+    [
+      "having dinner",
+      60
+    ],
+    [
+      "relaxing",
+      90
+    ],
+    [
+      "getting ready for bed",
+      60
+    ],
+    [
+      "sleeping",
+      90
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      -9
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      23
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      3
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      6
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      450
+    ],
+    [
+      "waking up and getting ready",
+      60
+    ],
+    [
+      "having breakfast",
+      30
+    ],
+    [
+      "commuting to the school",
+      30
+    ],
+    [
+      "attending morning classes",
+      180
+    ],
+    [
+      "having lunch",
+      60
+    ],
+    [
+      "attending afternoon classes",
+      120
+    ],
+    [
+      "heading home",
+      30
+    ],
+    [
+      "having a snack and relaxing",
+      60
+    ],
+    [
+      "doing homework",
+      120
+    ],
+    [
+      "having dinner",
+      60
+    ],
+    [
+      "relaxing",
+      90
+    ],
+    [
+      "getting ready for bed",
+      60
+    ],
+    [
+      "sleeping",
+      90
+    ]
+  ],
+  "act_address": "the Ville:house_4:kitchen:refrigerator",
+  "act_start_time": "February 13, 2023, 16:13:00",
+  "act_duration": 10,
+  "act_description": "having a snack and relaxing (preparing her snack)",
+  "act_pronunciatio": "\ud83c\udf7f",
+  "act_event": [
+    "Julia Nguyen",
+    "prepare",
+    "snack"
+  ],
+  "act_obj_description": "open",
+  "act_obj_pronunciatio": "\ud83d\udeaa",
+  "act_obj_event": [
+    "refrigerator",
+    "be",
+    "open"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {
+    "Phoebe Nguyen": -1174,
+    "Dr Linh Nguyen": -244,
+    "Nadia Kaur": 26
+  },
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": []
+}

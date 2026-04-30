@@ -1,0 +1,417 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2023, 16:20:50",
+  "curr_tile": [
+    132,
+    97
+  ],
+  "daily_plan_req": "1. wake up and complete morning routine at 7:00 am. 2. have breakfast at home. 3. head to the government building at 8:00 am. 4. lunch break at 12:00 pm. 5. return to work until 5:00 pm. 6. head home and have dinner at 6:30 pm. 7. relax at home from 7:30 pm",
+  "name": "Harpreet Kaur",
+  "first_name": "Harpreet",
+  "last_name": "Kaur",
+  "age": 40,
+  "innate": "diplomatic, thoughtful, principled",
+  "learned": "Harpreet Kaur is a civic mediator who facilitates community dispute resolution.",
+  "currently": "Harpreet Kaur is sleeping at house_3.",
+  "lifestyle": "Harpreet Kaur goes to bed around 10pm, wakes up around 7am, eats dinner around 6:30pm.",
+  "living_area": "the Ville:house_3:bedroom_1",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 190,
+  "importance_ele_n": 49,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete morning routine at 7:00 am",
+    "have breakfast at home",
+    "head to the government building at 8:00 am",
+    "lunch break at 12:00 pm",
+    "return to work until 5:00 pm",
+    "head home and have dinner at 6:30 pm",
+    "relax at home from 7:30 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      420
+    ],
+    [
+      "waking up and starting morning routine",
+      60
+    ],
+    [
+      "having breakfast at home",
+      30
+    ],
+    [
+      "commuting to the government building and starting work (on the way to commuting to the government building and starting wor)",
+      0
+    ],
+    [
+      "commuting to the government building and starting work (conversing about Harpreet Kaur and Raj Singh conversing about their day ahead at the Government Building, including a meeting for dispute resolution and discussions about civic administration with students like Nadia Kaur)",
+      4
+    ],
+    [
+      "working at the government building (checking her emails for any new updates or messages)",
+      5
+    ],
+    [
+      "working at the government building (reviewing her schedule for the day)",
+      5
+    ],
+    [
+      "working at the government building (preparing for a meeting with a community group)",
+      10
+    ],
+    [
+      "working at the government building (responding to urgent emails)",
+      10
+    ],
+    [
+      "working at the government building (making phone calls to confirm appointments)",
+      10
+    ],
+    [
+      "working at the government building (reviewing case files for an upcoming mediation session)",
+      15
+    ],
+    [
+      "working at the government building (taking notes on key issues to discuss during the session)",
+      10
+    ],
+    [
+      "working at the government building (researching relevant laws and regulations)",
+      15
+    ],
+    [
+      "working at the government building (organizing her materials and documents)",
+      10
+    ],
+    [
+      "working at the government building (discussing a case with a colleague)",
+      15
+    ],
+    [
+      "working at the government building (drafting a report on a previous mediation session)",
+      20
+    ],
+    [
+      "working at the government building (editing the report for clarity and accuracy)",
+      15
+    ],
+    [
+      "working at the government building (on the way to taking a short break to grab a cup of coffee)",
+      0
+    ],
+    [
+      "working at the government building (conversing about Harpreet Kaur and Raj Singh conversing about a mediation session, a meeting with community members to discuss dispute resolution, and preparing a report, with plans to invite Nadia Kaur and keep Ben Carter informed)",
+      16
+    ],
+    [
+      "working at the government building (attending a meeting with her supervisor)",
+      20
+    ],
+    [
+      "working at the government building (discussing her caseload and priorities)",
+      15
+    ],
+    [
+      "working at the government building (receiving feedback on her performance)",
+      10
+    ],
+    [
+      "working at the government building (setting goals and objectives for the next quarter)",
+      15
+    ],
+    [
+      "working at the government building (updating her to-do list and calendar)",
+      10
+    ],
+    [
+      "working at the government building (preparing for a training session on conflict resolution)",
+      10
+    ],
+    [
+      "working at the government building (reviewing the training materials and agenda)",
+      10
+    ],
+    [
+      "working at the government building (getting ready for lunch break)",
+      5
+    ],
+    [
+      "taking a lunch break (on the way to taking a lunch brea)",
+      0
+    ],
+    [
+      "taking a lunch break (conversing about Harpreet Kaur and Nadia Kaur conversing about their classes on civic administration, a potential mediation session, and proposed community initiatives, including a mentorship program and workshops, to support Ben Carter's vision)",
+      15
+    ],
+    [
+      "continuing work at the government building (reviewing case files)",
+      15
+    ],
+    [
+      "continuing work at the government building (preparing for a meeting with community leaders)",
+      30
+    ],
+    [
+      "continuing work at the government building (responding to emails from community members)",
+      30
+    ],
+    [
+      "continuing work at the government building (making phone calls to schedule mediations)",
+      30
+    ],
+    [
+      "continuing work at the government building (taking a short break to stretch)",
+      15
+    ],
+    [
+      "continuing work at the government building (researching conflict resolution strategies)",
+      30
+    ],
+    [
+      "continuing work at the government building (updating her calendar with upcoming mediations)",
+      30
+    ],
+    [
+      "continuing work at the government building (reviewing notes from previous mediations)",
+      30
+    ],
+    [
+      "continuing work at the government building (organizing her desk and files)",
+      20
+    ],
+    [
+      "continuing work at the government building (preparing to end her workday)",
+      10
+    ],
+    [
+      "heading home",
+      30
+    ],
+    [
+      "relaxing at home",
+      60
+    ],
+    [
+      "having dinner",
+      60
+    ],
+    [
+      "relaxing at home",
+      120
+    ],
+    [
+      "getting ready for bed",
+      30
+    ],
+    [
+      "sleeping",
+      60
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      26
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      34
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      420
+    ],
+    [
+      "waking up and starting morning routine",
+      60
+    ],
+    [
+      "having breakfast at home",
+      30
+    ],
+    [
+      "commuting to the government building and starting work",
+      30
+    ],
+    [
+      "working at the government building",
+      240
+    ],
+    [
+      "taking a lunch break",
+      60
+    ],
+    [
+      "continuing work at the government building",
+      240
+    ],
+    [
+      "heading home",
+      30
+    ],
+    [
+      "relaxing at home",
+      60
+    ],
+    [
+      "having dinner",
+      60
+    ],
+    [
+      "relaxing at home",
+      120
+    ],
+    [
+      "getting ready for bed",
+      30
+    ],
+    [
+      "sleeping",
+      60
+    ]
+  ],
+  "act_address": "the Ville:government_building:meeting room:Town Hall Presenter",
+  "act_start_time": "February 13, 2023, 16:11:00",
+  "act_duration": 30,
+  "act_description": "continuing work at the government building (reviewing notes from previous mediations)",
+  "act_pronunciatio": "\ud83d\udcdd",
+  "act_event": [
+    "Harpreet Kaur",
+    "review",
+    "notes"
+  ],
+  "act_obj_description": "reviewing notes from previous mediations",
+  "act_obj_pronunciatio": "\ud83d\udcdd",
+  "act_obj_event": [
+    "Town Hall Presenter",
+    "review",
+    "notes"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {
+    "Raj Singh": -1138,
+    "Nadia Kaur": -430
+  },
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": []
+}

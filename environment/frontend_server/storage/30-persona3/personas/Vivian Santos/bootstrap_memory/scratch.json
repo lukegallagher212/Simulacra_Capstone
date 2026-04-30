@@ -1,0 +1,429 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2023, 16:20:50",
+  "curr_tile": [
+    131,
+    136
+  ],
+  "daily_plan_req": "1. wake up and complete morning routine at 7:00 am. 2. have breakfast at home. 3. head to the office at 8:00 am. 4. lunch break at 12:00 pm. 5. return to work until 5:00 pm. 6. head home and have dinner at 6:30 pm. 7. relax at home from 7:30 pm",
+  "name": "Vivian Santos",
+  "first_name": "Vivian",
+  "last_name": "Santos",
+  "age": 44,
+  "innate": "polished, strategic, detail-oriented",
+  "learned": "Vivian Santos manages public image and communications for a residential office.",
+  "currently": "Vivian Santos is sleeping at house_7.",
+  "lifestyle": "Vivian Santos goes to bed around 10pm, wakes up around 7am, eats dinner around 6:30pm.",
+  "living_area": "the Ville:house_7:bedroom_2",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 208,
+  "importance_ele_n": 28,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete morning routine at 7:00 am",
+    "have breakfast at home",
+    "head to the office at 8:00 am",
+    "lunch break at 12:00 pm",
+    "return to work until 5:00 pm",
+    "head home and have dinner at 6:30 pm",
+    "relax at home from 7:30 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      420
+    ],
+    [
+      "waking up and starting morning routine",
+      60
+    ],
+    [
+      "having breakfast at home",
+      30
+    ],
+    [
+      "commuting to the office and starting work (on the way to on the way to commuting to the office and starting wor)",
+      0
+    ],
+    [
+      "commuting to the office and starting work (conversing about a discussion between Dr. Miguel Santos and Vivian Santos about the new campaign for Town House 1, focusing on improving its public image, highlighting its amenities and services, and exploring potential partnerships with local businesses.)",
+      14
+    ],
+    [
+      "commuting to the office and starting work (conversing about Vivian Santos and Mateo Santos conversing about their daily schedules and Vivian's work project to improve the public image of Town House 1)",
+      6
+    ],
+    [
+      "having breakfast at home (to finish the remaining breakfast)",
+      10
+    ],
+    [
+      "working at the office (checking and responding to urgent emails)",
+      15
+    ],
+    [
+      "working at the office (reviewing the day's schedule and tasks)",
+      10
+    ],
+    [
+      "working at the office (organizing her workspace and materials)",
+      10
+    ],
+    [
+      "working at the office (discussing ongoing projects with colleagues)",
+      20
+    ],
+    [
+      "working at the office (analyzing public image and communications data)",
+      25
+    ],
+    [
+      "working at the office (developing a social media strategy)",
+      30
+    ],
+    [
+      "working at the office (on the way to creating content for upcoming campaigns)",
+      0
+    ],
+    [
+      "working at the office (conversing about Vivian Santos and her son Mateo Santos conversing about her project to improve the public image of Town House 1, including her social media strategy and potential partnerships with local businesses to offer exclusive discounts or services to residents.)",
+      10
+    ],
+    [
+      "working at the office (collaborating with the design team)",
+      20
+    ],
+    [
+      "working at the office (reviewing and editing content)",
+      25
+    ],
+    [
+      "working at the office (taking a short break to grab a snack)",
+      10
+    ],
+    [
+      "working at the office (meeting with the management team)",
+      20
+    ],
+    [
+      "working at the office (finalizing plans for an upcoming event)",
+      15
+    ],
+    [
+      "working at the office (updating her to-do list and prioritizing tasks)",
+      5
+    ],
+    [
+      "taking a lunch break (walking to the office cafeteria)",
+      5
+    ],
+    [
+      "taking a lunch break (waiting in line to purchase lunch)",
+      10
+    ],
+    [
+      "taking a lunch break (buying a sandwich and salad)",
+      5
+    ],
+    [
+      "taking a lunch break (on the way to finding a table to sit and eat)",
+      0
+    ],
+    [
+      "taking a lunch break (conversing about Vivian Santos and her son Mateo Santos conversing about her project to improve the public image of Town House 1 by partnering with local businesses to offer exclusive discounts to residents)",
+      5
+    ],
+    [
+      "taking a lunch break (eating her lunch)",
+      20
+    ],
+    [
+      "taking a lunch break (checking her phone for any important messages)",
+      5
+    ],
+    [
+      "taking a lunch break (throwing away her trash and cleaning up)",
+      5
+    ],
+    [
+      "taking a lunch break (heading back to the office)",
+      5
+    ],
+    [
+      "continuing work at the office (responding to urgent emails)",
+      15
+    ],
+    [
+      "continuing work at the office (reviewing the office's social media accounts)",
+      30
+    ],
+    [
+      "continuing work at the office (brainstorming ideas for an upcoming event)",
+      30
+    ],
+    [
+      "continuing work at the office (making phone calls to vendors)",
+      30
+    ],
+    [
+      "continuing work at the office (taking a short break to grab a snack)",
+      15
+    ],
+    [
+      "continuing work at the office (on the way to working on a press release)",
+      0
+    ],
+    [
+      "continuing work at the office (conversing about Dr Miguel Santos and Vivian Santos conversing about improving the public image of Town House 1 through potential partnerships with local businesses, including discussions of exclusive discounts and meetings with business owners)",
+      13
+    ],
+    [
+      "continuing work at the office (reviewing the office's website)",
+      30
+    ],
+    [
+      "continuing work at the office (meeting with a colleague to discuss a project)",
+      30
+    ],
+    [
+      "continuing work at the office (updating the office's calendar)",
+      20
+    ],
+    [
+      "continuing work at the office (preparing for a meeting with her team)",
+      10
+    ],
+    [
+      "heading home",
+      30
+    ],
+    [
+      "relaxing at home",
+      60
+    ],
+    [
+      "having dinner",
+      60
+    ],
+    [
+      "relaxing at home",
+      120
+    ],
+    [
+      "getting ready for bed",
+      30
+    ],
+    [
+      "sleeping",
+      60
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      25
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      17
+    ],
+    [
+      "sleeping",
+      0
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      420
+    ],
+    [
+      "waking up and starting morning routine",
+      60
+    ],
+    [
+      "having breakfast at home",
+      30
+    ],
+    [
+      "commuting to the office and starting work",
+      30
+    ],
+    [
+      "working at the office",
+      240
+    ],
+    [
+      "taking a lunch break",
+      60
+    ],
+    [
+      "continuing work at the office",
+      240
+    ],
+    [
+      "heading home",
+      30
+    ],
+    [
+      "relaxing at home",
+      60
+    ],
+    [
+      "having dinner",
+      60
+    ],
+    [
+      "relaxing at home",
+      120
+    ],
+    [
+      "getting ready for bed",
+      30
+    ],
+    [
+      "sleeping",
+      60
+    ]
+  ],
+  "act_address": "the Ville:school:library:library table",
+  "act_start_time": "February 13, 2023, 15:51:00",
+  "act_duration": 30,
+  "act_description": "continuing work at the office (reviewing the office's website)",
+  "act_pronunciatio": "\ud83d\udcca",
+  "act_event": [
+    "Vivian Santos",
+    "review",
+    "website"
+  ],
+  "act_obj_description": "empty",
+  "act_obj_pronunciatio": "\u26a0\ufe0f",
+  "act_obj_event": [
+    "library table",
+    "be",
+    "empty"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {
+    "Mateo Santos": -322,
+    "Dr Miguel Santos": 542
+  },
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": []
+}

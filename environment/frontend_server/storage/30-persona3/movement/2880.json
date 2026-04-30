@@ -1,0 +1,277 @@
+{
+  "persona": {
+    "Ethan Walker": {
+      "movement": [
+        42,
+        92
+      ],
+      "pronunciatio": "\ud83c\udf73\ud83c\udfe0",
+      "description": "having breakfast at home @ the Ville:house_1:kitchen:refrigerator",
+      "chat": null
+    },
+    "Jordan Walker": {
+      "movement": [
+        49,
+        92
+      ],
+      "pronunciatio": "\ud83d\udecb\ufe0f\ud83d\udca8",
+      "description": "waking up and getting ready @ the Ville:house_1:bedroom_1:closet",
+      "chat": null
+    },
+    "Lily Walker": {
+      "movement": [
+        56,
+        92
+      ],
+      "pronunciatio": "\ud83d\udecb\ufe0f\ud83d\udca8",
+      "description": "waking up and getting ready @ the Ville:house_1:bedroom_1:closet",
+      "chat": null
+    },
+    "Rodrigo Torres": {
+      "movement": [
+        77,
+        92
+      ],
+      "pronunciatio": "\ud83c\udf73\ud83c\udfe0",
+      "description": "having breakfast at home @ the Ville:house_2:kitchen:refrigerator",
+      "chat": null
+    },
+    "Sofia Torres": {
+      "movement": [
+        84,
+        92
+      ],
+      "pronunciatio": "\ud83c\udf73\ud83c\udfe0",
+      "description": "having breakfast at home @ the Ville:house_2:kitchen:refrigerator",
+      "chat": null
+    },
+    "Harpreet Kaur": {
+      "movement": [
+        112,
+        91
+      ],
+      "pronunciatio": "\ud83c\udf73\ud83c\udfe0",
+      "description": "having breakfast at home @ the Ville:house_3:kitchen:refrigerator",
+      "chat": null
+    },
+    "Raj Singh": {
+      "movement": [
+        119,
+        92
+      ],
+      "pronunciatio": "\ud83c\udf73\ud83c\udfe0",
+      "description": "having breakfast at home @ the Ville:house_3:kitchen:refrigerator",
+      "chat": null
+    },
+    "Nadia Kaur": {
+      "movement": [
+        126,
+        92
+      ],
+      "pronunciatio": "\ud83d\udecb\ufe0f\ud83d\udca8",
+      "description": "waking up and getting ready @ the Ville:house_3:bedroom_1:closet",
+      "chat": null
+    },
+    "Dr Linh Nguyen": {
+      "movement": [
+        155,
+        89
+      ],
+      "pronunciatio": "\ud83c\udf73\ud83c\udfe0",
+      "description": "having breakfast at home @ the Ville:house_4:kitchen:refrigerator",
+      "chat": null
+    },
+    "Phoebe Nguyen": {
+      "movement": [
+        162,
+        90
+      ],
+      "pronunciatio": "\ud83c\udf73\ud83c\udfe0",
+      "description": "having breakfast at home @ the Ville:house_4:kitchen:refrigerator",
+      "chat": null
+    },
+    "Julia Nguyen": {
+      "movement": [
+        169,
+        90
+      ],
+      "pronunciatio": "\ud83d\udecb\ufe0f\ud83d\udca8",
+      "description": "waking up and getting ready @ the Ville:house_4:bedroom_1:closet",
+      "chat": null
+    },
+    "Curtis Bell": {
+      "movement": [
+        55,
+        113
+      ],
+      "pronunciatio": "\ud83c\udf73\ud83c\udfe0",
+      "description": "having breakfast at home @ the Ville:house_5:kitchen:refrigerator",
+      "chat": null
+    },
+    "Patricia Kim": {
+      "movement": [
+        62,
+        114
+      ],
+      "pronunciatio": "\ud83c\udf73\ud83c\udfe0",
+      "description": "having breakfast at home @ the Ville:house_5:kitchen:refrigerator",
+      "chat": null
+    },
+    "Trina Bell": {
+      "movement": [
+        69,
+        114
+      ],
+      "pronunciatio": "\ud83d\udecb\ufe0f\ud83d\udca8",
+      "description": "waking up and getting ready @ the Ville:house_5:bedroom_1:closet",
+      "chat": null
+    },
+    "Rosie Bell": {
+      "movement": [
+        76,
+        114
+      ],
+      "pronunciatio": "\ud83d\udecb\ufe0f\ud83d\udca8",
+      "description": "waking up and getting ready @ the Ville:house_5:bedroom_1:closet",
+      "chat": null
+    },
+    "Mason Bell": {
+      "movement": [
+        76,
+        115
+      ],
+      "pronunciatio": "\ud83d\udecb\ufe0f\ud83d\udca8",
+      "description": "waking up and getting ready @ the Ville:house_5:bedroom_1:closet",
+      "chat": null
+    },
+    "Rashad Lewis": {
+      "movement": [
+        118,
+        115
+      ],
+      "pronunciatio": "\ud83c\udf73\ud83c\udfe0",
+      "description": "having breakfast at home @ the Ville:house_6:kitchen:refrigerator",
+      "chat": null
+    },
+    "Parker Lewis": {
+      "movement": [
+        125,
+        115
+      ],
+      "pronunciatio": "\ud83d\udecb\ufe0f\ud83d\udca8",
+      "description": "waking up and getting ready @ the Ville:house_6:bedroom_1:closet",
+      "chat": null
+    },
+    "Kendra Hall": {
+      "movement": [
+        132,
+        115
+      ],
+      "pronunciatio": "\ud83c\udf73\ud83c\udfe0",
+      "description": "having breakfast at home @ the Ville:house_6:kitchen:refrigerator",
+      "chat": null
+    },
+    "Dr Miguel Santos": {
+      "movement": [
+        118,
+        130
+      ],
+      "pronunciatio": "\ud83c\udf73\ud83c\udfe0",
+      "description": "having breakfast at home @ the Ville:house_7:kitchen:refrigerator",
+      "chat": null
+    },
+    "Vivian Santos": {
+      "movement": [
+        125,
+        131
+      ],
+      "pronunciatio": "\ud83c\udf73\ud83c\udfe0",
+      "description": "having breakfast at home @ the Ville:house_7:kitchen:refrigerator",
+      "chat": null
+    },
+    "Mateo Santos": {
+      "movement": [
+        132,
+        131
+      ],
+      "pronunciatio": "\ud83d\udecb\ufe0f\ud83d\udca8",
+      "description": "waking up and getting ready @ the Ville:house_7:bedroom_1:closet",
+      "chat": null
+    },
+    "Gabriel Flores": {
+      "movement": [
+        155,
+        129
+      ],
+      "pronunciatio": "\ud83c\udf73\ud83c\udfe0",
+      "description": "having breakfast at home @ the Ville:house_8:kitchen:refrigerator",
+      "chat": null
+    },
+    "Emilia Flores": {
+      "movement": [
+        162,
+        130
+      ],
+      "pronunciatio": "\ud83c\udf73\ud83c\udfe0",
+      "description": "having breakfast at home @ the Ville:house_8:kitchen:refrigerator",
+      "chat": null
+    },
+    "Noemi Flores": {
+      "movement": [
+        169,
+        130
+      ],
+      "pronunciatio": "\ud83d\udecb\ufe0f\ud83d\udca8",
+      "description": "waking up and getting ready @ the Ville:house_8:bedroom_1:closet",
+      "chat": null
+    },
+    "Pastor Daniel Brooks": {
+      "movement": [
+        115,
+        154
+      ],
+      "pronunciatio": "\ud83c\udf73\ud83c\udfe0",
+      "description": "having breakfast at home @ the Ville:house_9:kitchen:refrigerator",
+      "chat": null
+    },
+    "Dylan Brooks": {
+      "movement": [
+        122,
+        154
+      ],
+      "pronunciatio": "\ud83d\udecb\ufe0f\ud83d\udca8",
+      "description": "waking up and getting ready @ the Ville:house_9:bedroom_1:closet",
+      "chat": null
+    },
+    "Caleb Brooks": {
+      "movement": [
+        129,
+        154
+      ],
+      "pronunciatio": "\ud83c\udf73\ud83c\udfe0",
+      "description": "having breakfast at home @ the Ville:house_9:kitchen:refrigerator",
+      "chat": null
+    },
+    "Professor Emily Carter": {
+      "movement": [
+        155,
+        161
+      ],
+      "pronunciatio": "\ud83c\udf73\ud83c\udfe0",
+      "description": "having breakfast at home @ the Ville:house_10:kitchen:refrigerator",
+      "chat": null
+    },
+    "Ben Carter": {
+      "movement": [
+        162,
+        161
+      ],
+      "pronunciatio": "\ud83d\udecb\ufe0f\ud83d\udca8",
+      "description": "waking up and getting ready @ the Ville:house_10:bedroom_1:closet",
+      "chat": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 08:00:00"
+  }
+}

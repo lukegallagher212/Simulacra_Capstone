@@ -1,0 +1,457 @@
+{
+  "persona": {
+    "Ethan Walker": {
+      "movement": [
+        65,
+        97
+      ],
+      "pronunciatio": "\ud83d\udce8",
+      "description": "working at the school (responding to emails from teachers and staff) @ the Ville:school:library:library table",
+      "chat": null
+    },
+    "Jordan Walker": {
+      "movement": [
+        51,
+        97
+      ],
+      "pronunciatio": "\ud83d\ude8c",
+      "description": "commuting to the school @ the Ville:house_1:common room:common room table",
+      "chat": null
+    },
+    "Lily Walker": {
+      "movement": [
+        45,
+        97
+      ],
+      "pronunciatio": "\ud83d\ude8c",
+      "description": "commuting to the school @ the Ville:house_1:common room:common room sofa",
+      "chat": null
+    },
+    "Rodrigo Torres": {
+      "movement": [
+        76,
+        92
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "working at the supply store (asleep) @ the Ville:house_2:bedroom_1:bed",
+      "chat": null
+    },
+    "Sofia Torres": {
+      "movement": [
+        101,
+        97
+      ],
+      "pronunciatio": "\ud83d\udecb\ufe0f\ud83d\udc65",
+      "description": "working at the residential house (assisting residents with morning routines) @ the Ville:single_house_1:main room:bed",
+      "chat": null
+    },
+    "Harpreet Kaur": {
+      "movement": [
+        135,
+        97
+      ],
+      "pronunciatio": "\ud83d\udcde",
+      "description": "working at the government building (making phone calls to confirm appointments) @ the Ville:government_building:main room:desk",
+      "chat": null
+    },
+    "Raj Singh": {
+      "movement": [
+        135,
+        97
+      ],
+      "pronunciatio": "\ud83d\udce7",
+      "description": "working at the government building (checking and responding to urgent emails) @ the Ville:government_building:computer_room:computer",
+      "chat": null
+    },
+    "Nadia Kaur": {
+      "movement": [
+        110,
+        86
+      ],
+      "pronunciatio": "\ud83d\udecb\ufe0f\ud83d\udca4",
+      "description": "waking up and getting ready (on the way to waking up and getting read) @ the Ville:house_3:bathroom_1:toilet",
+      "chat": null
+    },
+    "Dr Linh Nguyen": {
+      "movement": [
+        155,
+        88
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about a conversation between Dr. Linh Nguyen and Julia Nguyen about Julia's school play rehearsal, her excitement and preparation for it, and the help she is receiving from her friend Phoebe @ <persona> Julia Nguyen",
+      "chat": [
+        [
+          "Dr Linh Nguyen",
+          "Hi Julia, how's your day going so far? I heard you have a school play rehearsal today."
+        ],
+        [
+          "Julia Nguyen",
+          "Yes, I do have a school play rehearsal today and I'm really excited about it. Phoebe offered to help me practice my lines after school, so I'm feeling a bit more confident now."
+        ],
+        [
+          "Dr Linh Nguyen",
+          "That's great to hear! I'm sure Phoebe will be a big help. What's the school play about this year?"
+        ],
+        [
+          "Julia Nguyen",
+          "It's about a group of friends who go on a adventure and learn about teamwork and friendship. I'm really excited to be a part of it!"
+        ],
+        [
+          "Dr Linh Nguyen",
+          "That sounds like a wonderful story! I'm sure you'll do great in the play. Have you been practicing your lines a lot?"
+        ],
+        [
+          "Julia Nguyen",
+          "Yes, I've been practicing my lines every day, and I'm feeling more comfortable with them now. Phoebe's help will definitely make a big difference, though!"
+        ],
+        [
+          "Dr Linh Nguyen",
+          "I'm glad to hear that Phoebe is helping you with your lines. I'm sure you two will have a great time practicing together. What time are you meeting up with Phoebe after school?"
+        ],
+        [
+          "Julia Nguyen",
+          "We're meeting up at 5:30 pm after school today, so I'm looking forward to running through my lines with her then."
+        ],
+        [
+          "Dr Linh Nguyen",
+          "That sounds like a great plan, I'm sure you two will have a lot of fun practicing together. I'll have to ask Phoebe about it later and see how it goes."
+        ],
+        [
+          "Julia Nguyen",
+          "Thank you, Dr. Linh Nguyen! I'm really looking forward to the rehearsal and I'm glad Phoebe is helping me out. I should probably get going to school now, I don't want to be late for my classes."
+        ]
+      ]
+    },
+    "Phoebe Nguyen": {
+      "movement": [
+        157,
+        95
+      ],
+      "pronunciatio": "\ud83d\udd12",
+      "description": "working at the school (locking the front door of her house) @ the Ville:house_4:common room:common room sofa",
+      "chat": null
+    },
+    "Julia Nguyen": {
+      "movement": [
+        154,
+        88
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about a conversation between Dr. Linh Nguyen and Julia Nguyen about Julia's school play rehearsal, her excitement and preparation for it, and the help she is receiving from her friend Phoebe @ <persona> Dr Linh Nguyen",
+      "chat": [
+        [
+          "Dr Linh Nguyen",
+          "Hi Julia, how's your day going so far? I heard you have a school play rehearsal today."
+        ],
+        [
+          "Julia Nguyen",
+          "Yes, I do have a school play rehearsal today and I'm really excited about it. Phoebe offered to help me practice my lines after school, so I'm feeling a bit more confident now."
+        ],
+        [
+          "Dr Linh Nguyen",
+          "That's great to hear! I'm sure Phoebe will be a big help. What's the school play about this year?"
+        ],
+        [
+          "Julia Nguyen",
+          "It's about a group of friends who go on a adventure and learn about teamwork and friendship. I'm really excited to be a part of it!"
+        ],
+        [
+          "Dr Linh Nguyen",
+          "That sounds like a wonderful story! I'm sure you'll do great in the play. Have you been practicing your lines a lot?"
+        ],
+        [
+          "Julia Nguyen",
+          "Yes, I've been practicing my lines every day, and I'm feeling more comfortable with them now. Phoebe's help will definitely make a big difference, though!"
+        ],
+        [
+          "Dr Linh Nguyen",
+          "I'm glad to hear that Phoebe is helping you with your lines. I'm sure you two will have a great time practicing together. What time are you meeting up with Phoebe after school?"
+        ],
+        [
+          "Julia Nguyen",
+          "We're meeting up at 5:30 pm after school today, so I'm looking forward to running through my lines with her then."
+        ],
+        [
+          "Dr Linh Nguyen",
+          "That sounds like a great plan, I'm sure you two will have a lot of fun practicing together. I'll have to ask Phoebe about it later and see how it goes."
+        ],
+        [
+          "Julia Nguyen",
+          "Thank you, Dr. Linh Nguyen! I'm really looking forward to the rehearsal and I'm glad Phoebe is helping me out. I should probably get going to school now, I don't want to be late for my classes."
+        ]
+      ]
+    },
+    "Curtis Bell": {
+      "movement": [
+        68,
+        119
+      ],
+      "pronunciatio": "\ud83d\udcf9",
+      "description": "working at the school (reviewing the school's security footage from the previous day) @ the Ville:school:hallway:<random>",
+      "chat": null
+    },
+    "Patricia Kim": {
+      "movement": [
+        61,
+        119
+      ],
+      "pronunciatio": "\ud83d\udcdd",
+      "description": "working at the government building (taking notes from the meeting) @ the Ville:government_building:meeting room:Town Hall Presenter",
+      "chat": null
+    },
+    "Trina Bell": {
+      "movement": [
+        53,
+        108
+      ],
+      "pronunciatio": "\ud83d\ude8c",
+      "description": "commuting to the school @ the Ville:house_5:common room:shelf",
+      "chat": null
+    },
+    "Rosie Bell": {
+      "movement": [
+        55,
+        108
+      ],
+      "pronunciatio": "\ud83d\ude8c",
+      "description": "commuting to the school @ the Ville:house_5:common room:common room sofa",
+      "chat": null
+    },
+    "Mason Bell": {
+      "movement": [
+        53,
+        108
+      ],
+      "pronunciatio": "\ud83d\udecb\ufe0f\ud83d\udca4",
+      "description": "waking up and getting ready (on the way to on the way to waking up and getting read) @ the Ville:house_5:bathroom_1:toilet",
+      "chat": null
+    },
+    "Rashad Lewis": {
+      "movement": [
+        142,
+        120
+      ],
+      "pronunciatio": "\ud83d\ude97",
+      "description": "working at the school (driving to the school) @ the Ville:school:hallway:<random>",
+      "chat": null
+    },
+    "Parker Lewis": {
+      "movement": [
+        125,
+        120
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Parker Lewis and Kendra Hall conversing about new drills for the students, including teamwork, coordination, and agility exercises, and their potential implementation in the upcoming game, as well as their plans to discuss and share updates with the team during practice @ <persona> Kendra Hall",
+      "chat": [
+        [
+          "Parker Lewis",
+          "Hi Kendra, how's it going? I saw you driving to school and thought I'd say hello. What brings you here so early?"
+        ],
+        [
+          "Kendra Hall",
+          "I'm doing well, thanks for asking! I'm on my way to the school for a meeting with Rashad to discuss some new drills for the students. I'm excited to collaborate with him and come up with some innovative ideas to improve their athletic performance."
+        ],
+        [
+          "Parker Lewis",
+          "That sounds like a great initiative! I've been working with Coach Rashad on my sprinting techniques and I've seen significant improvement. What kind of drills are you planning to discuss with him?"
+        ],
+        [
+          "Kendra Hall",
+          "We're actually planning to focus on teamwork, coordination, and agility drills. I think it's essential to help the students develop their overall athletic performance, and I'm looking forward to hearing Rashad's ideas on the matter."
+        ],
+        [
+          "Parker Lewis",
+          "That's really interesting, I've been focusing on individual sprinting techniques, but I can see how teamwork and coordination drills would be beneficial for the team as a whole. Do you think these new drills will be implemented in our upcoming game?"
+        ],
+        [
+          "Kendra Hall",
+          "Yes, I think the new drills will definitely be implemented in our upcoming game. In fact, Rashad and I are planning to meet at 5:30 pm today to discuss the details, and I'm sure we'll come up with some innovative ideas to help the team perform their best. I'll make sure to share the updates with you once we've finalized the plans."
+        ],
+        [
+          "Parker Lewis",
+          "That sounds like a great plan, I'm looking forward to hearing about the new drills and how they'll be implemented in our upcoming game. Will you be sharing the updates with the rest of the team during practice today?"
+        ],
+        [
+          "Kendra Hall",
+          "Yes, I plan to share the updates with the team during practice today, and I'm sure Coach Rashad will also be discussing the new drills with the team. I'll make sure to keep you updated on any changes or new developments."
+        ],
+        [
+          "Parker Lewis",
+          "That's great to hear, I'm looking forward to learning more about the new drills during practice today. I'll make sure to pay close attention to Coach Rashad's instructions and work on implementing the new techniques."
+        ],
+        [
+          "Kendra Hall",
+          "I'm glad you're interested in the new drills, Parker. I think it's great that you're enthusiastic about improving your skills and contributing to the team's success. I'll make sure to keep you updated on any new developments and look forward to seeing you at practice today."
+        ],
+        [
+          "Parker Lewis",
+          "Thanks for sharing the updates with me, Kendra. I'll see you at practice today and look forward to learning more about the new drills. Have a great meeting with Coach Rashad!"
+        ],
+        [
+          "Kendra Hall",
+          "It was great chatting with you, Parker. I should probably get going to my meeting with Coach Rashad. I'll see you at practice today and we can discuss more about the new drills then."
+        ]
+      ]
+    },
+    "Kendra Hall": {
+      "movement": [
+        125,
+        119
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Parker Lewis and Kendra Hall conversing about new drills for the students, including teamwork, coordination, and agility exercises, and their potential implementation in the upcoming game, as well as their plans to discuss and share updates with the team during practice @ <persona> Parker Lewis",
+      "chat": [
+        [
+          "Parker Lewis",
+          "Hi Kendra, how's it going? I saw you driving to school and thought I'd say hello. What brings you here so early?"
+        ],
+        [
+          "Kendra Hall",
+          "I'm doing well, thanks for asking! I'm on my way to the school for a meeting with Rashad to discuss some new drills for the students. I'm excited to collaborate with him and come up with some innovative ideas to improve their athletic performance."
+        ],
+        [
+          "Parker Lewis",
+          "That sounds like a great initiative! I've been working with Coach Rashad on my sprinting techniques and I've seen significant improvement. What kind of drills are you planning to discuss with him?"
+        ],
+        [
+          "Kendra Hall",
+          "We're actually planning to focus on teamwork, coordination, and agility drills. I think it's essential to help the students develop their overall athletic performance, and I'm looking forward to hearing Rashad's ideas on the matter."
+        ],
+        [
+          "Parker Lewis",
+          "That's really interesting, I've been focusing on individual sprinting techniques, but I can see how teamwork and coordination drills would be beneficial for the team as a whole. Do you think these new drills will be implemented in our upcoming game?"
+        ],
+        [
+          "Kendra Hall",
+          "Yes, I think the new drills will definitely be implemented in our upcoming game. In fact, Rashad and I are planning to meet at 5:30 pm today to discuss the details, and I'm sure we'll come up with some innovative ideas to help the team perform their best. I'll make sure to share the updates with you once we've finalized the plans."
+        ],
+        [
+          "Parker Lewis",
+          "That sounds like a great plan, I'm looking forward to hearing about the new drills and how they'll be implemented in our upcoming game. Will you be sharing the updates with the rest of the team during practice today?"
+        ],
+        [
+          "Kendra Hall",
+          "Yes, I plan to share the updates with the team during practice today, and I'm sure Coach Rashad will also be discussing the new drills with the team. I'll make sure to keep you updated on any changes or new developments."
+        ],
+        [
+          "Parker Lewis",
+          "That's great to hear, I'm looking forward to learning more about the new drills during practice today. I'll make sure to pay close attention to Coach Rashad's instructions and work on implementing the new techniques."
+        ],
+        [
+          "Kendra Hall",
+          "I'm glad you're interested in the new drills, Parker. I think it's great that you're enthusiastic about improving your skills and contributing to the team's success. I'll make sure to keep you updated on any new developments and look forward to seeing you at practice today."
+        ],
+        [
+          "Parker Lewis",
+          "Thanks for sharing the updates with me, Kendra. I'll see you at practice today and look forward to learning more about the new drills. Have a great meeting with Coach Rashad!"
+        ],
+        [
+          "Kendra Hall",
+          "It was great chatting with you, Parker. I should probably get going to my meeting with Coach Rashad. I'll see you at practice today and we can discuss more about the new drills then."
+        ]
+      ]
+    },
+    "Dr Miguel Santos": {
+      "movement": [
+        117,
+        131
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "working at the pharmacy (asleep) @ the Ville:house_7:bedroom_1:bed",
+      "chat": null
+    },
+    "Vivian Santos": {
+      "movement": [
+        131,
+        136
+      ],
+      "pronunciatio": "\ud83d\udce7\ud83d\udcbb",
+      "description": "working at the office (checking and responding to urgent emails) @ the Ville:house_7:common room:common room table",
+      "chat": null
+    },
+    "Mateo Santos": {
+      "movement": [
+        116,
+        125
+      ],
+      "pronunciatio": "\ud83d\ude8c",
+      "description": "commuting to the school @ the Ville:house_7:common room:shelf",
+      "chat": null
+    },
+    "Gabriel Flores": {
+      "movement": [
+        161,
+        135
+      ],
+      "pronunciatio": "\ud83d\ude8c",
+      "description": "working at the school (beginning the route to school) @ the Ville:house_8:common room:common room sofa",
+      "chat": null
+    },
+    "Emilia Flores": {
+      "movement": [
+        178,
+        135
+      ],
+      "pronunciatio": "\ud83d\udc4b",
+      "description": "working at the school (greeting the school staff) @ the Ville:school:hallway:<random>",
+      "chat": null
+    },
+    "Noemi Flores": {
+      "movement": [
+        153,
+        124
+      ],
+      "pronunciatio": "\ud83d\ude8c",
+      "description": "commuting to the school @ the Ville:house_8:common room:shelf",
+      "chat": null
+    },
+    "Pastor Daniel Brooks": {
+      "movement": [
+        138,
+        159
+      ],
+      "pronunciatio": "\ud83d\udcdd",
+      "description": "working at the government building (organizing his notes for the meeting) @ the Ville:government_building:computer_room:computer",
+      "chat": null
+    },
+    "Dylan Brooks": {
+      "movement": [
+        113,
+        148
+      ],
+      "pronunciatio": "\ud83d\ude8c",
+      "description": "commuting to the school @ the Ville:house_9:common room:shelf",
+      "chat": null
+    },
+    "Caleb Brooks": {
+      "movement": [
+        138,
+        159
+      ],
+      "pronunciatio": "\ud83c\udfeb",
+      "description": "working at the school (setting up his classroom) @ the Ville:school:classroom:blackboard",
+      "chat": null
+    },
+    "Professor Emily Carter": {
+      "movement": [
+        179,
+        166
+      ],
+      "pronunciatio": "\ud83d\udecd\ufe0f",
+      "description": "working at the school (packing her bag with necessary materials) @ the Ville:school:classroom:School Desk",
+      "chat": null
+    },
+    "Ben Carter": {
+      "movement": [
+        153,
+        155
+      ],
+      "pronunciatio": "\ud83d\ude8c",
+      "description": "commuting to the school @ the Ville:house_10:common room:shelf",
+      "chat": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 09:14:00"
+  }
+}

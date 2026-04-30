@@ -1,0 +1,465 @@
+{
+  "persona": {
+    "Ethan Walker": {
+      "movement": [
+        53,
+        97
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Ethan Walker and Jordan Walker conversing about their morning, an upcoming science experiment, and helping with a library orientation for new students @ <persona> Jordan Walker",
+      "chat": [
+        [
+          "Ethan Walker",
+          "Hi Jordan, how's your morning going so far? I saw you taking notes in math class, is everything making sense?"
+        ],
+        [
+          "Jordan Walker",
+          "It's going great, thanks! I'm really excited about the science experiment we're doing later with the volcano and baking soda. I was also thinking about the library orientation you're preparing for, can you tell me more about it?"
+        ],
+        [
+          "Ethan Walker",
+          "That sounds like a fun experiment! The library orientation is going to be a great opportunity for new students to learn about our library's resources and how to use them effectively. I'm planning to give a tour of the library and show them how to find books and access online materials. Maybe you can even help me with the orientation and share your own experiences with the new students?"
+        ],
+        [
+          "Jordan Walker",
+          "That sounds like a great idea, I'd be happy to help with the orientation! I've had some really good experiences with the library and I think I could help the new students feel more comfortable. What time is the orientation and what do you need me to do to help?"
+        ],
+        [
+          "Ethan Walker",
+          "The orientation is scheduled for tomorrow at 10am, and I was thinking you could help me give the tour and answer any questions the new students might have. You could also share some tips on how to use the library's resources effectively, like you mentioned. Would that work for you?"
+        ],
+        [
+          "Jordan Walker",
+          "That sounds perfect, I'll make sure to be there tomorrow at 10am to help with the orientation. I'll also think about some tips I can share with the new students on how to use the library's resources effectively. Thanks for asking me to help, I'm looking forward to it!"
+        ],
+        [
+          "Ethan Walker",
+          "I'm glad you're on board to help with the orientation, Jordan. I'll make sure to send you a reminder tonight with all the details. Now, I should probably get back to work, but it was great catching up with you. Let's touch base again later, maybe at dinner?"
+        ]
+      ]
+    },
+    "Jordan Walker": {
+      "movement": [
+        54,
+        97
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Ethan Walker and Jordan Walker conversing about their morning, an upcoming science experiment, and helping with a library orientation for new students @ <persona> Ethan Walker",
+      "chat": [
+        [
+          "Ethan Walker",
+          "Hi Jordan, how's your morning going so far? I saw you taking notes in math class, is everything making sense?"
+        ],
+        [
+          "Jordan Walker",
+          "It's going great, thanks! I'm really excited about the science experiment we're doing later with the volcano and baking soda. I was also thinking about the library orientation you're preparing for, can you tell me more about it?"
+        ],
+        [
+          "Ethan Walker",
+          "That sounds like a fun experiment! The library orientation is going to be a great opportunity for new students to learn about our library's resources and how to use them effectively. I'm planning to give a tour of the library and show them how to find books and access online materials. Maybe you can even help me with the orientation and share your own experiences with the new students?"
+        ],
+        [
+          "Jordan Walker",
+          "That sounds like a great idea, I'd be happy to help with the orientation! I've had some really good experiences with the library and I think I could help the new students feel more comfortable. What time is the orientation and what do you need me to do to help?"
+        ],
+        [
+          "Ethan Walker",
+          "The orientation is scheduled for tomorrow at 10am, and I was thinking you could help me give the tour and answer any questions the new students might have. You could also share some tips on how to use the library's resources effectively, like you mentioned. Would that work for you?"
+        ],
+        [
+          "Jordan Walker",
+          "That sounds perfect, I'll make sure to be there tomorrow at 10am to help with the orientation. I'll also think about some tips I can share with the new students on how to use the library's resources effectively. Thanks for asking me to help, I'm looking forward to it!"
+        ],
+        [
+          "Ethan Walker",
+          "I'm glad you're on board to help with the orientation, Jordan. I'll make sure to send you a reminder tonight with all the details. Now, I should probably get back to work, but it was great catching up with you. Let's touch base again later, maybe at dinner?"
+        ]
+      ]
+    },
+    "Lily Walker": {
+      "movement": [
+        41,
+        92
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "attending morning classes (asleep) @ the Ville:house_1:bedroom_1:bed",
+      "chat": null
+    },
+    "Rodrigo Torres": {
+      "movement": [
+        76,
+        92
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "working at the supply store (asleep) @ the Ville:house_2:bedroom_1:bed",
+      "chat": null
+    },
+    "Sofia Torres": {
+      "movement": [
+        90,
+        97
+      ],
+      "pronunciatio": "\ud83d\udde3\ufe0f\ud83d\udcbc",
+      "description": "working at the residential house (conversing about Sofia Torres and Nadia Kaur conversing about civic administration, volunteering for community initiatives, and getting involved in local governance and outreach programs to promote stability and order in their society) @ the Ville:house_2:common room:common room table",
+      "chat": null
+    },
+    "Harpreet Kaur": {
+      "movement": [
+        135,
+        97
+      ],
+      "pronunciatio": "\ud83d\udcbc\ud83d\udc65",
+      "description": "working at the government building (discussing a case with a colleague) @ the Ville:government_building:meeting room:Town Hall Seats",
+      "chat": null
+    },
+    "Raj Singh": {
+      "movement": [
+        135,
+        97
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83d\udcbc",
+      "description": "working at the government building (working on a report) @ the Ville:government_building:computer_room:computer",
+      "chat": null
+    },
+    "Nadia Kaur": {
+      "movement": [
+        120,
+        97
+      ],
+      "pronunciatio": "\ud83c\udfeb",
+      "description": "attending morning classes (attending the civic administration lecture) @ the Ville:house_3:common room:common room table",
+      "chat": null
+    },
+    "Dr Linh Nguyen": {
+      "movement": [
+        154,
+        89
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "working at the pharmacy (asleep) @ the Ville:house_4:bedroom_1:bed",
+      "chat": null
+    },
+    "Phoebe Nguyen": {
+      "movement": [
+        104,
+        60
+      ],
+      "pronunciatio": "\ud83d\udcdd",
+      "description": "working at the school (reviewing her notes for the first session) @ the Ville:school:library:library table",
+      "chat": null
+    },
+    "Julia Nguyen": {
+      "movement": [
+        165,
+        95
+      ],
+      "pronunciatio": "\ud83d\udcda\ud83d\udcac",
+      "description": "attending morning classes (participating in a class discussion) @ the Ville:house_4:common room:common room table",
+      "chat": null
+    },
+    "Curtis Bell": {
+      "movement": [
+        65,
+        119
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83d\udcac",
+      "description": "working at the school (conversing about Curtis Bell and Trina Bell conversing about collaborating to make Rosie's art project a success, including planning to display her painting in the school hallway and coordinating with the school administration and Ben Carter to get the necessary approvals and feedback) @ the Ville:school:classroom:classroom podium",
+      "chat": null
+    },
+    "Patricia Kim": {
+      "movement": [
+        64,
+        119
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Trina Bell and Patricia Kim conversing about Trina's psychology lecture, her volunteer work, and planning a school festival and charity drive with the student council, including discussing event ideas, promotion strategies, and seeking approval from Ben Carter @ <persona> Trina Bell",
+      "chat": [
+        [
+          "Trina Bell",
+          "Hi Patricia, how's your volunteer work at the government building going? I saw you reviewing documents earlier."
+        ],
+        [
+          "Patricia Kim",
+          "It's going well, thanks for asking. I'm just making sure everything is in order for the upcoming project. How about your psychology lecture, is it interesting?"
+        ],
+        [
+          "Trina Bell",
+          "Yes, it's really interesting. We're learning about cognitive psychology and how it applies to our daily lives. I'm also excited about the student council meeting later, we're discussing some new event ideas."
+        ],
+        [
+          "Patricia Kim",
+          "That sounds fascinating, I'd love to hear more about the event ideas you're discussing in the student council meeting. Are there any plans that you're particularly excited about?"
+        ],
+        [
+          "Trina Bell",
+          "Actually, we're planning a few events, including a school festival and a charity drive. I'm really excited about the festival, we're going to have music, food, and games, and it'll be a great way for students to come together and have some fun. But I have to run it by Ben Carter first, of course."
+        ],
+        [
+          "Patricia Kim",
+          "That sounds like a great idea, I'm sure the students will love it. What kind of charity drive are you planning, and how can I help with the festival or the drive?"
+        ],
+        [
+          "Trina Bell",
+          "The charity drive is to collect donations for the local community center, and we're planning to have a bake sale and a raffle to raise funds. You can help by spreading the word about the festival and the charity drive, and also by volunteering to help with the setup and organization of the events. I'll make sure to keep you updated on the details once I get the approval from Ben Carter."
+        ],
+        [
+          "Patricia Kim",
+          "I'd be happy to help spread the word and volunteer for the festival and charity drive. What's the expected date for the events, and have you thought about how you'll promote them to the rest of the students?"
+        ],
+        [
+          "Trina Bell",
+          "The expected date for the events is still tentative, but I'm thinking of proposing it to be in about two weeks' time. As for promotion, I was thinking of putting up posters around the school, making announcements during assemblies, and also using social media to spread the word. But like I said, I need to get Ben Carter's approval first before we can finalize any plans."
+        ],
+        [
+          "Patricia Kim",
+          "It sounds like you have a good plan in place for the festival and charity drive. I'll make sure to keep an eye out for the posters and announcements once you've gotten Ben Carter's approval. Have you considered reaching out to any local businesses to see if they'd be willing to donate any items for the raffle or provide any other support for the events?"
+        ],
+        [
+          "Trina Bell",
+          "That's a great idea, I'll definitely consider reaching out to local businesses to see if they'd be willing to donate items for the raffle or provide other support. I'll also make sure to keep you updated on the progress and let you know if there's anything specific you can do to help."
+        ],
+        [
+          "Patricia Kim",
+          "I think it's great that you're considering reaching out to local businesses for support. I can also offer to help you draft a proposal to present to Ben Carter, to make sure you have all the necessary details and approvals in place before moving forward with the festival and charity drive."
+        ],
+        [
+          "Trina Bell",
+          "That would be really helpful, thank you for offering to help me draft a proposal to present to Ben Carter. I'll make sure to get all the necessary details and approvals in place before moving forward with the festival and charity drive."
+        ],
+        [
+          "Patricia Kim",
+          "I'd be happy to help you draft a proposal for the festival and charity drive. Why don't we discuss the details further and make sure we have everything we need before presenting it to Ben Carter?"
+        ],
+        [
+          "Trina Bell",
+          "That sounds great, let's discuss the details further and make sure we have everything we need before presenting it to Ben Carter. What do you think we should include in the proposal to make it as comprehensive as possible?"
+        ],
+        [
+          "Patricia Kim",
+          "I think we should include the objectives of the festival and charity drive, the expected budget, and a plan for how we'll promote the events to the students and the local community. We should also make sure to highlight how the events will benefit the school and the community, and how they align with Ben Carter's goals and priorities."
+        ]
+      ]
+    },
+    "Trina Bell": {
+      "movement": [
+        65,
+        119
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Trina Bell and Patricia Kim conversing about Trina's psychology lecture, her volunteer work, and planning a school festival and charity drive with the student council, including discussing event ideas, promotion strategies, and seeking approval from Ben Carter @ <persona> Patricia Kim",
+      "chat": [
+        [
+          "Trina Bell",
+          "Hi Patricia, how's your volunteer work at the government building going? I saw you reviewing documents earlier."
+        ],
+        [
+          "Patricia Kim",
+          "It's going well, thanks for asking. I'm just making sure everything is in order for the upcoming project. How about your psychology lecture, is it interesting?"
+        ],
+        [
+          "Trina Bell",
+          "Yes, it's really interesting. We're learning about cognitive psychology and how it applies to our daily lives. I'm also excited about the student council meeting later, we're discussing some new event ideas."
+        ],
+        [
+          "Patricia Kim",
+          "That sounds fascinating, I'd love to hear more about the event ideas you're discussing in the student council meeting. Are there any plans that you're particularly excited about?"
+        ],
+        [
+          "Trina Bell",
+          "Actually, we're planning a few events, including a school festival and a charity drive. I'm really excited about the festival, we're going to have music, food, and games, and it'll be a great way for students to come together and have some fun. But I have to run it by Ben Carter first, of course."
+        ],
+        [
+          "Patricia Kim",
+          "That sounds like a great idea, I'm sure the students will love it. What kind of charity drive are you planning, and how can I help with the festival or the drive?"
+        ],
+        [
+          "Trina Bell",
+          "The charity drive is to collect donations for the local community center, and we're planning to have a bake sale and a raffle to raise funds. You can help by spreading the word about the festival and the charity drive, and also by volunteering to help with the setup and organization of the events. I'll make sure to keep you updated on the details once I get the approval from Ben Carter."
+        ],
+        [
+          "Patricia Kim",
+          "I'd be happy to help spread the word and volunteer for the festival and charity drive. What's the expected date for the events, and have you thought about how you'll promote them to the rest of the students?"
+        ],
+        [
+          "Trina Bell",
+          "The expected date for the events is still tentative, but I'm thinking of proposing it to be in about two weeks' time. As for promotion, I was thinking of putting up posters around the school, making announcements during assemblies, and also using social media to spread the word. But like I said, I need to get Ben Carter's approval first before we can finalize any plans."
+        ],
+        [
+          "Patricia Kim",
+          "It sounds like you have a good plan in place for the festival and charity drive. I'll make sure to keep an eye out for the posters and announcements once you've gotten Ben Carter's approval. Have you considered reaching out to any local businesses to see if they'd be willing to donate any items for the raffle or provide any other support for the events?"
+        ],
+        [
+          "Trina Bell",
+          "That's a great idea, I'll definitely consider reaching out to local businesses to see if they'd be willing to donate items for the raffle or provide other support. I'll also make sure to keep you updated on the progress and let you know if there's anything specific you can do to help."
+        ],
+        [
+          "Patricia Kim",
+          "I think it's great that you're considering reaching out to local businesses for support. I can also offer to help you draft a proposal to present to Ben Carter, to make sure you have all the necessary details and approvals in place before moving forward with the festival and charity drive."
+        ],
+        [
+          "Trina Bell",
+          "That would be really helpful, thank you for offering to help me draft a proposal to present to Ben Carter. I'll make sure to get all the necessary details and approvals in place before moving forward with the festival and charity drive."
+        ],
+        [
+          "Patricia Kim",
+          "I'd be happy to help you draft a proposal for the festival and charity drive. Why don't we discuss the details further and make sure we have everything we need before presenting it to Ben Carter?"
+        ],
+        [
+          "Trina Bell",
+          "That sounds great, let's discuss the details further and make sure we have everything we need before presenting it to Ben Carter. What do you think we should include in the proposal to make it as comprehensive as possible?"
+        ],
+        [
+          "Patricia Kim",
+          "I think we should include the objectives of the festival and charity drive, the expected budget, and a plan for how we'll promote the events to the students and the local community. We should also make sure to highlight how the events will benefit the school and the community, and how they align with Ben Carter's goals and priorities."
+        ]
+      ]
+    },
+    "Rosie Bell": {
+      "movement": [
+        68,
+        119
+      ],
+      "pronunciatio": "\ud83d\udcdd",
+      "description": "attending morning classes (taking notes during the English class) @ the Ville:house_5:common room:common room table",
+      "chat": null
+    },
+    "Mason Bell": {
+      "movement": [
+        67,
+        119
+      ],
+      "pronunciatio": "\ud83d\udcda",
+      "description": "attending morning classes (attending his first class, which is mathematics) @ the Ville:house_5:common room:shelf",
+      "chat": null
+    },
+    "Rashad Lewis": {
+      "movement": [
+        142,
+        120
+      ],
+      "pronunciatio": "\ud83d\udee0\ufe0f",
+      "description": "working at the school (checking the equipment) @ the Ville:school:classroom:blackboard",
+      "chat": null
+    },
+    "Parker Lewis": {
+      "movement": [
+        128,
+        120
+      ],
+      "pronunciatio": "\ud83d\udcdd",
+      "description": "attending morning classes (taking notes during the mathematics class) @ the Ville:house_6:common room:common room table",
+      "chat": null
+    },
+    "Kendra Hall": {
+      "movement": [
+        125,
+        119
+      ],
+      "pronunciatio": "\ud83d\udc4b",
+      "description": "working at the school (greeting the school staff) @ the Ville:school:hallway:<random>",
+      "chat": null
+    },
+    "Dr Miguel Santos": {
+      "movement": [
+        117,
+        131
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "working at the pharmacy (asleep) @ the Ville:house_7:bedroom_1:bed",
+      "chat": null
+    },
+    "Vivian Santos": {
+      "movement": [
+        131,
+        136
+      ],
+      "pronunciatio": "\ud83d\udcca",
+      "description": "working at the office (analyzing public image and communications data) @ the Ville:school:library:library table",
+      "chat": null
+    },
+    "Mateo Santos": {
+      "movement": [
+        127,
+        136
+      ],
+      "pronunciatio": "\ud83d\udcdd",
+      "description": "attending morning classes (taking notes during the mathematics class) @ the Ville:house_7:common room:common room table",
+      "chat": null
+    },
+    "Gabriel Flores": {
+      "movement": [
+        164,
+        135
+      ],
+      "pronunciatio": "\ud83d\udca1\ud83d\udee1\ufe0f",
+      "description": "working at the school (discussing safety protocols) @ the Ville:house_8:common room:common room table",
+      "chat": null
+    },
+    "Emilia Flores": {
+      "movement": [
+        179,
+        135
+      ],
+      "pronunciatio": "\ud83d\udecd\ufe0f\ud83d\udcb0",
+      "description": "working at the school (restocking food and supplies) @ the Ville:house_8:kitchen:refrigerator",
+      "chat": null
+    },
+    "Noemi Flores": {
+      "movement": [
+        165,
+        135
+      ],
+      "pronunciatio": "\ud83d\udcda\ud83d\udcac",
+      "description": "attending morning classes (participating in a class discussion) @ the Ville:house_8:common room:common room table",
+      "chat": null
+    },
+    "Pastor Daniel Brooks": {
+      "movement": [
+        138,
+        159
+      ],
+      "pronunciatio": "\ud83d\ude4f",
+      "description": "working at the government building (taking a few deep breaths to calm his nerves) @ the Ville:Johnson Park:park:park garden",
+      "chat": null
+    },
+    "Dylan Brooks": {
+      "movement": [
+        124,
+        159
+      ],
+      "pronunciatio": "\ud83d\udcdd",
+      "description": "attending morning classes (taking notes on the lesson) @ the Ville:house_9:common room:common room table",
+      "chat": null
+    },
+    "Caleb Brooks": {
+      "movement": [
+        138,
+        159
+      ],
+      "pronunciatio": "\ud83d\udcda",
+      "description": "working at the school (preparing teaching materials) @ the Ville:school:library:library table",
+      "chat": null
+    },
+    "Professor Emily Carter": {
+      "movement": [
+        167,
+        166
+      ],
+      "pronunciatio": "\ud83d\udcf1",
+      "description": "working at the school (responding to urgent messages) @ the Ville:school:hallway:<random>",
+      "chat": null
+    },
+    "Ben Carter": {
+      "movement": [
+        165,
+        166
+      ],
+      "pronunciatio": "\ud83d\udcdd",
+      "description": "attending morning classes (taking notes on the lecture) @ the Ville:house_10:common room:common room table",
+      "chat": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 10:21:30"
+  }
+}

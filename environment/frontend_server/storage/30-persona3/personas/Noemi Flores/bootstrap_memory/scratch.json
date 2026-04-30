@@ -1,0 +1,509 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2023, 16:20:50",
+  "curr_tile": [
+    161,
+    135
+  ],
+  "daily_plan_req": "1. wake up at 7:30 am. 2. have breakfast. 3. head to the school at 8:30 am. 4. attend classes until 3:00 pm. 5. return home and do homework. 6. have dinner at 6:30 pm. 7. relax and sleep at 9:30 pm",
+  "name": "Noemi Flores",
+  "first_name": "Noemi",
+  "last_name": "Flores",
+  "age": 12,
+  "innate": "imaginative, kind, inquisitive",
+  "learned": "Noemi Flores is a middle school student who loves creative writing and nature.",
+  "currently": "Noemi Flores is sleeping at house_8 before school.",
+  "lifestyle": "Noemi Flores goes to bed around 9:30pm, wakes up around 7:30am.",
+  "living_area": "the Ville:house_8:bedroom_3",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 78,
+  "importance_ele_n": 120,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up at 7:30 am",
+    "have breakfast",
+    "head to the school at 8:30 am",
+    "attend classes until 3:00 pm",
+    "return home and do homework",
+    "have dinner at 6:30 pm",
+    "relax and sleep at 9:30 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      450
+    ],
+    [
+      "waking up and getting ready (on the way to waking up and getting read)",
+      60
+    ],
+    [
+      "waking up and getting ready (conversing about Emilia Flores and Noemi Flores conversing about their morning and daily plans, with Emilia heading to the school cafeteria and Noemi attending school)",
+      2
+    ],
+    [
+      "having breakfast",
+      30
+    ],
+    [
+      "commuting to the school",
+      30
+    ],
+    [
+      "attending morning classes (attending her first class, English)",
+      30
+    ],
+    [
+      "attending morning classes (on the way to taking notes during the English class)",
+      0
+    ],
+    [
+      "attending morning classes (conversing about Gabriel Flores and Noemi Flores conversing about their day, classes, and plans to see Emilia during lunch at the school cafeteria)",
+      5
+    ],
+    [
+      "attending morning classes (participating in a class discussion)",
+      15
+    ],
+    [
+      "attending morning classes (switching to her second class, Math)",
+      10
+    ],
+    [
+      "attending morning classes (working on a Math problem)",
+      20
+    ],
+    [
+      "attending morning classes (asking the teacher a question about the Math problem)",
+      10
+    ],
+    [
+      "attending morning classes (attending her third class, Science)",
+      25
+    ],
+    [
+      "attending morning classes (watching a Science experiment)",
+      15
+    ],
+    [
+      "attending morning classes (on the way to writing down Science notes)",
+      20
+    ],
+    [
+      "attending morning classes (conversing about Noemi Flores and Gabriel Flores conversing about their day, classes, and plans to meet at lunch in the cafeteria to see Emilia and check on the students' transportation)",
+      4
+    ],
+    [
+      "attending morning classes (packing up her things to leave the classroom)",
+      10
+    ],
+    [
+      "attending morning classes (heading to her locker to grab her lunch)",
+      5
+    ],
+    [
+      "having lunch (walking to the cafeteria)",
+      5
+    ],
+    [
+      "having lunch (waiting in line to buy lunch)",
+      10
+    ],
+    [
+      "having lunch (purchasing lunch)",
+      5
+    ],
+    [
+      "having lunch (finding a seat in the cafeteria)",
+      5
+    ],
+    [
+      "having lunch (eating lunch)",
+      20
+    ],
+    [
+      "having lunch (chatting with friends)",
+      10
+    ],
+    [
+      "having lunch (throwing away trash and cleaning up)",
+      5
+    ],
+    [
+      "attending afternoon classes (walking to the cafeteria to have lunch)",
+      5
+    ],
+    [
+      "attending afternoon classes (on the way to waiting in line to buy lunch)",
+      0
+    ],
+    [
+      "attending afternoon classes (conversing about a discussion between Emilia Flores and Noemi Flores about Noemi's creative writing project, Emilia's work at the cafeteria, and their plan to implement a 'student of the month' special, which they will further discuss with Gabriel over lunch)",
+      19
+    ],
+    [
+      "attending afternoon classes (buying lunch)",
+      5
+    ],
+    [
+      "attending afternoon classes (finding a seat in the cafeteria)",
+      5
+    ],
+    [
+      "attending afternoon classes (eating lunch)",
+      20
+    ],
+    [
+      "attending afternoon classes (chatting with friends)",
+      15
+    ],
+    [
+      "attending afternoon classes (throwing away trash)",
+      5
+    ],
+    [
+      "attending afternoon classes (walking to the next class)",
+      10
+    ],
+    [
+      "attending afternoon classes (getting settled in the next class)",
+      5
+    ],
+    [
+      "attending afternoon classes (on the way to listening to the teacher's introduction)",
+      10
+    ],
+    [
+      "attending afternoon classes (conversing about Gabriel Flores and Noemi Flores conversing about their afternoon, Gabriel's bus cleaning, Noemi's creative writing project, and planning for the 'student of the month' special with Emilia over lunch)",
+      15
+    ],
+    [
+      "attending afternoon classes (taking notes)",
+      6
+    ],
+    [
+      "attending afternoon classes (participating in class discussion)",
+      10
+    ],
+    [
+      "attending afternoon classes (packing up her things)",
+      5
+    ],
+    [
+      "heading home",
+      30
+    ],
+    [
+      "having a snack and relaxing (walking home from school)",
+      10
+    ],
+    [
+      "having a snack and relaxing (greeting her family members)",
+      5
+    ],
+    [
+      "having a snack and relaxing (dropping off her backpack)",
+      5
+    ],
+    [
+      "having a snack and relaxing (washing her hands)",
+      5
+    ],
+    [
+      "having a snack and relaxing (selecting a snack from the kitchen)",
+      10
+    ],
+    [
+      "having a snack and relaxing (preparing her snack)",
+      10
+    ],
+    [
+      "having a snack and relaxing (eating her snack)",
+      10
+    ],
+    [
+      "having a snack and relaxing (cleaning up after her snack)",
+      5
+    ],
+    [
+      "doing homework (reviewing her class notes from the day)",
+      15
+    ],
+    [
+      "doing homework (working on her math homework)",
+      20
+    ],
+    [
+      "doing homework (taking a short break to stretch and move around)",
+      5
+    ],
+    [
+      "doing homework (working on her science homework)",
+      25
+    ],
+    [
+      "doing homework (researching for her English essay)",
+      20
+    ],
+    [
+      "doing homework (writing her English essay)",
+      25
+    ],
+    [
+      "doing homework (reviewing her homework for completeness)",
+      5
+    ],
+    [
+      "doing homework (organizing her homework and putting it in her backpack)",
+      5
+    ],
+    [
+      "having dinner",
+      60
+    ],
+    [
+      "relaxing",
+      90
+    ],
+    [
+      "getting ready for bed",
+      60
+    ],
+    [
+      "sleeping",
+      90
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      -2
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      15
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      -4
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      -15
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      450
+    ],
+    [
+      "waking up and getting ready",
+      60
+    ],
+    [
+      "having breakfast",
+      30
+    ],
+    [
+      "commuting to the school",
+      30
+    ],
+    [
+      "attending morning classes",
+      180
+    ],
+    [
+      "having lunch",
+      60
+    ],
+    [
+      "attending afternoon classes",
+      120
+    ],
+    [
+      "heading home",
+      30
+    ],
+    [
+      "having a snack and relaxing",
+      60
+    ],
+    [
+      "doing homework",
+      120
+    ],
+    [
+      "having dinner",
+      60
+    ],
+    [
+      "relaxing",
+      90
+    ],
+    [
+      "getting ready for bed",
+      60
+    ],
+    [
+      "sleeping",
+      90
+    ]
+  ],
+  "act_address": "the Ville:house_8:common room:common room sofa",
+  "act_start_time": "February 13, 2023, 16:20:00",
+  "act_duration": 5,
+  "act_description": "having a snack and relaxing (greeting her family members)",
+  "act_pronunciatio": "\ud83d\udc6a",
+  "act_event": [
+    "Noemi Flores",
+    "greet",
+    "family members"
+  ],
+  "act_obj_description": "currently occupied and possibly having some snack leftovers or crumbs on it",
+  "act_obj_pronunciatio": "\ud83c\udf74\ud83d\udecb\ufe0f",
+  "act_obj_event": [
+    "common room sofa",
+    "have",
+    "snack leftovers or crumbs"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {
+    "Emilia Flores": -166,
+    "Gabriel Flores": 338
+  },
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": []
+}

@@ -1,0 +1,335 @@
+{
+  "persona": {
+    "Ethan Walker": {
+      "movement": [
+        53,
+        97
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Ethan Walker and Jordan Walker conversing about their morning, an upcoming science experiment, and helping with a library orientation for new students @ <persona> Jordan Walker",
+      "chat": [
+        [
+          "Ethan Walker",
+          "Hi Jordan, how's your morning going so far? I saw you taking notes in math class, is everything making sense?"
+        ],
+        [
+          "Jordan Walker",
+          "It's going great, thanks! I'm really excited about the science experiment we're doing later with the volcano and baking soda. I was also thinking about the library orientation you're preparing for, can you tell me more about it?"
+        ],
+        [
+          "Ethan Walker",
+          "That sounds like a fun experiment! The library orientation is going to be a great opportunity for new students to learn about our library's resources and how to use them effectively. I'm planning to give a tour of the library and show them how to find books and access online materials. Maybe you can even help me with the orientation and share your own experiences with the new students?"
+        ],
+        [
+          "Jordan Walker",
+          "That sounds like a great idea, I'd be happy to help with the orientation! I've had some really good experiences with the library and I think I could help the new students feel more comfortable. What time is the orientation and what do you need me to do to help?"
+        ],
+        [
+          "Ethan Walker",
+          "The orientation is scheduled for tomorrow at 10am, and I was thinking you could help me give the tour and answer any questions the new students might have. You could also share some tips on how to use the library's resources effectively, like you mentioned. Would that work for you?"
+        ],
+        [
+          "Jordan Walker",
+          "That sounds perfect, I'll make sure to be there tomorrow at 10am to help with the orientation. I'll also think about some tips I can share with the new students on how to use the library's resources effectively. Thanks for asking me to help, I'm looking forward to it!"
+        ],
+        [
+          "Ethan Walker",
+          "I'm glad you're on board to help with the orientation, Jordan. I'll make sure to send you a reminder tonight with all the details. Now, I should probably get back to work, but it was great catching up with you. Let's touch base again later, maybe at dinner?"
+        ]
+      ]
+    },
+    "Jordan Walker": {
+      "movement": [
+        54,
+        97
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Ethan Walker and Jordan Walker conversing about their morning, an upcoming science experiment, and helping with a library orientation for new students @ <persona> Ethan Walker",
+      "chat": [
+        [
+          "Ethan Walker",
+          "Hi Jordan, how's your morning going so far? I saw you taking notes in math class, is everything making sense?"
+        ],
+        [
+          "Jordan Walker",
+          "It's going great, thanks! I'm really excited about the science experiment we're doing later with the volcano and baking soda. I was also thinking about the library orientation you're preparing for, can you tell me more about it?"
+        ],
+        [
+          "Ethan Walker",
+          "That sounds like a fun experiment! The library orientation is going to be a great opportunity for new students to learn about our library's resources and how to use them effectively. I'm planning to give a tour of the library and show them how to find books and access online materials. Maybe you can even help me with the orientation and share your own experiences with the new students?"
+        ],
+        [
+          "Jordan Walker",
+          "That sounds like a great idea, I'd be happy to help with the orientation! I've had some really good experiences with the library and I think I could help the new students feel more comfortable. What time is the orientation and what do you need me to do to help?"
+        ],
+        [
+          "Ethan Walker",
+          "The orientation is scheduled for tomorrow at 10am, and I was thinking you could help me give the tour and answer any questions the new students might have. You could also share some tips on how to use the library's resources effectively, like you mentioned. Would that work for you?"
+        ],
+        [
+          "Jordan Walker",
+          "That sounds perfect, I'll make sure to be there tomorrow at 10am to help with the orientation. I'll also think about some tips I can share with the new students on how to use the library's resources effectively. Thanks for asking me to help, I'm looking forward to it!"
+        ],
+        [
+          "Ethan Walker",
+          "I'm glad you're on board to help with the orientation, Jordan. I'll make sure to send you a reminder tonight with all the details. Now, I should probably get back to work, but it was great catching up with you. Let's touch base again later, maybe at dinner?"
+        ]
+      ]
+    },
+    "Lily Walker": {
+      "movement": [
+        41,
+        92
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "attending morning classes (asleep) @ the Ville:house_1:bedroom_1:bed",
+      "chat": null
+    },
+    "Rodrigo Torres": {
+      "movement": [
+        76,
+        92
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "working at the supply store (asleep) @ the Ville:house_2:bedroom_1:bed",
+      "chat": null
+    },
+    "Sofia Torres": {
+      "movement": [
+        90,
+        97
+      ],
+      "pronunciatio": "\ud83d\udde3\ufe0f\ud83d\udcbc",
+      "description": "working at the residential house (conversing about Sofia Torres and Nadia Kaur conversing about civic administration, volunteering for community initiatives, and getting involved in local governance and outreach programs to promote stability and order in their society) @ the Ville:house_2:common room:common room table",
+      "chat": null
+    },
+    "Harpreet Kaur": {
+      "movement": [
+        135,
+        97
+      ],
+      "pronunciatio": "\ud83d\udcbc\ud83d\udc65",
+      "description": "working at the government building (discussing a case with a colleague) @ the Ville:government_building:meeting room:Town Hall Seats",
+      "chat": null
+    },
+    "Raj Singh": {
+      "movement": [
+        135,
+        97
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83d\udcbc",
+      "description": "working at the government building (working on a report) @ the Ville:government_building:computer_room:computer",
+      "chat": null
+    },
+    "Nadia Kaur": {
+      "movement": [
+        120,
+        97
+      ],
+      "pronunciatio": "\ud83c\udfeb",
+      "description": "attending morning classes (attending the civic administration lecture) @ the Ville:house_3:common room:common room table",
+      "chat": null
+    },
+    "Dr Linh Nguyen": {
+      "movement": [
+        154,
+        89
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "working at the pharmacy (asleep) @ the Ville:house_4:bedroom_1:bed",
+      "chat": null
+    },
+    "Phoebe Nguyen": {
+      "movement": [
+        121,
+        66
+      ],
+      "pronunciatio": "\ud83d\udcdd",
+      "description": "working at the school (reviewing her notes for the first session) @ the Ville:school:library:library table",
+      "chat": null
+    },
+    "Julia Nguyen": {
+      "movement": [
+        165,
+        95
+      ],
+      "pronunciatio": "\ud83d\udcda\ud83d\udcac",
+      "description": "attending morning classes (participating in a class discussion) @ the Ville:house_4:common room:common room table",
+      "chat": null
+    },
+    "Curtis Bell": {
+      "movement": [
+        65,
+        119
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83d\udcac",
+      "description": "working at the school (conversing about Curtis Bell and Trina Bell conversing about collaborating to make Rosie's art project a success, including planning to display her painting in the school hallway and coordinating with the school administration and Ben Carter to get the necessary approvals and feedback) @ the Ville:school:classroom:classroom podium",
+      "chat": null
+    },
+    "Patricia Kim": {
+      "movement": [
+        64,
+        119
+      ],
+      "pronunciatio": "\ud83d\udcdd\u2705",
+      "description": "working at the government building (reviewing documents for accuracy) @ the Ville:government_building:main room:desk",
+      "chat": null
+    },
+    "Trina Bell": {
+      "movement": [
+        65,
+        119
+      ],
+      "pronunciatio": "\ud83d\udcda\ud83d\udc67",
+      "description": "attending morning classes (attending her psychology lecture) @ the Ville:house_5:common room:common room table",
+      "chat": null
+    },
+    "Rosie Bell": {
+      "movement": [
+        68,
+        119
+      ],
+      "pronunciatio": "\ud83d\udcdd",
+      "description": "attending morning classes (taking notes during the English class) @ the Ville:house_5:common room:common room table",
+      "chat": null
+    },
+    "Mason Bell": {
+      "movement": [
+        67,
+        119
+      ],
+      "pronunciatio": "\ud83d\udcda",
+      "description": "attending morning classes (attending his first class, which is mathematics) @ the Ville:house_5:common room:shelf",
+      "chat": null
+    },
+    "Rashad Lewis": {
+      "movement": [
+        142,
+        120
+      ],
+      "pronunciatio": "\ud83d\udcc5",
+      "description": "working at the school (reviewing the practice schedule) @ the Ville:school:classroom:School Desk",
+      "chat": null
+    },
+    "Parker Lewis": {
+      "movement": [
+        128,
+        120
+      ],
+      "pronunciatio": "\ud83d\udcdd",
+      "description": "attending morning classes (taking notes during the mathematics class) @ the Ville:house_6:common room:common room table",
+      "chat": null
+    },
+    "Kendra Hall": {
+      "movement": [
+        125,
+        119
+      ],
+      "pronunciatio": "\ud83d\udc4b",
+      "description": "working at the school (greeting the school staff) @ the Ville:school:hallway:<random>",
+      "chat": null
+    },
+    "Dr Miguel Santos": {
+      "movement": [
+        117,
+        131
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "working at the pharmacy (asleep) @ the Ville:house_7:bedroom_1:bed",
+      "chat": null
+    },
+    "Vivian Santos": {
+      "movement": [
+        131,
+        136
+      ],
+      "pronunciatio": "\ud83d\udcca",
+      "description": "working at the office (analyzing public image and communications data) @ the Ville:school:library:library table",
+      "chat": null
+    },
+    "Mateo Santos": {
+      "movement": [
+        127,
+        136
+      ],
+      "pronunciatio": "\ud83d\udcdd",
+      "description": "attending morning classes (taking notes during the mathematics class) @ the Ville:house_7:common room:common room table",
+      "chat": null
+    },
+    "Gabriel Flores": {
+      "movement": [
+        164,
+        135
+      ],
+      "pronunciatio": "\ud83d\udca1\ud83d\udee1\ufe0f",
+      "description": "working at the school (discussing safety protocols) @ the Ville:house_8:common room:common room table",
+      "chat": null
+    },
+    "Emilia Flores": {
+      "movement": [
+        179,
+        135
+      ],
+      "pronunciatio": "\ud83d\udecd\ufe0f\ud83d\udcb0",
+      "description": "working at the school (restocking food and supplies) @ the Ville:house_8:kitchen:refrigerator",
+      "chat": null
+    },
+    "Noemi Flores": {
+      "movement": [
+        165,
+        135
+      ],
+      "pronunciatio": "\ud83d\udcda\ud83d\udcac",
+      "description": "attending morning classes (participating in a class discussion) @ the Ville:house_8:common room:common room table",
+      "chat": null
+    },
+    "Pastor Daniel Brooks": {
+      "movement": [
+        138,
+        159
+      ],
+      "pronunciatio": "\ud83d\udcca",
+      "description": "working at the government building (finalizing his presentation) @ the Ville:government_building:computer_room:computer",
+      "chat": null
+    },
+    "Dylan Brooks": {
+      "movement": [
+        124,
+        159
+      ],
+      "pronunciatio": "\ud83d\udcdd",
+      "description": "attending morning classes (taking notes on the lesson) @ the Ville:house_9:common room:common room table",
+      "chat": null
+    },
+    "Caleb Brooks": {
+      "movement": [
+        138,
+        159
+      ],
+      "pronunciatio": "\ud83d\udcda",
+      "description": "working at the school (preparing teaching materials) @ the Ville:school:library:library table",
+      "chat": null
+    },
+    "Professor Emily Carter": {
+      "movement": [
+        167,
+        166
+      ],
+      "pronunciatio": "\ud83d\udcdd",
+      "description": "working at the school (preparing her lecture notes) @ the Ville:school:library:library table",
+      "chat": null
+    },
+    "Ben Carter": {
+      "movement": [
+        165,
+        166
+      ],
+      "pronunciatio": "\ud83d\udcdd",
+      "description": "attending morning classes (taking notes on the lecture) @ the Ville:house_10:common room:common room table",
+      "chat": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 10:17:40"
+  }
+}

@@ -1,0 +1,407 @@
+{
+  "persona": {
+    "Ethan Walker": {
+      "movement": [
+        52,
+        97
+      ],
+      "pronunciatio": "\ud83d\udda5\ufe0f\ud83d\udcbb",
+      "description": "working at the school (maintaining the library's equipment and technology) @ the Ville:school:library:bookshelf",
+      "chat": null
+    },
+    "Jordan Walker": {
+      "movement": [
+        55,
+        97
+      ],
+      "pronunciatio": "\ud83d\udcda",
+      "description": "attending morning classes (attending the English class) @ the Ville:house_1:common room:common room table",
+      "chat": null
+    },
+    "Lily Walker": {
+      "movement": [
+        41,
+        92
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "attending morning classes (asleep) @ the Ville:house_1:bedroom_1:bed",
+      "chat": null
+    },
+    "Rodrigo Torres": {
+      "movement": [
+        76,
+        92
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "working at the supply store (asleep) @ the Ville:house_2:bedroom_1:bed",
+      "chat": null
+    },
+    "Sofia Torres": {
+      "movement": [
+        94,
+        97
+      ],
+      "pronunciatio": "\u2615\ufe0f",
+      "description": "working at the residential house (taking a short break) @ the Ville:Johnson Park:park:park garden",
+      "chat": null
+    },
+    "Harpreet Kaur": {
+      "movement": [
+        135,
+        97
+      ],
+      "pronunciatio": "\ud83d\udcc5",
+      "description": "working at the government building (updating her to-do list and calendar) @ the Ville:government_building:computer_room:computer",
+      "chat": null
+    },
+    "Raj Singh": {
+      "movement": [
+        131,
+        97
+      ],
+      "pronunciatio": "\ud83d\udce2",
+      "description": "working at the government building (preparing for a presentation) @ the Ville:government_building:meeting room:Town Hall Presenter",
+      "chat": null
+    },
+    "Nadia Kaur": {
+      "movement": [
+        121,
+        97
+      ],
+      "pronunciatio": "\ud83e\udd14",
+      "description": "attending morning classes (asking questions to the professor) @ the Ville:house_3:common room:common room table",
+      "chat": null
+    },
+    "Dr Linh Nguyen": {
+      "movement": [
+        154,
+        89
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "working at the pharmacy (asleep) @ the Ville:house_4:bedroom_1:bed",
+      "chat": null
+    },
+    "Phoebe Nguyen": {
+      "movement": [
+        108,
+        23
+      ],
+      "pronunciatio": "\ud83d\udcda\ud83d\udc65",
+      "description": "working at the school (attending a meeting with teachers) @ the Ville:school:classroom:classroom podium",
+      "chat": null
+    },
+    "Julia Nguyen": {
+      "movement": [
+        164,
+        95
+      ],
+      "pronunciatio": "\ud83d\udcdd",
+      "description": "attending morning classes (writing down key points from the Science experiment) @ the Ville:house_4:common room:common room table",
+      "chat": null
+    },
+    "Curtis Bell": {
+      "movement": [
+        67,
+        119
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Curtis Bell and Mason Bell conversing about Rosie's art project, discussing ideas for the display, and planning to present it to Patricia Kim, Trina, and Ben Carter at an upcoming meeting, with the goal of making the project a success, especially with the school festival and charity drive coming up @ <persona> Mason Bell",
+      "chat": [
+        [
+          "Curtis Bell",
+          "Hey Mason, how's lunch going? I was just talking to Rosie about her art project and I'm excited to discuss it further with you, especially with the meeting coming up with Patricia Kim, Trina, and Ben Carter"
+        ],
+        [
+          "Mason Bell",
+          "That sounds great, Curtis! I've been thinking about Rosie's project too, and I'm looking forward to hearing her ideas and discussing how we can make it a success, especially with the school festival and charity drive coming up"
+        ],
+        [
+          "Curtis Bell",
+          "I was thinking we could discuss some ideas for the display and how we can get Ben Carter and Trina on board to help make it happen, what are your thoughts on that?"
+        ],
+        [
+          "Mason Bell",
+          "I think that's a great idea, Curtis. We could also consider reaching out to our art teacher for some guidance on the display and see if they have any connections with Patricia Kim that could help us get the project approved. What do you think about involving the student council as well to get more support?"
+        ],
+        [
+          "Curtis Bell",
+          "Involving the student council is a great idea, Mason. I think we could also ask them to help us spread the word about the project and get more students excited about it. I'll make a note to reach out to the art teacher and see if they can connect us with Patricia Kim, and we can also discuss the details further with Ben Carter and Trina at the meeting."
+        ],
+        [
+          "Mason Bell",
+          "That sounds like a solid plan, Curtis. I'll make sure to review Rosie's project and come up with some ideas for the display before the meeting. Should we also consider inviting other students to contribute to the project or provide feedback to make it more of a collaborative effort?"
+        ],
+        [
+          "Curtis Bell",
+          "That's a great idea, Mason. Having other students contribute to the project or provide feedback could definitely make it more engaging and successful. I think we should discuss that idea further with Rosie and see what she thinks, and also bring it up at the meeting with Patricia Kim, Trina, and Ben Carter to get their input."
+        ],
+        [
+          "Mason Bell",
+          "I'll talk to Rosie about it and see what she thinks, and we can also bring it up at the meeting to get everyone's input. What time is the meeting with Patricia Kim, Trina, and Ben Carter again, so I can make sure to be there and be prepared?"
+        ],
+        [
+          "Curtis Bell",
+          "The meeting with Patricia Kim, Trina, and Ben Carter is scheduled for later this week, I'll send you the exact time and details so you can make sure to be there. I think it's a good idea for you to discuss the idea of involving other students with Rosie and get her thoughts on it before the meeting."
+        ],
+        [
+          "Mason Bell",
+          "Alright, sounds good. I'll talk to Rosie about involving other students and get her thoughts on it. I'm looking forward to the meeting and discussing everything further with Patricia Kim, Trina, and Ben Carter. Thanks for keeping me updated, Curtis."
+        ],
+        [
+          "Curtis Bell",
+          "I'm glad we're on the same page, Mason. I'll send you the meeting details and we can finalize our plans before then. Let's touch base with Rosie and make sure she's comfortable with the idea of involving other students and getting their feedback."
+        ],
+        [
+          "Mason Bell",
+          "Sounds good, I'll talk to Rosie and get her thoughts on involving other students. Should we also make a list of questions to ask Patricia Kim, Trina, and Ben Carter during the meeting to make sure we cover everything?"
+        ],
+        [
+          "Curtis Bell",
+          "Yes, that's a great idea, Mason. Let's make a list of questions to ask Patricia Kim, Trina, and Ben Carter during the meeting. I'll start by drafting some questions and send them to you to review and add to. We can also discuss the list with Rosie and make sure we're all on the same page before the meeting."
+        ],
+        [
+          "Mason Bell",
+          "That sounds like a good plan, Curtis. I'll review the questions you draft and add any that I think are important. I'll also talk to Rosie about involving other students and get her thoughts on it before the meeting. Should we also consider making a presentation or a proposal to present to Patricia Kim, Trina, and Ben Carter to make a strong case for Rosie's project?"
+        ],
+        [
+          "Curtis Bell",
+          "That's a great idea, Mason. A presentation or proposal would definitely help us make a strong case for Rosie's project. I'll start working on a draft and send it to you and Rosie to review and add to. Let's aim to have it ready by the meeting so we can present it to Patricia Kim, Trina, and Ben Carter."
+        ],
+        [
+          "Mason Bell",
+          "I think that's a great idea, Curtis. I'll review the draft presentation and add any suggestions I have. I'll also talk to Rosie about the presentation and make sure she's comfortable with it before the meeting. Should we also consider inviting Patricia Kim, Trina, and Ben Carter to take a look at Rosie's project beforehand so they have a better understanding of what we're proposing?"
+        ]
+      ]
+    },
+    "Patricia Kim": {
+      "movement": [
+        64,
+        119
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "working at the government building (communicating the plan to her team) @ the Ville:government_building:meeting room:Town Hall Presenter",
+      "chat": null
+    },
+    "Trina Bell": {
+      "movement": [
+        67,
+        119
+      ],
+      "pronunciatio": "\ud83c\udf74\ud83d\udeb6",
+      "description": "having lunch (waiting in line to buy lunch) @ the Ville:school:hallway:<random>",
+      "chat": null
+    },
+    "Rosie Bell": {
+      "movement": [
+        65,
+        119
+      ],
+      "pronunciatio": "\ud83d\udecb\ufe0f",
+      "description": "having lunch (finding a seat in the cafeteria) @ the Ville:house_5:common room:common room table",
+      "chat": null
+    },
+    "Mason Bell": {
+      "movement": [
+        68,
+        119
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Curtis Bell and Mason Bell conversing about Rosie's art project, discussing ideas for the display, and planning to present it to Patricia Kim, Trina, and Ben Carter at an upcoming meeting, with the goal of making the project a success, especially with the school festival and charity drive coming up @ <persona> Curtis Bell",
+      "chat": [
+        [
+          "Curtis Bell",
+          "Hey Mason, how's lunch going? I was just talking to Rosie about her art project and I'm excited to discuss it further with you, especially with the meeting coming up with Patricia Kim, Trina, and Ben Carter"
+        ],
+        [
+          "Mason Bell",
+          "That sounds great, Curtis! I've been thinking about Rosie's project too, and I'm looking forward to hearing her ideas and discussing how we can make it a success, especially with the school festival and charity drive coming up"
+        ],
+        [
+          "Curtis Bell",
+          "I was thinking we could discuss some ideas for the display and how we can get Ben Carter and Trina on board to help make it happen, what are your thoughts on that?"
+        ],
+        [
+          "Mason Bell",
+          "I think that's a great idea, Curtis. We could also consider reaching out to our art teacher for some guidance on the display and see if they have any connections with Patricia Kim that could help us get the project approved. What do you think about involving the student council as well to get more support?"
+        ],
+        [
+          "Curtis Bell",
+          "Involving the student council is a great idea, Mason. I think we could also ask them to help us spread the word about the project and get more students excited about it. I'll make a note to reach out to the art teacher and see if they can connect us with Patricia Kim, and we can also discuss the details further with Ben Carter and Trina at the meeting."
+        ],
+        [
+          "Mason Bell",
+          "That sounds like a solid plan, Curtis. I'll make sure to review Rosie's project and come up with some ideas for the display before the meeting. Should we also consider inviting other students to contribute to the project or provide feedback to make it more of a collaborative effort?"
+        ],
+        [
+          "Curtis Bell",
+          "That's a great idea, Mason. Having other students contribute to the project or provide feedback could definitely make it more engaging and successful. I think we should discuss that idea further with Rosie and see what she thinks, and also bring it up at the meeting with Patricia Kim, Trina, and Ben Carter to get their input."
+        ],
+        [
+          "Mason Bell",
+          "I'll talk to Rosie about it and see what she thinks, and we can also bring it up at the meeting to get everyone's input. What time is the meeting with Patricia Kim, Trina, and Ben Carter again, so I can make sure to be there and be prepared?"
+        ],
+        [
+          "Curtis Bell",
+          "The meeting with Patricia Kim, Trina, and Ben Carter is scheduled for later this week, I'll send you the exact time and details so you can make sure to be there. I think it's a good idea for you to discuss the idea of involving other students with Rosie and get her thoughts on it before the meeting."
+        ],
+        [
+          "Mason Bell",
+          "Alright, sounds good. I'll talk to Rosie about involving other students and get her thoughts on it. I'm looking forward to the meeting and discussing everything further with Patricia Kim, Trina, and Ben Carter. Thanks for keeping me updated, Curtis."
+        ],
+        [
+          "Curtis Bell",
+          "I'm glad we're on the same page, Mason. I'll send you the meeting details and we can finalize our plans before then. Let's touch base with Rosie and make sure she's comfortable with the idea of involving other students and getting their feedback."
+        ],
+        [
+          "Mason Bell",
+          "Sounds good, I'll talk to Rosie and get her thoughts on involving other students. Should we also make a list of questions to ask Patricia Kim, Trina, and Ben Carter during the meeting to make sure we cover everything?"
+        ],
+        [
+          "Curtis Bell",
+          "Yes, that's a great idea, Mason. Let's make a list of questions to ask Patricia Kim, Trina, and Ben Carter during the meeting. I'll start by drafting some questions and send them to you to review and add to. We can also discuss the list with Rosie and make sure we're all on the same page before the meeting."
+        ],
+        [
+          "Mason Bell",
+          "That sounds like a good plan, Curtis. I'll review the questions you draft and add any that I think are important. I'll also talk to Rosie about involving other students and get her thoughts on it before the meeting. Should we also consider making a presentation or a proposal to present to Patricia Kim, Trina, and Ben Carter to make a strong case for Rosie's project?"
+        ],
+        [
+          "Curtis Bell",
+          "That's a great idea, Mason. A presentation or proposal would definitely help us make a strong case for Rosie's project. I'll start working on a draft and send it to you and Rosie to review and add to. Let's aim to have it ready by the meeting so we can present it to Patricia Kim, Trina, and Ben Carter."
+        ],
+        [
+          "Mason Bell",
+          "I think that's a great idea, Curtis. I'll review the draft presentation and add any suggestions I have. I'll also talk to Rosie about the presentation and make sure she's comfortable with it before the meeting. Should we also consider inviting Patricia Kim, Trina, and Ben Carter to take a look at Rosie's project beforehand so they have a better understanding of what we're proposing?"
+        ]
+      ]
+    },
+    "Rashad Lewis": {
+      "movement": [
+        142,
+        120
+      ],
+      "pronunciatio": "\ud83d\udee0\ufe0f\ud83d\udcbc",
+      "description": "working at the school (demonstrating the drills) @ the Ville:Johnson Park:park:park garden",
+      "chat": null
+    },
+    "Parker Lewis": {
+      "movement": [
+        128,
+        120
+      ],
+      "pronunciatio": "\ud83c\udfc8\ud83d\udcac",
+      "description": "attending morning classes (conversing about Parker Lewis and Kendra Hall conversing about the new teamwork, coordination, and agility drills that Kendra and Coach Rashad are planning to implement in their upcoming practice and game) @ the Ville:school:classroom:blackboard",
+      "chat": null
+    },
+    "Kendra Hall": {
+      "movement": [
+        127,
+        120
+      ],
+      "pronunciatio": "\ud83c\udfc8\ud83d\udcac",
+      "description": "working at the school (conversing about Parker Lewis and Kendra Hall conversing about the new teamwork, coordination, and agility drills that Kendra and Coach Rashad are planning to implement in their upcoming practice and game) @ the Ville:school:classroom:blackboard",
+      "chat": null
+    },
+    "Dr Miguel Santos": {
+      "movement": [
+        117,
+        131
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "working at the pharmacy (asleep) @ the Ville:house_7:bedroom_1:bed",
+      "chat": null
+    },
+    "Vivian Santos": {
+      "movement": [
+        130,
+        136
+      ],
+      "pronunciatio": "\ud83d\udcc5",
+      "description": "working at the office (finalizing plans for an upcoming event) @ the Ville:school:library:library table",
+      "chat": null
+    },
+    "Mateo Santos": {
+      "movement": [
+        131,
+        136
+      ],
+      "pronunciatio": "\ud83d\udcda",
+      "description": "attending morning classes (attending his third class, which is English) @ the Ville:school:classroom:School Desk",
+      "chat": null
+    },
+    "Gabriel Flores": {
+      "movement": [
+        167,
+        135
+      ],
+      "pronunciatio": "\ud83d\udcc4\ud83d\udd0d",
+      "description": "working at the school (scanning documents) @ the Ville:house_8:common room:common room table",
+      "chat": null
+    },
+    "Emilia Flores": {
+      "movement": [
+        178,
+        135
+      ],
+      "pronunciatio": "\ud83c\udf74\ud83c\udf54",
+      "description": "working at the school (maintaining the serving lines and replenishing food) @ the Ville:school:hallway:<random>",
+      "chat": null
+    },
+    "Noemi Flores": {
+      "movement": [
+        166,
+        135
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83d\udd2c",
+      "description": "attending morning classes (on the way to writing down Science notes) @ the Ville:school:classroom:School Desk",
+      "chat": null
+    },
+    "Pastor Daniel Brooks": {
+      "movement": [
+        127,
+        159
+      ],
+      "pronunciatio": "\ud83d\udcc5",
+      "description": "working at the government building (preparing for the next task or meeting) @ the Ville:government_building:meeting room:Town Hall Presenter",
+      "chat": null
+    },
+    "Dylan Brooks": {
+      "movement": [
+        125,
+        159
+      ],
+      "pronunciatio": "\ud83d\udeb6\u200d\u2642",
+      "description": "attending morning classes (heading to his next class, but the morning classes are ending) @ the Ville:school:hallway:<random>",
+      "chat": null
+    },
+    "Caleb Brooks": {
+      "movement": [
+        138,
+        159
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "working at the school (teaching his first class) (chatting with colleagues) @ the Ville:school:hallway:<random>",
+      "chat": null
+    },
+    "Professor Emily Carter": {
+      "movement": [
+        164,
+        166
+      ],
+      "pronunciatio": "\ud83d\udcda",
+      "description": "working at the school (researching relevant topics) @ the Ville:house_10:common room:shelf",
+      "chat": null
+    },
+    "Ben Carter": {
+      "movement": [
+        163,
+        166
+      ],
+      "pronunciatio": "\ud83d\udeaa",
+      "description": "attending morning classes (leaving the classroom) @ the Ville:house_10:common room:common room table",
+      "chat": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 12:19:50"
+  }
+}

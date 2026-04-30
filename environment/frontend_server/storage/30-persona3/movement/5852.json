@@ -1,0 +1,375 @@
+{
+  "persona": {
+    "Ethan Walker": {
+      "movement": [
+        53,
+        97
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Ethan Walker and Jordan Walker conversing about the final preparations for the library orientation, including reviewing the tour and presentation, discussing new library materials, and ensuring everything meets their leader Ben Carter's expectations @ <persona> Jordan Walker",
+      "chat": [
+        [
+          "Ethan Walker",
+          "Hey Jordan, how's your day going so far? I'm just grabbing a quick snack before I head back to work on the library orientation preparations"
+        ],
+        [
+          "Jordan Walker",
+          "It's going great, thanks! I'm excited about the library orientation and the science experiment we're doing later. What's left to prepare for the orientation?"
+        ],
+        [
+          "Ethan Walker",
+          "I still need to finalize the tour and presentation, and I want to show you the new materials we've added to the library's collection. I'm planning to meet you at the library at 7:30 pm to go over everything, sound good to you?"
+        ],
+        [
+          "Jordan Walker",
+          "That sounds great, I'm looking forward to seeing the new materials and going over the tour and presentation with you at 7:30 pm. What can I do to help with the final preparations?"
+        ],
+        [
+          "Ethan Walker",
+          "Actually, it would be a big help if you could review the presentation and tour outline I've prepared so far and give me your feedback before we meet at 7:30 pm. That way, we can make any necessary adjustments and make sure everything is ready to go for the orientation."
+        ],
+        [
+          "Jordan Walker",
+          "I'd be happy to review the presentation and tour outline, can you send it to me so I can take a look and give you my feedback before we meet at 7:30 pm?"
+        ],
+        [
+          "Ethan Walker",
+          "I'll send it to you right away, and you can take a look at it during your break. If you have any suggestions or changes, just let me know and we can discuss them when we meet at 7:30 pm."
+        ],
+        [
+          "Jordan Walker",
+          "I'll take a look at the presentation and tour outline as soon as I get it and send you my feedback before we meet at 7:30 pm. Is there anything specific you'd like me to focus on while reviewing it?"
+        ],
+        [
+          "Ethan Walker",
+          "Nothing in particular, just your general feedback on the flow and content of the presentation and tour would be helpful. And also, don't forget that Ben Carter, our leader, will be attending the orientation, so we should make sure everything is in line with his expectations."
+        ],
+        [
+          "Jordan Walker",
+          "Okay, I'll make sure to review the presentation and tour outline carefully and provide my feedback before we meet at 7:30 pm. I'll also keep in mind that Ben Carter will be attending the orientation, so we can make sure everything is perfect. Is there anything else I can do to help with the final preparations?"
+        ],
+        [
+          "Ethan Walker",
+          "No, that's all for now, thanks for offering to help. I'll send you the presentation and tour outline, and we can discuss any further details when we meet at 7:30 pm. I should probably get back to work, but I'm looking forward to going over everything with you later."
+        ],
+        [
+          "Jordan Walker",
+          "Alright, sounds good! I'll review the presentation and tour outline as soon as I get it and send you my feedback before we meet at 7:30 pm. Have a great rest of your day and I'll see you tonight!"
+        ]
+      ]
+    },
+    "Jordan Walker": {
+      "movement": [
+        53,
+        97
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Ethan Walker and Jordan Walker conversing about the final preparations for the library orientation, including reviewing the tour and presentation, discussing new library materials, and ensuring everything meets their leader Ben Carter's expectations @ <persona> Ethan Walker",
+      "chat": [
+        [
+          "Ethan Walker",
+          "Hey Jordan, how's your day going so far? I'm just grabbing a quick snack before I head back to work on the library orientation preparations"
+        ],
+        [
+          "Jordan Walker",
+          "It's going great, thanks! I'm excited about the library orientation and the science experiment we're doing later. What's left to prepare for the orientation?"
+        ],
+        [
+          "Ethan Walker",
+          "I still need to finalize the tour and presentation, and I want to show you the new materials we've added to the library's collection. I'm planning to meet you at the library at 7:30 pm to go over everything, sound good to you?"
+        ],
+        [
+          "Jordan Walker",
+          "That sounds great, I'm looking forward to seeing the new materials and going over the tour and presentation with you at 7:30 pm. What can I do to help with the final preparations?"
+        ],
+        [
+          "Ethan Walker",
+          "Actually, it would be a big help if you could review the presentation and tour outline I've prepared so far and give me your feedback before we meet at 7:30 pm. That way, we can make any necessary adjustments and make sure everything is ready to go for the orientation."
+        ],
+        [
+          "Jordan Walker",
+          "I'd be happy to review the presentation and tour outline, can you send it to me so I can take a look and give you my feedback before we meet at 7:30 pm?"
+        ],
+        [
+          "Ethan Walker",
+          "I'll send it to you right away, and you can take a look at it during your break. If you have any suggestions or changes, just let me know and we can discuss them when we meet at 7:30 pm."
+        ],
+        [
+          "Jordan Walker",
+          "I'll take a look at the presentation and tour outline as soon as I get it and send you my feedback before we meet at 7:30 pm. Is there anything specific you'd like me to focus on while reviewing it?"
+        ],
+        [
+          "Ethan Walker",
+          "Nothing in particular, just your general feedback on the flow and content of the presentation and tour would be helpful. And also, don't forget that Ben Carter, our leader, will be attending the orientation, so we should make sure everything is in line with his expectations."
+        ],
+        [
+          "Jordan Walker",
+          "Okay, I'll make sure to review the presentation and tour outline carefully and provide my feedback before we meet at 7:30 pm. I'll also keep in mind that Ben Carter will be attending the orientation, so we can make sure everything is perfect. Is there anything else I can do to help with the final preparations?"
+        ],
+        [
+          "Ethan Walker",
+          "No, that's all for now, thanks for offering to help. I'll send you the presentation and tour outline, and we can discuss any further details when we meet at 7:30 pm. I should probably get back to work, but I'm looking forward to going over everything with you later."
+        ],
+        [
+          "Jordan Walker",
+          "Alright, sounds good! I'll review the presentation and tour outline as soon as I get it and send you my feedback before we meet at 7:30 pm. Have a great rest of your day and I'll see you tonight!"
+        ]
+      ]
+    },
+    "Lily Walker": {
+      "movement": [
+        45,
+        97
+      ],
+      "pronunciatio": "\ud83d\udeb6\u200d\u2642",
+      "description": "having a snack and relaxing (walking home from school) @ the Ville:house_1:common room:common room sofa",
+      "chat": null
+    },
+    "Rodrigo Torres": {
+      "movement": [
+        90,
+        97
+      ],
+      "pronunciatio": "\ud83d\udcbb",
+      "description": "continuing work at the supply store (updating the store's database) @ the Ville:supply_store:supply store:supply store counter",
+      "chat": null
+    },
+    "Sofia Torres": {
+      "movement": [
+        89,
+        97
+      ],
+      "pronunciatio": "\ud83c\udfde\ufe0f",
+      "description": "continuing work at the residential house (assisting residents with recreational activities) @ the Ville:house_2:common room:common room table",
+      "chat": null
+    },
+    "Harpreet Kaur": {
+      "movement": [
+        132,
+        97
+      ],
+      "pronunciatio": "\ud83d\udcdd",
+      "description": "continuing work at the government building (reviewing notes from previous mediations) @ the Ville:government_building:meeting room:Town Hall Presenter",
+      "chat": null
+    },
+    "Raj Singh": {
+      "movement": [
+        128,
+        97
+      ],
+      "pronunciatio": "\ud83d\udcdd",
+      "description": "continuing work at the government building (updating his to-do list for the next day) @ the Ville:government_building:computer_room:computer",
+      "chat": null
+    },
+    "Nadia Kaur": {
+      "movement": [
+        112,
+        21
+      ],
+      "pronunciatio": "\ud83c\udfe0",
+      "description": "heading home @ the Ville:house_3:common room:common room sofa",
+      "chat": null
+    },
+    "Dr Linh Nguyen": {
+      "movement": [
+        75,
+        52
+      ],
+      "pronunciatio": "\ud83d\udcdd",
+      "description": "continuing work at the pharmacy (finishing up any remaining tasks) @ the Ville:pharmacy:store:behind the pharmacy counter",
+      "chat": null
+    },
+    "Phoebe Nguyen": {
+      "movement": [
+        119,
+        24
+      ],
+      "pronunciatio": "\ud83d\udcc1\ud83d\udc40",
+      "description": "continuing work at the school (reviewing student files) @ the Ville:school:library:library table",
+      "chat": null
+    },
+    "Julia Nguyen": {
+      "movement": [
+        179,
+        95
+      ],
+      "pronunciatio": "\ud83c\udf7f",
+      "description": "having a snack and relaxing (preparing her snack) @ the Ville:house_4:kitchen:refrigerator",
+      "chat": null
+    },
+    "Curtis Bell": {
+      "movement": [
+        66,
+        119
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83d\udc40",
+      "description": "continuing work at the school (reviewing the school's visitor log) @ the Ville:school:hallway:<random>",
+      "chat": null
+    },
+    "Patricia Kim": {
+      "movement": [
+        64,
+        119
+      ],
+      "pronunciatio": "\ud83d\udcbc\ud83d\udc65",
+      "description": "continuing work at the government building (discussing projects with colleagues) @ the Ville:government_building:meeting room:Town Hall Presenter",
+      "chat": null
+    },
+    "Trina Bell": {
+      "movement": [
+        61,
+        119
+      ],
+      "pronunciatio": "\ud83c\udfe0",
+      "description": "heading home @ the Ville:house_5:common room:common room sofa",
+      "chat": null
+    },
+    "Rosie Bell": {
+      "movement": [
+        65,
+        119
+      ],
+      "pronunciatio": "\ud83c\udfa8\ud83d\udcda",
+      "description": "attending afternoon classes (conversing about Mason Bell and Rosie Bell conversing about displaying Rosie's art project in the school hallway, and planning to meet with Ben Carter, their art teacher, and potentially Patricia Kim and other school staff and students to make it a bigger event) @ the Ville:house_5:common room:common room table",
+      "chat": null
+    },
+    "Mason Bell": {
+      "movement": [
+        68,
+        119
+      ],
+      "pronunciatio": "\ud83c\udfa8\ud83d\udc65",
+      "description": "attending afternoon classes (conversing about Mason Bell and Rosie Bell conversing about displaying Rosie's art project in the school hallway, and planning to meet with Ben Carter, their art teacher, and potentially Patricia Kim and other school staff and students to make it a bigger event) @ the Ville:house_5:common room:common room table",
+      "chat": null
+    },
+    "Rashad Lewis": {
+      "movement": [
+        129,
+        120
+      ],
+      "pronunciatio": "\ud83d\udcca",
+      "description": "continuing work at the school (working on player evaluations) @ the Ville:school:library:library table",
+      "chat": null
+    },
+    "Parker Lewis": {
+      "movement": [
+        124,
+        120
+      ],
+      "pronunciatio": "\ud83d\udeb6\u200d\u2640",
+      "description": "having a snack and relaxing (chatting with friends on the way home) @ the Ville:Johnson Park:park:park garden",
+      "chat": null
+    },
+    "Kendra Hall": {
+      "movement": [
+        130,
+        120
+      ],
+      "pronunciatio": "\ud83d\udc65",
+      "description": "continuing work at the school (leading the students in a team-building exercise) @ the Ville:Johnson Park:park:park garden",
+      "chat": null
+    },
+    "Dr Miguel Santos": {
+      "movement": [
+        136,
+        136
+      ],
+      "pronunciatio": "\ud83e\uddb7",
+      "description": "continuing work at the pharmacy (performing a dental procedure) @ the Ville:house_7:common room:shelf",
+      "chat": null
+    },
+    "Vivian Santos": {
+      "movement": [
+        131,
+        136
+      ],
+      "pronunciatio": "\ud83d\udcca",
+      "description": "continuing work at the office (reviewing the office's website) @ the Ville:school:library:library table",
+      "chat": null
+    },
+    "Mateo Santos": {
+      "movement": [
+        127,
+        136
+      ],
+      "pronunciatio": "\ud83c\udfeb\ud83d\udeb6",
+      "description": "having a snack and relaxing (walking home from school) @ the Ville:house_7:common room:common room table",
+      "chat": null
+    },
+    "Gabriel Flores": {
+      "movement": [
+        168,
+        135
+      ],
+      "pronunciatio": "\ud83c\udf1e",
+      "description": "continuing work at the school (checking the weather forecast for any potential issues) @ the Ville:school:hallway:<random>",
+      "chat": null
+    },
+    "Emilia Flores": {
+      "movement": [
+        173,
+        135
+      ],
+      "pronunciatio": "\ud83c\udf74\ud83d\udc65",
+      "description": "continuing work at the school (serving food to students and staff) @ the Ville:school:hallway:<random>",
+      "chat": null
+    },
+    "Noemi Flores": {
+      "movement": [
+        164,
+        135
+      ],
+      "pronunciatio": "\ud83c\udfeb\ud83d\udeb6",
+      "description": "having a snack and relaxing (walking home from school) @ the Ville:house_8:common room:common room table",
+      "chat": null
+    },
+    "Pastor Daniel Brooks": {
+      "movement": [
+        139,
+        159
+      ],
+      "pronunciatio": "\ud83d\udcca",
+      "description": "continuing work at the government building (analyzing program data) @ the Ville:government_building:computer_room:computer",
+      "chat": null
+    },
+    "Dylan Brooks": {
+      "movement": [
+        119,
+        159
+      ],
+      "pronunciatio": "\ud83d\udcda\ud83d\udcad",
+      "description": "having a snack and relaxing (thinking about his day at school) @ the Ville:house_9:common room:common room sofa",
+      "chat": null
+    },
+    "Caleb Brooks": {
+      "movement": [
+        138,
+        159
+      ],
+      "pronunciatio": "\ud83c\udf7f",
+      "description": "continuing work at the school (taking a short break to grab a snack) @ the Ville:school:hallway:<random>",
+      "chat": null
+    },
+    "Professor Emily Carter": {
+      "movement": [
+        167,
+        166
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83d\udca1",
+      "description": "continuing work at the school (working on a research paper and making edits) @ the Ville:school:library:library table",
+      "chat": null
+    },
+    "Ben Carter": {
+      "movement": [
+        160,
+        166
+      ],
+      "pronunciatio": "\ud83d\udecd\ufe0f\ud83d\udcbc",
+      "description": "having a snack and relaxing (taking off his shoes and putting down his bag) @ the Ville:house_10:common room:shelf",
+      "chat": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 16:15:20"
+  }
+}

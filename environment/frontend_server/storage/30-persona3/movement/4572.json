@@ -1,0 +1,643 @@
+{
+  "persona": {
+    "Ethan Walker": {
+      "movement": [
+        52,
+        97
+      ],
+      "pronunciatio": "\ud83d\udda5\ufe0f\ud83d\udcbb",
+      "description": "working at the school (maintaining the library's equipment and technology) @ the Ville:school:library:bookshelf",
+      "chat": null
+    },
+    "Jordan Walker": {
+      "movement": [
+        55,
+        97
+      ],
+      "pronunciatio": "\ud83c\udf54",
+      "description": "having lunch (purchasing lunch) @ the Ville:Johnson Park:park:garden chair",
+      "chat": null
+    },
+    "Lily Walker": {
+      "movement": [
+        41,
+        92
+      ],
+      "pronunciatio": "\ud83c\udf74",
+      "description": "having lunch @ the Ville:school:classroom:School Desk",
+      "chat": null
+    },
+    "Rodrigo Torres": {
+      "movement": [
+        76,
+        92
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "working at the supply store (asleep) @ the Ville:house_2:bedroom_1:bed",
+      "chat": null
+    },
+    "Sofia Torres": {
+      "movement": [
+        101,
+        97
+      ],
+      "pronunciatio": "\ud83c\udf74",
+      "description": "taking a lunch break (setting the table to eat) @ the Ville:house_2:kitchen:refrigerator",
+      "chat": null
+    },
+    "Harpreet Kaur": {
+      "movement": [
+        132,
+        97
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Harpreet Kaur and Nadia Kaur conversing about their classes on civic administration, a potential mediation session, and proposed community initiatives, including a mentorship program and workshops, to support Ben Carter's vision @ <persona> Nadia Kaur",
+      "chat": [
+        [
+          "Harpreet Kaur",
+          "Hello Nadia, I saw you taking a break from your morning classes. How are you finding the classes on civic administration so far?"
+        ],
+        [
+          "Nadia Kaur",
+          "I'm finding them very informative, Harpreet. The lectures on local governance have been particularly interesting. I've been thinking about how I can apply the concepts to our community and support Ben Carter's vision."
+        ],
+        [
+          "Harpreet Kaur",
+          "That's great to hear, Nadia. I've been working with Raj Singh on a mediation session and we're planning to discuss some of these concepts with community members. Would you like to join us and share your thoughts?"
+        ],
+        [
+          "Nadia Kaur",
+          "I'd love to join the mediation session and share my thoughts, Harpreet. I've been discussing similar ideas with Raj Singh and Sofia Torres, and I think it would be great to explore how we can work together to support Ben Carter's vision."
+        ],
+        [
+          "Harpreet Kaur",
+          "That sounds wonderful, Nadia. I'll make sure to invite you to the mediation session and we can discuss the details further. Have you had a chance to review the community's current projects and initiatives that Ben Carter has outlined?"
+        ],
+        [
+          "Nadia Kaur",
+          "Yes, I've reviewed the community's current projects and initiatives that Ben Carter has outlined, and I'm excited to see how we can contribute to them. I've also been thinking about proposing some new community initiatives, including a mentorship program and workshops, to engage with students interested in civic administration and local governance."
+        ],
+        [
+          "Harpreet Kaur",
+          "That's a great idea, Nadia. A mentorship program and workshops could be a fantastic way to engage with students and support Ben Carter's vision. I'd be happy to discuss this further with you and explore ways to implement these initiatives. Perhaps we could also invite Raj Singh and Sofia Torres to join the discussion and provide their input."
+        ],
+        [
+          "Nadia Kaur",
+          "I think that's a great idea, Harpreet. I'd love to discuss the mentorship program and workshops further with you, Raj Singh, and Sofia Torres. Perhaps we could schedule a meeting with Ben Carter to get their input and approval on the initiatives?"
+        ],
+        [
+          "Harpreet Kaur",
+          "I think that's a great plan, Nadia. I'll reach out to Raj Singh and Sofia Torres to schedule a meeting with Ben Carter to discuss the mentorship program and workshops. In the meantime, I'll send you the details of the mediation session so you can join us and share your thoughts."
+        ],
+        [
+          "Nadia Kaur",
+          "That sounds great, Harpreet. I'm looking forward to receiving the details of the mediation session and discussing the mentorship program and workshops further with you, Raj Singh, and Sofia Torres. Please let me know if there's any preparation I need to do before the meeting with Ben Carter."
+        ],
+        [
+          "Harpreet Kaur",
+          "I'll make sure to send you the meeting details and any relevant materials beforehand, so you're prepared for the discussion with Ben Carter. It was great chatting with you, Nadia, and I look forward to hearing your thoughts at the mediation session and our meeting with Ben Carter."
+        ],
+        [
+          "Nadia Kaur",
+          "Thank you, Harpreet. I'm looking forward to receiving the meeting details and discussing the mentorship program and workshops further with everyone. I'll make sure to review the materials and come prepared with some ideas to share with Ben Carter."
+        ],
+        [
+          "Harpreet Kaur",
+          "It was nice catching up with you, Nadia. I should probably get going now, but I'll talk to you soon about the mediation session and the meeting with Ben Carter."
+        ]
+      ]
+    },
+    "Raj Singh": {
+      "movement": [
+        128,
+        97
+      ],
+      "pronunciatio": "\ud83d\udcdd\u270f\ufe0f",
+      "description": "working at the government building (reviewing and editing documents) @ the Ville:government_building:computer_room:computer",
+      "chat": null
+    },
+    "Nadia Kaur": {
+      "movement": [
+        133,
+        97
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Harpreet Kaur and Nadia Kaur conversing about their classes on civic administration, a potential mediation session, and proposed community initiatives, including a mentorship program and workshops, to support Ben Carter's vision @ <persona> Harpreet Kaur",
+      "chat": [
+        [
+          "Harpreet Kaur",
+          "Hello Nadia, I saw you taking a break from your morning classes. How are you finding the classes on civic administration so far?"
+        ],
+        [
+          "Nadia Kaur",
+          "I'm finding them very informative, Harpreet. The lectures on local governance have been particularly interesting. I've been thinking about how I can apply the concepts to our community and support Ben Carter's vision."
+        ],
+        [
+          "Harpreet Kaur",
+          "That's great to hear, Nadia. I've been working with Raj Singh on a mediation session and we're planning to discuss some of these concepts with community members. Would you like to join us and share your thoughts?"
+        ],
+        [
+          "Nadia Kaur",
+          "I'd love to join the mediation session and share my thoughts, Harpreet. I've been discussing similar ideas with Raj Singh and Sofia Torres, and I think it would be great to explore how we can work together to support Ben Carter's vision."
+        ],
+        [
+          "Harpreet Kaur",
+          "That sounds wonderful, Nadia. I'll make sure to invite you to the mediation session and we can discuss the details further. Have you had a chance to review the community's current projects and initiatives that Ben Carter has outlined?"
+        ],
+        [
+          "Nadia Kaur",
+          "Yes, I've reviewed the community's current projects and initiatives that Ben Carter has outlined, and I'm excited to see how we can contribute to them. I've also been thinking about proposing some new community initiatives, including a mentorship program and workshops, to engage with students interested in civic administration and local governance."
+        ],
+        [
+          "Harpreet Kaur",
+          "That's a great idea, Nadia. A mentorship program and workshops could be a fantastic way to engage with students and support Ben Carter's vision. I'd be happy to discuss this further with you and explore ways to implement these initiatives. Perhaps we could also invite Raj Singh and Sofia Torres to join the discussion and provide their input."
+        ],
+        [
+          "Nadia Kaur",
+          "I think that's a great idea, Harpreet. I'd love to discuss the mentorship program and workshops further with you, Raj Singh, and Sofia Torres. Perhaps we could schedule a meeting with Ben Carter to get their input and approval on the initiatives?"
+        ],
+        [
+          "Harpreet Kaur",
+          "I think that's a great plan, Nadia. I'll reach out to Raj Singh and Sofia Torres to schedule a meeting with Ben Carter to discuss the mentorship program and workshops. In the meantime, I'll send you the details of the mediation session so you can join us and share your thoughts."
+        ],
+        [
+          "Nadia Kaur",
+          "That sounds great, Harpreet. I'm looking forward to receiving the details of the mediation session and discussing the mentorship program and workshops further with you, Raj Singh, and Sofia Torres. Please let me know if there's any preparation I need to do before the meeting with Ben Carter."
+        ],
+        [
+          "Harpreet Kaur",
+          "I'll make sure to send you the meeting details and any relevant materials beforehand, so you're prepared for the discussion with Ben Carter. It was great chatting with you, Nadia, and I look forward to hearing your thoughts at the mediation session and our meeting with Ben Carter."
+        ],
+        [
+          "Nadia Kaur",
+          "Thank you, Harpreet. I'm looking forward to receiving the meeting details and discussing the mentorship program and workshops further with everyone. I'll make sure to review the materials and come prepared with some ideas to share with Ben Carter."
+        ],
+        [
+          "Harpreet Kaur",
+          "It was nice catching up with you, Nadia. I should probably get going now, but I'll talk to you soon about the mediation session and the meeting with Ben Carter."
+        ]
+      ]
+    },
+    "Dr Linh Nguyen": {
+      "movement": [
+        154,
+        89
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "working at the pharmacy (asleep) @ the Ville:house_4:bedroom_1:bed",
+      "chat": null
+    },
+    "Phoebe Nguyen": {
+      "movement": [
+        108,
+        23
+      ],
+      "pronunciatio": "\ud83d\udcc5",
+      "description": "working at the school (wrapping up the meeting) @ the Ville:school:classroom:classroom podium",
+      "chat": null
+    },
+    "Julia Nguyen": {
+      "movement": [
+        134,
+        66
+      ],
+      "pronunciatio": "\ud83c\udf74",
+      "description": "having lunch (eating lunch) @ the Ville:house_4:kitchen:refrigerator",
+      "chat": null
+    },
+    "Curtis Bell": {
+      "movement": [
+        67,
+        119
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about a discussion between Curtis Bell and Trina Bell about Rosie's art project, including plans to display her painting in the school hallway, incorporate it into the school festival and charity drive, and finalize details with Patricia Kim, Ben Carter, and Rosie at an upcoming meeting on Thursday @ <persona> Trina Bell",
+      "chat": [
+        [
+          "Curtis Bell",
+          "Hey Trina, how's lunch? I was just discussing Rosie's art project with Mason and I'm excited to present our ideas to Patricia Kim, Trina, and Ben Carter at the upcoming meeting. What are your thoughts on the project so far?"
+        ],
+        [
+          "Trina Bell",
+          "I'm really excited about the project too, Curtis! I think it's a great idea to display Rosie's painting in the school hallway and incorporate it into the school festival and charity drive. What kind of ideas were you and Mason discussing?"
+        ],
+        [
+          "Curtis Bell",
+          "Mason and I were thinking of setting up a special display case for Rosie's painting, and we also discussed the possibility of having a small ceremony to unveil the artwork during the school festival. We're also considering getting feedback from the students and faculty to make sure everyone is on board with the project. What do you think about that?"
+        ],
+        [
+          "Trina Bell",
+          "I think that's a great idea, Curtis! A special display case and a ceremony to unveil the artwork would really make the project special. I also like the idea of getting feedback from the students and faculty. Have you thought about how we can incorporate the project into the charity drive, maybe by selling prints of Rosie's painting or something similar?"
+        ],
+        [
+          "Curtis Bell",
+          "That's a fantastic idea, Trina! Selling prints of Rosie's painting could be a great way to raise funds for the charity drive. I'll make a note to discuss that with Mason and see if we can make it happen. We should also consider reaching out to Patricia Kim and Ben Carter to get their input on the idea and see if they have any suggestions for how to make it a success."
+        ],
+        [
+          "Trina Bell",
+          "I'll talk to Patricia Kim and Ben Carter about the project and see if they have any suggestions for how to make it a success. I'll also start brainstorming some ideas for the ceremony to unveil the artwork during the school festival. Should we schedule a meeting with them soon to discuss the details?"
+        ],
+        [
+          "Curtis Bell",
+          "That sounds like a great plan, Trina. Let's schedule a meeting with Patricia Kim and Ben Carter for later this week to discuss the details. In the meantime, I'll work with Mason to finalize the display case and ceremony plans. I'll also reach out to the school administration to confirm the logistics. Shall we aim for Thursday or Friday for the meeting?"
+        ],
+        [
+          "Trina Bell",
+          "Thursday sounds good to me, I'll make sure to clear my schedule. I'll also send a reminder to Patricia Kim and Ben Carter to ensure they can attend. What time were you thinking for the meeting?"
+        ],
+        [
+          "Curtis Bell",
+          "How about we schedule the meeting for 2 pm on Thursday? That should give us enough time to finalize the plans and make any necessary adjustments before the school festival and charity drive."
+        ],
+        [
+          "Trina Bell",
+          "2 pm on Thursday sounds perfect, I'll make sure to send out a reminder to everyone and I'm looking forward to finalizing the plans for Rosie's art project. Shall we also discuss the details of the ceremony and the display case during the meeting?"
+        ],
+        [
+          "Curtis Bell",
+          "Sounds like we have a solid plan in place, Trina. I'm looking forward to finalizing the details with you, Patricia Kim, and Ben Carter on Thursday. In the meantime, I'll work with Mason to make sure everything is ready to go. Shall we also prepare a list of questions to ask during the meeting to ensure we cover all our bases?"
+        ],
+        [
+          "Trina Bell",
+          "That's a great idea, Curtis. Preparing a list of questions will help us stay organized and ensure we don't miss any important details. I'll start working on that and share it with you before the meeting on Thursday. Shall we also consider inviting Rosie to the meeting so she can provide her input and feedback on the plans?"
+        ],
+        [
+          "Curtis Bell",
+          "That's a great idea, Trina. Having Rosie's input will be invaluable. Let's make sure to invite her to the meeting on Thursday. I'll send her a reminder and make sure she's available. With that settled, I think we have a good plan in place. I'm looking forward to finalizing the details with you, Patricia Kim, Ben Carter, and Rosie on Thursday."
+        ],
+        [
+          "Trina Bell",
+          "I'm glad we have a solid plan in place, Curtis. I'll make sure to send out reminders to everyone and prepare a list of questions for the meeting on Thursday. I'm looking forward to finalizing the details with you, Patricia Kim, Ben Carter, and Rosie then."
+        ],
+        [
+          "Curtis Bell",
+          "I'm glad we're on the same page, Trina. I'll send a reminder to Mason and make sure he's prepared for the meeting on Thursday. Shall we also discuss the project's budget and see if we need to allocate any additional funds for the display case and ceremony?"
+        ],
+        [
+          "Trina Bell",
+          "That's a good point, Curtis. Let's discuss the budget and see if we need to allocate any additional funds. I can also check with the student council to see if they have any budget allocated for the school festival and charity drive that we can use for the project."
+        ]
+      ]
+    },
+    "Patricia Kim": {
+      "movement": [
+        64,
+        119
+      ],
+      "pronunciatio": "\ud83d\udde3\ufe0f",
+      "description": "working at the government building (conversing about Patricia Kim and Rosie Bell conversing about Rosie's art project and the potential opportunity to showcase it at the government building, with Patricia offering to introduce Rosie to Ben Carter and help set up a meeting to discuss the details) @ the Ville:government_building:meeting room:Town Hall Presenter",
+      "chat": null
+    },
+    "Trina Bell": {
+      "movement": [
+        67,
+        119
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about a discussion between Curtis Bell and Trina Bell about Rosie's art project, including plans to display her painting in the school hallway, incorporate it into the school festival and charity drive, and finalize details with Patricia Kim, Ben Carter, and Rosie at an upcoming meeting on Thursday @ <persona> Curtis Bell",
+      "chat": [
+        [
+          "Curtis Bell",
+          "Hey Trina, how's lunch? I was just discussing Rosie's art project with Mason and I'm excited to present our ideas to Patricia Kim, Trina, and Ben Carter at the upcoming meeting. What are your thoughts on the project so far?"
+        ],
+        [
+          "Trina Bell",
+          "I'm really excited about the project too, Curtis! I think it's a great idea to display Rosie's painting in the school hallway and incorporate it into the school festival and charity drive. What kind of ideas were you and Mason discussing?"
+        ],
+        [
+          "Curtis Bell",
+          "Mason and I were thinking of setting up a special display case for Rosie's painting, and we also discussed the possibility of having a small ceremony to unveil the artwork during the school festival. We're also considering getting feedback from the students and faculty to make sure everyone is on board with the project. What do you think about that?"
+        ],
+        [
+          "Trina Bell",
+          "I think that's a great idea, Curtis! A special display case and a ceremony to unveil the artwork would really make the project special. I also like the idea of getting feedback from the students and faculty. Have you thought about how we can incorporate the project into the charity drive, maybe by selling prints of Rosie's painting or something similar?"
+        ],
+        [
+          "Curtis Bell",
+          "That's a fantastic idea, Trina! Selling prints of Rosie's painting could be a great way to raise funds for the charity drive. I'll make a note to discuss that with Mason and see if we can make it happen. We should also consider reaching out to Patricia Kim and Ben Carter to get their input on the idea and see if they have any suggestions for how to make it a success."
+        ],
+        [
+          "Trina Bell",
+          "I'll talk to Patricia Kim and Ben Carter about the project and see if they have any suggestions for how to make it a success. I'll also start brainstorming some ideas for the ceremony to unveil the artwork during the school festival. Should we schedule a meeting with them soon to discuss the details?"
+        ],
+        [
+          "Curtis Bell",
+          "That sounds like a great plan, Trina. Let's schedule a meeting with Patricia Kim and Ben Carter for later this week to discuss the details. In the meantime, I'll work with Mason to finalize the display case and ceremony plans. I'll also reach out to the school administration to confirm the logistics. Shall we aim for Thursday or Friday for the meeting?"
+        ],
+        [
+          "Trina Bell",
+          "Thursday sounds good to me, I'll make sure to clear my schedule. I'll also send a reminder to Patricia Kim and Ben Carter to ensure they can attend. What time were you thinking for the meeting?"
+        ],
+        [
+          "Curtis Bell",
+          "How about we schedule the meeting for 2 pm on Thursday? That should give us enough time to finalize the plans and make any necessary adjustments before the school festival and charity drive."
+        ],
+        [
+          "Trina Bell",
+          "2 pm on Thursday sounds perfect, I'll make sure to send out a reminder to everyone and I'm looking forward to finalizing the plans for Rosie's art project. Shall we also discuss the details of the ceremony and the display case during the meeting?"
+        ],
+        [
+          "Curtis Bell",
+          "Sounds like we have a solid plan in place, Trina. I'm looking forward to finalizing the details with you, Patricia Kim, and Ben Carter on Thursday. In the meantime, I'll work with Mason to make sure everything is ready to go. Shall we also prepare a list of questions to ask during the meeting to ensure we cover all our bases?"
+        ],
+        [
+          "Trina Bell",
+          "That's a great idea, Curtis. Preparing a list of questions will help us stay organized and ensure we don't miss any important details. I'll start working on that and share it with you before the meeting on Thursday. Shall we also consider inviting Rosie to the meeting so she can provide her input and feedback on the plans?"
+        ],
+        [
+          "Curtis Bell",
+          "That's a great idea, Trina. Having Rosie's input will be invaluable. Let's make sure to invite her to the meeting on Thursday. I'll send her a reminder and make sure she's available. With that settled, I think we have a good plan in place. I'm looking forward to finalizing the details with you, Patricia Kim, Ben Carter, and Rosie on Thursday."
+        ],
+        [
+          "Trina Bell",
+          "I'm glad we have a solid plan in place, Curtis. I'll make sure to send out reminders to everyone and prepare a list of questions for the meeting on Thursday. I'm looking forward to finalizing the details with you, Patricia Kim, Ben Carter, and Rosie then."
+        ],
+        [
+          "Curtis Bell",
+          "I'm glad we're on the same page, Trina. I'll send a reminder to Mason and make sure he's prepared for the meeting on Thursday. Shall we also discuss the project's budget and see if we need to allocate any additional funds for the display case and ceremony?"
+        ],
+        [
+          "Trina Bell",
+          "That's a good point, Curtis. Let's discuss the budget and see if we need to allocate any additional funds. I can also check with the student council to see if they have any budget allocated for the school festival and charity drive that we can use for the project."
+        ]
+      ]
+    },
+    "Rosie Bell": {
+      "movement": [
+        65,
+        119
+      ],
+      "pronunciatio": "\ud83c\udf74",
+      "description": "having lunch (eating lunch) @ the Ville:school:hallway:<random>",
+      "chat": null
+    },
+    "Mason Bell": {
+      "movement": [
+        68,
+        119
+      ],
+      "pronunciatio": "\ud83c\udf54\ud83d\udecd\ufe0f",
+      "description": "having lunch (waiting in line to buy lunch) @ the Ville:school:hallway:<random>",
+      "chat": null
+    },
+    "Rashad Lewis": {
+      "movement": [
+        142,
+        120
+      ],
+      "pronunciatio": "\ud83d\udc40",
+      "description": "working at the school (supervising the players) @ the Ville:Johnson Park:park:garden chair",
+      "chat": null
+    },
+    "Parker Lewis": {
+      "movement": [
+        130,
+        120
+      ],
+      "pronunciatio": "\ud83c\udf74\ud83d\udecd\ufe0f",
+      "description": "having lunch (waiting in line to buy lunch) @ the Ville:school:hallway:<random>",
+      "chat": null
+    },
+    "Kendra Hall": {
+      "movement": [
+        127,
+        120
+      ],
+      "pronunciatio": "\ud83d\udcda",
+      "description": "working at the school (starting the lesson) @ the Ville:school:classroom:blackboard",
+      "chat": null
+    },
+    "Dr Miguel Santos": {
+      "movement": [
+        117,
+        131
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "working at the pharmacy (asleep) @ the Ville:house_7:bedroom_1:bed",
+      "chat": null
+    },
+    "Vivian Santos": {
+      "movement": [
+        127,
+        136
+      ],
+      "pronunciatio": "\ud83d\udeb6\u200d\u2642",
+      "description": "taking a lunch break (walking to the office cafeteria) @ the Ville:house_7:common room:common room table",
+      "chat": null
+    },
+    "Mateo Santos": {
+      "movement": [
+        128,
+        136
+      ],
+      "pronunciatio": "\ud83d\udcda\ud83d\udcac",
+      "description": "attending morning classes (answering questions during the English class) @ the Ville:house_7:common room:common room table",
+      "chat": null
+    },
+    "Gabriel Flores": {
+      "movement": [
+        172,
+        135
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Gabriel Flores and Emilia Flores conversing about their day, the new cafeteria menu, and catching up with Noemi over lunch @ <persona> Emilia Flores",
+      "chat": [
+        [
+          "Gabriel Flores",
+          "Hi Emilia, how's your day going so far? It's busy as usual in the cafeteria, I see."
+        ],
+        [
+          "Emilia Flores",
+          "It's been chaotic, but I love seeing all the kids' smiling faces when they try the new menu items. How about you, how's the transportation going?"
+        ],
+        [
+          "Gabriel Flores",
+          "It's going smoothly, thanks for asking. I just made sure all the students got to their classes on time. By the way, I saw Noemi earlier and she's doing well, she said she'd meet us here for lunch soon."
+        ],
+        [
+          "Emilia Flores",
+          "That's great to hear about Noemi, I'm glad she's doing well. What time did she say she'd meet us for lunch?"
+        ],
+        [
+          "Gabriel Flores",
+          "She said she'd meet us here around 12:30 pm, so we've got a few minutes before she arrives. How's the new menu item going over with the kids?"
+        ],
+        [
+          "Emilia Flores",
+          "The new menu item is a hit, the kids love it! I'm glad Noemi is doing well, I'm looking forward to seeing her soon. What has she been up to in class lately?"
+        ],
+        [
+          "Gabriel Flores",
+          "That's great to hear about the new menu item! As for Noemi, she's been doing well in class, she mentioned something about a project she's working on, but I'm not sure what it's about. I'm sure she'll fill us in when she gets here."
+        ],
+        [
+          "Emilia Flores",
+          "That sounds great, I'm looking forward to hearing more about her project when she gets here. I'm sure she'll be excited to share all the details with us."
+        ],
+        [
+          "Gabriel Flores",
+          "I'm glad to hear that the new menu item is a hit, I'm sure it's a lot of work to come up with new ideas that the kids will like. I'm looking forward to hearing more about Noemi's project when she gets here, maybe we can even give her some feedback or suggestions."
+        ],
+        [
+          "Emilia Flores",
+          "I'm sure she'll appreciate any feedback we can give her, and I'm looking forward to trying out some new ideas for the cafeteria based on what the kids have been telling me. Should we grab a table and get ready for Noemi to arrive?"
+        ],
+        [
+          "Gabriel Flores",
+          "That sounds like a great idea, let's grab a table and get ready for Noemi to arrive. I'm sure she'll be excited to share her project with us and get our feedback."
+        ],
+        [
+          "Emilia Flores",
+          "I'll go grab us a table by the window, and you can go get us some drinks while we wait for Noemi to arrive."
+        ],
+        [
+          "Gabriel Flores",
+          "Sounds good, I'll go get us some drinks. What would you like to drink, and should I get something for Noemi as well?"
+        ],
+        [
+          "Emilia Flores",
+          "I'll have a coffee, and yeah, get Noemi her favorite juice, she loves orange juice. Thanks for getting the drinks, I'll go grab that table by the window."
+        ],
+        [
+          "Gabriel Flores",
+          "I'll get your coffee and Noemi's orange juice, I'll meet you at the table by the window"
+        ],
+        [
+          "Emilia Flores",
+          "Great, I'll go grab that table by the window then. I'll see you there with the drinks, can't wait to hear all about Noemi's project and catch up with her."
+        ]
+      ]
+    },
+    "Emilia Flores": {
+      "movement": [
+        171,
+        135
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Gabriel Flores and Emilia Flores conversing about their day, the new cafeteria menu, and catching up with Noemi over lunch @ <persona> Gabriel Flores",
+      "chat": [
+        [
+          "Gabriel Flores",
+          "Hi Emilia, how's your day going so far? It's busy as usual in the cafeteria, I see."
+        ],
+        [
+          "Emilia Flores",
+          "It's been chaotic, but I love seeing all the kids' smiling faces when they try the new menu items. How about you, how's the transportation going?"
+        ],
+        [
+          "Gabriel Flores",
+          "It's going smoothly, thanks for asking. I just made sure all the students got to their classes on time. By the way, I saw Noemi earlier and she's doing well, she said she'd meet us here for lunch soon."
+        ],
+        [
+          "Emilia Flores",
+          "That's great to hear about Noemi, I'm glad she's doing well. What time did she say she'd meet us for lunch?"
+        ],
+        [
+          "Gabriel Flores",
+          "She said she'd meet us here around 12:30 pm, so we've got a few minutes before she arrives. How's the new menu item going over with the kids?"
+        ],
+        [
+          "Emilia Flores",
+          "The new menu item is a hit, the kids love it! I'm glad Noemi is doing well, I'm looking forward to seeing her soon. What has she been up to in class lately?"
+        ],
+        [
+          "Gabriel Flores",
+          "That's great to hear about the new menu item! As for Noemi, she's been doing well in class, she mentioned something about a project she's working on, but I'm not sure what it's about. I'm sure she'll fill us in when she gets here."
+        ],
+        [
+          "Emilia Flores",
+          "That sounds great, I'm looking forward to hearing more about her project when she gets here. I'm sure she'll be excited to share all the details with us."
+        ],
+        [
+          "Gabriel Flores",
+          "I'm glad to hear that the new menu item is a hit, I'm sure it's a lot of work to come up with new ideas that the kids will like. I'm looking forward to hearing more about Noemi's project when she gets here, maybe we can even give her some feedback or suggestions."
+        ],
+        [
+          "Emilia Flores",
+          "I'm sure she'll appreciate any feedback we can give her, and I'm looking forward to trying out some new ideas for the cafeteria based on what the kids have been telling me. Should we grab a table and get ready for Noemi to arrive?"
+        ],
+        [
+          "Gabriel Flores",
+          "That sounds like a great idea, let's grab a table and get ready for Noemi to arrive. I'm sure she'll be excited to share her project with us and get our feedback."
+        ],
+        [
+          "Emilia Flores",
+          "I'll go grab us a table by the window, and you can go get us some drinks while we wait for Noemi to arrive."
+        ],
+        [
+          "Gabriel Flores",
+          "Sounds good, I'll go get us some drinks. What would you like to drink, and should I get something for Noemi as well?"
+        ],
+        [
+          "Emilia Flores",
+          "I'll have a coffee, and yeah, get Noemi her favorite juice, she loves orange juice. Thanks for getting the drinks, I'll go grab that table by the window."
+        ],
+        [
+          "Gabriel Flores",
+          "I'll get your coffee and Noemi's orange juice, I'll meet you at the table by the window"
+        ],
+        [
+          "Emilia Flores",
+          "Great, I'll go grab that table by the window then. I'll see you there with the drinks, can't wait to hear all about Noemi's project and catch up with her."
+        ]
+      ]
+    },
+    "Noemi Flores": {
+      "movement": [
+        166,
+        135
+      ],
+      "pronunciatio": "\ud83c\udf54",
+      "description": "having lunch (purchasing lunch) @ the Ville:Johnson Park:park:park garden",
+      "chat": null
+    },
+    "Pastor Daniel Brooks": {
+      "movement": [
+        139,
+        159
+      ],
+      "pronunciatio": "\ud83c\udf54",
+      "description": "taking a lunch break @ the Ville:house_9:kitchen:refrigerator",
+      "chat": null
+    },
+    "Dylan Brooks": {
+      "movement": [
+        125,
+        159
+      ],
+      "pronunciatio": "\ud83c\udf54",
+      "description": "having lunch (purchasing lunch) @ the Ville:school:hallway:<random>",
+      "chat": null
+    },
+    "Caleb Brooks": {
+      "movement": [
+        138,
+        159
+      ],
+      "pronunciatio": "\ud83d\udcda\ud83d\udeeb\ufe0f",
+      "description": "working at the school (teaching his first class) (preparing to head back to class) @ the Ville:school:hallway:<random>",
+      "chat": null
+    },
+    "Professor Emily Carter": {
+      "movement": [
+        164,
+        166
+      ],
+      "pronunciatio": "\ud83d\udcdd",
+      "description": "working at the school (creating an outline for the new course) @ the Ville:school:library:library table",
+      "chat": null
+    },
+    "Ben Carter": {
+      "movement": [
+        165,
+        166
+      ],
+      "pronunciatio": "\ud83c\udf74\ud83d\udecd\ufe0f",
+      "description": "having lunch (waiting in line to purchase food) @ the Ville:Johnson Park:park:garden chair",
+      "chat": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 12:42:00"
+  }
+}

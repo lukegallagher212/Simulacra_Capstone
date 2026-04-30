@@ -1,0 +1,537 @@
+{
+  "persona": {
+    "Ethan Walker": {
+      "movement": [
+        54,
+        97
+      ],
+      "pronunciatio": "\ud83d\udcda\ud83d\udcbb",
+      "description": "working at the school (on the way to maintaining the library's equipment and technology) @ the Ville:school:library:bookshelf",
+      "chat": null
+    },
+    "Jordan Walker": {
+      "movement": [
+        52,
+        97
+      ],
+      "pronunciatio": "\ud83c\udf74\ud83d\udecb\ufe0f",
+      "description": "attending afternoon classes (finding a seat to eat lunch) @ the Ville:school:classroom:classroom student seating",
+      "chat": null
+    },
+    "Lily Walker": {
+      "movement": [
+        41,
+        92
+      ],
+      "pronunciatio": "\ud83c\udf74",
+      "description": "having lunch @ the Ville:school:classroom:School Desk",
+      "chat": null
+    },
+    "Rodrigo Torres": {
+      "movement": [
+        100,
+        97
+      ],
+      "pronunciatio": "\ud83c\udf54",
+      "description": "taking a lunch break @ the Ville:house_2:kitchen:refrigerator",
+      "chat": null
+    },
+    "Sofia Torres": {
+      "movement": [
+        86,
+        97
+      ],
+      "pronunciatio": "\ud83d\udc65\ud83d\udc8a",
+      "description": "continuing work at the residential house (checking on the residents' well-being) @ the Ville:single_house_1:main room:bed",
+      "chat": null
+    },
+    "Harpreet Kaur": {
+      "movement": [
+        132,
+        97
+      ],
+      "pronunciatio": "\ud83d\udcc5",
+      "description": "continuing work at the government building (preparing for a meeting with community leaders) @ the Ville:government_building:meeting room:Town Hall Presenter",
+      "chat": null
+    },
+    "Raj Singh": {
+      "movement": [
+        128,
+        97
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "taking a lunch break (chatting with coworkers) @ the Ville:government_building:main room:desk",
+      "chat": null
+    },
+    "Nadia Kaur": {
+      "movement": [
+        104,
+        56
+      ],
+      "pronunciatio": "\ud83c\udf74",
+      "description": "having lunch (eating lunch) @ the Ville:school:hallway:<random>",
+      "chat": null
+    },
+    "Dr Linh Nguyen": {
+      "movement": [
+        146,
+        89
+      ],
+      "pronunciatio": "\ud83d\udc8a",
+      "description": "continuing work at the pharmacy (discussing treatment options with a patient) @ the Ville:pharmacy:store:pharmacy store counter",
+      "chat": null
+    },
+    "Phoebe Nguyen": {
+      "movement": [
+        82,
+        26
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "taking a lunch break (chatting with colleagues) @ the Ville:house_4:common room:common room table",
+      "chat": null
+    },
+    "Julia Nguyen": {
+      "movement": [
+        135,
+        69
+      ],
+      "pronunciatio": "\ud83d\udecb\ufe0f",
+      "description": "attending afternoon classes (finding a seat in the cafeteria) @ the Ville:house_4:common room:common room table",
+      "chat": null
+    },
+    "Curtis Bell": {
+      "movement": [
+        67,
+        119
+      ],
+      "pronunciatio": "\ud83d\udcf9\ud83d\udd0d",
+      "description": "continuing work at the school (reviewing security footage) @ the Ville:school:hallway:<random>",
+      "chat": null
+    },
+    "Patricia Kim": {
+      "movement": [
+        64,
+        119
+      ],
+      "pronunciatio": "\ud83d\udce7",
+      "description": "continuing work at the government building (responding to emails) @ the Ville:government_building:computer_room:computer",
+      "chat": null
+    },
+    "Trina Bell": {
+      "movement": [
+        67,
+        119
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Mason Bell and Trina Bell conversing about Rosie's art project and how to incorporate it into the school festival and charity drive, including discussing plans to meet with the student council, Ben Carter, and the art teacher to get feedback and approval @ <persona> Mason Bell",
+      "chat": [
+        [
+          "Mason Bell",
+          "Hey Trina, I was just thinking about our conversation earlier about Rosie's art project, have you had a chance to talk to Ben Carter or our art teacher about it yet?"
+        ],
+        [
+          "Trina Bell",
+          "Not yet, I was thinking of talking to him after lunch, but I did manage to catch up with Patricia Kim and she's really excited about the idea of incorporating Rosie's art project into the school festival and charity drive"
+        ],
+        [
+          "Mason Bell",
+          "That's great to hear that Patricia Kim is excited about the idea, what did she say exactly and do you think we should also talk to the student council about it?"
+        ],
+        [
+          "Trina Bell",
+          "She said that it's a wonderful idea and she's happy to help us make it happen, she also suggested that we should present it to the student council as soon as possible so we can get their feedback and approval, I think that's a great idea and we should definitely talk to them about it"
+        ],
+        [
+          "Mason Bell",
+          "That sounds like a good plan, do you think we should prepare a presentation for the student council or just discuss the idea with them informally?"
+        ],
+        [
+          "Trina Bell",
+          "I think we should prepare a presentation for the student council, that way we can make a stronger case for why Rosie's art project should be included in the school festival and charity drive, and we can also show them some of the ideas we have for displaying it in the school hallway"
+        ],
+        [
+          "Mason Bell",
+          "That's a great idea, preparing a presentation will definitely help us make a stronger case, what do you think we should include in the presentation and have you thought about when we can meet with the student council to discuss this?"
+        ],
+        [
+          "Trina Bell",
+          "I think we should include some images of Rosie's artwork, as well as some ideas for how we can incorporate it into the school festival and charity drive, and maybe we can meet with the student council on Wednesday or Thursday to discuss this, what do you think?"
+        ],
+        [
+          "Mason Bell",
+          "Wednesday or Thursday sounds like a good time to meet with the student council, I'll check their schedule and make sure we can get a time slot, and I agree that including images of Rosie's artwork and ideas for incorporation into the festival and charity drive will make our presentation stronger, should we also include some information about how this project can benefit the school and the community?"
+        ],
+        [
+          "Trina Bell",
+          "Yes, that's a great idea, including information about how this project can benefit the school and the community will definitely make our presentation more compelling, and I think we should also mention how it can help raise awareness about the importance of art in our school and community"
+        ],
+        [
+          "Mason Bell",
+          "I completely agree, highlighting the benefits to the school and community will make our proposal more attractive, I'll make sure to include that in the presentation, and I'll also reach out to Rosie to get some more information about her artwork and ideas for the display, shall we meet up later to work on the presentation together?"
+        ],
+        [
+          "Trina Bell",
+          "That sounds like a great plan, I'll start working on the presentation and gathering some images of Rosie's artwork, and we can meet up later to finalize everything, maybe we can meet at the library after school tomorrow?"
+        ],
+        [
+          "Mason Bell",
+          "Sounds good, I'll meet you at the library after school tomorrow and we can finalize the presentation, I'll also make sure to reach out to Ben Carter and our art teacher to get their input and feedback before we meet with the student council"
+        ],
+        [
+          "Trina Bell",
+          "That sounds like a great plan, I'm looking forward to meeting up with you at the library tomorrow to finalize the presentation, and I'll make sure to talk to Patricia Kim again to confirm the details with her"
+        ],
+        [
+          "Mason Bell",
+          "Alright, sounds like we have a good plan in place, I'll make sure to reach out to Rosie and get some more information about her artwork, and I'll also talk to Ben Carter and our art teacher to get their input, see you at the library tomorrow to finalize the presentation"
+        ],
+        [
+          "Trina Bell",
+          "Sounds good, I'll see you at the library tomorrow then, and don't forget to reach out to Rosie and get some more information about her artwork, I'll talk to Patricia Kim again to confirm the details with her"
+        ]
+      ]
+    },
+    "Rosie Bell": {
+      "movement": [
+        65,
+        119
+      ],
+      "pronunciatio": "\ud83d\udecb\ufe0f",
+      "description": "attending afternoon classes (finding a seat in the cafeteria) @ the Ville:house_5:common room:common room table",
+      "chat": null
+    },
+    "Mason Bell": {
+      "movement": [
+        68,
+        119
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Mason Bell and Trina Bell conversing about Rosie's art project and how to incorporate it into the school festival and charity drive, including discussing plans to meet with the student council, Ben Carter, and the art teacher to get feedback and approval @ <persona> Trina Bell",
+      "chat": [
+        [
+          "Mason Bell",
+          "Hey Trina, I was just thinking about our conversation earlier about Rosie's art project, have you had a chance to talk to Ben Carter or our art teacher about it yet?"
+        ],
+        [
+          "Trina Bell",
+          "Not yet, I was thinking of talking to him after lunch, but I did manage to catch up with Patricia Kim and she's really excited about the idea of incorporating Rosie's art project into the school festival and charity drive"
+        ],
+        [
+          "Mason Bell",
+          "That's great to hear that Patricia Kim is excited about the idea, what did she say exactly and do you think we should also talk to the student council about it?"
+        ],
+        [
+          "Trina Bell",
+          "She said that it's a wonderful idea and she's happy to help us make it happen, she also suggested that we should present it to the student council as soon as possible so we can get their feedback and approval, I think that's a great idea and we should definitely talk to them about it"
+        ],
+        [
+          "Mason Bell",
+          "That sounds like a good plan, do you think we should prepare a presentation for the student council or just discuss the idea with them informally?"
+        ],
+        [
+          "Trina Bell",
+          "I think we should prepare a presentation for the student council, that way we can make a stronger case for why Rosie's art project should be included in the school festival and charity drive, and we can also show them some of the ideas we have for displaying it in the school hallway"
+        ],
+        [
+          "Mason Bell",
+          "That's a great idea, preparing a presentation will definitely help us make a stronger case, what do you think we should include in the presentation and have you thought about when we can meet with the student council to discuss this?"
+        ],
+        [
+          "Trina Bell",
+          "I think we should include some images of Rosie's artwork, as well as some ideas for how we can incorporate it into the school festival and charity drive, and maybe we can meet with the student council on Wednesday or Thursday to discuss this, what do you think?"
+        ],
+        [
+          "Mason Bell",
+          "Wednesday or Thursday sounds like a good time to meet with the student council, I'll check their schedule and make sure we can get a time slot, and I agree that including images of Rosie's artwork and ideas for incorporation into the festival and charity drive will make our presentation stronger, should we also include some information about how this project can benefit the school and the community?"
+        ],
+        [
+          "Trina Bell",
+          "Yes, that's a great idea, including information about how this project can benefit the school and the community will definitely make our presentation more compelling, and I think we should also mention how it can help raise awareness about the importance of art in our school and community"
+        ],
+        [
+          "Mason Bell",
+          "I completely agree, highlighting the benefits to the school and community will make our proposal more attractive, I'll make sure to include that in the presentation, and I'll also reach out to Rosie to get some more information about her artwork and ideas for the display, shall we meet up later to work on the presentation together?"
+        ],
+        [
+          "Trina Bell",
+          "That sounds like a great plan, I'll start working on the presentation and gathering some images of Rosie's artwork, and we can meet up later to finalize everything, maybe we can meet at the library after school tomorrow?"
+        ],
+        [
+          "Mason Bell",
+          "Sounds good, I'll meet you at the library after school tomorrow and we can finalize the presentation, I'll also make sure to reach out to Ben Carter and our art teacher to get their input and feedback before we meet with the student council"
+        ],
+        [
+          "Trina Bell",
+          "That sounds like a great plan, I'm looking forward to meeting up with you at the library tomorrow to finalize the presentation, and I'll make sure to talk to Patricia Kim again to confirm the details with her"
+        ],
+        [
+          "Mason Bell",
+          "Alright, sounds like we have a good plan in place, I'll make sure to reach out to Rosie and get some more information about her artwork, and I'll also talk to Ben Carter and our art teacher to get their input, see you at the library tomorrow to finalize the presentation"
+        ],
+        [
+          "Trina Bell",
+          "Sounds good, I'll see you at the library tomorrow then, and don't forget to reach out to Rosie and get some more information about her artwork, I'll talk to Patricia Kim again to confirm the details with her"
+        ]
+      ]
+    },
+    "Rashad Lewis": {
+      "movement": [
+        132,
+        120
+      ],
+      "pronunciatio": "\ud83c\udf74",
+      "description": "taking a lunch break (eating his lunch) @ the Ville:school:hallway:<random>",
+      "chat": null
+    },
+    "Parker Lewis": {
+      "movement": [
+        130,
+        120
+      ],
+      "pronunciatio": "\ud83d\udcda",
+      "description": "attending afternoon classes (attending math class) @ the Ville:house_6:common room:common room table",
+      "chat": null
+    },
+    "Kendra Hall": {
+      "movement": [
+        127,
+        120
+      ],
+      "pronunciatio": "\ud83c\udf54",
+      "description": "taking a lunch break @ the Ville:school:hallway:<random>",
+      "chat": null
+    },
+    "Dr Miguel Santos": {
+      "movement": [
+        141,
+        136
+      ],
+      "pronunciatio": "\ud83c\udf54",
+      "description": "taking a lunch break @ the Ville:house_7:kitchen:refrigerator",
+      "chat": null
+    },
+    "Vivian Santos": {
+      "movement": [
+        130,
+        136
+      ],
+      "pronunciatio": "\ud83d\udecb\ufe0f\ud83d\udcbc",
+      "description": "taking a lunch break (heading back to the office) @ the Ville:school:classroom:classroom podium",
+      "chat": null
+    },
+    "Mateo Santos": {
+      "movement": [
+        130,
+        136
+      ],
+      "pronunciatio": "\ud83c\udf74",
+      "description": "having lunch (eating lunch) @ the Ville:school:hallway:<random>",
+      "chat": null
+    },
+    "Gabriel Flores": {
+      "movement": [
+        168,
+        135
+      ],
+      "pronunciatio": "\ud83d\ude8c\ud83d\udd0d",
+      "description": "continuing work at the school (checking the bus for any damage or issues) @ the Ville:Johnson Park:park:garden chair",
+      "chat": null
+    },
+    "Emilia Flores": {
+      "movement": [
+        170,
+        135
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about a discussion between Emilia Flores and Noemi Flores about Noemi's creative writing project, Emilia's work at the cafeteria, and their plan to implement a 'student of the month' special, which they will further discuss with Gabriel over lunch @ <persona> Noemi Flores",
+      "chat": [
+        [
+          "Emilia Flores",
+          "Hey Noemi, how's your day going so far? I heard you're working on a project, I'm looking forward to hearing more about it"
+        ],
+        [
+          "Noemi Flores",
+          "It's going great, thanks for asking! I'm really excited about the project, it's a creative writing piece and I've been brainstorming some ideas. I'll have to tell you all about it later. How's your day going, how's work at the cafeteria?"
+        ],
+        [
+          "Emilia Flores",
+          "That sounds like a great project, I'd love to hear more about it! I've been having a good day so far, the kids seem to be enjoying the new menu items. I was thinking of trying out some new ideas based on their feedback, do you have any suggestions?"
+        ],
+        [
+          "Noemi Flores",
+          "That's great to hear that the kids are enjoying the new menu items! I've heard some of my friends talking about how much they love the new sandwiches. As for suggestions, I think it would be cool if you could have a 'student of the month' or 'student of the week' special where you feature a dish suggested by a student. What do you think?"
+        ],
+        [
+          "Emilia Flores",
+          "That's a fantastic idea, Noemi! I love the 'student of the month' or 'student of the week' special concept. It would be a great way to engage with the students and make them feel more involved in the cafeteria's menu. I'll definitely consider implementing that. What kind of creative writing piece are you working on for your project?"
+        ],
+        [
+          "Noemi Flores",
+          "I'm actually working on a short story for my creative writing project, it's about a young girl who discovers a magical world within her own reflection. I'm still brainstorming and trying to develop the plot, but I'm really excited about the idea. What do you think about the 'student of the month' special, should we start by featuring a dish suggested by Gabriel, since he's been helping out with the transportation?"
+        ],
+        [
+          "Emilia Flores",
+          "That's a great idea to feature a dish suggested by Gabriel, but I think we should open it up to all students and have them submit their ideas. We could have a voting system to choose which dish to feature each month. I'd love to hear more about your short story, what inspired you to write about a magical world within one's own reflection?"
+        ],
+        [
+          "Noemi Flores",
+          "I was inspired by a dream I had a few nights ago, where I saw a world that existed within my own reflection. It was so vivid and real, and it sparked the idea for my story. I think it would be amazing to explore the idea of self-discovery and the magic that can be found within oneself. What do you think about the idea of having a voting system for the 'student of the month' special, do you think the students would be excited about it?"
+        ],
+        [
+          "Emilia Flores",
+          "I think the voting system is a great idea, and I'm sure the students would be excited about it. It would be a wonderful way to encourage their participation and creativity. I'd love to help you brainstorm more ideas for your short story, and maybe we could even discuss it with Gabriel over lunch. What do you think about that?"
+        ],
+        [
+          "Noemi Flores",
+          "That sounds like a great idea, I'd love to brainstorm more ideas for my short story with you and Gabriel. What time were you thinking of meeting up with Gabriel, is he still on his transport aide duties?"
+        ],
+        [
+          "Emilia Flores",
+          "Gabriel is usually finished with his transport aide duties by lunchtime, so we can probably catch up with him then. I was thinking we could meet up with him in the cafeteria during my lunch break, would that work for you?"
+        ],
+        [
+          "Noemi Flores",
+          "That sounds perfect, I'll meet you in the cafeteria during your lunch break and we can catch up with Gabriel. I'm looking forward to hearing his thoughts on the 'student of the month' special and getting his feedback on my short story."
+        ],
+        [
+          "Emilia Flores",
+          "I'm glad we're on the same page, I'll make sure to talk to the cafeteria staff about implementing the 'student of the month' special and we can discuss the details further with Gabriel during lunch. Shall we head to the cafeteria now and meet up with him?"
+        ],
+        [
+          "Noemi Flores",
+          "Sounds like a plan, I'm excited to discuss everything with Gabriel and hear his thoughts on the 'student of the month' special and my short story. Let's head to the cafeteria now!"
+        ],
+        [
+          "Emilia Flores",
+          "Great, let's head to the cafeteria then. I'll introduce you to some of the staff and we can start discussing the details of the 'student of the month' special. I'm sure Gabriel will have some great ideas to share as well."
+        ],
+        [
+          "Noemi Flores",
+          "I'm looking forward to meeting the staff and discussing the details, lead the way to the cafeteria."
+        ]
+      ]
+    },
+    "Noemi Flores": {
+      "movement": [
+        170,
+        135
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about a discussion between Emilia Flores and Noemi Flores about Noemi's creative writing project, Emilia's work at the cafeteria, and their plan to implement a 'student of the month' special, which they will further discuss with Gabriel over lunch @ <persona> Emilia Flores",
+      "chat": [
+        [
+          "Emilia Flores",
+          "Hey Noemi, how's your day going so far? I heard you're working on a project, I'm looking forward to hearing more about it"
+        ],
+        [
+          "Noemi Flores",
+          "It's going great, thanks for asking! I'm really excited about the project, it's a creative writing piece and I've been brainstorming some ideas. I'll have to tell you all about it later. How's your day going, how's work at the cafeteria?"
+        ],
+        [
+          "Emilia Flores",
+          "That sounds like a great project, I'd love to hear more about it! I've been having a good day so far, the kids seem to be enjoying the new menu items. I was thinking of trying out some new ideas based on their feedback, do you have any suggestions?"
+        ],
+        [
+          "Noemi Flores",
+          "That's great to hear that the kids are enjoying the new menu items! I've heard some of my friends talking about how much they love the new sandwiches. As for suggestions, I think it would be cool if you could have a 'student of the month' or 'student of the week' special where you feature a dish suggested by a student. What do you think?"
+        ],
+        [
+          "Emilia Flores",
+          "That's a fantastic idea, Noemi! I love the 'student of the month' or 'student of the week' special concept. It would be a great way to engage with the students and make them feel more involved in the cafeteria's menu. I'll definitely consider implementing that. What kind of creative writing piece are you working on for your project?"
+        ],
+        [
+          "Noemi Flores",
+          "I'm actually working on a short story for my creative writing project, it's about a young girl who discovers a magical world within her own reflection. I'm still brainstorming and trying to develop the plot, but I'm really excited about the idea. What do you think about the 'student of the month' special, should we start by featuring a dish suggested by Gabriel, since he's been helping out with the transportation?"
+        ],
+        [
+          "Emilia Flores",
+          "That's a great idea to feature a dish suggested by Gabriel, but I think we should open it up to all students and have them submit their ideas. We could have a voting system to choose which dish to feature each month. I'd love to hear more about your short story, what inspired you to write about a magical world within one's own reflection?"
+        ],
+        [
+          "Noemi Flores",
+          "I was inspired by a dream I had a few nights ago, where I saw a world that existed within my own reflection. It was so vivid and real, and it sparked the idea for my story. I think it would be amazing to explore the idea of self-discovery and the magic that can be found within oneself. What do you think about the idea of having a voting system for the 'student of the month' special, do you think the students would be excited about it?"
+        ],
+        [
+          "Emilia Flores",
+          "I think the voting system is a great idea, and I'm sure the students would be excited about it. It would be a wonderful way to encourage their participation and creativity. I'd love to help you brainstorm more ideas for your short story, and maybe we could even discuss it with Gabriel over lunch. What do you think about that?"
+        ],
+        [
+          "Noemi Flores",
+          "That sounds like a great idea, I'd love to brainstorm more ideas for my short story with you and Gabriel. What time were you thinking of meeting up with Gabriel, is he still on his transport aide duties?"
+        ],
+        [
+          "Emilia Flores",
+          "Gabriel is usually finished with his transport aide duties by lunchtime, so we can probably catch up with him then. I was thinking we could meet up with him in the cafeteria during my lunch break, would that work for you?"
+        ],
+        [
+          "Noemi Flores",
+          "That sounds perfect, I'll meet you in the cafeteria during your lunch break and we can catch up with Gabriel. I'm looking forward to hearing his thoughts on the 'student of the month' special and getting his feedback on my short story."
+        ],
+        [
+          "Emilia Flores",
+          "I'm glad we're on the same page, I'll make sure to talk to the cafeteria staff about implementing the 'student of the month' special and we can discuss the details further with Gabriel during lunch. Shall we head to the cafeteria now and meet up with him?"
+        ],
+        [
+          "Noemi Flores",
+          "Sounds like a plan, I'm excited to discuss everything with Gabriel and hear his thoughts on the 'student of the month' special and my short story. Let's head to the cafeteria now!"
+        ],
+        [
+          "Emilia Flores",
+          "Great, let's head to the cafeteria then. I'll introduce you to some of the staff and we can start discussing the details of the 'student of the month' special. I'm sure Gabriel will have some great ideas to share as well."
+        ],
+        [
+          "Noemi Flores",
+          "I'm looking forward to meeting the staff and discussing the details, lead the way to the cafeteria."
+        ]
+      ]
+    },
+    "Pastor Daniel Brooks": {
+      "movement": [
+        139,
+        159
+      ],
+      "pronunciatio": "\ud83c\udf54",
+      "description": "taking a lunch break @ the Ville:house_9:kitchen:refrigerator",
+      "chat": null
+    },
+    "Dylan Brooks": {
+      "movement": [
+        124,
+        159
+      ],
+      "pronunciatio": "\ud83c\udf54\ud83d\udc65",
+      "description": "attending afternoon classes (waiting in line to buy lunch) @ the Ville:school:hallway:<random>",
+      "chat": null
+    },
+    "Caleb Brooks": {
+      "movement": [
+        138,
+        159
+      ],
+      "pronunciatio": "\ud83d\udc65",
+      "description": "continuing work at the school (conversing about Pastor Daniel Brooks and Caleb Brooks conversing about organizing a community fair to encourage students to get involved in local initiatives and finalize the details for the event) @ the Ville:school:hallway:<random>",
+      "chat": null
+    },
+    "Professor Emily Carter": {
+      "movement": [
+        161,
+        166
+      ],
+      "pronunciatio": "\ud83c\udf74",
+      "description": "taking a lunch break (eating her lunch) @ the Ville:school:hallway:<random>",
+      "chat": null
+    },
+    "Ben Carter": {
+      "movement": [
+        172,
+        166
+      ],
+      "pronunciatio": "\ud83d\udecd\ufe0f",
+      "description": "attending afternoon classes (waiting in line to purchase his lunch) @ the Ville:school:hallway:<random>",
+      "chat": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 13:38:50"
+  }
+}

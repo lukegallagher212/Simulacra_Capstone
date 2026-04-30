@@ -1,0 +1,521 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2023, 16:20:50",
+  "curr_tile": [
+    130,
+    120
+  ],
+  "daily_plan_req": "1. wake up and complete morning routine at 7:00 am. 2. have breakfast at home. 3. head to the school at 8:00 am. 4. lunch break at 12:00 pm. 5. return to work until 5:00 pm. 6. head home and have dinner at 6:30 pm. 7. relax at home from 7:30 pm",
+  "name": "Kendra Hall",
+  "first_name": "Kendra",
+  "last_name": "Hall",
+  "age": 33,
+  "innate": "graceful, expressive, encouraging",
+  "learned": "Kendra Hall teaches movement and physical education at the school.",
+  "currently": "Kendra Hall is sleeping at house_6.",
+  "lifestyle": "Kendra Hall goes to bed around 10pm, wakes up around 7am, eats dinner around 6:30pm.",
+  "living_area": "the Ville:house_6:bedroom_3",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 133,
+  "importance_ele_n": 65,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete morning routine at 7:00 am",
+    "have breakfast at home",
+    "head to the school at 8:00 am",
+    "lunch break at 12:00 pm",
+    "return to work until 5:00 pm",
+    "head home and have dinner at 6:30 pm",
+    "relax at home from 7:30 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      420
+    ],
+    [
+      "waking up and starting morning routine",
+      60
+    ],
+    [
+      "having breakfast at home",
+      30
+    ],
+    [
+      "commuting to the school and starting work (on the way to commuting to the school and starting wor)",
+      0
+    ],
+    [
+      "commuting to the school and starting work (conversing about Rashad Lewis, the coach at the school, and Kendra Hall, the movement instructor at the school, conversing about collaborating on drills to improve students' athletic performance, specifically focusing on teamwork, coordination, and agility, and planning to meet at 5:30 pm to discuss the details)",
+      10
+    ],
+    [
+      "working at the school (packing her bag with necessary items for the day)",
+      5
+    ],
+    [
+      "working at the school (locking the front door of her house)",
+      5
+    ],
+    [
+      "working at the school (walking to her car)",
+      5
+    ],
+    [
+      "working at the school (starting the car engine)",
+      5
+    ],
+    [
+      "working at the school (checking her rearview mirror)",
+      5
+    ],
+    [
+      "working at the school (driving to the school)",
+      30
+    ],
+    [
+      "working at the school (on the way to finding a parking spot)",
+      0
+    ],
+    [
+      "working at the school (conversing about Parker Lewis and Kendra Hall conversing about new drills for the students, including teamwork, coordination, and agility exercises, and their potential implementation in the upcoming game, as well as their plans to discuss and share updates with the team during practice)",
+      12
+    ],
+    [
+      "working at the school (turning off the car engine)",
+      5
+    ],
+    [
+      "working at the school (grabbing her bag from the car)",
+      5
+    ],
+    [
+      "working at the school (walking to the school entrance)",
+      10
+    ],
+    [
+      "working at the school (swiping her ID card to enter the school)",
+      5
+    ],
+    [
+      "working at the school (greeting the school staff)",
+      10
+    ],
+    [
+      "working at the school (heading to the staff room)",
+      10
+    ],
+    [
+      "working at the school (dropping off her bag in the staff room)",
+      5
+    ],
+    [
+      "working at the school (reviewing her schedule for the day)",
+      10
+    ],
+    [
+      "working at the school (checking her emails)",
+      10
+    ],
+    [
+      "working at the school (preparing for her first class)",
+      20
+    ],
+    [
+      "working at the school (setting up the equipment for the class)",
+      15
+    ],
+    [
+      "working at the school (making sure the classroom is safe)",
+      10
+    ],
+    [
+      "working at the school (waiting for the students to arrive)",
+      10
+    ],
+    [
+      "working at the school (on the way to greeting the students)",
+      0
+    ],
+    [
+      "working at the school (conversing about Parker Lewis and Kendra Hall conversing about the new teamwork, coordination, and agility drills that Kendra and Coach Rashad are planning to implement in their upcoming practice and game)",
+      20
+    ],
+    [
+      "working at the school (taking attendance)",
+      5
+    ],
+    [
+      "working at the school (starting the lesson)",
+      30
+    ],
+    [
+      "working at the school (introducing the topic of the lesson)",
+      5
+    ],
+    [
+      "taking a lunch break",
+      48
+    ],
+    [
+      "continuing work at the school (walking back to the school after lunch)",
+      10
+    ],
+    [
+      "continuing work at the school (preparing for the next physical education class)",
+      15
+    ],
+    [
+      "continuing work at the school (on the way to setting up the equipment for the class)",
+      0
+    ],
+    [
+      "continuing work at the school (conversing about Rashad Lewis and Kendra Hall conversing about collaborating on drills for students, discussing agility drills, teamwork exercises, and ways to incorporate them into movement classes and an upcoming game, as well as assessing their effectiveness and making adjustments as needed.)",
+      24
+    ],
+    [
+      "continuing work at the school (on the way to reviewing the lesson plan for the next class)",
+      0
+    ],
+    [
+      "continuing work at the school (conversing about Parker Lewis and Kendra Hall conversing about the new drills, including relay races and individual sprinting, that Coach Rashad has planned for their team's practice, and how these drills will help improve teamwork, speed, and communication among the team members)",
+      18
+    ],
+    [
+      "continuing work at the school (making sure the classroom is safe and tidy)",
+      10
+    ],
+    [
+      "continuing work at the school (taking a few minutes to collect her thoughts before the next class)",
+      5
+    ],
+    [
+      "continuing work at the school (greeting students as they arrive for the next class)",
+      10
+    ],
+    [
+      "continuing work at the school (leading the students in a warm-up exercise)",
+      15
+    ],
+    [
+      "continuing work at the school (demonstrating the first activity of the class)",
+      10
+    ],
+    [
+      "continuing work at the school (supervising the students as they participate in the activity)",
+      15
+    ],
+    [
+      "continuing work at the school (providing feedback and guidance to the students)",
+      10
+    ],
+    [
+      "continuing work at the school (transitioning the class to the next activity)",
+      5
+    ],
+    [
+      "continuing work at the school (leading the students in a team-building exercise)",
+      15
+    ],
+    [
+      "continuing work at the school (encouraging the students to work together and support each other)",
+      10
+    ],
+    [
+      "continuing work at the school (monitoring the students' progress and providing assistance as needed)",
+      10
+    ],
+    [
+      "continuing work at the school (preparing the students for the final activity of the class)",
+      5
+    ],
+    [
+      "continuing work at the school (leading the students in a cool-down exercise)",
+      10
+    ],
+    [
+      "continuing work at the school (dismissing the students from the class)",
+      5
+    ],
+    [
+      "continuing work at the school (cleaning up the equipment and classroom)",
+      10
+    ],
+    [
+      "continuing work at the school (taking a short break before the next class)",
+      10
+    ],
+    [
+      "continuing work at the school (reviewing her notes and preparing for the next class)",
+      10
+    ],
+    [
+      "continuing work at the school (responding to any urgent messages or emails)",
+      5
+    ],
+    [
+      "continuing work at the school (taking a few minutes to stretch and move around)",
+      5
+    ],
+    [
+      "continuing work at the school (getting ready to leave the school)",
+      10
+    ],
+    [
+      "continuing work at the school (packing up her things and saying goodbye to colleagues)",
+      5
+    ],
+    [
+      "heading home",
+      13
+    ],
+    [
+      "relaxing at home",
+      60
+    ],
+    [
+      "having dinner",
+      60
+    ],
+    [
+      "relaxing at home",
+      120
+    ],
+    [
+      "getting ready for bed",
+      30
+    ],
+    [
+      "sleeping",
+      60
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      20
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      420
+    ],
+    [
+      "waking up and starting morning routine",
+      60
+    ],
+    [
+      "having breakfast at home",
+      30
+    ],
+    [
+      "commuting to the school and starting work",
+      30
+    ],
+    [
+      "working at the school",
+      240
+    ],
+    [
+      "taking a lunch break",
+      60
+    ],
+    [
+      "continuing work at the school",
+      240
+    ],
+    [
+      "heading home",
+      30
+    ],
+    [
+      "relaxing at home",
+      60
+    ],
+    [
+      "having dinner",
+      60
+    ],
+    [
+      "relaxing at home",
+      120
+    ],
+    [
+      "getting ready for bed",
+      30
+    ],
+    [
+      "sleeping",
+      60
+    ]
+  ],
+  "act_address": "the Ville:Johnson Park:park:park garden",
+  "act_start_time": "February 13, 2023, 16:11:00",
+  "act_duration": 15,
+  "act_description": "continuing work at the school (leading the students in a team-building exercise)",
+  "act_pronunciatio": "\ud83d\udc65",
+  "act_event": [
+    "Kendra Hall",
+    "lead",
+    "students"
+  ],
+  "act_obj_description": "empty",
+  "act_obj_pronunciatio": "\u2b1c\ufe0f",
+  "act_obj_event": [
+    "park garden",
+    "be",
+    "empty"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {
+    "Rashad Lewis": 74,
+    "Parker Lewis": 182
+  },
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": []
+}

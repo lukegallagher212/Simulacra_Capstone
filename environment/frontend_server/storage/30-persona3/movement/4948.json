@@ -1,0 +1,367 @@
+{
+  "persona": {
+    "Ethan Walker": {
+      "movement": [
+        54,
+        97
+      ],
+      "pronunciatio": "\ud83d\udcda\ud83d\udcbb",
+      "description": "working at the school (on the way to maintaining the library's equipment and technology) @ the Ville:school:library:bookshelf",
+      "chat": null
+    },
+    "Jordan Walker": {
+      "movement": [
+        48,
+        97
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Lily Walker and Jordan Walker conversing about their day, an upcoming science experiment, a library orientation for new students, and their plans for the rest of the day @ <persona> Lily Walker",
+      "chat": [
+        [
+          "Lily Walker",
+          "Hey Jordan, how's your day going so far? I'm really excited about the science experiment we're doing later, have you heard anything about it?"
+        ],
+        [
+          "Jordan Walker",
+          "It's going great, thanks! I heard we're making a volcano erupt using baking soda and vinegar, I'm really looking forward to it. I also get to help Ethan with the library orientation later, so that's exciting too."
+        ],
+        [
+          "Lily Walker",
+          "That sounds like so much fun, I've always wanted to try making a volcano erupt! What's the library orientation about, is Ethan new to our school?"
+        ],
+        [
+          "Jordan Walker",
+          "No, Ethan isn't new to our school, he's actually helping me with the library orientation for the new students, we're going to give them a tour and show them around the library, it'll be a lot of fun!"
+        ],
+        [
+          "Lily Walker",
+          "That's really cool, I'm sure the new students will appreciate the tour. I've been to the library a few times, it's one of my favorite places in school. What time is the library orientation, maybe I can come and help out too?"
+        ],
+        [
+          "Jordan Walker",
+          "The library orientation is actually tomorrow at 10am, I'd love it if you could come and help out! We're going to meet the new students and show them around the library, it'll be a lot of fun. I'm sure Ethan would appreciate the extra help too."
+        ],
+        [
+          "Lily Walker",
+          "That sounds great, I'll make sure to be there tomorrow at 10am to help out with the library orientation. What's the plan for the rest of the day, do we have any other exciting classes or activities?"
+        ],
+        [
+          "Jordan Walker",
+          "Well, after lunch, we have a few more classes, and then we'll be doing the science experiment with the volcano, I'm really looking forward to it! After school, I have to go home and do my homework, and then I'll be meeting up with Ethan to finalize the preparations for the library orientation tomorrow. How about you, do you have any fun plans for the rest of the day?"
+        ],
+        [
+          "Lily Walker",
+          "I'm also looking forward to the science experiment, and I'm sure the new students will love the library tour tomorrow. As for me, I have to finish my homework and then I might start reading a new book I found in the library, it looks really interesting. Do you think we'll have time to talk more about the science experiment after school, or should we discuss it more tomorrow?"
+        ],
+        [
+          "Jordan Walker",
+          "Yeah, that sounds like a great plan, we can definitely talk more about the science experiment tomorrow, maybe during lunch or after the library orientation. I'm also looking forward to hearing about the new book you found, what's it about?"
+        ],
+        [
+          "Lily Walker",
+          "That sounds like a great plan, I'm looking forward to talking more about the science experiment and the new book tomorrow. I should probably get going now, I don't want to be late for my next class."
+        ]
+      ]
+    },
+    "Lily Walker": {
+      "movement": [
+        48,
+        97
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Lily Walker and Jordan Walker conversing about their day, an upcoming science experiment, a library orientation for new students, and their plans for the rest of the day @ <persona> Jordan Walker",
+      "chat": [
+        [
+          "Lily Walker",
+          "Hey Jordan, how's your day going so far? I'm really excited about the science experiment we're doing later, have you heard anything about it?"
+        ],
+        [
+          "Jordan Walker",
+          "It's going great, thanks! I heard we're making a volcano erupt using baking soda and vinegar, I'm really looking forward to it. I also get to help Ethan with the library orientation later, so that's exciting too."
+        ],
+        [
+          "Lily Walker",
+          "That sounds like so much fun, I've always wanted to try making a volcano erupt! What's the library orientation about, is Ethan new to our school?"
+        ],
+        [
+          "Jordan Walker",
+          "No, Ethan isn't new to our school, he's actually helping me with the library orientation for the new students, we're going to give them a tour and show them around the library, it'll be a lot of fun!"
+        ],
+        [
+          "Lily Walker",
+          "That's really cool, I'm sure the new students will appreciate the tour. I've been to the library a few times, it's one of my favorite places in school. What time is the library orientation, maybe I can come and help out too?"
+        ],
+        [
+          "Jordan Walker",
+          "The library orientation is actually tomorrow at 10am, I'd love it if you could come and help out! We're going to meet the new students and show them around the library, it'll be a lot of fun. I'm sure Ethan would appreciate the extra help too."
+        ],
+        [
+          "Lily Walker",
+          "That sounds great, I'll make sure to be there tomorrow at 10am to help out with the library orientation. What's the plan for the rest of the day, do we have any other exciting classes or activities?"
+        ],
+        [
+          "Jordan Walker",
+          "Well, after lunch, we have a few more classes, and then we'll be doing the science experiment with the volcano, I'm really looking forward to it! After school, I have to go home and do my homework, and then I'll be meeting up with Ethan to finalize the preparations for the library orientation tomorrow. How about you, do you have any fun plans for the rest of the day?"
+        ],
+        [
+          "Lily Walker",
+          "I'm also looking forward to the science experiment, and I'm sure the new students will love the library tour tomorrow. As for me, I have to finish my homework and then I might start reading a new book I found in the library, it looks really interesting. Do you think we'll have time to talk more about the science experiment after school, or should we discuss it more tomorrow?"
+        ],
+        [
+          "Jordan Walker",
+          "Yeah, that sounds like a great plan, we can definitely talk more about the science experiment tomorrow, maybe during lunch or after the library orientation. I'm also looking forward to hearing about the new book you found, what's it about?"
+        ],
+        [
+          "Lily Walker",
+          "That sounds like a great plan, I'm looking forward to talking more about the science experiment and the new book tomorrow. I should probably get going now, I don't want to be late for my next class."
+        ]
+      ]
+    },
+    "Rodrigo Torres": {
+      "movement": [
+        100,
+        97
+      ],
+      "pronunciatio": "\ud83c\udf54",
+      "description": "taking a lunch break @ the Ville:house_2:kitchen:refrigerator",
+      "chat": null
+    },
+    "Sofia Torres": {
+      "movement": [
+        86,
+        97
+      ],
+      "pronunciatio": "\ud83d\udc65\ud83d\udc8a",
+      "description": "continuing work at the residential house (checking on the residents' well-being) @ the Ville:single_house_1:main room:bed",
+      "chat": null
+    },
+    "Harpreet Kaur": {
+      "movement": [
+        132,
+        97
+      ],
+      "pronunciatio": "\ud83d\udcc5",
+      "description": "continuing work at the government building (preparing for a meeting with community leaders) @ the Ville:government_building:meeting room:Town Hall Presenter",
+      "chat": null
+    },
+    "Raj Singh": {
+      "movement": [
+        128,
+        97
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "taking a lunch break (chatting with coworkers) @ the Ville:government_building:main room:desk",
+      "chat": null
+    },
+    "Nadia Kaur": {
+      "movement": [
+        112,
+        33
+      ],
+      "pronunciatio": "\ud83c\udf74",
+      "description": "having lunch (eating lunch) @ the Ville:school:hallway:<random>",
+      "chat": null
+    },
+    "Dr Linh Nguyen": {
+      "movement": [
+        131,
+        69
+      ],
+      "pronunciatio": "\ud83d\udc8a",
+      "description": "continuing work at the pharmacy (discussing treatment options with a patient) @ the Ville:pharmacy:store:pharmacy store counter",
+      "chat": null
+    },
+    "Phoebe Nguyen": {
+      "movement": [
+        82,
+        26
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "taking a lunch break (chatting with colleagues) @ the Ville:house_4:common room:common room table",
+      "chat": null
+    },
+    "Julia Nguyen": {
+      "movement": [
+        136,
+        69
+      ],
+      "pronunciatio": "\ud83c\udf74",
+      "description": "attending afternoon classes (eating lunch) @ the Ville:school:hallway:<random>",
+      "chat": null
+    },
+    "Curtis Bell": {
+      "movement": [
+        67,
+        119
+      ],
+      "pronunciatio": "\ud83d\udeaa",
+      "description": "continuing work at the school (checking the school's emergency exit plans) @ the Ville:school:hallway:<random>",
+      "chat": null
+    },
+    "Patricia Kim": {
+      "movement": [
+        64,
+        119
+      ],
+      "pronunciatio": "\ud83d\udce7",
+      "description": "continuing work at the government building (responding to emails) @ the Ville:government_building:computer_room:computer",
+      "chat": null
+    },
+    "Trina Bell": {
+      "movement": [
+        67,
+        119
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83d\udcac",
+      "description": "attending afternoon classes (conversing about Mason Bell and Trina Bell conversing about Rosie's art project and how to incorporate it into the school festival and charity drive, including discussing plans to meet with the student council, Ben Carter, and the art teacher to get feedback and approval) @ the Ville:house_5:common room:common room table",
+      "chat": null
+    },
+    "Rosie Bell": {
+      "movement": [
+        65,
+        119
+      ],
+      "pronunciatio": "\ud83c\udf74",
+      "description": "attending afternoon classes (eating lunch) @ the Ville:school:hallway:<random>",
+      "chat": null
+    },
+    "Mason Bell": {
+      "movement": [
+        68,
+        119
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83d\udcac",
+      "description": "having lunch (conversing about Mason Bell and Trina Bell conversing about Rosie's art project and how to incorporate it into the school festival and charity drive, including discussing plans to meet with the student council, Ben Carter, and the art teacher to get feedback and approval) @ the Ville:house_5:common room:common room table",
+      "chat": null
+    },
+    "Rashad Lewis": {
+      "movement": [
+        132,
+        120
+      ],
+      "pronunciatio": "\ud83c\udf74",
+      "description": "taking a lunch break (eating his lunch) @ the Ville:school:hallway:<random>",
+      "chat": null
+    },
+    "Parker Lewis": {
+      "movement": [
+        130,
+        120
+      ],
+      "pronunciatio": "\ud83d\udcda",
+      "description": "attending afternoon classes (attending math class) @ the Ville:house_6:common room:common room table",
+      "chat": null
+    },
+    "Kendra Hall": {
+      "movement": [
+        127,
+        120
+      ],
+      "pronunciatio": "\ud83c\udfeb\ud83d\udeb6",
+      "description": "continuing work at the school (walking back to the school after lunch) @ the Ville:school:hallway:<random>",
+      "chat": null
+    },
+    "Dr Miguel Santos": {
+      "movement": [
+        141,
+        136
+      ],
+      "pronunciatio": "\ud83c\udf54",
+      "description": "taking a lunch break @ the Ville:house_7:kitchen:refrigerator",
+      "chat": null
+    },
+    "Vivian Santos": {
+      "movement": [
+        130,
+        136
+      ],
+      "pronunciatio": "\ud83d\udce7",
+      "description": "continuing work at the office (responding to urgent emails) @ the Ville:school:library:library table",
+      "chat": null
+    },
+    "Mateo Santos": {
+      "movement": [
+        130,
+        136
+      ],
+      "pronunciatio": "\ud83c\udf74",
+      "description": "having lunch (eating lunch) @ the Ville:school:hallway:<random>",
+      "chat": null
+    },
+    "Gabriel Flores": {
+      "movement": [
+        168,
+        135
+      ],
+      "pronunciatio": "\ud83d\ude8c\ud83d\udd0d",
+      "description": "continuing work at the school (checking the bus for any damage or issues) @ the Ville:Johnson Park:park:garden chair",
+      "chat": null
+    },
+    "Emilia Flores": {
+      "movement": [
+        170,
+        135
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "taking a lunch break (conversing about a discussion between Emilia Flores and Noemi Flores about Noemi's creative writing project, Emilia's work at the cafeteria, and their plan to implement a 'student of the month' special, which they will further discuss with Gabriel over lunch) @ the Ville:school:hallway:<random>",
+      "chat": null
+    },
+    "Noemi Flores": {
+      "movement": [
+        170,
+        135
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "attending afternoon classes (conversing about a discussion between Emilia Flores and Noemi Flores about Noemi's creative writing project, Emilia's work at the cafeteria, and their plan to implement a 'student of the month' special, which they will further discuss with Gabriel over lunch) @ the Ville:school:classroom:classroom student seating",
+      "chat": null
+    },
+    "Pastor Daniel Brooks": {
+      "movement": [
+        139,
+        159
+      ],
+      "pronunciatio": "\ud83c\udf54",
+      "description": "taking a lunch break @ the Ville:house_9:kitchen:refrigerator",
+      "chat": null
+    },
+    "Dylan Brooks": {
+      "movement": [
+        124,
+        159
+      ],
+      "pronunciatio": "\ud83c\udf54",
+      "description": "attending afternoon classes (buying lunch) @ the Ville:school:hallway:<random>",
+      "chat": null
+    },
+    "Caleb Brooks": {
+      "movement": [
+        138,
+        159
+      ],
+      "pronunciatio": "\ud83d\udcda",
+      "description": "continuing work at the school (reviewing student progress) @ the Ville:school:classroom:blackboard",
+      "chat": null
+    },
+    "Professor Emily Carter": {
+      "movement": [
+        161,
+        166
+      ],
+      "pronunciatio": "\ud83c\udf74",
+      "description": "taking a lunch break (eating her lunch) @ the Ville:school:hallway:<random>",
+      "chat": null
+    },
+    "Ben Carter": {
+      "movement": [
+        172,
+        166
+      ],
+      "pronunciatio": "\ud83d\udecd\ufe0f",
+      "description": "attending afternoon classes (waiting in line to purchase his lunch) @ the Ville:school:hallway:<random>",
+      "chat": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 13:44:40"
+  }
+}

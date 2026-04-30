@@ -1,0 +1,407 @@
+{
+  "persona": {
+    "Ethan Walker": {
+      "movement": [
+        54,
+        97
+      ],
+      "pronunciatio": "\ud83d\udcda",
+      "description": "continuing work at the school (organizing library books and materials) @ the Ville:school:library:bookshelf",
+      "chat": null
+    },
+    "Jordan Walker": {
+      "movement": [
+        46,
+        97
+      ],
+      "pronunciatio": "\ud83d\udd70\ufe0f",
+      "description": "attending afternoon classes (waiting for the teacher to start the class) @ the Ville:house_1:common room:common room table",
+      "chat": null
+    },
+    "Lily Walker": {
+      "movement": [
+        52,
+        97
+      ],
+      "pronunciatio": "\ud83d\udcda",
+      "description": "attending afternoon classes (listening to the teacher's lecture on science) @ the Ville:house_1:common room:common room table",
+      "chat": null
+    },
+    "Rodrigo Torres": {
+      "movement": [
+        100,
+        97
+      ],
+      "pronunciatio": "\ud83e\udd1d",
+      "description": "continuing work at the supply store (assisting a customer with a query) @ the Ville:supply_store:supply store:supply store counter",
+      "chat": null
+    },
+    "Sofia Torres": {
+      "movement": [
+        101,
+        97
+      ],
+      "pronunciatio": "\ud83c\udf7f",
+      "description": "continuing work at the residential house (preparing snacks for the residents) @ the Ville:house_2:kitchen:refrigerator",
+      "chat": null
+    },
+    "Harpreet Kaur": {
+      "movement": [
+        132,
+        97
+      ],
+      "pronunciatio": "\ud83d\udcde",
+      "description": "continuing work at the government building (making phone calls to schedule mediations) @ the Ville:government_building:main room:desk",
+      "chat": null
+    },
+    "Raj Singh": {
+      "movement": [
+        128,
+        97
+      ],
+      "pronunciatio": "\ud83d\udcbc",
+      "description": "continuing work at the government building (working on a project report) @ the Ville:government_building:computer_room:computer",
+      "chat": null
+    },
+    "Nadia Kaur": {
+      "movement": [
+        112,
+        25
+      ],
+      "pronunciatio": "\ud83d\udcda\ud83d\udcac",
+      "description": "attending afternoon classes (participating in a class discussion) @ the Ville:school:classroom:School Desk",
+      "chat": null
+    },
+    "Dr Linh Nguyen": {
+      "movement": [
+        75,
+        51
+      ],
+      "pronunciatio": "\ud83d\udcdd",
+      "description": "continuing work at the pharmacy (documenting patient interactions) @ the Ville:pharmacy:store:behind the pharmacy counter",
+      "chat": null
+    },
+    "Phoebe Nguyen": {
+      "movement": [
+        82,
+        26
+      ],
+      "pronunciatio": "\ud83d\udce7",
+      "description": "continuing work at the school (checking emails) @ the Ville:house_4:common room:common room sofa",
+      "chat": null
+    },
+    "Julia Nguyen": {
+      "movement": [
+        104,
+        44
+      ],
+      "pronunciatio": "\ud83d\udca7",
+      "description": "attending afternoon classes (getting a drink from the water fountain) @ the Ville:house_4:common room:common room table",
+      "chat": null
+    },
+    "Curtis Bell": {
+      "movement": [
+        67,
+        119
+      ],
+      "pronunciatio": "\ud83c\udfeb\ud83d\udcbc",
+      "description": "continuing work at the school (meeting with the school administration to discuss safety protocols) @ the Ville:school:hallway:<random>",
+      "chat": null
+    },
+    "Patricia Kim": {
+      "movement": [
+        64,
+        119
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83d\udcbb",
+      "description": "continuing work at the government building (updating records) @ the Ville:government_building:computer_room:computer",
+      "chat": null
+    },
+    "Trina Bell": {
+      "movement": [
+        67,
+        119
+      ],
+      "pronunciatio": "\ud83d\udc42",
+      "description": "attending afternoon classes (listening to the professor's lecture) @ the Ville:house_5:common room:common room table",
+      "chat": null
+    },
+    "Rosie Bell": {
+      "movement": [
+        65,
+        119
+      ],
+      "pronunciatio": "\ud83d\udebd",
+      "description": "attending afternoon classes (using the restroom before class) @ the Ville:school:hallway:<random>",
+      "chat": null
+    },
+    "Mason Bell": {
+      "movement": [
+        68,
+        119
+      ],
+      "pronunciatio": "\ud83c\udf74\ud83d\udcac",
+      "description": "attending afternoon classes (chatting with friends during lunch) @ the Ville:school:hallway:<random>",
+      "chat": null
+    },
+    "Rashad Lewis": {
+      "movement": [
+        128,
+        120
+      ],
+      "pronunciatio": "\ud83d\udcc5",
+      "description": "continuing work at the school (creating a new practice plan) @ the Ville:school:library:library table",
+      "chat": null
+    },
+    "Parker Lewis": {
+      "movement": [
+        131,
+        120
+      ],
+      "pronunciatio": "\ud83c\udfc3\u200d\u2640",
+      "description": "attending afternoon classes (conversing about Parker Lewis and Kendra Hall conversing about the new drills, including relay races and individual sprinting, that Coach Rashad has planned for their team's practice, and how these drills will help improve teamwork, speed, and communication among the team members) @ the Ville:school:classroom:classroom student seating",
+      "chat": null
+    },
+    "Kendra Hall": {
+      "movement": [
+        130,
+        120
+      ],
+      "pronunciatio": "\ud83c\udfc3\u200d\u2640",
+      "description": "continuing work at the school (conversing about Parker Lewis and Kendra Hall conversing about the new drills, including relay races and individual sprinting, that Coach Rashad has planned for their team's practice, and how these drills will help improve teamwork, speed, and communication among the team members) @ the Ville:school:hallway:<random>",
+      "chat": null
+    },
+    "Dr Miguel Santos": {
+      "movement": [
+        141,
+        136
+      ],
+      "pronunciatio": "\ud83d\udc68\u200d\u2695",
+      "description": "continuing work at the pharmacy (examining a patient) @ the Ville:pharmacy:store:behind the pharmacy counter",
+      "chat": null
+    },
+    "Vivian Santos": {
+      "movement": [
+        130,
+        136
+      ],
+      "pronunciatio": "\ud83d\udca1",
+      "description": "continuing work at the office (brainstorming ideas for an upcoming event) @ the Ville:Johnson Park:park:park garden",
+      "chat": null
+    },
+    "Mateo Santos": {
+      "movement": [
+        127,
+        136
+      ],
+      "pronunciatio": "\ud83d\udcda\ud83d\udca1",
+      "description": "attending afternoon classes (participating in a class discussion on genetics) @ the Ville:house_7:common room:common room table",
+      "chat": null
+    },
+    "Gabriel Flores": {
+      "movement": [
+        169,
+        135
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Gabriel Flores and Noemi Flores conversing about their afternoon, Gabriel's bus cleaning, Noemi's creative writing project, and planning for the 'student of the month' special with Emilia over lunch @ <persona> Noemi Flores",
+      "chat": [
+        [
+          "Gabriel Flores",
+          "Hey Noemi, how's your afternoon class going so far?"
+        ],
+        [
+          "Noemi Flores",
+          "It's going well, thanks! I just got to my next class and I'm getting settled in. How about you, how's the bus cleaning going?"
+        ],
+        [
+          "Gabriel Flores",
+          "It's going great, thanks for asking! I'm almost done with the cleaning. I was thinking about our lunch plans earlier and I'm looking forward to catching up with you and Emilia soon."
+        ],
+        [
+          "Noemi Flores",
+          "That sounds great, I'm looking forward to catching up with you and Emilia too! I've been thinking about my creative writing project and I'd love to get your feedback on it during lunch."
+        ],
+        [
+          "Gabriel Flores",
+          "I'd love to hear more about your creative writing project and give you my feedback during lunch. What's it about?"
+        ],
+        [
+          "Noemi Flores",
+          "It's a short story about a young girl who discovers a magical garden, and I've been brainstorming ideas for the plot and characters. I think Emilia might have some great insights too, especially with her experience working in the cafeteria and hearing all the students' stories."
+        ],
+        [
+          "Gabriel Flores",
+          "That sounds like a fascinating story, I'm sure Emilia will have some great insights to share. I'm looking forward to hearing more about it during lunch and discussing it with both you and Emilia."
+        ],
+        [
+          "Noemi Flores",
+          "I'm also excited to discuss the 'student of the month' special with you and Emilia, I think it could be a great way to get the students more involved in the school community"
+        ],
+        [
+          "Gabriel Flores",
+          "That's a great idea, I think the 'student of the month' special could really boost the students' morale and encourage them to participate more in school activities. I'll make sure to bring it up with Emilia during lunch and we can discuss the details together."
+        ],
+        [
+          "Noemi Flores",
+          "I'm glad you like the idea, I was thinking we could also involve the students in the decision-making process by having them vote on the dish they'd like to feature each month. What do you think?"
+        ],
+        [
+          "Gabriel Flores",
+          "That's a wonderful idea, involving the students in the decision-making process will definitely make them feel more invested in the 'student of the month' special. I can see it now, we could have a voting system set up in the cafeteria and Emilia could help us come up with some delicious options for the students to choose from."
+        ],
+        [
+          "Noemi Flores",
+          "I'm glad we're on the same page, I think it's going to be a great way to bring the students together and make the school a more fun and engaging place. Should we finalize the plans with Emilia during lunch and start making preparations for the 'student of the month' special?"
+        ],
+        [
+          "Gabriel Flores",
+          "That sounds like a great plan, let's finalize the details with Emilia during lunch and start making preparations for the 'student of the month' special. I'll make sure to pick up your favorite orange juice and Emilia's coffee on my way to the cafeteria so we can celebrate our planning session."
+        ],
+        [
+          "Noemi Flores",
+          "That sounds great, thank you for picking up my favorite orange juice and Emilia's coffee, I'm looking forward to finalizing the plans with Emilia during lunch and starting preparations for the 'student of the month' special."
+        ],
+        [
+          "Gabriel Flores",
+          "I'm looking forward to seeing you at lunch and discussing the 'student of the month' special with Emilia, I'll head to the cafeteria now to pick up the drinks and meet you both at the table by the window."
+        ],
+        [
+          "Noemi Flores",
+          "Sounds great, I'll meet you at the table by the window with Emilia, thanks again for picking up the drinks!"
+        ]
+      ]
+    },
+    "Emilia Flores": {
+      "movement": [
+        173,
+        135
+      ],
+      "pronunciatio": "\ud83e\uddf9\ud83d\udcaa",
+      "description": "continuing work at the school (cleaning and sanitizing the kitchen) @ the Ville:house_8:kitchen:kitchen sink",
+      "chat": null
+    },
+    "Noemi Flores": {
+      "movement": [
+        169,
+        135
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Gabriel Flores and Noemi Flores conversing about their afternoon, Gabriel's bus cleaning, Noemi's creative writing project, and planning for the 'student of the month' special with Emilia over lunch @ <persona> Gabriel Flores",
+      "chat": [
+        [
+          "Gabriel Flores",
+          "Hey Noemi, how's your afternoon class going so far?"
+        ],
+        [
+          "Noemi Flores",
+          "It's going well, thanks! I just got to my next class and I'm getting settled in. How about you, how's the bus cleaning going?"
+        ],
+        [
+          "Gabriel Flores",
+          "It's going great, thanks for asking! I'm almost done with the cleaning. I was thinking about our lunch plans earlier and I'm looking forward to catching up with you and Emilia soon."
+        ],
+        [
+          "Noemi Flores",
+          "That sounds great, I'm looking forward to catching up with you and Emilia too! I've been thinking about my creative writing project and I'd love to get your feedback on it during lunch."
+        ],
+        [
+          "Gabriel Flores",
+          "I'd love to hear more about your creative writing project and give you my feedback during lunch. What's it about?"
+        ],
+        [
+          "Noemi Flores",
+          "It's a short story about a young girl who discovers a magical garden, and I've been brainstorming ideas for the plot and characters. I think Emilia might have some great insights too, especially with her experience working in the cafeteria and hearing all the students' stories."
+        ],
+        [
+          "Gabriel Flores",
+          "That sounds like a fascinating story, I'm sure Emilia will have some great insights to share. I'm looking forward to hearing more about it during lunch and discussing it with both you and Emilia."
+        ],
+        [
+          "Noemi Flores",
+          "I'm also excited to discuss the 'student of the month' special with you and Emilia, I think it could be a great way to get the students more involved in the school community"
+        ],
+        [
+          "Gabriel Flores",
+          "That's a great idea, I think the 'student of the month' special could really boost the students' morale and encourage them to participate more in school activities. I'll make sure to bring it up with Emilia during lunch and we can discuss the details together."
+        ],
+        [
+          "Noemi Flores",
+          "I'm glad you like the idea, I was thinking we could also involve the students in the decision-making process by having them vote on the dish they'd like to feature each month. What do you think?"
+        ],
+        [
+          "Gabriel Flores",
+          "That's a wonderful idea, involving the students in the decision-making process will definitely make them feel more invested in the 'student of the month' special. I can see it now, we could have a voting system set up in the cafeteria and Emilia could help us come up with some delicious options for the students to choose from."
+        ],
+        [
+          "Noemi Flores",
+          "I'm glad we're on the same page, I think it's going to be a great way to bring the students together and make the school a more fun and engaging place. Should we finalize the plans with Emilia during lunch and start making preparations for the 'student of the month' special?"
+        ],
+        [
+          "Gabriel Flores",
+          "That sounds like a great plan, let's finalize the details with Emilia during lunch and start making preparations for the 'student of the month' special. I'll make sure to pick up your favorite orange juice and Emilia's coffee on my way to the cafeteria so we can celebrate our planning session."
+        ],
+        [
+          "Noemi Flores",
+          "That sounds great, thank you for picking up my favorite orange juice and Emilia's coffee, I'm looking forward to finalizing the plans with Emilia during lunch and starting preparations for the 'student of the month' special."
+        ],
+        [
+          "Gabriel Flores",
+          "I'm looking forward to seeing you at lunch and discussing the 'student of the month' special with Emilia, I'll head to the cafeteria now to pick up the drinks and meet you both at the table by the window."
+        ],
+        [
+          "Noemi Flores",
+          "Sounds great, I'll meet you at the table by the window with Emilia, thanks again for picking up the drinks!"
+        ]
+      ]
+    },
+    "Pastor Daniel Brooks": {
+      "movement": [
+        139,
+        159
+      ],
+      "pronunciatio": "\ud83d\udcdd",
+      "description": "continuing work at the government building (taking notes on the program) @ the Ville:government_building:meeting room:Town Hall Presenter",
+      "chat": null
+    },
+    "Dylan Brooks": {
+      "movement": [
+        125,
+        159
+      ],
+      "pronunciatio": "\ud83d\ude8c",
+      "description": "attending afternoon classes (heading to the afternoon classes) @ the Ville:school:classroom:classroom student seating",
+      "chat": null
+    },
+    "Caleb Brooks": {
+      "movement": [
+        138,
+        159
+      ],
+      "pronunciatio": "\ud83d\udcda\ud83d\udcbb",
+      "description": "continuing work at the school (updating the grade book) @ the Ville:school:classroom:School Desk",
+      "chat": null
+    },
+    "Professor Emily Carter": {
+      "movement": [
+        167,
+        166
+      ],
+      "pronunciatio": "\ud83d\udcda",
+      "description": "continuing work at the school (preparing for her next class by reviewing notes and slides) @ the Ville:school:library:library table",
+      "chat": null
+    },
+    "Ben Carter": {
+      "movement": [
+        164,
+        166
+      ],
+      "pronunciatio": "\ud83e\udd1d",
+      "description": "attending afternoon classes (discussing plans with his friends for the rest of the day) @ the Ville:house_10:common room:common room table",
+      "chat": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 14:49:10"
+  }
+}

@@ -1,0 +1,508 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2023, 16:20:50",
+  "curr_tile": [
+    119,
+    159
+  ],
+  "daily_plan_req": "1. wake up at 7:30 am. 2. have breakfast. 3. head to the school at 8:30 am. 4. attend classes until 3:00 pm. 5. return home and do homework. 6. have dinner at 6:30 pm. 7. relax and sleep at 9:30 pm",
+  "name": "Dylan Brooks",
+  "first_name": "Dylan",
+  "last_name": "Brooks",
+  "age": 17,
+  "innate": "reflective, creative, independent",
+  "learned": "Dylan Brooks is a secondary student who enjoys writing poetry and playing guitar.",
+  "currently": "Dylan Brooks is sleeping at house_9 before school.",
+  "lifestyle": "Dylan Brooks goes to bed around 9:30pm, wakes up around 7:30am.",
+  "living_area": "the Ville:house_9:bedroom_2",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 204,
+  "importance_ele_n": 33,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up at 7:30 am",
+    "have breakfast",
+    "head to the school at 8:30 am",
+    "attend classes until 3:00 pm",
+    "return home and do homework",
+    "have dinner at 6:30 pm",
+    "relax and sleep at 9:30 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      450
+    ],
+    [
+      "waking up and getting ready (on the way to waking up and getting read)",
+      60
+    ],
+    [
+      "waking up and getting ready (conversing about a conversation between Pastor Daniel Brooks and Dylan Brooks about Dylan's school day, particularly his literature class and an upcoming discussion about a new poem)",
+      3
+    ],
+    [
+      "having breakfast",
+      30
+    ],
+    [
+      "commuting to the school",
+      30
+    ],
+    [
+      "attending morning classes (attending his first class, English Literature)",
+      30
+    ],
+    [
+      "attending morning classes (taking notes on the lesson)",
+      20
+    ],
+    [
+      "attending morning classes (participating in a class discussion)",
+      15
+    ],
+    [
+      "attending morning classes (switching to his next class, Mathematics)",
+      5
+    ],
+    [
+      "attending morning classes (on the way to working on a math problem set)",
+      0
+    ],
+    [
+      "attending morning classes (conversing about a conversation between Pastor Daniel Brooks and Dylan Brooks about a new poem in Dylan's literature class, its themes of community and unity, and their plans to organize community events and propose them to Ben Carter for approval and support)",
+      16
+    ],
+    [
+      "attending morning classes (asking his teacher a question about the math problem)",
+      10
+    ],
+    [
+      "attending morning classes (attending his next class, Science)",
+      30
+    ],
+    [
+      "attending morning classes (watching a science experiment demonstration)",
+      20
+    ],
+    [
+      "attending morning classes (writing down key points from the demonstration)",
+      15
+    ],
+    [
+      "attending morning classes (packing up his belongings to leave the classroom)",
+      5
+    ],
+    [
+      "attending morning classes (heading to his next class, but the morning classes are ending)",
+      5
+    ],
+    [
+      "having lunch (walking to the cafeteria)",
+      5
+    ],
+    [
+      "having lunch (waiting in line to buy lunch)",
+      10
+    ],
+    [
+      "having lunch (purchasing lunch)",
+      5
+    ],
+    [
+      "having lunch (finding a seat in the cafeteria)",
+      5
+    ],
+    [
+      "having lunch (eating lunch)",
+      20
+    ],
+    [
+      "having lunch (chatting with friends)",
+      10
+    ],
+    [
+      "having lunch (throwing away trash and leaving the cafeteria)",
+      5
+    ],
+    [
+      "attending afternoon classes (walking to the cafeteria to have lunch)",
+      10
+    ],
+    [
+      "attending afternoon classes (waiting in line to buy lunch)",
+      10
+    ],
+    [
+      "attending afternoon classes (buying lunch)",
+      5
+    ],
+    [
+      "attending afternoon classes (finding a seat in the cafeteria)",
+      5
+    ],
+    [
+      "attending afternoon classes (eating lunch)",
+      30
+    ],
+    [
+      "attending afternoon classes (chatting with friends during lunch)",
+      20
+    ],
+    [
+      "attending afternoon classes (throwing away trash)",
+      5
+    ],
+    [
+      "attending afternoon classes (heading to the afternoon classes)",
+      10
+    ],
+    [
+      "attending afternoon classes (getting settled in the classroom)",
+      10
+    ],
+    [
+      "attending afternoon classes (waiting for the teacher to start the class)",
+      10
+    ],
+    [
+      "attending afternoon classes (taking out his notebook and pen)",
+      5
+    ],
+    [
+      "heading home",
+      30
+    ],
+    [
+      "having a snack and relaxing (walking home from school)",
+      10
+    ],
+    [
+      "having a snack and relaxing (listening to music on his phone)",
+      10
+    ],
+    [
+      "having a snack and relaxing (thinking about his day at school)",
+      10
+    ],
+    [
+      "having a snack and relaxing (approaching his house)",
+      5
+    ],
+    [
+      "having a snack and relaxing (opening the front door)",
+      5
+    ],
+    [
+      "having a snack and relaxing (taking off his shoes)",
+      5
+    ],
+    [
+      "having a snack and relaxing (putting down his backpack)",
+      5
+    ],
+    [
+      "having a snack and relaxing (heading to the kitchen)",
+      5
+    ],
+    [
+      "having a snack and relaxing (grabbing a snack from the fridge)",
+      5
+    ],
+    [
+      "doing homework (taking out his books and homework from his backpack)",
+      5
+    ],
+    [
+      "doing homework (reviewing his class notes from the day)",
+      10
+    ],
+    [
+      "doing homework (checking the homework assignments for each class)",
+      5
+    ],
+    [
+      "doing homework (starting his math homework)",
+      20
+    ],
+    [
+      "doing homework (working on a math problem that he is having trouble with)",
+      10
+    ],
+    [
+      "doing homework (taking a short break to grab a drink)",
+      5
+    ],
+    [
+      "doing homework (moving on to his science homework)",
+      15
+    ],
+    [
+      "doing homework (reading a chapter in his science textbook)",
+      20
+    ],
+    [
+      "doing homework (summarizing the main points from the chapter)",
+      10
+    ],
+    [
+      "doing homework (starting his English homework)",
+      10
+    ],
+    [
+      "doing homework (writing a paragraph for his English essay)",
+      5
+    ],
+    [
+      "doing homework (reviewing what he has done so far)",
+      5
+    ],
+    [
+      "having dinner",
+      60
+    ],
+    [
+      "relaxing",
+      90
+    ],
+    [
+      "getting ready for bed",
+      60
+    ],
+    [
+      "sleeping",
+      90
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      -3
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      9
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      450
+    ],
+    [
+      "waking up and getting ready",
+      60
+    ],
+    [
+      "having breakfast",
+      30
+    ],
+    [
+      "commuting to the school",
+      30
+    ],
+    [
+      "attending morning classes",
+      180
+    ],
+    [
+      "having lunch",
+      60
+    ],
+    [
+      "attending afternoon classes",
+      120
+    ],
+    [
+      "heading home",
+      30
+    ],
+    [
+      "having a snack and relaxing",
+      60
+    ],
+    [
+      "doing homework",
+      120
+    ],
+    [
+      "having dinner",
+      60
+    ],
+    [
+      "relaxing",
+      90
+    ],
+    [
+      "getting ready for bed",
+      60
+    ],
+    [
+      "sleeping",
+      90
+    ]
+  ],
+  "act_address": "the Ville:house_9:common room:common room sofa",
+  "act_start_time": "February 13, 2023, 16:14:00",
+  "act_duration": 10,
+  "act_description": "having a snack and relaxing (thinking about his day at school)",
+  "act_pronunciatio": "\ud83d\udcda\ud83d\udcad",
+  "act_event": [
+    "Dylan Brooks",
+    "think",
+    "day"
+  ],
+  "act_obj_description": "currently occupied and slightly messy with snack wrappers and crumbs",
+  "act_obj_pronunciatio": "\ud83c\udf7f\ud83d\udc40",
+  "act_obj_event": [
+    "common room sofa",
+    "be",
+    "occupied"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {
+    "Pastor Daniel Brooks": -1138
+  },
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": []
+}

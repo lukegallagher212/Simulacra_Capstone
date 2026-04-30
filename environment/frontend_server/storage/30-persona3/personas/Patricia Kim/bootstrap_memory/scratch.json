@@ -1,0 +1,491 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2023, 16:20:50",
+  "curr_tile": [
+    64,
+    119
+  ],
+  "daily_plan_req": "1. wake up and complete morning routine at 7:00 am. 2. have breakfast at home. 3. head to the government building at 8:00 am. 4. lunch break at 12:00 pm. 5. return to work until 5:00 pm. 6. head home and have dinner at 6:30 pm. 7. relax at home from 7:30 pm",
+  "name": "Patricia Kim",
+  "first_name": "Patricia",
+  "last_name": "Kim",
+  "age": 68,
+  "innate": "methodical, experienced, reserved",
+  "learned": "Patricia Kim is a retired office worker who volunteers at the government building.",
+  "currently": "Patricia Kim is sleeping at house_5.",
+  "lifestyle": "Patricia Kim goes to bed around 10pm, wakes up around 7am, eats dinner around 6:30pm.",
+  "living_area": "the Ville:house_5:bedroom_2",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 78,
+  "importance_ele_n": 105,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete morning routine at 7:00 am",
+    "have breakfast at home",
+    "head to the government building at 8:00 am",
+    "lunch break at 12:00 pm",
+    "return to work until 5:00 pm",
+    "head home and have dinner at 6:30 pm",
+    "relax at home from 7:30 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      420
+    ],
+    [
+      "waking up and starting morning routine",
+      60
+    ],
+    [
+      "having breakfast at home",
+      30
+    ],
+    [
+      "commuting to the government building and starting work (on the way to on the way to commuting to the government building and starting wor)",
+      0
+    ],
+    [
+      "commuting to the government building and starting work (conversing about Curtis Bell and Patricia Kim conversing about their plans for the day, including Curtis' work at the school and Patricia's volunteer work at the government building, where she will be assisting with administrative tasks and a new project)",
+      6
+    ],
+    [
+      "commuting to the government building and starting work (conversing about Trina Bell and Patricia Kim conversing about their daily plans and activities, including Patricia's volunteer work at the government building and Trina's student organizer duties at school)",
+      4
+    ],
+    [
+      "working at the government building (checking her mailbox for any new messages)",
+      5
+    ],
+    [
+      "working at the government building (reviewing the day's schedule)",
+      5
+    ],
+    [
+      "working at the government building (organizing her workspace)",
+      5
+    ],
+    [
+      "working at the government building (responding to urgent emails)",
+      5
+    ],
+    [
+      "working at the government building (updating her to-do list)",
+      5
+    ],
+    [
+      "working at the government building (attending a brief meeting with colleagues)",
+      4
+    ],
+    [
+      "working at the government building (taking notes from the meeting)",
+      5
+    ],
+    [
+      "working at the government building (prioritizing her tasks for the day)",
+      5
+    ],
+    [
+      "working at the government building (on the way to making phone calls to follow up on pending tasks)",
+      0
+    ],
+    [
+      "working at the government building (conversing about Rosie Bell and Patricia Kim conversing about Rosie's day, her art project, and her painting of their neighborhood)",
+      7
+    ],
+    [
+      "working at the government building (documenting her progress on ongoing projects)",
+      10
+    ],
+    [
+      "working at the government building (on the way to researching information for a new project)",
+      0
+    ],
+    [
+      "working at the government building (conversing about Patricia Kim and Mason Bell conversing about their daily activities, Patricia's work projects at the government building, and plans to support Rosie Bell's art project, including potentially displaying her painting at the school or in a local art show with the help of Curtis and Ben Carter)",
+      9
+    ],
+    [
+      "working at the government building (creating a presentation for a meeting)",
+      15
+    ],
+    [
+      "working at the government building (taking a short break to stretch)",
+      5
+    ],
+    [
+      "working at the government building (reviewing documents for accuracy)",
+      10
+    ],
+    [
+      "working at the government building (collaborating with a colleague on a task)",
+      15
+    ],
+    [
+      "working at the government building (on the way to updating records and databases)",
+      0
+    ],
+    [
+      "working at the government building (conversing about Trina Bell and Patricia Kim conversing about Trina's psychology lecture, her volunteer work, and planning a school festival and charity drive with the student council, including discussing event ideas, promotion strategies, and seeking approval from Ben Carter)",
+      18
+    ],
+    [
+      "working at the government building (on the way to preparing for a training session)",
+      0
+    ],
+    [
+      "working at the government building (conversing about Patricia Kim and Curtis Bell conversing about showcasing Rosie's art project at the school, local art show, or government building, and potentially incorporating it into the school festival and charity drive, with plans to discuss the details further with Ben Carter and Trina)",
+      12
+    ],
+    [
+      "working at the government building (participating in a training session)",
+      20
+    ],
+    [
+      "working at the government building (applying what she learned from the training)",
+      15
+    ],
+    [
+      "working at the government building (evaluating the effectiveness of a process)",
+      10
+    ],
+    [
+      "working at the government building (identifying areas for improvement)",
+      10
+    ],
+    [
+      "working at the government building (developing a plan to implement changes)",
+      15
+    ],
+    [
+      "working at the government building (communicating the plan to her team)",
+      10
+    ],
+    [
+      "working at the government building (monitoring progress and providing feedback)",
+      10
+    ],
+    [
+      "working at the government building (on the way to preparing for her lunch break)",
+      0
+    ],
+    [
+      "working at the government building (conversing about Patricia Kim and Rosie Bell conversing about Rosie's art project and the potential opportunity to showcase it at the government building, with Patricia offering to introduce Rosie to Ben Carter and help set up a meeting to discuss the details)",
+      17
+    ],
+    [
+      "taking a lunch break",
+      43
+    ],
+    [
+      "continuing work at the government building (responding to emails)",
+      15
+    ],
+    [
+      "continuing work at the government building (organizing documents)",
+      30
+    ],
+    [
+      "continuing work at the government building (making phone calls)",
+      20
+    ],
+    [
+      "continuing work at the government building (updating records)",
+      25
+    ],
+    [
+      "continuing work at the government building (on the way to taking a short break to stretch)",
+      0
+    ],
+    [
+      "continuing work at the government building (conversing about Patricia Kim and Rosie Bell conversing about Rosie's art project, including the possibility of showcasing it at the government building and arranging a meeting with Ben Carter to discuss the details)",
+      12
+    ],
+    [
+      "continuing work at the government building (reviewing reports)",
+      30
+    ],
+    [
+      "continuing work at the government building (on the way to attending a meeting)",
+      0
+    ],
+    [
+      "continuing work at the government building (conversing about Patricia Kim and Trina Bell conversing about the school festival and charity drive, including event ideas, promotion strategies, and finalizing a proposal to present to Ben Carter)",
+      22
+    ],
+    [
+      "continuing work at the government building (discussing projects with colleagues)",
+      25
+    ],
+    [
+      "continuing work at the government building (working on a new project)",
+      20
+    ],
+    [
+      "continuing work at the government building (reviewing her tasks for the day)",
+      15
+    ],
+    [
+      "continuing work at the government building (preparing for the end of the workday)",
+      10
+    ],
+    [
+      "heading home",
+      28
+    ],
+    [
+      "relaxing at home",
+      60
+    ],
+    [
+      "having dinner",
+      60
+    ],
+    [
+      "relaxing at home",
+      120
+    ],
+    [
+      "getting ready for bed",
+      30
+    ],
+    [
+      "sleeping",
+      60
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      26
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      3
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      1
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      18
+    ],
+    [
+      "sleeping",
+      0
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      420
+    ],
+    [
+      "waking up and starting morning routine",
+      60
+    ],
+    [
+      "having breakfast at home",
+      30
+    ],
+    [
+      "commuting to the government building and starting work",
+      30
+    ],
+    [
+      "working at the government building",
+      240
+    ],
+    [
+      "taking a lunch break",
+      60
+    ],
+    [
+      "continuing work at the government building",
+      240
+    ],
+    [
+      "heading home",
+      30
+    ],
+    [
+      "relaxing at home",
+      60
+    ],
+    [
+      "having dinner",
+      60
+    ],
+    [
+      "relaxing at home",
+      120
+    ],
+    [
+      "getting ready for bed",
+      30
+    ],
+    [
+      "sleeping",
+      60
+    ]
+  ],
+  "act_address": "the Ville:government_building:meeting room:Town Hall Presenter",
+  "act_start_time": "February 13, 2023, 16:09:00",
+  "act_duration": 25,
+  "act_description": "continuing work at the government building (discussing projects with colleagues)",
+  "act_pronunciatio": "\ud83d\udcbc\ud83d\udc65",
+  "act_event": [
+    "Patricia Kim",
+    "discuss",
+    "projects"
+  ],
+  "act_obj_description": "being used by Patricia Kim",
+  "act_obj_pronunciatio": "\ud83d\udc65",
+  "act_obj_event": [
+    "Town Hall Presenter",
+    "be used by",
+    "Patricia Kim"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {
+    "Trina Bell": 596,
+    "Curtis Bell": -1186,
+    "Rosie Bell": 338,
+    "Mason Bell": -1606
+  },
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": []
+}

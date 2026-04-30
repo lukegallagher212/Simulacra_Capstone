@@ -1,0 +1,467 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2023, 16:20:50",
+  "curr_tile": [
+    68,
+    119
+  ],
+  "daily_plan_req": "1. wake up at 7:30 am. 2. have breakfast. 3. head to the school at 8:30 am. 4. attend classes until 3:00 pm. 5. return home and do homework. 6. have dinner at 6:30 pm. 7. relax and sleep at 9:30 pm",
+  "name": "Mason Bell",
+  "first_name": "Mason",
+  "last_name": "Bell",
+  "age": 16,
+  "innate": "ambitious, competitive, quiet",
+  "learned": "Mason Bell is a secondary student focused on academics.",
+  "currently": "Mason Bell is sleeping at house_5 before school.",
+  "lifestyle": "Mason Bell goes to bed around 9:30pm, wakes up around 7:30am.",
+  "living_area": "the Ville:house_5:bedroom_4",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 209,
+  "importance_ele_n": 16,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up at 7:30 am",
+    "have breakfast",
+    "head to the school at 8:30 am",
+    "attend classes until 3:00 pm",
+    "return home and do homework",
+    "have dinner at 6:30 pm",
+    "relax and sleep at 9:30 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      450
+    ],
+    [
+      "waking up and getting ready (on the way to on the way to waking up and getting read)",
+      60
+    ],
+    [
+      "waking up and getting ready (conversing about Mason Bell and Trina Bell conversing about their daily plans, including Mason's anticipation of seeing his sister Rosie's new art project and Trina's student organizer duties at school)",
+      6
+    ],
+    [
+      "waking up and getting ready (conversing about a conversation between Rosie Bell and Mason Bell about their daily routines, school classes, and breakfast plans, where they discuss Rosie's new art project and make arrangements to eat together before heading out to school)",
+      9
+    ],
+    [
+      "having breakfast",
+      30
+    ],
+    [
+      "commuting to the school",
+      30
+    ],
+    [
+      "attending morning classes (on the way to on the way to attending his first class, which is mathematics)",
+      0
+    ],
+    [
+      "attending morning classes (conversing about Mason Bell and Curtis Bell conversing about Rosie's art project, potentially displaying it at school, and seeking feedback and assistance from Ben Carter and Trina to make the display a success)",
+      14
+    ],
+    [
+      "attending morning classes (conversing about Patricia Kim and Mason Bell conversing about their daily activities, Patricia's work projects at the government building, and plans to support Rosie Bell's art project, including potentially displaying her painting at the school or in a local art show with the help of Curtis and Ben Carter)",
+      9
+    ],
+    [
+      "attending morning classes (attending his first class, which is mathematics)",
+      30
+    ],
+    [
+      "attending morning classes (on the way to taking notes during the mathematics class)",
+      0
+    ],
+    [
+      "attending morning classes (conversing about Rosie Bell and Mason Bell conversing about displaying Rosie's art project in the school hallway, getting feedback from Ben Carter, Trina, and their art teacher, and potentially involving the school administration, including Patricia Kim, to make it a big event)",
+      17
+    ],
+    [
+      "attending morning classes (participating in a group discussion during the mathematics class)",
+      10
+    ],
+    [
+      "attending morning classes (on the way to attending his second class, which is science)",
+      0
+    ],
+    [
+      "attending morning classes (conversing about Mason Bell and Trina Bell conversing about Rosie's art project and planning to display it in the school hallway, with the potential to incorporate it into the school festival and charity drive with the help of Ben Carter, their art teacher, Patricia Kim, and the student council)",
+      10
+    ],
+    [
+      "attending morning classes (listening to the science teacher's lecture)",
+      20
+    ],
+    [
+      "attending morning classes (working on a science worksheet)",
+      6
+    ],
+    [
+      "attending morning classes (attending his third class, which is English)",
+      11
+    ],
+    [
+      "attending morning classes (on the way to reading a passage from a book during the English class)",
+      10
+    ],
+    [
+      "attending morning classes (conversing about Curtis Bell and Mason Bell conversing about Rosie's art project, discussing ideas for the display, and planning to present it to Patricia Kim, Trina, and Ben Carter at an upcoming meeting, with the goal of making the project a success, especially with the school festival and charity drive coming up)",
+      20
+    ],
+    [
+      "attending morning classes (answering questions from the English teacher)",
+      10
+    ],
+    [
+      "having lunch (walking to the cafeteria)",
+      5
+    ],
+    [
+      "having lunch (waiting in line to buy lunch)",
+      10
+    ],
+    [
+      "having lunch (purchasing lunch)",
+      5
+    ],
+    [
+      "having lunch (finding a seat in the cafeteria)",
+      5
+    ],
+    [
+      "having lunch (eating lunch)",
+      20
+    ],
+    [
+      "having lunch (chatting with friends)",
+      10
+    ],
+    [
+      "having lunch (on the way to throwing away trash and leaving the cafeteria)",
+      0
+    ],
+    [
+      "having lunch (conversing about Mason Bell and Trina Bell conversing about Rosie's art project and how to incorporate it into the school festival and charity drive, including discussing plans to meet with the student council, Ben Carter, and the art teacher to get feedback and approval)",
+      18
+    ],
+    [
+      "attending afternoon classes (walking to the cafeteria to have lunch)",
+      5
+    ],
+    [
+      "attending afternoon classes (waiting in line to buy lunch)",
+      10
+    ],
+    [
+      "attending afternoon classes (purchasing lunch)",
+      5
+    ],
+    [
+      "attending afternoon classes (finding a seat in the cafeteria)",
+      5
+    ],
+    [
+      "attending afternoon classes (eating lunch)",
+      30
+    ],
+    [
+      "attending afternoon classes (on the way to chatting with friends during lunch)",
+      20
+    ],
+    [
+      "attending afternoon classes (conversing about Curtis Bell and Mason Bell conversing about Rosie's art project, including display ideas, charity drive, and school festival plans)",
+      20
+    ],
+    [
+      "attending afternoon classes (throwing away trash)",
+      2
+    ],
+    [
+      "attending afternoon classes (reviewing notes for the next class)",
+      15
+    ],
+    [
+      "attending afternoon classes (packing up his belongings to head to class)",
+      10
+    ],
+    [
+      "attending afternoon classes (on the way to walking to the classroom for the next class)",
+      0
+    ],
+    [
+      "attending afternoon classes (conversing about Mason Bell and Rosie Bell conversing about displaying Rosie's art project in the school hallway, and planning to meet with Ben Carter, their art teacher, and potentially Patricia Kim and other school staff and students to make it a bigger event)",
+      23
+    ],
+    [
+      "heading home",
+      12
+    ],
+    [
+      "having a snack and relaxing (walking in the door and dropping off his backpack)",
+      5
+    ],
+    [
+      "having a snack and relaxing (going to the kitchen to find a snack)",
+      5
+    ],
+    [
+      "having a snack and relaxing (making himself a sandwich)",
+      10
+    ],
+    [
+      "having a snack and relaxing (getting a glass of water)",
+      5
+    ],
+    [
+      "having a snack and relaxing (sitting down at the table to eat)",
+      5
+    ],
+    [
+      "having a snack and relaxing (eating his snack)",
+      15
+    ],
+    [
+      "having a snack and relaxing (checking his phone for any messages)",
+      5
+    ],
+    [
+      "having a snack and relaxing (browsing social media)",
+      5
+    ],
+    [
+      "having a snack and relaxing (putting his dishes in the dishwasher)",
+      5
+    ],
+    [
+      "doing homework",
+      120
+    ],
+    [
+      "having dinner",
+      60
+    ],
+    [
+      "relaxing",
+      90
+    ],
+    [
+      "getting ready for bed",
+      60
+    ],
+    [
+      "sleeping",
+      90
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      -9
+    ],
+    [
+      "sleeping",
+      -6
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      10
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      3
+    ],
+    [
+      "sleeping",
+      20
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      -20
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      -20
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      450
+    ],
+    [
+      "waking up and getting ready",
+      60
+    ],
+    [
+      "having breakfast",
+      30
+    ],
+    [
+      "commuting to the school",
+      30
+    ],
+    [
+      "attending morning classes",
+      180
+    ],
+    [
+      "having lunch",
+      60
+    ],
+    [
+      "attending afternoon classes",
+      120
+    ],
+    [
+      "heading home",
+      30
+    ],
+    [
+      "having a snack and relaxing",
+      60
+    ],
+    [
+      "doing homework",
+      120
+    ],
+    [
+      "having dinner",
+      60
+    ],
+    [
+      "relaxing",
+      90
+    ],
+    [
+      "getting ready for bed",
+      60
+    ],
+    [
+      "sleeping",
+      90
+    ]
+  ],
+  "act_address": "the Ville:house_5:common room:common room table",
+  "act_start_time": "February 13, 2023, 16:04:00",
+  "act_duration": 23,
+  "act_description": "attending afternoon classes (conversing about Mason Bell and Rosie Bell conversing about displaying Rosie's art project in the school hallway, and planning to meet with Ben Carter, their art teacher, and potentially Patricia Kim and other school staff and students to make it a bigger event)",
+  "act_pronunciatio": "\ud83c\udfa8\ud83d\udc65",
+  "act_event": [
+    "Mason Bell",
+    "converse",
+    "Rosie Bell"
+  ],
+  "act_obj_description": "empty and clean, with a few chairs pushed back from it, as Mason Bell and Rosie Bell are currently attending their afternoon classes",
+  "act_obj_pronunciatio": "\ud83d\udecb\ufe0f",
+  "act_obj_event": [
+    "common room table",
+    "be",
+    "empty and clean"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {
+    "Rosie Bell": 698,
+    "Trina Bell": -172,
+    "Patricia Kim": -1606,
+    "Curtis Bell": 374
+  },
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": []
+}

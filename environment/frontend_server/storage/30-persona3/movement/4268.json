@@ -1,0 +1,407 @@
+{
+  "persona": {
+    "Ethan Walker": {
+      "movement": [
+        52,
+        97
+      ],
+      "pronunciatio": "\ud83e\udd1d\ud83d\udcda",
+      "description": "working at the school (collaborating with other school librarians) @ the Ville:school:library:library table",
+      "chat": null
+    },
+    "Jordan Walker": {
+      "movement": [
+        54,
+        97
+      ],
+      "pronunciatio": "\ud83e\udd14",
+      "description": "attending morning classes (asking questions during the science class) @ the Ville:house_1:common room:shelf",
+      "chat": null
+    },
+    "Lily Walker": {
+      "movement": [
+        41,
+        92
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "attending morning classes (asleep) @ the Ville:house_1:bedroom_1:bed",
+      "chat": null
+    },
+    "Rodrigo Torres": {
+      "movement": [
+        76,
+        92
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "working at the supply store (asleep) @ the Ville:house_2:bedroom_1:bed",
+      "chat": null
+    },
+    "Sofia Torres": {
+      "movement": [
+        102,
+        101
+      ],
+      "pronunciatio": "\ud83d\udde3\ufe0f",
+      "description": "working at the residential house (conversing about Sofia Torres and Raj Singh conversing about the progress of Raj's project at the government building, lunch preparation, and upcoming meeting with Ben Carter to discuss new community initiatives and ways to increase community involvement) @ the Ville:house_2:common room:common room table",
+      "chat": null
+    },
+    "Harpreet Kaur": {
+      "movement": [
+        135,
+        97
+      ],
+      "pronunciatio": "\ud83d\udce8",
+      "description": "working at the government building (receiving feedback on her performance) @ the Ville:government_building:meeting room:Town Hall Presenter",
+      "chat": null
+    },
+    "Raj Singh": {
+      "movement": [
+        131,
+        97
+      ],
+      "pronunciatio": "\ud83d\udde3\ufe0f",
+      "description": "working at the government building (conversing about Sofia Torres and Raj Singh conversing about the progress of Raj's project at the government building, lunch preparation, and upcoming meeting with Ben Carter to discuss new community initiatives and ways to increase community involvement) @ the Ville:government_building:meeting room:Town Hall Seats",
+      "chat": null
+    },
+    "Nadia Kaur": {
+      "movement": [
+        122,
+        97
+      ],
+      "pronunciatio": "\ud83d\udde3\ufe0f",
+      "description": "attending morning classes (listening to a guest speaker) @ the Ville:house_3:common room:common room table",
+      "chat": null
+    },
+    "Dr Linh Nguyen": {
+      "movement": [
+        154,
+        89
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "working at the pharmacy (asleep) @ the Ville:house_4:bedroom_1:bed",
+      "chat": null
+    },
+    "Phoebe Nguyen": {
+      "movement": [
+        112,
+        30
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "working at the school (taking a short break) @ the Ville:school:hallway:<random>",
+      "chat": null
+    },
+    "Julia Nguyen": {
+      "movement": [
+        165,
+        95
+      ],
+      "pronunciatio": "\ud83d\udd2c",
+      "description": "attending morning classes (watching a Science experiment) @ the Ville:house_4:common room:common room table",
+      "chat": null
+    },
+    "Curtis Bell": {
+      "movement": [
+        65,
+        119
+      ],
+      "pronunciatio": "\ud83d\udcda\ud83d\udc65",
+      "description": "working at the school (attending a meeting with the school's staff to discuss safety procedures) @ the Ville:school:hallway:<random>",
+      "chat": null
+    },
+    "Patricia Kim": {
+      "movement": [
+        64,
+        119
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83d\udca1",
+      "description": "working at the government building (identifying areas for improvement) @ the Ville:government_building:meeting room:Town Hall Presenter",
+      "chat": null
+    },
+    "Trina Bell": {
+      "movement": [
+        67,
+        119
+      ],
+      "pronunciatio": "\ud83d\udcda\ud83d\udc67",
+      "description": "attending morning classes (attending her mathematics lecture) @ the Ville:house_5:common room:common room table",
+      "chat": null
+    },
+    "Rosie Bell": {
+      "movement": [
+        68,
+        119
+      ],
+      "pronunciatio": "\ud83c\udfa8\ud83d\udcac",
+      "description": "attending morning classes (conversing about Rosie Bell and Trina Bell conversing about displaying Rosie's art project in the school hallway, getting feedback from Mr. Carter, and discussing potential titles for the project) @ the Ville:house_5:common room:common room table",
+      "chat": null
+    },
+    "Mason Bell": {
+      "movement": [
+        67,
+        119
+      ],
+      "pronunciatio": "\ud83d\udcda",
+      "description": "attending morning classes (attending his third class, which is English) @ the Ville:school:classroom:School Desk",
+      "chat": null
+    },
+    "Rashad Lewis": {
+      "movement": [
+        142,
+        120
+      ],
+      "pronunciatio": "\ud83d\udc4b",
+      "description": "working at the school (welcoming the players) @ the Ville:school:hallway:<random>",
+      "chat": null
+    },
+    "Parker Lewis": {
+      "movement": [
+        128,
+        120
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Parker Lewis and Kendra Hall conversing about the new teamwork, coordination, and agility drills that Kendra and Coach Rashad are planning to implement in their upcoming practice and game @ <persona> Kendra Hall",
+      "chat": [
+        [
+          "Parker Lewis",
+          "Hi Kendra, I'm looking forward to learning more about the new teamwork, coordination, and agility drills you and Coach Rashad are planning to implement. Can you tell me more about what we'll be covering in practice today?"
+        ],
+        [
+          "Kendra Hall",
+          "I'm excited to share the details with you, Parker. Coach Rashad and I have been discussing some innovative approaches to improve teamwork and agility, and we'll be introducing them during practice today. We'll focus on exercises that enhance communication, trust, and quick decision-making among team members."
+        ],
+        [
+          "Parker Lewis",
+          "That sounds really interesting, Kendra. I'm curious to know more about the specific exercises you have planned. Will we be working on any drills that focus on sprinting techniques, as Coach Rashad mentioned earlier?"
+        ],
+        [
+          "Kendra Hall",
+          "Yes, we will be covering some sprinting techniques, and I'm glad you're interested in that aspect. Coach Rashad and I have designed a few drills that will help you and the other students improve your speed and agility. One of the exercises we'll be doing is a relay race that focuses on quick handoffs and communication between team members. We'll also be working on some individual sprinting drills to help you build up your endurance and speed."
+        ],
+        [
+          "Parker Lewis",
+          "That sounds like a great plan, Kendra. I'm looking forward to trying out the relay race and individual sprinting drills. Can you tell me more about how we'll be implementing these new drills in the upcoming game, and what Coach Rashad's expectations are for our performance?"
+        ],
+        [
+          "Kendra Hall",
+          "Well, Parker, Coach Rashad and I have discussed how to incorporate these new drills into our game strategy. We're planning to use the relay race drill to practice quick transitions between plays, and the individual sprinting drills to improve our overall team speed. As for Coach Rashad's expectations, he's looking for us to demonstrate improved teamwork, communication, and agility during the game. He wants us to be able to work together seamlessly and make quick decisions on the field."
+        ],
+        [
+          "Parker Lewis",
+          "I understand Coach Rashad's expectations, and I'm committed to working hard to meet them. Can you tell me more about how we'll be evaluating our progress and what specific goals we should be aiming for during the game?"
+        ],
+        [
+          "Kendra Hall",
+          "We'll be evaluating our progress by tracking our team's overall speed, agility, and communication during the game. Coach Rashad will also be providing feedback on our performance, and we'll be setting specific goals for each game, such as improving our relay times and reducing errors. Let's discuss more about the game plan during practice today, and I'll make sure to share the details with the rest of the team."
+        ],
+        [
+          "Parker Lewis",
+          "That sounds like a solid plan, Kendra. I'm looking forward to discussing the game plan in more detail during practice today and working together as a team to meet Coach Rashad's expectations. What time should I expect practice to start and what should I be prepared to focus on?"
+        ],
+        [
+          "Kendra Hall",
+          "Practice is scheduled to start at 3:00 pm today, and I recommend you come prepared to focus on the new drills we've discussed, as well as our overall game strategy. We'll be meeting with Coach Rashad at 5:30 pm to discuss the details of the agility drills and teamwork exercises, so be sure to stick around after practice."
+        ],
+        [
+          "Parker Lewis",
+          "I'll make sure to be on time for practice and come prepared to focus on the new drills and game strategy. I'm looking forward to meeting with Coach Rashad at 5:30 pm to discuss the details of the agility drills and teamwork exercises. Thanks for filling me in on the plan, Kendra."
+        ],
+        [
+          "Kendra Hall",
+          "I'm glad we're on the same page, Parker. I'll see you at practice today at 3:00 pm, and don't forget to stick around for our meeting with Coach Rashad at 5:30 pm. Let's work together to make this a great game!"
+        ],
+        [
+          "Parker Lewis",
+          "I'm excited to get started with practice today and learn more about the new drills. I'll make sure to come prepared and focused. Is there anything specific you'd like me to work on before practice starts?"
+        ],
+        [
+          "Kendra Hall",
+          "Actually, Parker, it would be great if you could review the notes from our last practice and come prepared with any questions or suggestions you may have. That way, we can make the most of our time during practice today and make sure everyone is on the same page."
+        ],
+        [
+          "Parker Lewis",
+          "I'll make sure to review the notes from our last practice and come prepared with any questions or suggestions I may have. Thanks for the heads up, Kendra. I'm looking forward to a productive practice today!"
+        ],
+        [
+          "Kendra Hall",
+          "I'm glad you're prepared, Parker. Now, let's head to the practice field and get started with the new drills. I'll introduce the exercises to the team and we can begin with the relay race drill."
+        ]
+      ]
+    },
+    "Kendra Hall": {
+      "movement": [
+        127,
+        120
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Parker Lewis and Kendra Hall conversing about the new teamwork, coordination, and agility drills that Kendra and Coach Rashad are planning to implement in their upcoming practice and game @ <persona> Parker Lewis",
+      "chat": [
+        [
+          "Parker Lewis",
+          "Hi Kendra, I'm looking forward to learning more about the new teamwork, coordination, and agility drills you and Coach Rashad are planning to implement. Can you tell me more about what we'll be covering in practice today?"
+        ],
+        [
+          "Kendra Hall",
+          "I'm excited to share the details with you, Parker. Coach Rashad and I have been discussing some innovative approaches to improve teamwork and agility, and we'll be introducing them during practice today. We'll focus on exercises that enhance communication, trust, and quick decision-making among team members."
+        ],
+        [
+          "Parker Lewis",
+          "That sounds really interesting, Kendra. I'm curious to know more about the specific exercises you have planned. Will we be working on any drills that focus on sprinting techniques, as Coach Rashad mentioned earlier?"
+        ],
+        [
+          "Kendra Hall",
+          "Yes, we will be covering some sprinting techniques, and I'm glad you're interested in that aspect. Coach Rashad and I have designed a few drills that will help you and the other students improve your speed and agility. One of the exercises we'll be doing is a relay race that focuses on quick handoffs and communication between team members. We'll also be working on some individual sprinting drills to help you build up your endurance and speed."
+        ],
+        [
+          "Parker Lewis",
+          "That sounds like a great plan, Kendra. I'm looking forward to trying out the relay race and individual sprinting drills. Can you tell me more about how we'll be implementing these new drills in the upcoming game, and what Coach Rashad's expectations are for our performance?"
+        ],
+        [
+          "Kendra Hall",
+          "Well, Parker, Coach Rashad and I have discussed how to incorporate these new drills into our game strategy. We're planning to use the relay race drill to practice quick transitions between plays, and the individual sprinting drills to improve our overall team speed. As for Coach Rashad's expectations, he's looking for us to demonstrate improved teamwork, communication, and agility during the game. He wants us to be able to work together seamlessly and make quick decisions on the field."
+        ],
+        [
+          "Parker Lewis",
+          "I understand Coach Rashad's expectations, and I'm committed to working hard to meet them. Can you tell me more about how we'll be evaluating our progress and what specific goals we should be aiming for during the game?"
+        ],
+        [
+          "Kendra Hall",
+          "We'll be evaluating our progress by tracking our team's overall speed, agility, and communication during the game. Coach Rashad will also be providing feedback on our performance, and we'll be setting specific goals for each game, such as improving our relay times and reducing errors. Let's discuss more about the game plan during practice today, and I'll make sure to share the details with the rest of the team."
+        ],
+        [
+          "Parker Lewis",
+          "That sounds like a solid plan, Kendra. I'm looking forward to discussing the game plan in more detail during practice today and working together as a team to meet Coach Rashad's expectations. What time should I expect practice to start and what should I be prepared to focus on?"
+        ],
+        [
+          "Kendra Hall",
+          "Practice is scheduled to start at 3:00 pm today, and I recommend you come prepared to focus on the new drills we've discussed, as well as our overall game strategy. We'll be meeting with Coach Rashad at 5:30 pm to discuss the details of the agility drills and teamwork exercises, so be sure to stick around after practice."
+        ],
+        [
+          "Parker Lewis",
+          "I'll make sure to be on time for practice and come prepared to focus on the new drills and game strategy. I'm looking forward to meeting with Coach Rashad at 5:30 pm to discuss the details of the agility drills and teamwork exercises. Thanks for filling me in on the plan, Kendra."
+        ],
+        [
+          "Kendra Hall",
+          "I'm glad we're on the same page, Parker. I'll see you at practice today at 3:00 pm, and don't forget to stick around for our meeting with Coach Rashad at 5:30 pm. Let's work together to make this a great game!"
+        ],
+        [
+          "Parker Lewis",
+          "I'm excited to get started with practice today and learn more about the new drills. I'll make sure to come prepared and focused. Is there anything specific you'd like me to work on before practice starts?"
+        ],
+        [
+          "Kendra Hall",
+          "Actually, Parker, it would be great if you could review the notes from our last practice and come prepared with any questions or suggestions you may have. That way, we can make the most of our time during practice today and make sure everyone is on the same page."
+        ],
+        [
+          "Parker Lewis",
+          "I'll make sure to review the notes from our last practice and come prepared with any questions or suggestions I may have. Thanks for the heads up, Kendra. I'm looking forward to a productive practice today!"
+        ],
+        [
+          "Kendra Hall",
+          "I'm glad you're prepared, Parker. Now, let's head to the practice field and get started with the new drills. I'll introduce the exercises to the team and we can begin with the relay race drill."
+        ]
+      ]
+    },
+    "Dr Miguel Santos": {
+      "movement": [
+        117,
+        131
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "working at the pharmacy (asleep) @ the Ville:house_7:bedroom_1:bed",
+      "chat": null
+    },
+    "Vivian Santos": {
+      "movement": [
+        141,
+        136
+      ],
+      "pronunciatio": "\ud83c\udf7f",
+      "description": "working at the office (taking a short break to grab a snack) @ the Ville:house_7:kitchen:refrigerator",
+      "chat": null
+    },
+    "Mateo Santos": {
+      "movement": [
+        131,
+        136
+      ],
+      "pronunciatio": "\ud83d\udd2c",
+      "description": "attending morning classes (working on a science experiment) @ the Ville:house_7:common room:common room table",
+      "chat": null
+    },
+    "Gabriel Flores": {
+      "movement": [
+        164,
+        135
+      ],
+      "pronunciatio": "\ud83d\udcdd",
+      "description": "working at the school (filling out paperwork) @ the Ville:school:classroom:School Desk",
+      "chat": null
+    },
+    "Emilia Flores": {
+      "movement": [
+        178,
+        135
+      ],
+      "pronunciatio": "\ud83c\udf74\ud83d\udc65",
+      "description": "working at the school (serving food to the students and staff) @ the Ville:school:hallway:<random>",
+      "chat": null
+    },
+    "Noemi Flores": {
+      "movement": [
+        168,
+        135
+      ],
+      "pronunciatio": "\ud83d\udcdd",
+      "description": "attending morning classes (writing down Science notes) @ the Ville:house_8:common room:common room table",
+      "chat": null
+    },
+    "Pastor Daniel Brooks": {
+      "movement": [
+        127,
+        159
+      ],
+      "pronunciatio": "\ud83c\udfcb\ufe0f\u200d",
+      "description": "working at the government building (taking a short break to stretch and move around) @ the Ville:Johnson Park:park:park garden",
+      "chat": null
+    },
+    "Dylan Brooks": {
+      "movement": [
+        128,
+        159
+      ],
+      "pronunciatio": "\ud83d\udd2c",
+      "description": "attending morning classes (watching a science experiment demonstration) @ the Ville:house_9:common room:common room table",
+      "chat": null
+    },
+    "Caleb Brooks": {
+      "movement": [
+        138,
+        159
+      ],
+      "pronunciatio": "\ud83d\udcc5",
+      "description": "working at the school (attending a staff meeting) @ the Ville:school:hallway:<random>",
+      "chat": null
+    },
+    "Professor Emily Carter": {
+      "movement": [
+        164,
+        166
+      ],
+      "pronunciatio": "\ud83e\udd14",
+      "description": "working at the school (asking questions and clarifying doubts) @ the Ville:house_10:common room:common room table",
+      "chat": null
+    },
+    "Ben Carter": {
+      "movement": [
+        167,
+        166
+      ],
+      "pronunciatio": "\ud83d\udcda",
+      "description": "attending morning classes (reviewing the class material) @ the Ville:school:classroom:School Desk",
+      "chat": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 11:51:20"
+  }
+}
