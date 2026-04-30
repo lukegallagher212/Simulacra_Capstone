@@ -31,5 +31,7 @@ urlpatterns = [
     url(r'^update_environment/$', translator_views.update_environment, name='update_environment'),
     url(r'^path_tester/$', translator_views.path_tester, name='path_tester'),
     url(r'^path_tester_update/$', translator_views.path_tester_update, name='path_tester_update'),
+    url(r'^agent_graph/(?P<sim_code>[\w-]+)/$', translator_views.agent_graph, name='agent_graph'),
+    url(r'^agent_graph_data/(?P<sim_code>[\w-]+)/$', translator_views.agent_graph_data, name='agent_graph_data'),
     path('admin/', admin.site.urls),
 ]

@@ -81,6 +81,14 @@ You may have noticed that all character sprites in the replay look identical. We
 To start the demo, go to the following address on your browser: `http://localhost:8000/demo/<simulation-name>/<starting-time-step>/<simulation-speed>`. Note that `<simulation-name>` and `<starting-time-step>` denote the same things as mentioned above. `<simulation-speed>` can be set to control the demo speed, where 1 is the slowest, and 5 is the fastest. For instance, visiting the following link will start a pre-simulated example, beginning at time-step 1, with a medium demo speed:  
 [http://localhost:8000/demo/July1_the_ville_isabella_maria_klaus-step-3-20/1/3/](http://localhost:8000/demo/July1_the_ville_isabella_maria_klaus-step-3-20/1/3/)
 
+### Step 6. Viewing the Agent Relationship Graph
+You can also view a dynamic network graph of all interactions that occurred during a simulation. This dashboard visualizes which agents talked to each other, how often, and lets you read through their actual conversation transcripts.
+
+To view the graph for a specific simulation, ensure your environment server is running and navigate to the following address in your browser: `http://localhost:8000/agent_graph/<simulation-name>/`. Please replace `<simulation-name>` with the name of the simulation you want to analyze.
+
+For instance, visiting the following link will show the relationship graph for a pre-simulated example:  
+[http://localhost:8000/agent_graph/July1_the_ville_isabella_maria_klaus-step-3-20/](http://localhost:8000/agent_graph/July1_the_ville_isabella_maria_klaus-step-3-20/)
+
 ### Tips
 We've noticed that OpenAI's API can hang when it reaches the hourly rate limit. When this happens, you may need to restart your simulation. For now, we recommend saving your simulation often as you progress to ensure that you lose as little of the simulation as possible when you do need to stop and rerun it. Running these simulations, at least as of early 2023, could be somewhat costly, especially when there are many agents in the environment.
 

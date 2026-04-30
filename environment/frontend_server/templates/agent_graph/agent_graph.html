@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agent Relationships — {{ sim_code }}</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/vis-network@9.1.6/standalone/umd/vis-network.min.js"></script>
+  <style>
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    :root{
+      --cream:#f5f0e8;--panel:rgba(220,228,218,0.92);--panel2:rgba(235,240,230,0.97);
+      --border:#5a6e4a;--border2:#7a8f6a;--shadow:rgba(60,70,40,0.22);
+      --text:#2a3020;--muted:#5a6e50;--green:#3d7a45;--label:#3a4a2a;
+      --blue:#4a7fc1;--rose:#c14a4a;--amber:#b8860b;--purple:#7c5cbf;
+    }
+    body{
+      font-family:'Nunito',sans-serif;background-color:var(--cream);color:var(--text);
+      background-image:linear-gradient(rgba(180,200,160,0.15) 1px,transparent 1px),
+        linear-gradient(90deg,rgba(180,200,160,0.15) 1px,transparent 1px);
+      background-size:32px 32px;overflow:hidden;height:100vh;width:100vw;
+    }
+    header{
+      background:var(--panel);border-bottom:3px solid var(--border);
+      padding:0.8rem 1.5rem;display:flex;align-items:center;gap:0.8rem;
+      box-shadow:0 3px 0 var(--shadow);z-index:100;position:relative;
+    }
+    .logo{font-size:1.6rem}
+    header h1{font-size:1.1rem;font-weight:900;color:var(--text)}
+    .sim-badge{
+      margin-left:auto;font-size:0.7rem;font-weight:800;color:var(--muted);
+      background:rgba(255,255,255,0.6);border:2px solid var(--border2);
+      border-radius:6px;padding:0.25rem 0.7rem;
+    }
+    .app{display:flex;height:calc(100vh - 52px)}
+    .graph-area{flex:1;position:relative}
+    #graph-canvas{width:100%;height:100%;background:transparent}
+    /* Sidebar */
+    .sidebar{
+      width:370px;min-width:250px;max-width:700px;height:100%;overflow-y:auto;
+      background:var(--panel);border-left:3px solid var(--border);
+      box-shadow:-3px 0 0 var(--shadow);flex-shrink:0;
+    }
+    .resize-handle{
+      width:6px;cursor:col-resize;background:transparent;position:relative;
+      flex-shrink:0;z-index:10;
+    }
+    .resize-handle::after{
+      content:'';position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);
+      width:4px;height:40px;border-radius:2px;background:var(--border2);opacity:0.4;
+      transition:opacity 0.2s,height 0.2s;
+    }
+    .resize-handle:hover::after,.resize-handle.dragging::after{
+      opacity:0.8;height:60px;background:var(--border);
+    }
+    .sidebar::-webkit-scrollbar{width:6px}
+    .sidebar::-webkit-scrollbar-thumb{background:var(--border2);border-radius:3px}
+    .sb-section{padding:1rem 1.2rem;border-bottom:2px solid rgba(90,110,74,0.2)}
+    .sb-section:last-child{border-bottom:none}
+    .sb-title{
+      font-size:0.7rem;font-weight:900;text-transform:uppercase;letter-spacing:0.1em;
+      color:var(--muted);margin-bottom:0.7rem;
+    }
+    /* Stat cards */
+    .stats{display:grid;grid-template-columns:1fr 1fr;gap:0.6rem}
+    .stat{
+      background:rgba(255,255,255,0.7);border:2px solid var(--border2);border-radius:8px;
+      padding:0.7rem 0.8rem;transition:transform 0.15s;
+    }
+    .stat:hover{transform:translateY(-1px);box-shadow:2px 3px 0 var(--shadow)}
+    .stat .s-label{font-size:0.65rem;font-weight:800;color:var(--muted);text-transform:uppercase;letter-spacing:0.06em}
+    .stat .s-val{font-size:1.4rem;font-weight:900;margin-top:0.1rem}
+    .s-green{color:var(--green)}.s-blue{color:var(--blue)}.s-rose{color:var(--rose)}.s-amber{color:var(--amber)}
+    /* Agent chips */
+    .agent-chips{display:flex;flex-wrap:wrap;gap:0.45rem}
+    .a-chip{
+      display:inline-flex;align-items:center;gap:0.4rem;padding:0.35rem 0.7rem;
+      background:rgba(255,255,255,0.7);border:2px solid var(--border2);border-radius:20px;
+      font-size:0.78rem;font-weight:800;cursor:pointer;transition:all 0.15s;
+    }
+    .a-chip:hover{background:rgba(61,122,69,0.1);border-color:var(--border);transform:translateY(-1px);box-shadow:2px 3px 0 var(--shadow)}
+    .a-dot{width:10px;height:10px;border-radius:50%;flex-shrink:0;border:1.5px solid rgba(0,0,0,0.15)}
+    /* Detail panel */
+    #detail-panel{display:none}
+    #detail-panel.visible{display:block;animation:fadeIn 0.25s ease}
+    @keyframes fadeIn{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:translateY(0)}}
+    .detail-card{
+      background:rgba(255,255,255,0.75);border:2.5px solid var(--border);border-radius:10px;
+      box-shadow:3px 3px 0 var(--shadow);overflow:hidden;margin-bottom:0.8rem;
+    }
+    .dc-header{
+      background:var(--border);padding:0.45rem 0.9rem;
+      font-size:0.72rem;font-weight:900;color:#fff;letter-spacing:0.04em;
+      display:flex;align-items:center;gap:0.5rem;
+    }
+    .dc-body{padding:0.9rem}
+    .dc-sub{font-size:0.75rem;color:var(--muted);font-weight:700;margin-bottom:0.6rem}
+    .int-badge{
+      display:inline-block;padding:0.15rem 0.55rem;border-radius:10px;
+      font-size:0.68rem;font-weight:900;background:rgba(61,122,69,0.15);
+      color:var(--green);border:1.5px solid rgba(61,122,69,0.3);
+    }
+    /* Chat bubbles */
+    .chat-bubble{
+      background:rgba(255,255,255,0.85);border:2px solid var(--border2);border-radius:8px;
+      padding:0.7rem 0.8rem;margin-top:0.5rem;position:relative;
+    }
+    .chat-bubble::before{
+      content:'';position:absolute;top:-6px;left:14px;width:10px;height:10px;
+      background:rgba(255,255,255,0.85);border-left:2px solid var(--border2);
+      border-top:2px solid var(--border2);transform:rotate(45deg);
+    }
+    .cb-time{font-size:0.65rem;color:var(--muted);font-weight:700;margin-bottom:0.3rem}
+    .cb-desc{font-size:0.78rem;color:var(--text);font-weight:700;line-height:1.45;margin-bottom:0.4rem}
+    .cb-line{font-size:0.75rem;color:#4a5a3a;line-height:1.5;padding:0.15rem 0}
+    .cb-line .spk{font-weight:900;color:var(--text)}
+    .cb-toggle{
+      background:none;border:none;font-family:inherit;font-size:0.72rem;font-weight:800;
+      color:var(--blue);cursor:pointer;padding:0.3rem 0;
+    }
+    .cb-toggle:hover{text-decoration:underline}
+    /* Relationship row */
+    .rel-row{
+      display:flex;align-items:center;gap:0.5rem;padding:0.5rem 0.6rem;
+      background:rgba(255,255,255,0.5);border:2px solid var(--border2);border-radius:8px;
+      margin-bottom:0.4rem;cursor:pointer;transition:all 0.15s;
+    }
+    .rel-row:hover{background:rgba(61,122,69,0.08);border-color:var(--border);transform:translateX(2px)}
+    .rel-arrow{font-size:0.8rem;color:var(--muted)}
+    .rel-name{font-size:0.82rem;font-weight:800;flex:1}
+    /* Empty hint */
+    .empty-hint{text-align:center;padding:2rem 1rem}
+    .empty-hint .e-icon{font-size:2.5rem;margin-bottom:0.6rem;opacity:0.4}
+    .empty-hint .e-text{font-size:0.8rem;color:var(--muted);font-weight:700;line-height:1.5}
+    /* Loading */
+    .loading{
+      position:absolute;inset:0;display:flex;flex-direction:column;
+      align-items:center;justify-content:center;background:var(--cream);z-index:50;
+      transition:opacity 0.4s;
+    }
+    .loading.hidden{opacity:0;pointer-events:none}
+    .ld-spinner{
+      width:36px;height:36px;border:3px solid rgba(90,110,74,0.2);
+      border-top:3px solid var(--green);border-radius:50%;
+      animation:spin 0.7s linear infinite;margin-bottom:0.8rem;
+    }
+    @keyframes spin{to{transform:rotate(360deg)}}
+    .ld-text{font-size:0.82rem;color:var(--muted);font-weight:700}
+    /* vis tooltip */
+    div.vis-tooltip{
+      font-family:'Nunito',sans-serif!important;background:var(--panel2)!important;
+      color:var(--text)!important;border:2px solid var(--border)!important;
+      border-radius:8px!important;padding:0.5rem 0.7rem!important;
+      font-size:0.8rem!important;font-weight:700!important;
+      box-shadow:3px 3px 0 var(--shadow)!important;
+    }
+  </style>
+</head>
+<body>
+<header>
+  <div class="logo">🏘️</div>
+  <div><h1>Agent Relationship Graph</h1></div>
+  <div class="sim-badge">{{ sim_code }}</div>
+</header>
+<div class="app">
+  <div class="graph-area">
+    <div id="graph-canvas"></div>
+    <div class="loading" id="loading"><div class="ld-spinner"></div><div class="ld-text">Loading relationships…</div></div>
+  </div>
+  <div class="resize-handle" id="resize-handle"></div>
+  <div class="sidebar" id="sidebar">
+    <div class="sb-section">
+      <div class="sb-title">Overview</div>
+      <div class="stats">
+        <div class="stat"><div class="s-label">Agents</div><div class="s-val s-green" id="s-agents">—</div></div>
+        <div class="stat"><div class="s-label">Relationships</div><div class="s-val s-blue" id="s-edges">—</div></div>
+        <div class="stat"><div class="s-label">Total Chats</div><div class="s-val s-rose" id="s-chats">—</div></div>
+        <div class="stat"><div class="s-label">Avg / Edge</div><div class="s-val s-amber" id="s-avg">—</div></div>
+      </div>
+    </div>
+    <div class="sb-section">
+      <div class="sb-title">Agents</div>
+      <div class="agent-chips" id="agent-list"></div>
+    </div>
+    <div class="sb-section" id="detail-section">
+      <div class="sb-title">Interaction Details</div>
+      <div id="detail-panel"></div>
+      <div class="empty-hint" id="empty-hint">
+        <div class="e-icon">💬</div>
+        <div class="e-text">Click an agent or connection<br>to view their interactions</div>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+const SIM_CODE="{{sim_code}}";
+let graphData=null,network=null,edgeIdMap={};
+const COLORS=["#3d7a45","#c14a4a","#4a7fc1","#b8860b","#7c5cbf","#c17a4a","#4ac1a8","#8b4a7c","#5a8c3d","#c1444a"];
+
+async function loadData(){
+  try{
+    const r=await fetch(`/agent_graph_data/${SIM_CODE}/`);
+    graphData=await r.json();
+    renderGraph();renderSidebar();
+  }catch(e){console.error(e)}
+  finally{document.getElementById("loading").classList.add("hidden")}
+}
+
+function renderGraph(){
+  const container=document.getElementById("graph-canvas");
+  const nodes=new vis.DataSet(graphData.nodes.map(n=>({
+    id:n.id,label:n.label,
+    color:{background:n.color,border:darken(n.color),highlight:{background:n.color,border:'#2a3020'},hover:{background:lighten(n.color),border:'#2a3020'}},
+    font:{color:'#2a3020',size:13,face:'Nunito, sans-serif',strokeWidth:4,strokeColor:'#f5f0e8'},
+    borderWidth:3,borderWidthSelected:4,size:26,shape:'dot',
+    shadow:{enabled:true,color:'rgba(60,70,40,0.18)',size:8,x:3,y:3},
+    title:n.label
+  })));
+
+  const maxC=Math.max(...graphData.edges.map(e=>e.count),1);
+  edgeIdMap={};
+  const edges=new vis.DataSet(graphData.edges.map((e,i)=>{
+    const id='e_'+i;
+    edgeIdMap[id]=i;
+    return{
+      id:id,from:e.from,to:e.to,width:1.5+(e.count/maxC)*5,
+      color:{color:'rgba(90,110,74,0.4)',highlight:'rgba(61,122,69,0.85)',hover:'rgba(90,110,74,0.65)'},
+      smooth:{type:'continuous',roundness:0.25},hoverWidth:1.5,selectionWidth:2,
+      title:`${e.from} ↔ ${e.to} — ${e.count} chat(s)`
+    };
+  }));
+
+  network=new vis.Network(container,{nodes,edges},{
+    physics:{solver:'forceAtlas2Based',forceAtlas2Based:{gravitationalConstant:-100,centralGravity:0.008,springLength:160,springConstant:0.04,damping:0.4},stabilization:{iterations:100,fit:true}},
+    interaction:{hover:true,tooltipDelay:200,zoomView:true,dragView:true}
+  });
+
+  network.on("click",function(params){
+    if(params.nodes.length===1){showNodeDetail(params.nodes[0]);return;}
+    if(params.edges.length===1){
+      const idx=edgeIdMap[params.edges[0]];
+      if(idx!==undefined&&graphData.edges[idx])showEdgeDetail(graphData.edges[idx]);
+      return;
+    }
+    hideDetail();
+  });
+}
+
+function renderSidebar(){
+  const tc=graphData.edges.reduce((s,e)=>s+e.count,0);
+  const avg=graphData.edges.length>0?(tc/graphData.edges.length).toFixed(1):0;
+  document.getElementById("s-agents").textContent=graphData.nodes.length;
+  document.getElementById("s-edges").textContent=graphData.edges.length;
+  document.getElementById("s-chats").textContent=tc;
+  document.getElementById("s-avg").textContent=avg;
+
+  const list=document.getElementById("agent-list");list.innerHTML="";
+  graphData.nodes.forEach(n=>{
+    const c=document.createElement("div");c.className="a-chip";
+    c.innerHTML=`<span class="a-dot" style="background:${n.color}"></span>${n.label}`;
+    c.onclick=()=>{network.selectNodes([n.id]);network.focus(n.id,{scale:1.1,animation:{duration:500,easingFunction:'easeInOutCubic'}});showNodeDetail(n.id)};
+    list.appendChild(c);
+  });
+}
+
+function showEdgeDetail(ed, parentNodeId = null){
+  const eIdx = graphData.edges.indexOf(ed);
+  if(eIdx !== -1 && network) {
+    network.selectEdges(['e_' + eIdx]);
+  }
+  document.getElementById("empty-hint").style.display="none";
+  const p=document.getElementById("detail-panel");p.className="visible";
+  
+  let backBtn = '';
+  if (parentNodeId) {
+    backBtn = `<button class="cb-toggle" style="margin-bottom:0.6rem;display:flex;align-items:center;gap:4px" onclick="network.selectNodes(['${parentNodeId}']);showNodeDetail('${parentNodeId}')">← Back to ${esc(parentNodeId)}</button>`;
+  }
+
+  let h=`<div class="detail-card"><div class="dc-header">💬 ${esc(ed.from)} ↔ ${esc(ed.to)}</div><div class="dc-body">
+    ${backBtn}
+    <span class="int-badge">${ed.count} interaction${ed.count!==1?'s':''}</span>`;
+  ed.chats.forEach((c,i)=>{
+    h+=`<div class="chat-bubble"><div class="cb-time">${esc(c.created)}</div><div class="cb-desc">${esc(c.description)}</div>`;
+    if(c.filling&&c.filling.length){
+      h+=`<button class="cb-toggle" onclick="toggleFill(${i})">▸ Show conversation (${c.filling.length} lines)</button>`;
+      h+=`<div id="fill-${i}" style="display:none">`;
+      c.filling.forEach(l=>{if(Array.isArray(l)&&l.length>=2)h+=`<div class="cb-line"><span class="spk">[${esc(l[0])}]:</span> ${esc(l[1])}</div>`});
+      h+=`</div>`;
+    }
+    h+=`</div>`;
+  });
+  h+=`</div></div>`;p.innerHTML=h;
+}
+
+function showNodeDetail(nid){
+  document.getElementById("empty-hint").style.display="none";
+  const p=document.getElementById("detail-panel");p.className="visible";
+  const nd=graphData.nodes.find(n=>n.id===nid)||{};
+  const rels=graphData.edges.filter(e=>e.from===nid||e.to===nid);
+  const tc=rels.reduce((s,e)=>s+e.count,0);
+  let h=`<div class="detail-card"><div class="dc-header"><span class="a-dot" style="background:${nd.color||'#3d7a45'};width:8px;height:8px"></span> ${esc(nid)}</div><div class="dc-body">
+    <div class="dc-sub">${rels.length} relationship${rels.length!==1?'s':''} · ${tc} total interactions</div>`;
+  if(!rels.length)h+=`<div class="dc-sub" style="color:var(--muted)">No interactions yet.</div>`;
+  rels.forEach(e=>{
+    const other=e.from===nid?e.to:e.from;
+    h+=`<div class="rel-row" onclick='showEdgeDetail(graphData.edges[${graphData.edges.indexOf(e)}], "${nid}")'><span class="rel-arrow">↔</span><span class="rel-name">${esc(other)}</span><span class="int-badge">${e.count}</span></div>`;
+  });
+  h+=`</div></div>`;p.innerHTML=h;
+}
+
+function hideDetail(){
+  if(network) network.unselectAll();
+  document.getElementById("detail-panel").className="";
+  document.getElementById("detail-panel").innerHTML="";
+  document.getElementById("empty-hint").style.display="";
+}
+
+function toggleFill(i){
+  const el=document.getElementById('fill-'+i);
+  if(el)el.style.display=el.style.display==='none'?'block':'none';
+}
+
+function esc(t){if(!t)return'';const d=document.createElement('div');d.textContent=t;return d.innerHTML}
+function darken(c){try{let r=parseInt(c.slice(1,3),16),g=parseInt(c.slice(3,5),16),b=parseInt(c.slice(5,7),16);return'#'+[r,g,b].map(v=>Math.max(0,v-40).toString(16).padStart(2,'0')).join('')}catch(e){return'#2a3020'}}
+function lighten(c){try{let r=parseInt(c.slice(1,3),16),g=parseInt(c.slice(3,5),16),b=parseInt(c.slice(5,7),16);return'#'+[r,g,b].map(v=>Math.min(255,v+30).toString(16).padStart(2,'0')).join('')}catch(e){return'#8fa880'}}
+
+loadData();
+
+// Sidebar resize
+(function(){
+  const handle=document.getElementById('resize-handle');
+  const sidebar=document.getElementById('sidebar');
+  let dragging=false,startX=0,startW=0;
+  handle.addEventListener('mousedown',function(e){
+    dragging=true;startX=e.clientX;startW=sidebar.offsetWidth;
+    handle.classList.add('dragging');
+    document.body.style.cursor='col-resize';document.body.style.userSelect='none';
+    e.preventDefault();
+  });
+  document.addEventListener('mousemove',function(e){
+    if(!dragging)return;
+    const dx=startX-e.clientX;
+    const nw=Math.min(700,Math.max(250,startW+dx));
+    sidebar.style.width=nw+'px';
+  });
+  document.addEventListener('mouseup',function(){
+    if(!dragging)return;
+    dragging=false;handle.classList.remove('dragging');
+    document.body.style.cursor='';document.body.style.userSelect='';
+  });
+})();
+</script>
+</body>
+</html>

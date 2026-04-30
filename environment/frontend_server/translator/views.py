@@ -314,6 +314,117 @@ def path_tester_update(request):
   return HttpResponse("received")
 
 
+def agent_graph(request, sim_code):
+  """
+  Renders the Agent Relationship Graph dashboard page.
+  """
+  context = {"sim_code": sim_code}
+  template = "agent_graph/agent_graph.html"
+  return render(request, template, context)
+
+
+def agent_graph_data(request, sim_code):
+  """
+  Returns JSON data representing agents as nodes and their chat-based
+  relationships as edges. Scans each persona's associative memory for
+  chat-type nodes to discover who interacted with whom.
+  """
+  personas_dir = f"storage/{sim_code}/personas"
+  if not os.path.exists(personas_dir):
+    return JsonResponse({"nodes": [], "edges": [], "error": "Simulation not found."})
+
+  persona_names = []
+  for item in os.listdir(personas_dir):
+    full_path = os.path.join(personas_dir, item)
+    if os.path.isdir(full_path) and not item.startswith("."):
+      persona_names.append(item)
+
+  # Build edges from chat memories
+  # edge_key -> {from, to, count, chats: [{created, description, filling}]}
+  edges_dict = {}
+  for persona_name in persona_names:
+    nodes_file = os.path.join(
+      personas_dir, persona_name, "bootstrap_memory", "associative_memory", "nodes.json"
+    )
+    if not os.path.exists(nodes_file):
+      continue
+    try:
+      with open(nodes_file) as f:
+        nodes_data = json.load(f)
+    except Exception:
+      continue
+
+    for node_id, node in nodes_data.items():
+      if node.get("type") != "chat":
+        continue
+      subj = node.get("subject", "").strip()
+      obj = node.get("object", "").strip()
+      if not subj or not obj:
+        continue
+      # Normalize edge key so A-B == B-A
+      pair = tuple(sorted([subj, obj]))
+      edge_key = f"{pair[0]}||{pair[1]}"
+
+      if edge_key not in edges_dict:
+        edges_dict[edge_key] = {
+          "from": pair[0],
+          "to": pair[1],
+          "count": 0,
+          "chats": [],
+          "seen_keys": set()
+        }
+
+      chat_key = f"{node.get('created', '')}::{node.get('description', '')}"
+      if chat_key in edges_dict[edge_key]["seen_keys"]:
+        continue
+      
+      edges_dict[edge_key]["seen_keys"].add(chat_key)
+      edges_dict[edge_key]["count"] += 1
+
+      # Store chat summary (limit to avoid huge payloads)
+      if len(edges_dict[edge_key]["chats"]) < 20:
+        chat_entry = {
+          "created": node.get("created", ""),
+          "description": node.get("description", ""),
+        }
+        # Include filling (the actual conversation lines) if present
+        filling = node.get("filling")
+        if filling and isinstance(filling, list):
+          chat_entry["filling"] = filling
+        edges_dict[edge_key]["chats"].append(chat_entry)
+
+  # Build nodes list
+  nodes_list = []
+  # Collect colors for personas
+  colors = [
+    "#6366f1", "#ec4899", "#14b8a6", "#f59e0b", "#8b5cf6",
+    "#ef4444", "#06b6d4", "#84cc16", "#f97316", "#a855f7",
+    "#10b981", "#e11d48", "#0ea5e9", "#eab308", "#d946ef",
+    "#22d3ee", "#4ade80", "#fb923c", "#818cf8", "#f472b6",
+    "#2dd4bf", "#facc15", "#a78bfa", "#fb7185", "#38bdf8",
+  ]
+  for idx, name in enumerate(sorted(persona_names)):
+    nodes_list.append({
+      "id": name,
+      "label": name,
+      "color": colors[idx % len(colors)]
+    })
+
+  edges_list = []
+  for edge_key, edge_data in edges_dict.items():
+    # Sort chats by created timestamp
+    edge_data["chats"].sort(key=lambda x: x.get("created", ""))
+    if "seen_keys" in edge_data:
+      del edge_data["seen_keys"]
+    edges_list.append(edge_data)
+
+  return JsonResponse({
+    "nodes": nodes_list,
+    "edges": edges_list,
+    "sim_code": sim_code
+  })
+
+
 
 
 
